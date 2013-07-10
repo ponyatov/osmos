@@ -20,10 +20,12 @@ CC='(c) '+R.attrib['copyright'].split()[0]+' (gpl) dponyatov@gmail.com'
 print >>MP,cgmp.IMGID(Version=VV,SubVersion=SV,Copyright=CC)
 
 print >>MP,cgmp.Map_Coverage_Area
+print >>MP,cgmp.Main_City
 
 for i in X.findall('node'):
     T=i.attrib
-    print >>MP,'; %s\n[POI]\nData0=(%s,%s)\nLabel=%s\n[END]\n'%(T['uid'],T['lat'],T['lon'],T['uid'])
+    print >>MP,cgmp.POI(0,(T['lat'],T['lon']),T['uid'])
+    #'; %s\n[POI]\nData0=(%s,%s)\nLabel=%s\n[END]\n'%(,,T['uid'])
 
 MP.close()
 

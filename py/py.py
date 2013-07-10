@@ -15,7 +15,8 @@ print X
 MP=open('../map/mp.mp','w')
 print >>MP,'[IMG ID]\n'
 print >>MP,'ID=%s'%NOW
-print >>MP,'Name=Samara Globe (c) osm.org'
+print >>MP,'Name=%s'%('Samara Globe (c) osm.org'[:32])
+print >>MP,'LocalName=%s'%('глобус Самары (c) osm.org'[:32])
 VV,VS=R.attrib['version'].split('.')
 print >>MP,'Version=%s'%VV
 print >>MP,'VersionSub=%s'%VS

@@ -1,0 +1,279 @@
+const CLR_INVALID     0xFFFFFFFF
+
+/* Brush Styles */
+const BS_SOLID            0
+const BS_NULL             1
+const BS_HOLLOW           BS_NULL
+const BS_HATCHED          2
+const BS_PATTERN          3
+const BS_INDEXED          4
+const BS_DIBPATTERN       5
+const BS_DIBPATTERNPT     6
+const BS_PATTERN8X8       7
+const BS_DIBPATTERN8X8    8
+const BS_MONOPATTERN      9
+
+/* Hatch Styles */
+const HS_HORIZONTAL       0       /* ----- */
+const HS_VERTICAL         1       /* ||||| */
+const HS_FDIAGONAL        2       /* \\\\\ */
+const HS_BDIAGONAL        3       /* ///// */
+const HS_CROSS            4       /* +++++ */
+const HS_DIAGCROSS        5       /* xxxxx */
+
+/* Pen Styles */
+const PS_SOLID            0
+const PS_DASH             1       /* -------  */
+const PS_DOT              2       /* .......  */
+const PS_DASHDOT          3       /* _._._._  */
+const PS_DASHDOTDOT       4       /* _.._.._  */
+const PS_NULL             5
+const PS_INSIDEFRAME      6
+const PS_USERSTYLE        7
+const PS_ALTERNATE        8
+const PS_STYLE_MASK       0x0000000F
+
+/* DrawText() Format Flags */
+const DT_TOP              0x00000000
+const DT_LEFT             0x00000000
+const DT_CENTER           0x00000001
+const DT_RIGHT            0x00000002
+const DT_VCENTER          0x00000004
+const DT_BOTTOM           0x00000008
+const DT_WORDBREAK        0x00000010
+const DT_SINGLELINE       0x00000020
+const DT_EXPANDTABS       0x00000040
+const DT_TABSTOP          0x00000080
+const DT_NOCLIP           0x00000100
+const DT_EXTERNALLEADING  0x00000200
+const DT_CALCRECT         0x00000400
+const DT_NOPREFIX         0x00000800
+const DT_INTERNAL         0x00001000
+const DT_EDITCONTROL      0x00002000
+const DT_PATH_ELLIPSIS    0x00004000
+const DT_END_ELLIPSIS     0x00008000
+const DT_MODIFYSTRING     0x00010000
+const DT_RTLREADING       0x00020000
+const DT_WORD_ELLIPSIS    0x00040000
+
+/* Background Modes */
+const TRANSPARENT         1
+const OPAQUE              2
+const BKMODE_LAST         2
+
+/* PolyFill() Modes */
+const ALTERNATE                    1
+const WINDING                      2
+const POLYFILL_LAST                2
+
+/* Text Alignment Options */
+const TA_NOUPDATECP                0
+const TA_UPDATECP                  1
+const TA_LEFT                      0
+const TA_RIGHT                     2
+const TA_CENTER                    6
+const TA_JUST                      64 
+const TA_TOP                       0
+const TA_BOTTOM                    8
+const TA_BASELINE                  24
+const TA_VCENTER                   32 
+const TA_FILL                      128 
+const TA_RTLREADING                256
+
+/* Binary raster ops */
+const R2_BLACK            1   /*  0       */
+const R2_NOTMERGEPEN      2   /* DPon     */
+const R2_MASKNOTPEN       3   /* DPna     */
+const R2_NOTCOPYPEN       4   /* PN       */
+const R2_MASKPENNOT       5   /* PDna     */
+const R2_NOT              6   /* Dn       */
+const R2_XORPEN           7   /* DPx      */
+const R2_NOTMASKPEN       8   /* DPan     */
+const R2_MASKPEN          9   /* DPa      */
+const R2_NOTXORPEN        10  /* DPxn     */
+const R2_NOP              11  /* D        */
+const R2_MERGENOTPEN      12  /* DPno     */
+const R2_COPYPEN          13  /* P        */
+const R2_MERGEPENNOT      14  /* PDno     */
+const R2_MERGEPEN         15  /* DPo      */
+const R2_WHITE            16  /*  1       */
+const R2_LAST             16
+
+/* CFileDialog */
+const OFN_READONLY                 0x00000001
+const OFN_OVERWRITEPROMPT          0x00000002
+const OFN_HIDEREADONLY             0x00000004
+const OFN_NOCHANGEDIR              0x00000008
+const OFN_SHOWHELP                 0x00000010
+const OFN_ENABLEHOOK               0x00000020
+const OFN_ENABLETEMPLATE           0x00000040
+const OFN_ENABLETEMPLATEHANDLE     0x00000080
+const OFN_NOVALIDATE               0x00000100
+const OFN_ALLOWMULTISELECT         0x00000200
+const OFN_EXTENSIONDIFFERENT       0x00000400
+const OFN_PATHMUSTEXIST            0x00000800
+const OFN_FILEMUSTEXIST            0x00001000
+const OFN_CREATEPROMPT             0x00002000
+const OFN_SHAREAWARE               0x00004000
+const OFN_NOREADONLYRETURN         0x00008000
+const OFN_NOTESTFILECREATE         0x00010000
+const OFN_NONETWORKBUTTON          0x00020000
+const OFN_NOLONGNAMES              0x00040000     // force no long names for 4.x modules
+const OFN_EXPLORER                 0x00080000     // new look commdlg
+const OFN_NODEREFERENCELINKS       0x00100000
+const OFN_LONGNAMES                0x00200000     // force long names for 3.x modules
+const OFN_ENABLEINCLUDENOTIFY      0x00400000     // send include message to callback
+const OFN_ENABLESIZING             0x00800000
+
+/* Dialog Box Command IDs */
+const IDOK                1
+const IDCANCEL            2
+const IDABORT             3
+const IDRETRY             4
+const IDIGNORE            5
+const IDYES               6
+const IDNO                7
+const IDCLOSE             8
+const IDHELP              9
+
+/* MessageBox() Flags */
+const MB_OK                       0x00000000
+const MB_OKCANCEL                 0x00000001
+const MB_ABORTRETRYIGNORE         0x00000002
+const MB_YESNOCANCEL              0x00000003
+const MB_YESNO                    0x00000004
+const MB_RETRYCANCEL              0x00000005
+const MB_ICONHAND                 0x00000010
+const MB_ICONQUESTION             0x00000020
+const MB_ICONEXCLAMATION          0x00000030
+const MB_ICONASTERISK             0x00000040
+const MB_USERICON                 0x00000080
+const MB_ICONWARNING              MB_ICONEXCLAMATION
+const MB_ICONERROR                MB_ICONHAND
+const MB_ICONINFORMATION          MB_ICONASTERISK
+const MB_ICONSTOP                 MB_ICONHAND
+const MB_DEFBUTTON1               0x00000000
+const MB_DEFBUTTON2               0x00000100
+const MB_DEFBUTTON3               0x00000200
+const MB_DEFBUTTON4               0x00000300
+const MB_APPLMODAL                0x00000000
+const MB_SYSTEMMODAL              0x00001000
+const MB_TASKMODAL                0x00002000
+const MB_HELP                     0x00004000
+const MB_NOFOCUS                  0x00008000
+const MB_SETFOREGROUND            0x00010000
+const MB_DEFAULT_DESKTOP_ONLY     0x00020000
+const MB_TOPMOST                  0x00040000
+const MB_RIGHT                    0x00080000
+const MB_RTLREADING               0x00100000
+
+/* Font Weights */
+const FW_DONTCARE         0
+const FW_THIN             100
+const FW_EXTRALIGHT       200
+const FW_LIGHT            300
+const FW_NORMAL           400
+const FW_MEDIUM           500
+const FW_SEMIBOLD         600
+const FW_BOLD             700
+const FW_EXTRABOLD        800
+const FW_HEAVY            900
+const FW_ULTRALIGHT       FW_EXTRALIGHT
+const FW_REGULAR          FW_NORMAL
+const FW_DEMIBOLD         FW_SEMIBOLD
+const FW_ULTRABOLD        FW_EXTRABOLD
+const FW_BLACK            FW_HEAVY
+
+/* Font types (meccano) */
+const FT_ITALIC     0x1
+const FT_UNDERLINE  0x2
+const FT_STRIKEOUT  0x4
+
+/* Region Flags */
+const ERROR               0
+const NULLREGION          1
+const SIMPLEREGION        2
+const COMPLEXREGION       3
+const RGN_ERROR           ERROR
+
+/* Seek method constants */
+const SEEK_CUR    1
+const SEEK_END    2
+const SEEK_SET    0
+
+/* Stock Logical Objects */
+const WHITE_BRUSH         0
+const LTGRAY_BRUSH        1
+const GRAY_BRUSH          2
+const DKGRAY_BRUSH        3
+const BLACK_BRUSH         4
+const NULL_BRUSH          5
+const HOLLOW_BRUSH        NULL_BRUSH
+const WHITE_PEN           6
+const BLACK_PEN           7
+const NULL_PEN            8
+const OEM_FIXED_FONT      10
+const ANSI_FIXED_FONT     11
+const ANSI_VAR_FONT       12
+const SYSTEM_FONT         13
+const DEVICE_DEFAULT_FONT 14
+const DEFAULT_PALETTE     15
+const SYSTEM_FIXED_FONT   16
+
+const ANSI_CHARSET            0
+const DEFAULT_CHARSET         1
+const SYMBOL_CHARSET          2
+
+const OUT_DEFAULT_PRECIS          0
+const OUT_STRING_PRECIS           1
+const OUT_CHARACTER_PRECIS        2
+const OUT_STROKE_PRECIS           3
+const OUT_TT_PRECIS               4
+const OUT_DEVICE_PRECIS           5
+const OUT_RASTER_PRECIS           6
+const OUT_TT_ONLY_PRECIS          7
+const OUT_OUTLINE_PRECIS          8
+const OUT_SCREEN_OUTLINE_PRECIS   9
+
+const CLIP_DEFAULT_PRECIS     0
+const CLIP_CHARACTER_PRECIS   1
+const CLIP_STROKE_PRECIS      2
+const CLIP_MASK               0xf
+const CLIP_LH_ANGLES          0x10
+const CLIP_TT_ALWAYS          0x20
+const CLIP_EMBEDDED           0x80
+
+const DEFAULT_QUALITY         0
+const DRAFT_QUALITY           1
+const PROOF_QUALITY           2
+
+const DEFAULT_PITCH           0
+const FIXED_PITCH             1
+const VARIABLE_PITCH          2
+
+const FF_DONTCARE         0     /* Don't care or don't know. */
+const FF_ROMAN            0x10  /* Variable stroke width, serifed. */
+                                /* Times Roman, Century Schoolbook, etc. */
+const FF_SWISS            0x20  /* Variable stroke width, sans-serifed. */
+                                /* Helvetica, Swiss, etc. */
+const FF_MODERN           0x30  /* Constant stroke width, serifed or sans-serifed. */
+                                /* Pica, Elite, Courier, etc. */
+const FF_SCRIPT           0x40  /* Cursive, etc. */
+const FF_DECORATIVE       0x50  /* Old English, etc. */
+
+const DB_FORWARDONLY      0x1
+
+/* findfile */
+const A_RDONLY  0x01
+const A_HIDDEN  0x02
+const A_SYSTEM  0x04
+const A_SUBDIR  0x10
+const A_ARCH    0x20
+
+/* GetDeviceCaps */
+const HORZSIZE      4     /* Horizontal size in millimeters           */
+const VERTSIZE      6     /* Vertical size in millimeters             */
+const HORZRES       8     /* Horizontal width in pixels               */
+const VERTRES       10    /* Vertical height in pixels                */
+const LOGPIXELSX    88    /* Logical pixels/inch in X                 */
+const LOGPIXELSY    90    /* Logical pixels/inch in Y                 */

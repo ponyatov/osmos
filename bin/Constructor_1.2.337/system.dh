@@ -1,0 +1,289 @@
+const M_PI      3.14159265358979323846
+
+const ERR_IGNORE 0
+const ERR_INFORM 1
+const ERR_DUMP   2
+const ERR_STOP   3
+
+const M_NODE      0x1 
+const M_POINT     M_NODE
+const M_EDGE      0x2
+const M_EDGE3D    0x22
+const M_LINE      0x4
+const M_AREA      0x8
+
+const NULL        0
+const STRING      1
+const INTEGER     2
+const REAL        3
+
+const DX90_E      1
+const DX90_L      2
+const DX90_F      3
+const DX90_I      4
+const DX90_A      5
+const DX90_S      6
+
+const F_ENUM      1
+const F_LIST      2
+const F_REAL      3
+const F_INT1      4
+const F_INT2      5
+const F_INT       6
+const F_TIME      7
+const F_STR       8
+const F_DATE      9
+const F_C2        10
+
+// colours
+const COLOR_TRNSP   -1    // no colour, do not display
+const COLOR_NODTA   0     // no data area
+const COLOR_CURSR   1     // screen cursor
+
+const COLOR_CHBLK   2     // 
+const COLOR_CHGRD   3     //
+const COLOR_CHGRF   4     //
+const COLOR_CHRED   5     //
+const COLOR_CHGRN   6     //
+const COLOR_CHYLW   7     //
+const COLOR_CHMGD   8     //
+const COLOR_CHMGF   9     //
+const COLOR_CHBRN   10    //
+const COLOR_CHWHT   11    //
+const COLOR_OUTLW   12    // symbol outline over sea area
+const COLOR_OUTLL   13    // symbol outline over land area
+const COLOR_LITRD   14    // red lights
+const COLOR_LITGN   15    // green lights
+const COLOR_LITYW   16    // other lights
+const COLOR_ISDNG   17    // isolated danger
+const COLOR_DNGHL   18    // danger highlight
+const COLOR_TRFCD   19    // 
+const COLOR_TRFCF   20    //
+const COLOR_LANDA   21    // land area
+const COLOR_LANDF   22    // land features
+const COLOR_CSTLN   23    // coastline, shoreline construction
+const COLOR_SNDG1   24    // 
+const COLOR_SNDG2   25    //
+const COLOR_DEPSC   26    //
+const COLOR_DEPCN   27    //
+const COLOR_DEPDW   28    //
+const COLOR_DEPMD   29    //
+const COLOR_DEPMS   30    //
+const COLOR_DEPVS   31    //
+const COLOR_DEPIT   32    //
+        
+const COLOR_RADHI   33    //
+const COLOR_RADLO   34    //
+const COLOR_ARPAT   35    //
+
+const COLOR_SCLBR   36    //
+const COLOR_CHCOR   37    // chart corrections
+const COLOR_NINFO   38    // 
+
+const COLOR_SHIPS   39    // own ship, movement vector
+const COLOR_PSTRK   40    // past track
+const COLOR_SYTRK   41    // 
+const COLOR_PLRTE   42    // planned route
+const COLOR_APLRT   43    // alternate route
+
+const COLOR_UIBCK   44    // user interface background
+const COLOR_UIBDR   45    // user interface borders
+const COLOR_UIAFD   46    //
+const COLOR_UIAFF   47    //
+const COLOR_UINFD   48    //
+const COLOR_UINFF   49    //
+const COLOR_UINFR   50    //
+const COLOR_UINFG   51    //
+const COLOR_UINFO   52    //
+const COLOR_UINFB   53    //
+const COLOR_UINFM   54    //
+
+const COLOR_RESBL   55    // reserved colours
+const COLOR_RESYW   56    //
+const COLOR_RESGR   57    //
+const COLOR_RES04   58    //
+const COLOR_RES05   59    //
+const COLOR_RES06   60    //
+const COLOR_RES07   61    //
+const COLOR_RES08   62    //
+
+const COLOR_LAST    63    //
+
+// patterns
+const PATTERN_SOLID       0
+const PATTERN_DASH        -1
+const PATTERN_DOT         -2
+
+const FPATT_LRDIAG        -6
+const FPATT_RLDIAG        -5
+const FPATT_HORZ          -4
+const FPATT_VERT          -3
+const FPATT_DCROSS        -2
+const FPATT_CROSS         -1
+
+// chart properties
+const GEO_MAINLAT       1
+const GEO_RELATE        2
+const VIEW_MAGNIFY      3
+const GEO_NORTH         4 
+const GEO_WEST          5 
+const GEO_SOUTH         6 
+const GEO_EAST          7 
+const GEO_DATUM         8
+const GEO_SCALE         9
+const CH_NAME           10 
+const VIEW_TRANSPARENT  11
+const GEO_PROJECTION    12
+const GEO_MLAT          13
+const GEO_MLON          14
+const GEO_CENTERLAT     15
+const GEO_CENTERLON     16
+const CH_DICTNUM        17
+const CH_DICT1          18
+const CH_DICT2          19
+const CH_DICT3          20
+const CH_DICT4          21
+const CH_DICT5          22
+const CH_DICT6          23
+const CH_DICT7          24
+const GEO_MAINLON       25
+const GEO_ROTATE    26
+
+const CH_DSID_RCID  101
+const CH_DSID_EXPP  102
+const CH_DSID_INTU  103
+const CH_DSID_DSNM  104
+const CH_DSID_EDTN  105
+const CH_DSID_UPDN  106
+const CH_DSID_UADT  107
+const CH_DSID_ISDT  108
+const CH_DSID_STED  109
+const CH_DSID_PRSP  110
+const CH_DSID_PSDN  111
+const CH_DSID_PRED  112
+const CH_DSID_PROF  113
+const CH_DSID_COMT  114
+const CH_DSID_AGEN  115
+
+const CH_DSSI_DSTR  121
+const CH_DSSI_AALL  122
+const CH_DSSI_NALL  123
+const CH_DSSI_NOMR  124
+const CH_DSSI_NOCR  125
+const CH_DSSI_NOGR  126
+const CH_DSSI_NOLR  127
+const CH_DSSI_NOIN  128
+const CH_DSSI_NOCN  129
+const CH_DSSI_NOED  130
+const CH_DSSI_NOFA  131
+
+const CH_DSPM_RCID  135
+const CH_DSPM_CSCL  136
+const CH_DSPM_COMF  137
+const CH_DSPM_SOMF  138
+const CH_DSPM_HDAT  139
+const CH_DSPM_VDAT  140
+const CH_DSPM_SDAT  141
+const CH_DSPM_DUNI  142
+const CH_DSPM_HUNI  143
+const CH_DSPM_PUNI  144
+const CH_DSPM_COUN  145
+const CH_DSPM_COMT  146
+
+const CH_DSHT_RCID  150
+const CH_DSHT_ESDT  151
+const CH_DSHT_LSDT  152
+const CH_DSHT_CODT  153
+const CH_DSHT_PRCO  154
+const CH_DSHT_DCRT  155
+const CH_DSHT_COMT  156
+
+const CH_DSAC_RCID  160
+const CH_DSAC_PACC  161
+const CH_DSAC_HACC  162
+const CH_DSAC_SACC  163
+const CH_DSAC_FPMF  164
+const CH_DSAC_COMT  165
+
+// feature properties
+const FE_PROP_GROUP 1
+const FE_PROP_RECID 2
+
+const M_REVERSE   0x10       
+const M_CUTEDGE   0x20       
+const M_INVISIBLE 0x40       
+const M_INTERNAL  0x80       
+
+// java layer attributes
+const J_SMAX  1701
+const J_SMIN  1702
+const J_PRI   1703
+const J_RGB   1704
+const J_WID   1705
+const J_GIF   1706
+const J_FILL  1707
+const J_DX    1708
+const J_DY    1709
+const J_STK   1710
+const J_GAP   1711
+const J_STR   1714
+const J_FONT  1715
+const J_FSTL  1716
+const J_FSIZ  1717
+const J_VJST  1718
+const J_HJST  1719
+const J_INFO  1720
+
+// java layer objects
+const J_TEXT  1701
+const J_IMG   1702
+const J_LINE  1703
+const J_AREA  1704
+
+// STD RGB 
+const RGB_BLACK   0
+const RGB_BLUE    0xFF0000  
+const RGB_CYAN    0xFFFF00  
+const RGB_DGRAY   0x404040
+const RGB_GRAY    0x808080
+const RGB_GREEN   0x00FF00
+const RGB_LGRAY   0xC0C0C0
+const RGB_MAGENTA 0xFF00FF
+const RGB_ORANGE  0x00C8FF
+const RGB_PINK    0x14C0FF
+const RGB_RED     0x0000FF
+const RGB_YELLOW  0x00FFFF
+const RGB_WHITE   0xFFFFFF
+const RGB_BROWN   0x2A2AA5
+const RGB_VIOLET  0xEE1EEE
+const RGB_PURPLE  0x800080
+
+const FNT_SYMBOL1  -1
+const FNT_SYMBOL2  -2
+const FNT_SYMBOL3  -3
+const FNT_SYMBOL4  -4
+const FNT_SYMBOL5  -5
+const FNT_SYMBOL6  -6
+const FNT_SYMBOL7  -7
+const FNT_PATTERN1 -1001
+const FNT_PATTERN2 -1002
+const FNT_PATTERN3 -1003
+
+const TJST_LEFT     1
+const TJST_HCENTER  2
+const TJST_RIGHT    3
+
+const TJST_BASE     0
+const TJST_TOP      1
+const TJST_VCENTER  2
+const TJST_BOTTOM   3
+
+const TXT_PLAIN       0
+const TXT_BOLD        1
+const TXT_ITALIC      2
+const TXT_BOLDITALIC  3
+
+const FNT_DEFAULT     0
+const FNT_SERIF       1
+const FNT_SANSSERIF   2
+const FNT_MONOSPACED  3

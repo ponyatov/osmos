@@ -1,0 +1,361 @@
+typedef ubyte rgb; 
+typedef real8 cmyk; 
+typedef idcode font;
+typedef int2 symbol; 
+typedef idcode color;
+typedef real8 width;
+typedef real8 height;
+typedef real8 shiftx;
+typedef real8 shifty;
+typedef real8 spacex;
+typedef real8 spacey;
+typedef real8 orient;
+typedef idcode consistof;
+typedef idcode editable;
+typedef real8 begoff;
+typedef real8 endoff;
+typedef string name;
+typedef int2 charset;
+typedef int2 alignx;
+typedef int2 aligny;
+typedef real8 scale;
+typedef real8 pattern;
+typedef int2 nock;
+typedef int2 startsym;
+typedef int2 fill;
+typedef int2 limode;
+
+typedef string title;
+typedef string rgbnam;
+typedef byte justh;
+typedef byte justv;
+typedef string fntnam;
+typedef string fntstl;
+typedef string txtval; 
+typedef real8 depval;
+typedef real8 radius;
+typedef real8 angle1;
+typedef real8 angle2;
+typedef string depstl;
+typedef real8 slant;
+typedef byte mirror;
+typedef real8 fracdx;
+typedef real8 fracdy;
+typedef byte hidden;
+typedef int4 priort; 
+typedef int4 layers;
+typedef string script1;
+typedef string script2;
+
+#define LA_LEFT                      1
+#define LA_CENTER                    2
+#define LA_RIGHT                     3
+#define LA_JUST                      4
+#define LA_SYMBOL                    5
+#define LA_TOP                       6
+#define LA_BOTTOM                    7
+#define LA_BASELINE                  8
+
+#define LI_WHOLE      0
+#define LI_SECTION    1
+
+#define NO_ORIENT     3600
+
+#define NOCK_RND    0x10
+#define NOCK_HEX    0x20                      
+
+colors {
+  aliceblue { /*f0f8ff*/ rgb={ 240,248,255 } }
+  antiquewhite { /*faebd7*/ rgb={ 250,235,215 } }
+  aqua { /*00ffff*/ rgb={ 0,255,255 } }
+  aquamarine { /*7fffd4*/ rgb={ 127,255,212 } }
+  azure { /*f0ffff*/ rgb={ 240,255,255 } }
+  beige { /*f5f5dc*/ rgb={ 245,245,220 } }
+  bisque { /*ffe4c4*/ rgb={ 255,228,196 } }
+  black { /*000000*/ rgb={ 0,0,0 } }
+  blanchedalmond { /*ffebcd*/ rgb={ 255,235,205 } }
+  blue { /*0000ff*/ rgb={ 0,0,255 } }
+  blueviolet { /*8a2be2*/ rgb={ 138,43,226 } }
+  brown { /*a52a2a*/ rgb={ 165,42,42 } }
+  burlywood { /*deb887*/ rgb={ 222,184,135 } }
+  cadetblue { /*5f9ea0*/ rgb={ 95,158,160 } }
+  chartreuse { /*7fff00*/ rgb={ 127,255,0 } }
+  chocolate { /*d2691e*/ rgb={ 210,105,30 } }
+  coral { /*ff7f50*/ rgb={ 255,127,80 } }
+  cornflowerblue { /*6495ed*/ rgb={ 100,149,237 } }
+  cornsilk { /*fff8dc*/ rgb={ 255,248,220 } }
+  crimson { /*dc143c*/ rgb={ 220,20,60 } }
+  cyan { /*00ffff*/ rgb={ 0,255,255 } }
+  darkblue { /*00008b*/ rgb={ 0,0,139 } }
+  darkcyan { /*008b8b*/ rgb={ 0,139,139 } }
+  darkgoldenrod { /*b8860b*/ rgb={ 184,134,11 } }
+  darkgray { /*a9a9a9*/ rgb={ 169,169,169 } }
+  darkgreen { /*006400*/ rgb={ 0,100,0 } }
+  darkkhaki { /*bdb76b*/ rgb={ 189,183,107 } }
+  darkmagenta { /*8b008b*/ rgb={ 139,0,139 } }
+  darkolivegreen { /*556b2f*/ rgb={ 85,107,47 } }
+  darkorange { /*ff8c00*/ rgb={ 255,140,0 } }
+  darkorchid { /*9932cc*/ rgb={ 153,50,204 } }
+  darkred { /*8b0000*/ rgb={ 139,0,0 } }
+  darksalmon { /*e9967a*/ rgb={ 233,150,122 } }
+  darkseagreen { /*8fbc8f*/ rgb={ 143,188,143 } }
+  darkslateblue { /*483d8b*/ rgb={ 72,61,139 } }
+  darkslategray { /*2f4f4f*/ rgb={ 47,79,79 } }
+  darkturquoise { /*00ced1*/ rgb={ 0,206,209 } }
+  darkviolet { /*9400d3*/ rgb={ 148,0,211 } }
+  deeppink { /*ff1493*/ rgb={ 255,20,147 } }
+  deepskyblue { /*00bfff*/ rgb={ 0,191,255 } }
+  dimgray { /*696969*/ rgb={ 105,105,105 } }
+  dodgerblue { /*1e90ff*/ rgb={ 30,144,255 } }
+  firebrick { /*b22222*/ rgb={ 178,34,34 } }
+  floralwhite { /*fffaf0*/ rgb={ 255,250,240 } }
+  forestgreen { /*228b22*/ rgb={ 34,139,34 } }
+  fuchsia { /*ff00ff*/ rgb={ 255,0,255 } }
+  gainsboro { /*dcdcdc*/ rgb={ 220,220,220 } }
+  ghostwhite { /*f8f8ff*/ rgb={ 248,248,255 } }
+  gold { /*ffd700*/ rgb={ 255,215,0 } }
+  goldenrod { /*daa520*/ rgb={ 218,165,32 } }
+  gray { /*808080*/ rgb={ 128,128,128 } }
+  green { /*008000*/ rgb={ 0,128,0 } }
+  greenyellow { /*adff2f*/ rgb={ 173,255,47 } }
+  honeydew { /*f0fff0*/ rgb={ 240,255,240 } }
+  hotpink { /*ff69b4*/ rgb={ 255,105,180 } }
+  indianred { /*cd5c5c*/ rgb={ 205,92,92 } }
+  indigo { /*4b0082*/ rgb={ 75,0,130 } }
+  ivory { /*fffff0*/ rgb={ 255,255,240 } }
+  khaki { /*foe68c*/ rgb={ 240,230,140 } }
+  lavender { /*e6e6fa*/ rgb={ 230,230,250 } }
+  lavenderblush { /*fff0f5*/ rgb={ 255,240,245 } }
+  lawngreen { /*7cfc00*/ rgb={ 124,252,0 } }
+  lemonchiffon { /*fffacd*/ rgb={ 255,250,205 } }
+  lightblue { /*add8e6*/ rgb={ 173,216,230 } }
+  lightcoral { /*f08080*/ rgb={ 240,128,128 } }
+  lightcyan { /*e0ffff*/ rgb={ 224,255,255 } }
+  lightgoldenrodyellow { /*fafad2*/ rgb={ 250,250,210 } }
+  lightgreen { /*90ee90*/ rgb={ 144,238,144 } }
+  lightgrey { /*d3d3d3*/ rgb={ 211,211,211 } }
+  lightpink { /*ffb6c1*/ rgb={ 255,182,193 } }
+  lightsalmon { /*ffa07a*/ rgb={ 255,160,122 } }
+  lightseagreen { /*20b2aa*/ rgb={ 32,178,170 } }
+  lightskyblue { /*87cefa*/ rgb={ 135,206,250 } }
+  lightslateblue { /*8470ff*/ rgb={ 132,112,255 } }
+  lightslategray { /*778899*/ rgb={ 119,136,153 } }
+  lightsteelblue { /*b0c4de*/ rgb={ 176,196,222 } }
+  lightyellow { /*ffffe0*/ rgb={ 255,255,224 } }
+  lime { /*00ff00*/ rgb={ 0,255,0 } }
+  limegreen { /*32cd32*/ rgb={ 50,205,50 } }
+  linen { /*faf0e6*/ rgb={ 250,240,230 } }
+  magenta { /*ff00ff*/ rgb={ 255,0,255 } }
+  maroon { /*800000*/ rgb={ 128,0,0 } }
+  mediumaquamarine { /*66cdaa*/ rgb={ 102,205,170 } }
+  mediumblue { /*0000cd*/ rgb={ 0,0,205 } }
+  mediumorchid { /*ba55d3*/ rgb={ 186,85,211 } }
+  mediumpurple { /*9370d8*/ rgb={ 147,112,219 } }
+  mediumseagreen { /*3cb371*/ rgb={ 60,179,113 } }
+  mediumslateblue { /*7b68ee*/ rgb={ 123,104,238 } }
+  mediumspringgreen { /*00fa9a*/ rgb={ 0,250,154 } }
+  mediumturquoise { /*48d1cc*/ rgb={ 72,209,204 } }
+  mediumvioletred { /*c71585*/ rgb={ 199,21,133 } }
+  midnightblue { /*191970*/ rgb={ 25,25,112 } }
+  mintcream { /*f5fffa*/ rgb={ 245,255,250 } }
+  mistyrose { /*ffe4e1*/ rgb={ 255,228,225 } }
+  moccasin { /*ffe4b5*/ rgb={ 255,228,181 } }
+  navajowhite { /*ffdead*/ rgb={ 255,222,173 } }
+  navy { /*000080*/ rgb={ 0,0,128 } }
+  oldlace { /*fdf5e6*/ rgb={ 253,245,230 } }
+  olive { /*808000*/ rgb={ 128,128,0 } }
+  olivedrab { /*6b8e23*/ rgb={ 107,142,35 } }
+  orange { /*ffa500*/ rgb={ 255,165,0 } }
+  orangered { /*ff4500*/ rgb={ 255,69,0 } }
+  orchid { /*da70d6*/ rgb={ 218,112,214 } }
+  palegoldenrod { /*eee8aa*/ rgb={ 238,232,170 } }
+  palegreen { /*98fb98*/ rgb={ 152,251,152 } }
+  paleturquoise { /*afeeee*/ rgb={ 175,238,238 } }
+  palevioletred { /*db7093*/ rgb={ 219,112,147 } }
+  papayawhip { /*ffefd5*/ rgb={ 255,239,213 } }
+  peachpuff { /*ffda89*/ rgb={ 255,218,185 } }
+  peru { /*cd853f*/ rgb={ 205,133,63 } }
+  pink { /*ffc0cb*/ rgb={ 255,192,203 } }
+  plum { /*dda0dd*/ rgb={ 221,160,221 } }
+  powderblue { /*b0e0e6*/ rgb={ 176,224,230 } }
+  purple { /*800080*/ rgb={ 128,0,128 } }
+  red { /*ff0000*/ rgb={ 255,0,0 } }
+  rosybrown { /*bc8f8f*/ rgb={ 188,143,143 } }
+  royalblue { /*4169e1*/ rgb={ 65,105,225 } }
+  saddlebrown { /*8b4513*/ rgb={ 139,69,19 } }
+  salmon { /*fa8072*/ rgb={ 250,128,114 } }
+  sandybrown { /*f4a460*/ rgb={ 244,164,96 } }
+  seagreen { /*2e8b57*/ rgb={ 46,139,87 } }
+  seashell { /*fff5ee*/ rgb={ 255,245,238 } }
+  sienna { /*a0522d*/ rgb={ 160,82,45 } }
+  silver { /*c0c0c0*/ rgb={ 192,192,192 } }
+  skyblue { /*87ceeb*/ rgb={ 135,206,235 } }
+  slateblue { /*6a5acd*/ rgb={ 106,90,205 } }
+  slategray { /*708090*/ rgb={ 112,128,144 } }
+  snow { /*fffafa*/ rgb={ 255,250,250 } }
+  springgreen { /*00ff7f*/ rgb={ 0,255,127 } }
+  steelblue { /*4682b4*/ rgb={ 70,130,180 } }
+  tan { /*d2b48c*/ rgb={ 210,180,140 } }
+  teal { /*008080*/ rgb={ 0,128,128 } }
+  thistle { /*d8bfd8*/ rgb={ 216,191,216 } }
+  tomato { /*ff6347*/ rgb={ 255,99,71 } }
+  turquoise { /*40e0d0*/ rgb={ 64,224,208 } }
+  violet { /*ee82ee*/ rgb={ 238,130,238 } }
+  violetred { /*do2090*/ rgb={ 208,32,144 } }
+  wheat { /*f5deb3*/ rgb={ 245,222,179 } }
+  white { /*ffffff*/ rgb={ 255,255,255 } }
+  whitesmoke { /*f5f5f5*/ rgb={ 245,245,245 } }
+  yellow { /*ffff00*/ rgb={ 255,255,0 } }
+  yellowgreen { /*9acd32*/ rgb={ 154,205,50 } }
+
+  R_BLUED { rgb={0,85,255} }    // синий
+  R_GREEN { rgb={170,217,94} }  // зеленый
+  R_GRNDK { rgb={0,146,64} }    // темно-зеленый
+  R_BLUET { rgb={190,255,255} } // голубой
+  R_BLDRK { rgb={64,0,255} }    // темно-синий
+  R_REDBU { rgb={245,82,0} }    // красный
+  R_BROWN { rgb={204,102,51} }  // коричневый
+  R_BRWND { rgb={125,63,0} }  // темно-коричневый
+  R_BRWNL { rgb={255,214,168} } // светло-коричневый
+  R_GREY2 { rgb={217,217,217} } // светло серый
+  R_GREY5 { rgb={127,127,127} } // серый
+  R_GREY7 { rgb={92,92,92} }    // темно серый
+  R_BLUEP { rgb={125,168,255} } // светло-голубой
+  R_GRNMD { rgb={190,255,190} } // средне-зеленый
+  R_GRNLT { rgb={217,255,189} } // светло зеленый
+  R_GRNYL { rgb={200,214,0} } // желто-зеленый
+  R_MAGLT { rgb={216,137,167} } // светлая магента
+  R_MAGNT { rgb={255,127,185} } // магента
+  R_REDBR { rgb={255,0,0} }   // красно-коричневый
+  R_ORNGE { rgb={255,165,0} } // оранжевый
+  R_ROSER { rgb={255,223,212} } // розовый
+  R_PURPL { rgb={153,71,121} }  // пурпурный
+  R_YELLW { rgb={255,255,0} } // желтый
+  R_YELLT { rgb={255,242,176} } // светло-желтый
+  R_YELDK { rgb={255,234,130} } // темно-желтый
+  R_YLBRN { rgb={173,161,54} }  // желто-коричневый
+  R_VIOLT { rgb={126,0,126} }   // фиолетовый
+  R_OLIVE { rgb={151,148,108} } // оливковый
+  R_OLIVL { rgb={232,237,168} }   // светло-оливковый
+
+  S52_error { rgb={ 255,0,0 } cmyk={ 0,100,100,0 } }
+  S52_cursr { rgb={ 244,140,52 } cmyk={ 0,41,75,0 } }   
+  S52_chblk { rgb={ 0,0,0 } cmyk={ 0,0,0,100 } }
+  S52_chgrd { rgb={ 125,125,125 } cmyk={ 0,0,0,50 } } 
+  S52_chgrf { rgb={ 180,178,131 } cmyk={ 0,0,20,30 } }
+  S52_chred { rgb={ 182,10,10 } cmyk={ 0,67,67,29 } } 
+  S52_chgrn { rgb={ 22,170,6 } cmyk={ 58,0,64,33 } } 
+  S52_chylw { rgb={ 228,204,116 } cmyk={ 0,10,44,10 } }
+  S52_chmgd { rgb={ 255,0,255 } cmyk={ 0,100,0,0 } } 
+  S52_chmgf { rgb={ 239,203,236 } cmyk={ 0,14,0,6 } } 
+  S52_chbrn { rgb={ 206,188,98 } cmyk={ 0,7,42,19 } } 
+  S52_chwht { rgb={ 255,255,255 } cmyk={ 0,0,0,0 } } 
+  S52_outlw { rgb={ 10,12,15 } cmyk={ 0,0,0,100 } } 
+  S52_outll { rgb={ 222,205,139 } cmyk={ 0,7,33,13 } } 
+  S52_litrd { rgb={ 255,23,61 } cmyk={ 0,91,76,0 } } 
+  S52_litgn { rgb={ 23,255,43 } cmyk={ 91,0,83,0 } } 
+  S52_lityw { rgb={ 255,168,23 } cmyk={ 0,34,91,0 } }
+  S52_isdng { rgb={ 242,0,242 } cmyk={ 0,100,0,0 } } 
+  S52_dnghl { rgb={ 241,0,60 } cmyk={ 0,95,71,5 } } 
+  S52_trfcd { rgb={ 220,26,236 } cmyk={ 0,82,0,10 } }
+  S52_trfcf { rgb={ 239,203,236 } cmyk={ 0,14,0,6 } }
+  S52_landa { rgb={ 255,255,177 } cmyk={ 0,0,30,0 } }
+  S52_landf { rgb={ 35,35,50 } cmyk={ 0,0,0,80 } }  
+  S52_cstln { rgb={ 54,52,50 } cmyk={ 0,0,0,80 } }  
+  S52_sndg1 { rgb={ 133,133,133 } cmyk={ 0,0,0,50 } } 
+  S52_sndg2 { rgb={ 0,11,11 } cmyk={ 0,0,0,100 } }  
+  S52_depsc { rgb={ 222,27,70 } cmyk={ 0,76,60,13 } } 
+  S52_depcn { rgb={ 0,255,255 } cmyk={ 100,0,0,0 } } 
+  S52_depdw { rgb={ 255,255,255 } cmyk={ 0,0,0,0 } } 
+  S52_depmd { rgb={ 227,255,255 } cmyk={ 10,0,0,0 } } 
+  S52_depms { rgb={ 204,255,255 } cmyk={ 20,0,0,0 } } 
+  S52_depvs { rgb={ 153,255,255 } cmyk={ 40,0,0,0 } } 
+  S52_depit { rgb={ 201,218,155 } cmyk={ 7,0,25,15 } } 
+  S52_radhi { rgb={ 120,244,92 } cmyk={ 50,0,60,0 } } 
+  S52_radlo { rgb={ 0,148,0 } cmyk={ 58,0,58,42 } } 
+  S52_arpat { rgb={ 120,244,92 } cmyk={ 50,0,60,0 } } 
+  S52_sclbr { rgb={ 230,121,56 } cmyk={ 0,43,68,10 } } 
+  S52_nodta { rgb={ 178,190,178 } cmyk={ 5,0,5,25 } }
+}
+
+fonts {
+  city1 { name="CityPlan01" height=12 }
+  s52_1 { name="S52-1" height=12 }
+  s52_2 { name="S52-2" height=12 }
+  s52_3 { name="S52-3" height=12 }
+  s52_4 { name="S52-4" height=12 }
+  s52_5 { name="S52-5" height=12 }
+  s52_6 { name="S52-6" height=12 }
+  s52_7 { name="S52-7" height=12 }
+}
+
+symbols {
+  metro { symbol=103 font=city1 color=black }
+  locomotive { symbol=77 font=city1 color=black }
+}
+
+lines {
+  strbrd1l { width=0 color=gray shifty=90 }
+  strbrd1r { width=0 color=gray shifty=-90 }
+  strcntr2 { width=0 color=yellow }
+  strcntr3 { width=0 color=white }
+  strkad { consistof={ street10 strcntr3 strbrd1l strbrd1r } editable=street10 }
+  street10 { width=180 color=gold }
+  street12 { consistof={ street10 strcntr2 } editable=street10 }
+  street13 { consistof={ street10 strcntr3 } editable=street10 }
+  street20 { width=150 color=gold }
+  street22 { consistof={ street20 strcntr2 } editable=street20 }
+  street23 { consistof={ street20 strcntr3 } editable=street20 }
+  street30 { width=120 color=gold }
+  street32 { consistof={ street30 strcntr2 } editable=street30 }
+  street33 { consistof={ street30 strcntr3 } editable=street30 }
+  street40 { width=90 color=gold }
+  street42 { consistof={ street40 strcntr2 } editable=street40 }
+  street43 { consistof={ street40 strcntr3 } editable=street40 }
+  strminor { width=60 color=gold }
+  strconstr { width=90 color=gold pattern={ 200 200 } }
+
+  bridge1{ color=blue shifty=110 }
+  bridge2{ color=blue shifty=-110 }
+  bridge { consistof={ bridge1 bridge2 } }
+
+  noturn1 { color=red shifty=200 }
+  noturn2 { color=red shifty=200 font=s52_1 symbol=41 alignx=LA_RIGHT scale=1.5 }
+  noturn { script1="noturn" consistof={ noturn1 noturn2 } }
+
+  strstd { script1="street" color=gold }
+}
+
+areas {
+}
+
+string ListOfFonts {
+  "Arial"
+  "Times New Roman"
+}
+
+idcode ListOfSymbols {
+  locomotive
+  metro
+}
+
+idcode ListOfLines {
+  noturn
+  strstd
+}
+
+idcode ListOfAreas {
+}
+
+styles
+{
+  text
+  { 
+    objnam { title="Object Name" txtval="%OBJNAM" rgbnam="black" fntnam="Arial" height=10 justh=3 justv=4 shiftx; shifty; ftnstl; }
+  }
+  line
+  {
+    stdstreet { title="Street" rgbnam="gold" width=120 layers=1 string sorind="street" }
+    //stdsquare { title="Square" rgbnam="gold" width=120 layers=1 string sorind="square" }
+  }
+}

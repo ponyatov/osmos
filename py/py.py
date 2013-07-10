@@ -4,39 +4,22 @@ import os,time
 yy,mm,dd,hh=time.localtime()[:4]
 NOW='%.2i%.2i%.2i%.2i'%(yy%100,mm,dd,hh)
 
-import cfg,osm
+import cfg,osm,cgmp
 
 print cfg.user,cfg.passwd
+
 
 X=osm.relation(id=72194).xml
 R=X.getroot()
 print X
 
 MP=open('../map/mp.mp','w')
-print >>MP,'[IMG ID]\n'
-print >>MP,'ID=%s'%NOW
-print >>MP,'Name=%s'%('Samara Globe (c) osm.org'[:32])
-print >>MP,'LocalName=%s'%('глобус Самары (c) osm.org'[:32])
-VV,VS=R.attrib['version'].split('.')
-print >>MP,'Version=%s'%VV
-print >>MP,'VersionSub=%s'%VS
-print >>MP,'Copyright=(gpl) dponyatov@gmail.com (c) %s'%R.attrib['copyright']
-print >>MP,'''
-Datum=W84
-Elevation=m
 
-LblCoding=9
-CodePage=65001
+VV,SV=R.attrib['version'].split('.')
+CC='(c) '+R.attrib['copyright'].split()[0]+' (gpl) dponyatov@gmail.com'
+print >>MP,cgmp.IMGID(Version=VV,SubVersion=SV,Copyright=CC)
 
-Levels=1
-Level0=26
-
-Preprocess=F
-POIIndex=Y
-
-[END]
-
-'''
+print >>MP,cgmp.Map_Coverage_Area
 
 for i in X.findall('node'):
     T=i.attrib

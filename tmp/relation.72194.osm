@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
   <node id="1119978698" version="1" changeset="7084725" lat="52.6505117" lon="51.6964682" user="krimatoly" uid="322559" visible="true" timestamp="2011-01-25T15:36:43Z"/>
   <node id="1119978721" version="1" changeset="7084725" lat="52.1878102" lon="51.4487716" user="krimatoly" uid="322559" visible="true" timestamp="2011-01-25T15:36:44Z"/>
@@ -4972,19 +4971,19 @@
   <node id="720591600" version="2" changeset="14346816" lat="54.4808662" lon="50.3244437" user="zetx16" uid="345493" visible="true" timestamp="2012-12-20T18:38:31Z"/>
   <node id="27503945" version="33" changeset="16118635" lat="53.1984756" lon="50.1142415" user="Runis" uid="1241595" visible="true" timestamp="2013-05-13T23:47:34Z">
     <tag k="addr:country" v="RU"/>
-    <tag k="addr:region" v="Самарская область"/>
+    <tag k="addr:region" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1072;&#1103; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1100;"/>
     <tag k="admin_level" v="4"/>
-    <tag k="alt_name:sk" v="Kujbyšev"/>
-    <tag k="alt_name:sl" v="Kujbišev"/>
+    <tag k="alt_name:sk" v="Kujby&#353;ev"/>
+    <tag k="alt_name:sl" v="Kujbi&#353;ev"/>
     <tag k="capital" v="yes"/>
     <tag k="cladr:code" v="6300000100000"/>
-    <tag k="cladr:name" v="Самара"/>
-    <tag k="cladr:suffix" v="Город"/>
+    <tag k="cladr:name" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1072;"/>
+    <tag k="cladr:suffix" v="&#1043;&#1086;&#1088;&#1086;&#1076;"/>
     <tag k="int_name" v="Samara"/>
     <tag k="is_in" v="Russia"/>
-    <tag k="name" v="Самара"/>
-    <tag k="name:ba" v="Һамар"/>
-    <tag k="name:be" v="Самара"/>
+    <tag k="name" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1072;"/>
+    <tag k="name:ba" v="&#1210;&#1072;&#1084;&#1072;&#1088;"/>
+    <tag k="name:be" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1072;"/>
     <tag k="name:da" v="Samara"/>
     <tag k="name:de" v="Samara"/>
     <tag k="name:en" v="Samara"/>
@@ -4993,10 +4992,10 @@
     <tag k="name:hr" v="Samara"/>
     <tag k="name:lt" v="Samara"/>
     <tag k="name:pl" v="Samara"/>
-    <tag k="name:ru" v="Самара"/>
+    <tag k="name:ru" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1072;"/>
     <tag k="name:sk" v="Samara"/>
     <tag k="name:sl" v="Samara"/>
-    <tag k="old_name" v="Куйбышев"/>
+    <tag k="old_name" v="&#1050;&#1091;&#1081;&#1073;&#1099;&#1096;&#1077;&#1074;"/>
     <tag k="old_name:de" v="Kuibyschew"/>
     <tag k="place" v="city"/>
     <tag k="population" v="1169284"/>
@@ -5004,21 +5003,21 @@
   </node>
   <node id="533719181" version="16" changeset="16130772" lat="53.2852213" lon="50.4785577" user="Runis" uid="1241595" visible="true" timestamp="2013-05-14T20:25:18Z">
     <tag k="int_name" v="Samara Oblast"/>
-    <tag k="is_in" v="Россия"/>
-    <tag k="name" v="Самарская область"/>
-    <tag k="name:be" v="Самарская вобласць"/>
+    <tag k="is_in" v="&#1056;&#1086;&#1089;&#1089;&#1080;&#1103;"/>
+    <tag k="name" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1072;&#1103; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1100;"/>
+    <tag k="name:be" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1072;&#1103; &#1074;&#1086;&#1073;&#1083;&#1072;&#1089;&#1094;&#1100;"/>
     <tag k="name:de" v="Oblast Samara"/>
     <tag k="name:en" v="Samara Oblast"/>
-    <tag k="name:es" v="Óblast de Samara"/>
+    <tag k="name:es" v="&#211;blast de Samara"/>
     <tag k="name:fr" v="Oblast de Samara"/>
     <tag k="name:hr" v="Samarska oblast"/>
     <tag k="name:lt" v="Samaros sritis"/>
-    <tag k="name:pl" v="Obwód samarski"/>
-    <tag k="name:ru" v="Самарская область"/>
-    <tag k="name:sk" v="Samarská oblasť"/>
-    <tag k="name:tt" v="Самара өлкәсе"/>
+    <tag k="name:pl" v="Obw&#243;d samarski"/>
+    <tag k="name:ru" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1072;&#1103; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1100;"/>
+    <tag k="name:sk" v="Samarsk&#225; oblas&#357;"/>
+    <tag k="name:tt" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1072; &#1257;&#1083;&#1082;&#1241;&#1089;&#1077;"/>
     <tag k="place" v="state"/>
-    <tag k="ref" v="САМ"/>
+    <tag k="ref" v="&#1057;&#1040;&#1052;"/>
     <tag k="ref:en" v="SAM"/>
     <tag k="wikipedia" v="en:Samara Oblast"/>
   </node>
@@ -5036,7 +5035,7 @@
     <nd ref="99330542"/>
     <nd ref="790666450"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
   </way>
   <way id="130785794" visible="true" timestamp="2013-05-25T04:42:06Z" version="7" changeset="16274077" user="Monitor" uid="222237">
@@ -5051,7 +5050,7 @@
     <nd ref="2319143009"/>
     <nd ref="304743075"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
   </way>
   <way id="217356345" visible="true" timestamp="2013-05-25T04:42:06Z" version="2" changeset="16274077" user="Monitor" uid="222237">
@@ -5110,7 +5109,7 @@
     <nd ref="790665641"/>
     <nd ref="339209979"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
   </way>
   <way id="83088178" visible="true" timestamp="2013-05-24T12:44:29Z" version="7" changeset="16265239" user="Monitor" uid="222237">
@@ -5181,7 +5180,7 @@
     <nd ref="790666926"/>
     <nd ref="790667600"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
   </way>
   <way id="83078706" visible="true" timestamp="2012-02-24T21:28:08Z" version="6" changeset="10782743" user="Dan Wood" uid="609760">
@@ -5220,7 +5219,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="source:url" v="http://www.adm.samara.ru/documents/zakon/9611/"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Закон об установлении границ муниципального района Приволжский Самарской области"/>
+    <tag k="source" v="&#1047;&#1072;&#1082;&#1086;&#1085; &#1086;&#1073; &#1091;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1083;&#1077;&#1085;&#1080;&#1080; &#1075;&#1088;&#1072;&#1085;&#1080;&#1094; &#1084;&#1091;&#1085;&#1080;&#1094;&#1080;&#1087;&#1072;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; &#1088;&#1072;&#1081;&#1086;&#1085;&#1072; &#1055;&#1088;&#1080;&#1074;&#1086;&#1083;&#1078;&#1089;&#1082;&#1080;&#1081; &#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1086;&#1081; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1080;"/>
   </way>
   <way id="139747492" visible="true" timestamp="2012-11-15T00:53:46Z" version="5" changeset="13878562" user="misha yakin" uid="384109">
     <nd ref="596658085"/>
@@ -5468,9 +5467,9 @@
     <tag k="admin_level" v="4"/>
     <tag k="border_type" v="region"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Большой Черемшан"/>
+    <tag k="name" v="&#1041;&#1086;&#1083;&#1100;&#1096;&#1086;&#1081; &#1063;&#1077;&#1088;&#1077;&#1084;&#1096;&#1072;&#1085;"/>
     <tag k="waterway" v="river"/>
-    <tag k="wikipedia" v="ru:Большой Черемшан"/>
+    <tag k="wikipedia" v="ru:&#1041;&#1086;&#1083;&#1100;&#1096;&#1086;&#1081; &#1063;&#1077;&#1088;&#1077;&#1084;&#1096;&#1072;&#1085;"/>
   </way>
   <way id="90723902" visible="true" timestamp="2012-02-26T14:29:08Z" version="7" changeset="10798847" user="DeKaN" uid="471972">
     <nd ref="790667589"/>
@@ -5480,7 +5479,7 @@
     <nd ref="1119977845"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="91214548" visible="true" timestamp="2012-02-24T21:28:13Z" version="5" changeset="10782743" user="Dan Wood" uid="609760">
     <nd ref="1058622671"/>
@@ -5509,14 +5508,14 @@
     <tag k="boundary" v="administrative"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="91428364" visible="true" timestamp="2013-05-25T04:42:09Z" version="6" changeset="16274077" user="Monitor" uid="222237">
     <nd ref="790666450"/>
     <nd ref="2319143003"/>
     <nd ref="790665410"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
   </way>
   <way id="100850886" visible="true" timestamp="2012-02-24T21:27:56Z" version="3" changeset="10782743" user="Dan Wood" uid="609760">
@@ -5527,7 +5526,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="100850899" visible="true" timestamp="2012-02-24T21:27:57Z" version="3" changeset="10782743" user="Dan Wood" uid="609760">
     <nd ref="1165462026"/>
@@ -5596,7 +5595,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="100850908" visible="true" timestamp="2012-02-24T21:27:59Z" version="3" changeset="10782743" user="Dan Wood" uid="609760">
     <nd ref="790666411"/>
@@ -5627,7 +5626,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="83685053" visible="true" timestamp="2012-02-24T21:28:10Z" version="9" changeset="10782743" user="Dan Wood" uid="609760">
     <nd ref="974428571"/>
@@ -5718,7 +5717,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="91423300" visible="true" timestamp="2012-03-02T21:04:58Z" version="5" changeset="10852395" user="DeKaN" uid="471972">
     <nd ref="502327959"/>
@@ -5764,10 +5763,10 @@
     <nd ref="790667017"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name:ru" v="Чагра"/>
-    <tag k="name" v="Чагра"/>
+    <tag k="name:ru" v="&#1063;&#1072;&#1075;&#1088;&#1072;"/>
+    <tag k="name" v="&#1063;&#1072;&#1075;&#1088;&#1072;"/>
     <tag k="waterway" v="river"/>
-    <tag k="wikipedia" v="ru:Чагра"/>
+    <tag k="wikipedia" v="ru:&#1063;&#1072;&#1075;&#1088;&#1072;"/>
   </way>
   <way id="129322514" visible="true" timestamp="2012-02-24T20:54:33Z" version="2" changeset="10782372" user="Dan Wood" uid="609760">
     <nd ref="790666771"/>
@@ -5792,7 +5791,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="source:url" v="http://www.adm.samara.ru/documents/zakon/9611/"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Закон об установлении границ муниципального района Приволжский Самарской области"/>
+    <tag k="source" v="&#1047;&#1072;&#1082;&#1086;&#1085; &#1086;&#1073; &#1091;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1083;&#1077;&#1085;&#1080;&#1080; &#1075;&#1088;&#1072;&#1085;&#1080;&#1094; &#1084;&#1091;&#1085;&#1080;&#1094;&#1080;&#1087;&#1072;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; &#1088;&#1072;&#1081;&#1086;&#1085;&#1072; &#1055;&#1088;&#1080;&#1074;&#1086;&#1083;&#1078;&#1089;&#1082;&#1080;&#1081; &#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1086;&#1081; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1080;"/>
   </way>
   <way id="64143012" visible="true" timestamp="2012-02-24T20:54:41Z" version="5" changeset="10782372" user="Dan Wood" uid="609760">
     <nd ref="790665853"/>
@@ -5824,7 +5823,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="source:url" v="http://www.adm.samara.ru/documents/zakon/9611/"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Закон об установлении границ муниципального района Приволжский Самарской области"/>
+    <tag k="source" v="&#1047;&#1072;&#1082;&#1086;&#1085; &#1086;&#1073; &#1091;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1083;&#1077;&#1085;&#1080;&#1080; &#1075;&#1088;&#1072;&#1085;&#1080;&#1094; &#1084;&#1091;&#1085;&#1080;&#1094;&#1080;&#1087;&#1072;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; &#1088;&#1072;&#1081;&#1086;&#1085;&#1072; &#1055;&#1088;&#1080;&#1074;&#1086;&#1083;&#1078;&#1089;&#1082;&#1080;&#1081; &#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1086;&#1081; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1080;"/>
   </way>
   <way id="130785708" visible="true" timestamp="2013-05-25T04:20:56Z" version="6" changeset="16274000" user="Monitor" uid="222237">
     <nd ref="790667600"/>
@@ -5958,7 +5957,7 @@
     <nd ref="790667188"/>
     <nd ref="790667297"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
   </way>
   <way id="130785817" visible="true" timestamp="2013-05-16T05:41:05Z" version="5" changeset="16147713" user="Monitor" uid="222237">
@@ -6047,14 +6046,14 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
   </way>
   <way id="130785832" visible="true" timestamp="2013-05-25T04:42:06Z" version="4" changeset="16274077" user="Monitor" uid="222237">
     <nd ref="790665410"/>
     <nd ref="304743100"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
   </way>
   <way id="64143017" visible="true" timestamp="2012-03-02T21:04:52Z" version="4" changeset="10852395" user="DeKaN" uid="471972">
@@ -6171,7 +6170,7 @@
     <nd ref="790667274"/>
     <nd ref="790665493"/>
     <nd ref="347666464"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
   </way>
@@ -6197,7 +6196,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
   </way>
   <way id="64143018" visible="true" timestamp="2012-02-24T21:28:07Z" version="9" changeset="10782743" user="Dan Wood" uid="609760">
@@ -6214,7 +6213,7 @@
     <tag k="boundary" v="administrative"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="100850913" visible="true" timestamp="2012-02-26T14:28:39Z" version="4" changeset="10798847" user="DeKaN" uid="471972">
     <nd ref="1165461791"/>
@@ -6231,7 +6230,7 @@
     <nd ref="1119978721"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="100850918" visible="true" timestamp="2012-02-26T14:28:39Z" version="4" changeset="10798847" user="DeKaN" uid="471972">
     <nd ref="1165461820"/>
@@ -6253,7 +6252,7 @@
     <nd ref="1165461791"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="126705615" visible="true" timestamp="2012-02-26T14:28:40Z" version="3" changeset="10798847" user="DeKaN" uid="471972">
     <nd ref="1403884751"/>
@@ -6261,7 +6260,7 @@
     <nd ref="964824665"/>
     <tag k="source:url" v="http://www.adm.samara.ru/documents/zakon/9508/"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Закон об установлении границ муниципального района Алексеевский Самарской области"/>
+    <tag k="source" v="&#1047;&#1072;&#1082;&#1086;&#1085; &#1086;&#1073; &#1091;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1083;&#1077;&#1085;&#1080;&#1080; &#1075;&#1088;&#1072;&#1085;&#1080;&#1094; &#1084;&#1091;&#1085;&#1080;&#1094;&#1080;&#1087;&#1072;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; &#1088;&#1072;&#1081;&#1086;&#1085;&#1072; &#1040;&#1083;&#1077;&#1082;&#1089;&#1077;&#1077;&#1074;&#1089;&#1082;&#1080;&#1081; &#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1086;&#1081; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1080;"/>
   </way>
   <way id="126833575" visible="true" timestamp="2012-02-26T14:28:40Z" version="3" changeset="10798847" user="DeKaN" uid="471972">
     <nd ref="790666094"/>
@@ -6303,7 +6302,7 @@
     <nd ref="1403884751"/>
     <tag k="source:url" v="http://www.adm.samara.ru/documents/zakon/9508/"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Закон об установлении границ муниципального района Алексеевский Самарской области"/>
+    <tag k="source" v="&#1047;&#1072;&#1082;&#1086;&#1085; &#1086;&#1073; &#1091;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1083;&#1077;&#1085;&#1080;&#1080; &#1075;&#1088;&#1072;&#1085;&#1080;&#1094; &#1084;&#1091;&#1085;&#1080;&#1094;&#1080;&#1087;&#1072;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; &#1088;&#1072;&#1081;&#1086;&#1085;&#1072; &#1040;&#1083;&#1077;&#1082;&#1089;&#1077;&#1077;&#1074;&#1089;&#1082;&#1080;&#1081; &#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1086;&#1081; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1080;"/>
   </way>
   <way id="31265040" visible="true" timestamp="2012-11-15T00:54:13Z" version="14" changeset="13878562" user="misha yakin" uid="384109">
     <nd ref="347666464"/>
@@ -6338,21 +6337,21 @@
     <nd ref="584154161"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="128126502" visible="true" timestamp="2012-02-26T14:28:43Z" version="3" changeset="10798847" user="DeKaN" uid="471972">
     <nd ref="1416584577"/>
     <nd ref="1416584592"/>
     <nd ref="501599629"/>
     <tag k="border_type" v="region"/>
-    <tag k="source" v="Кадастр"/>
+    <tag k="source" v="&#1050;&#1072;&#1076;&#1072;&#1089;&#1090;&#1088;"/>
   </way>
   <way id="128133745" visible="true" timestamp="2012-02-26T14:28:43Z" version="3" changeset="10798847" user="DeKaN" uid="471972">
     <nd ref="790666244"/>
     <nd ref="790665205"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="129322603" visible="true" timestamp="2012-02-26T14:28:43Z" version="5" changeset="10798847" user="DeKaN" uid="471972">
     <nd ref="790666537"/>
@@ -6398,7 +6397,7 @@
     <tag k="boundary" v="4"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="64143010" visible="true" timestamp="2012-02-26T14:29:01Z" version="8" changeset="10798847" user="DeKaN" uid="471972">
     <nd ref="584154161"/>
@@ -6420,7 +6419,7 @@
     <nd ref="1165461820"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="82900518" visible="true" timestamp="2012-02-26T14:29:06Z" version="6" changeset="10798847" user="DeKaN" uid="471972">
     <nd ref="964824665"/>
@@ -6430,7 +6429,7 @@
     <nd ref="1119978698"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="82903445" visible="true" timestamp="2012-02-26T14:29:06Z" version="8" changeset="10798847" user="DeKaN" uid="471972">
     <nd ref="790667477"/>
@@ -6540,7 +6539,7 @@
     <nd ref="790666094"/>
     <tag k="source:url" v="http://www.adm.samara.ru/documents/zakon/9508/"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Закон об установлении границ муниципального района Алексеевский Самарской области"/>
+    <tag k="source" v="&#1047;&#1072;&#1082;&#1086;&#1085; &#1086;&#1073; &#1091;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1083;&#1077;&#1085;&#1080;&#1080; &#1075;&#1088;&#1072;&#1085;&#1080;&#1094; &#1084;&#1091;&#1085;&#1080;&#1094;&#1080;&#1087;&#1072;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; &#1088;&#1072;&#1081;&#1086;&#1085;&#1072; &#1040;&#1083;&#1077;&#1082;&#1089;&#1077;&#1077;&#1074;&#1089;&#1082;&#1080;&#1081; &#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1086;&#1081; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1080;"/>
   </way>
   <way id="90723909" visible="true" timestamp="2012-02-26T14:29:08Z" version="4" changeset="10798847" user="DeKaN" uid="471972">
     <nd ref="501599659"/>
@@ -6601,7 +6600,7 @@
     <nd ref="790665262"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="91214549" visible="true" timestamp="2012-02-26T14:29:20Z" version="4" changeset="10798847" user="DeKaN" uid="471972">
     <nd ref="790667187"/>
@@ -6613,7 +6612,7 @@
     <nd ref="790667477"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="46711196" visible="true" timestamp="2012-11-15T00:54:18Z" version="7" changeset="13878562" user="misha yakin" uid="384109">
     <nd ref="347666505"/>
@@ -6903,7 +6902,7 @@
     <nd ref="790666916"/>
     <nd ref="790667589"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="boundary" v="administrative"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
   </way>
@@ -6919,7 +6918,7 @@
     <nd ref="790666244"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="92331101" visible="true" timestamp="2012-11-15T00:54:32Z" version="6" changeset="13878562" user="misha yakin" uid="384109">
     <nd ref="750827627"/>
@@ -6967,7 +6966,7 @@
     <nd ref="790667187"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="96845743" visible="true" timestamp="2012-02-26T14:29:31Z" version="4" changeset="10798847" user="DeKaN" uid="471972">
     <nd ref="1119977845"/>
@@ -7102,7 +7101,7 @@
     <nd ref="790667307"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="130785737" visible="true" timestamp="2013-04-24T11:25:23Z" version="4" changeset="15847756" user="Monitor" uid="222237">
     <nd ref="1439556538"/>
@@ -7246,7 +7245,7 @@
     <nd ref="790666942"/>
     <nd ref="790665160"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
   </way>
   <way id="130785771" visible="true" timestamp="2012-03-02T21:03:58Z" version="3" changeset="10852395" user="DeKaN" uid="471972">
@@ -7283,7 +7282,7 @@
     <nd ref="790667121"/>
     <nd ref="790666092"/>
     <nd ref="1439556538"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="gis-lab:status" v="subj"/>
   </way>
@@ -7583,7 +7582,7 @@
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
   </way>
   <way id="127791692" visible="true" timestamp="2012-08-14T13:09:43Z" version="8" changeset="12726713" user="KOMSOMOLSKIY" uid="720764">
@@ -7623,9 +7622,9 @@
     <tag k="admin_level" v="4"/>
     <tag k="border_type" v="region"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Большой Черемшан"/>
+    <tag k="name" v="&#1041;&#1086;&#1083;&#1100;&#1096;&#1086;&#1081; &#1063;&#1077;&#1088;&#1077;&#1084;&#1096;&#1072;&#1085;"/>
     <tag k="waterway" v="river"/>
-    <tag k="wikipedia" v="ru:Большой Черемшан"/>
+    <tag k="wikipedia" v="ru:&#1041;&#1086;&#1083;&#1100;&#1096;&#1086;&#1081; &#1063;&#1077;&#1088;&#1077;&#1084;&#1096;&#1072;&#1085;"/>
   </way>
   <way id="184471292" visible="true" timestamp="2012-11-15T00:53:47Z" version="2" changeset="13878562" user="misha yakin" uid="384109">
     <nd ref="750828073"/>
@@ -7932,9 +7931,9 @@
     <tag k="admin_level" v="4"/>
     <tag k="border_type" v="region"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Большой Черемшан"/>
+    <tag k="name" v="&#1041;&#1086;&#1083;&#1100;&#1096;&#1086;&#1081; &#1063;&#1077;&#1088;&#1077;&#1084;&#1096;&#1072;&#1085;"/>
     <tag k="waterway" v="river"/>
-    <tag k="wikipedia" v="ru:Большой Черемшан"/>
+    <tag k="wikipedia" v="ru:&#1041;&#1086;&#1083;&#1100;&#1096;&#1086;&#1081; &#1063;&#1077;&#1088;&#1077;&#1084;&#1096;&#1072;&#1085;"/>
   </way>
   <way id="184471293" visible="true" timestamp="2012-11-15T00:53:48Z" version="2" changeset="13878562" user="misha yakin" uid="384109">
     <nd ref="1532720977"/>
@@ -7971,9 +7970,9 @@
     <tag k="admin_level" v="4"/>
     <tag k="border_type" v="region"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Большой Черемшан"/>
+    <tag k="name" v="&#1041;&#1086;&#1083;&#1100;&#1096;&#1086;&#1081; &#1063;&#1077;&#1088;&#1077;&#1084;&#1096;&#1072;&#1085;"/>
     <tag k="waterway" v="river"/>
-    <tag k="wikipedia" v="ru:Большой Черемшан"/>
+    <tag k="wikipedia" v="ru:&#1041;&#1086;&#1083;&#1100;&#1096;&#1086;&#1081; &#1063;&#1077;&#1088;&#1077;&#1084;&#1096;&#1072;&#1085;"/>
   </way>
   <way id="139852295" visible="true" timestamp="2012-11-15T00:53:48Z" version="5" changeset="13878562" user="misha yakin" uid="384109">
     <nd ref="1531508108"/>
@@ -8073,9 +8072,9 @@
     <tag k="admin_level" v="4"/>
     <tag k="border_type" v="region"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Большой Черемшан"/>
+    <tag k="name" v="&#1041;&#1086;&#1083;&#1100;&#1096;&#1086;&#1081; &#1063;&#1077;&#1088;&#1077;&#1084;&#1096;&#1072;&#1085;"/>
     <tag k="waterway" v="river"/>
-    <tag k="wikipedia" v="ru:Большой Черемшан"/>
+    <tag k="wikipedia" v="ru:&#1041;&#1086;&#1083;&#1100;&#1096;&#1086;&#1081; &#1063;&#1077;&#1088;&#1077;&#1084;&#1096;&#1072;&#1085;"/>
   </way>
   <way id="176008641" visible="true" timestamp="2012-08-14T13:09:37Z" version="1" changeset="12726713" user="KOMSOMOLSKIY" uid="720764">
     <nd ref="1865683542"/>
@@ -8140,21 +8139,21 @@
     <nd ref="790665502"/>
     <nd ref="790666909"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
   </way>
   <way id="222971332" visible="true" timestamp="2013-05-25T04:42:01Z" version="1" changeset="16274077" user="Monitor" uid="222237">
     <nd ref="2183122380"/>
     <nd ref="304741661"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
   </way>
   <way id="222971333" visible="true" timestamp="2013-05-25T04:42:01Z" version="1" changeset="16274077" user="Monitor" uid="222237">
     <nd ref="304743075"/>
     <nd ref="2183122379"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
   </way>
   <way id="222971334" visible="true" timestamp="2013-05-25T04:42:01Z" version="1" changeset="16274077" user="Monitor" uid="222237">
@@ -8167,7 +8166,7 @@
     <nd ref="2183122381"/>
     <nd ref="2183122380"/>
     <tag k="gis-lab:status" v="subj"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
   </way>
   <way id="189042915" visible="true" timestamp="2012-11-04T12:07:46Z" version="1" changeset="13745055" user="Felis Pimeja" uid="260756">
@@ -8382,7 +8381,7 @@
     <nd ref="1029597873"/>
     <nd ref="1029597872"/>
     <nd ref="790665217"/>
-    <tag k="name" v="Большой Иргиз"/>
+    <tag k="name" v="&#1041;&#1086;&#1083;&#1100;&#1096;&#1086;&#1081; &#1048;&#1088;&#1075;&#1080;&#1079;"/>
     <tag k="waterway" v="river"/>
   </way>
   <way id="189042916" visible="true" timestamp="2013-01-22T17:16:20Z" version="2" changeset="14747977" user="NickF" uid="467146">
@@ -8480,7 +8479,7 @@
     <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
     <tag k="admin_level" v="4"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source" v="&#1056;&#1086;&#1089;&#1088;&#1077;&#1077;&#1089;&#1090;&#1088;,gis-lab.info"/>
   </way>
   <way id="184471300" visible="true" timestamp="2012-11-15T00:54:11Z" version="2" changeset="13878562" user="misha yakin" uid="384109">
     <nd ref="750825670"/>
@@ -10487,9 +10486,9 @@
     <tag k="admin_level" v="4"/>
     <tag k="border_type" v="region"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Большой Черемшан"/>
+    <tag k="name" v="&#1041;&#1086;&#1083;&#1100;&#1096;&#1086;&#1081; &#1063;&#1077;&#1088;&#1077;&#1084;&#1096;&#1072;&#1085;"/>
     <tag k="waterway" v="river"/>
-    <tag k="wikipedia" v="ru:Большой Черемшан"/>
+    <tag k="wikipedia" v="ru:&#1041;&#1086;&#1083;&#1100;&#1096;&#1086;&#1081; &#1063;&#1077;&#1088;&#1077;&#1084;&#1096;&#1072;&#1085;"/>
   </way>
   <way id="197419039" visible="true" timestamp="2012-12-20T18:38:16Z" version="1" changeset="14346816" user="zetx16" uid="345493">
     <nd ref="720591600"/>
@@ -10572,8 +10571,8 @@
     <member type="relation" ref="285136" role="subarea"/>
     <member type="relation" ref="283541" role="subarea"/>
     <member type="relation" ref="284582" role="subarea"/>
-    <tag k="name" v="Самара"/>
-    <tag k="cladr:name" v="Самара"/>
+    <tag k="name" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1072;"/>
+    <tag k="cladr:name" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1072;"/>
     <tag k="admin_level" v="6"/>
     <tag k="cladr:code" v="6300000100000"/>
     <tag k="boundary" v="administrative"/>
@@ -10583,8 +10582,8 @@
     <tag k="addr:country" v="RU"/>
     <tag k="place" v="city"/>
     <tag k="name:de" v="Samara"/>
-    <tag k="cladr:suffix" v="Городской округ Жигулевск"/>
-    <tag k="addr:region" v="Самарская область"/>
+    <tag k="cladr:suffix" v="&#1043;&#1086;&#1088;&#1086;&#1076;&#1089;&#1082;&#1086;&#1081; &#1086;&#1082;&#1088;&#1091;&#1075; &#1046;&#1080;&#1075;&#1091;&#1083;&#1077;&#1074;&#1089;&#1082;"/>
+    <tag k="addr:region" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1072;&#1103; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1100;"/>
   </relation>
   <relation id="1253410" visible="true" timestamp="2012-02-26T14:28:24Z" version="10" changeset="10798847" user="DeKaN" uid="471972">
     <member type="node" ref="977986544" role="admin_centre"/>
@@ -10596,7 +10595,7 @@
     <member type="way" ref="83805246" role="outer"/>
     <member type="way" ref="129890309" role="outer"/>
     <member type="way" ref="83803308" role="outer"/>
-    <tag k="name" v="Красноармейский район"/>
+    <tag k="name" v="&#1050;&#1088;&#1072;&#1089;&#1085;&#1086;&#1072;&#1088;&#1084;&#1077;&#1081;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -10621,7 +10620,7 @@
     <member type="way" ref="100850918" role="outer"/>
     <member type="way" ref="100850913" role="outer"/>
     <member type="way" ref="129890232" role="outer"/>
-    <tag k="name" v="Большечерниговский район"/>
+    <tag k="name" v="&#1041;&#1086;&#1083;&#1100;&#1096;&#1077;&#1095;&#1077;&#1088;&#1085;&#1080;&#1075;&#1086;&#1074;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -10639,7 +10638,7 @@
     <member type="way" ref="91233305" role="outer"/>
     <member type="way" ref="91233323" role="outer"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Челно-Вершинский район"/>
+    <tag k="name" v="&#1063;&#1077;&#1083;&#1085;&#1086;-&#1042;&#1077;&#1088;&#1096;&#1080;&#1085;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="type" v="boundary"/>
   </relation>
@@ -10653,7 +10652,7 @@
     <member type="way" ref="91233316" role="outer"/>
     <member type="way" ref="91233305" role="outer"/>
     <member type="way" ref="91233304" role="outer"/>
-    <tag k="name" v="Сергиевский район"/>
+    <tag k="name" v="&#1057;&#1077;&#1088;&#1075;&#1080;&#1077;&#1074;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -10691,7 +10690,7 @@
     <member type="way" ref="91986511" role="outer"/>
     <member type="way" ref="91986506" role="outer"/>
     <member type="way" ref="91986502" role="outer"/>
-    <tag k="name" v="Волжский район"/>
+    <tag k="name" v="&#1042;&#1086;&#1083;&#1078;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -10710,7 +10709,7 @@
     <member type="way" ref="41145531" role="outer"/>
     <member type="way" ref="41292385" role="outer"/>
     <member type="way" ref="91423275" role="outer"/>
-    <tag k="name" v="Красноярский район"/>
+    <tag k="name" v="&#1050;&#1088;&#1072;&#1089;&#1085;&#1086;&#1103;&#1088;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -10720,7 +10719,7 @@
     <member type="way" ref="91986507" role="outer"/>
     <member type="way" ref="91986505" role="outer"/>
     <member type="way" ref="91986493" role="outer"/>
-    <tag k="name" v="Городской округ Жигулевск"/>
+    <tag k="name" v="&#1043;&#1086;&#1088;&#1086;&#1076;&#1089;&#1082;&#1086;&#1081; &#1086;&#1082;&#1088;&#1091;&#1075; &#1046;&#1080;&#1075;&#1091;&#1083;&#1077;&#1074;&#1089;&#1082;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -10733,7 +10732,7 @@
     <member type="way" ref="91179748" role="outer"/>
     <member type="way" ref="91179743" role="outer"/>
     <member type="way" ref="73362664" role="outer"/>
-    <tag k="name" v="Клявлинский район"/>
+    <tag k="name" v="&#1050;&#1083;&#1103;&#1074;&#1083;&#1080;&#1085;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -10743,13 +10742,13 @@
     <member type="node" ref="336526531" role="admin_centre"/>
     <member type="way" ref="91987812" role="outer"/>
     <member type="way" ref="91428374" role="outer"/>
-    <tag k="name" v="Октябрьск"/>
+    <tag k="name" v="&#1054;&#1082;&#1090;&#1103;&#1073;&#1088;&#1100;&#1089;&#1082;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
     <tag k="addr:country" v="RU"/>
     <tag k="place" v="town"/>
-    <tag k="addr:region" v="Самарская область"/>
+    <tag k="addr:region" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1072;&#1103; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1100;"/>
   </relation>
   <relation id="1245501" visible="true" timestamp="2012-02-26T14:28:29Z" version="13" changeset="10798847" user="DeKaN" uid="471972">
     <member type="node" ref="336526375" role="admin_centre"/>
@@ -10759,12 +10758,12 @@
     <member type="way" ref="83088193" role="outer"/>
     <member type="way" ref="83365373" role="outer"/>
     <member type="way" ref="83077384" role="outer"/>
-    <tag k="name" v="Приволжский район"/>
+    <tag k="name" v="&#1055;&#1088;&#1080;&#1074;&#1086;&#1083;&#1078;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
     <tag k="addr:country" v="RU"/>
-    <tag k="addr:region" v="Самарская область"/>
+    <tag k="addr:region" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1072;&#1103; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1100;"/>
   </relation>
   <relation id="1345137" visible="true" timestamp="2012-02-26T14:28:12Z" version="6" changeset="10798847" user="DeKaN" uid="471972">
     <member type="node" ref="336526294" role="admin_centre"/>
@@ -10782,13 +10781,13 @@
     <member type="way" ref="91986496" role="outer"/>
     <member type="way" ref="91986504" role="outer"/>
     <member type="way" ref="83365373" role="outer"/>
-    <tag k="name" v="Безенчукский район"/>
+    <tag k="name" v="&#1041;&#1077;&#1079;&#1077;&#1085;&#1095;&#1091;&#1082;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="source:url" v="http://www.adm.samara.ru/documents/zakon/9598/"/>
     <tag k="type" v="boundary"/>
     <tag k="addr:country" v="RU"/>
-    <tag k="source" v="Закон об установлении границ муниципального района Безенчукский Самарской области"/>
+    <tag k="source" v="&#1047;&#1072;&#1082;&#1086;&#1085; &#1086;&#1073; &#1091;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1083;&#1077;&#1085;&#1080;&#1080; &#1075;&#1088;&#1072;&#1085;&#1080;&#1094; &#1084;&#1091;&#1085;&#1080;&#1094;&#1080;&#1087;&#1072;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; &#1088;&#1072;&#1081;&#1086;&#1085;&#1072; &#1041;&#1077;&#1079;&#1077;&#1085;&#1095;&#1091;&#1082;&#1089;&#1082;&#1080;&#1081; &#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1086;&#1081; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1080;"/>
   </relation>
   <relation id="1338384" visible="true" timestamp="2012-02-26T14:28:13Z" version="13" changeset="10798847" user="DeKaN" uid="471972">
     <member type="node" ref="1049115795" role="admin_centre"/>
@@ -10813,7 +10812,7 @@
     <member type="way" ref="128126536" role="outer"/>
     <member type="way" ref="91215982" role="outer"/>
     <member type="way" ref="91215984" role="outer"/>
-    <tag k="name" v="Богатовский район"/>
+    <tag k="name" v="&#1041;&#1086;&#1075;&#1072;&#1090;&#1086;&#1074;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -10827,17 +10826,17 @@
     <member type="way" ref="91986502" role="outer"/>
     <member type="way" ref="91986494" role="outer"/>
     <member type="way" ref="91986512" role="outer"/>
-    <tag k="name" v="Городской округ Новокуйбышевск"/>
+    <tag k="name" v="&#1043;&#1086;&#1088;&#1086;&#1076;&#1089;&#1082;&#1086;&#1081; &#1086;&#1082;&#1088;&#1091;&#1075; &#1053;&#1086;&#1074;&#1086;&#1082;&#1091;&#1081;&#1073;&#1099;&#1096;&#1077;&#1074;&#1089;&#1082;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
     <tag k="addr:country" v="RU"/>
-    <tag k="addr:region" v="Самарская область"/>
+    <tag k="addr:region" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1072;&#1103; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1100;"/>
   </relation>
   <relation id="1345145" visible="true" timestamp="2012-02-26T14:28:19Z" version="3" changeset="10798847" user="DeKaN" uid="471972">
     <member type="node" ref="308897102" role="admin_centre"/>
     <member type="way" ref="91456469" role="outer"/>
-    <tag k="name" v="Городской округ Отрадный"/>
+    <tag k="name" v="&#1043;&#1086;&#1088;&#1086;&#1076;&#1089;&#1082;&#1086;&#1081; &#1086;&#1082;&#1088;&#1091;&#1075; &#1054;&#1090;&#1088;&#1072;&#1076;&#1085;&#1099;&#1081;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -10850,7 +10849,7 @@
     <member type="way" ref="41145529" role="outer"/>
     <member type="way" ref="41145531" role="outer"/>
     <member type="way" ref="91423308" role="outer"/>
-    <tag k="name" v="Елховский район"/>
+    <tag k="name" v="&#1045;&#1083;&#1093;&#1086;&#1074;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -10863,7 +10862,7 @@
     <member type="way" ref="91233327" role="outer"/>
     <member type="way" ref="91216782" role="outer"/>
     <member type="way" ref="91179757" role="outer"/>
-    <tag k="name" v="Исаклинский район"/>
+    <tag k="name" v="&#1048;&#1089;&#1072;&#1082;&#1083;&#1080;&#1085;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -10876,7 +10875,7 @@
     <member type="way" ref="96845743" role="outer"/>
     <member type="way" ref="91179748" role="outer"/>
     <member type="way" ref="91179746" role="outer"/>
-    <tag k="name" v="Камышлинский район"/>
+    <tag k="name" v="&#1050;&#1072;&#1084;&#1099;&#1096;&#1083;&#1080;&#1085;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -10885,7 +10884,7 @@
   <relation id="1345144" visible="true" timestamp="2012-02-26T14:28:21Z" version="4" changeset="10798847" user="DeKaN" uid="471972">
     <member type="node" ref="336526387" role="admin_centre"/>
     <member type="way" ref="91428381" role="outer"/>
-    <tag k="name" v="Кинель"/>
+    <tag k="name" v="&#1050;&#1080;&#1085;&#1077;&#1083;&#1100;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -10905,12 +10904,12 @@
     <member type="way" ref="90776187" role="outer"/>
     <member type="way" ref="90776186" role="outer"/>
     <member type="way" ref="91456469" role="inner"/>
-    <tag k="name" v="Кинель-Черкасский район"/>
+    <tag k="name" v="&#1050;&#1080;&#1085;&#1077;&#1083;&#1100;-&#1063;&#1077;&#1088;&#1082;&#1072;&#1089;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
     <tag k="addr:country" v="RU"/>
-    <tag k="addr:region" v="Самарская область"/>
+    <tag k="addr:region" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1072;&#1103; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1100;"/>
   </relation>
   <relation id="1332843" visible="true" timestamp="2012-02-26T14:28:28Z" version="9" changeset="10798847" user="DeKaN" uid="471972">
     <member type="node" ref="337839448" role="admin_centre"/>
@@ -10921,7 +10920,7 @@
     <member type="way" ref="91216783" role="outer"/>
     <member type="way" ref="41112063" role="outer"/>
     <member type="way" ref="91456465" role="inner"/>
-    <tag k="name" v="Похвистневский район"/>
+    <tag k="name" v="&#1055;&#1086;&#1093;&#1074;&#1080;&#1089;&#1090;&#1085;&#1077;&#1074;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -10939,7 +10938,7 @@
     <member type="way" ref="130785737" role="outer"/>
     <member type="way" ref="91987813" role="inner"/>
     <member type="way" ref="91428374" role="inner"/>
-    <tag k="name" v="Сызранский район"/>
+    <tag k="name" v="&#1057;&#1099;&#1079;&#1088;&#1072;&#1085;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -10966,12 +10965,12 @@
     <member type="way" ref="129018713" role="outer"/>
     <member type="way" ref="83676218" role="outer"/>
     <member type="way" ref="130179001" role="outer"/>
-    <tag k="name" v="Хворостянский район"/>
+    <tag k="name" v="&#1061;&#1074;&#1086;&#1088;&#1086;&#1089;&#1090;&#1103;&#1085;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="source:url" v="http://www.adm.samara.ru/documents/zakon/9517/"/>
     <tag k="type" v="boundary"/>
-    <tag k="source" v="Закон об установлении границ муниципального района Хворостянский Самарской области"/>
+    <tag k="source" v="&#1047;&#1072;&#1082;&#1086;&#1085; &#1086;&#1073; &#1091;&#1089;&#1090;&#1072;&#1085;&#1086;&#1074;&#1083;&#1077;&#1085;&#1080;&#1080; &#1075;&#1088;&#1072;&#1085;&#1080;&#1094; &#1084;&#1091;&#1085;&#1080;&#1094;&#1080;&#1087;&#1072;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; &#1088;&#1072;&#1081;&#1086;&#1085;&#1072; &#1061;&#1074;&#1086;&#1088;&#1086;&#1089;&#1090;&#1103;&#1085;&#1089;&#1082;&#1080;&#1081; &#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1086;&#1081; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1080;"/>
   </relation>
   <relation id="1345136" visible="true" timestamp="2012-02-26T14:28:36Z" version="5" changeset="10798847" user="DeKaN" uid="471972">
     <member type="node" ref="277531139" role="admin_centre"/>
@@ -10979,7 +10978,7 @@
     <member type="way" ref="84527495" role="outer"/>
     <member type="way" ref="91986498" role="outer"/>
     <member type="way" ref="91986512" role="outer"/>
-    <tag k="name" v="Чапаевск"/>
+    <tag k="name" v="&#1063;&#1072;&#1087;&#1072;&#1077;&#1074;&#1089;&#1082;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -11002,7 +11001,7 @@
     <tag k="addr:country" v="RU"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Кошкинский район"/>
+    <tag k="name" v="&#1050;&#1086;&#1096;&#1082;&#1080;&#1085;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="1345142" visible="true" timestamp="2013-02-03T07:55:19Z" version="5" changeset="14892271" user="NetWormKido" uid="518505">
@@ -11010,7 +11009,7 @@
     <member type="way" ref="91456465" role="outer"/>
     <tag k="admin_level" v="8"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Похвистнево"/>
+    <tag k="name" v="&#1055;&#1086;&#1093;&#1074;&#1080;&#1089;&#1090;&#1085;&#1077;&#1074;&#1086;"/>
     <tag k="place" v="town"/>
     <tag k="type" v="boundary"/>
   </relation>
@@ -11041,9 +11040,9 @@
     <member type="way" ref="128126496" role="outer"/>
     <member type="way" ref="128126508" role="outer"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="addr:region" v="Самарская область"/>
+    <tag k="addr:region" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1072;&#1103; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1100;"/>
     <tag k="addr:country" v="RU"/>
-    <tag k="name" v="Борский район"/>
+    <tag k="name" v="&#1041;&#1086;&#1088;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="type" v="boundary"/>
     <tag k="admin_level" v="6"/>
   </relation>
@@ -11083,7 +11082,7 @@
     <tag k="type" v="boundary"/>
     <tag k="boundary" v="administrative"/>
     <tag k="admin_level" v="6"/>
-    <tag k="name" v="Нефтегорский район"/>
+    <tag k="name" v="&#1053;&#1077;&#1092;&#1090;&#1077;&#1075;&#1086;&#1088;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
   </relation>
   <relation id="1338341" visible="true" timestamp="2012-11-04T12:07:49Z" version="8" changeset="13745055" user="Felis Pimeja" uid="260756">
     <member type="node" ref="1029249537" role="admin_centre"/>
@@ -11107,7 +11106,7 @@
     <member type="way" ref="189042916" role="outer"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Пестравский район"/>
+    <tag k="name" v="&#1055;&#1077;&#1089;&#1090;&#1088;&#1072;&#1074;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="1345143" visible="true" timestamp="2012-09-12T09:59:12Z" version="6" changeset="13080428" user="Monitor" uid="222237">
@@ -11117,9 +11116,9 @@
     <tag k="boundary" v="administrative"/>
     <tag k="admin_level" v="6"/>
     <tag k="addr:country" v="RU"/>
-    <tag k="addr:region" v="Самарская область"/>
+    <tag k="addr:region" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1072;&#1103; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1100;"/>
     <tag k="type" v="boundary"/>
-    <tag k="name" v="Сызрань"/>
+    <tag k="name" v="&#1057;&#1099;&#1079;&#1088;&#1072;&#1085;&#1100;"/>
   </relation>
   <relation id="1340154" visible="true" timestamp="2013-04-13T20:25:26Z" version="7" changeset="15717265" user="hkm" uid="93165">
     <member type="node" ref="308259963" role="admin_centre"/>
@@ -11132,7 +11131,7 @@
     <member type="way" ref="91428390" role="outer"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Шигонский район"/>
+    <tag k="name" v="&#1064;&#1080;&#1075;&#1086;&#1085;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="1338383" visible="true" timestamp="2012-10-18T17:48:26Z" version="13" changeset="13547515" user="AMDmi3" uid="133332">
@@ -11157,7 +11156,7 @@
     <tag k="type" v="boundary"/>
     <tag k="boundary" v="administrative"/>
     <tag k="admin_level" v="6"/>
-    <tag k="name" v="Кинельский район"/>
+    <tag k="name" v="&#1050;&#1080;&#1085;&#1077;&#1083;&#1100;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
   </relation>
   <relation id="1244855" visible="true" timestamp="2012-02-26T14:28:10Z" version="16" changeset="10798847" user="DeKaN" uid="471972">
     <member type="node" ref="1028724310" role="admin_centre"/>
@@ -11184,7 +11183,7 @@
     <member type="way" ref="127970501" role="outer"/>
     <member type="way" ref="128133750" role="outer"/>
     <member type="way" ref="126530565" role="outer"/>
-    <tag k="name" v="Алексеевский район"/>
+    <tag k="name" v="&#1040;&#1083;&#1077;&#1082;&#1089;&#1077;&#1077;&#1074;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -11217,7 +11216,7 @@
     <member type="way" ref="129717919" role="outer"/>
     <member type="way" ref="91215986" role="outer"/>
     <member type="way" ref="129890232" role="outer"/>
-    <tag k="name" v="Большеглушицкий район"/>
+    <tag k="name" v="&#1041;&#1086;&#1083;&#1100;&#1096;&#1077;&#1075;&#1083;&#1091;&#1096;&#1080;&#1094;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
     <tag k="type" v="boundary"/>
@@ -11237,7 +11236,7 @@
     <tag k="okato:user" v="36740000"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Тольятти"/>
+    <tag k="name" v="&#1058;&#1086;&#1083;&#1100;&#1103;&#1090;&#1090;&#1080;"/>
     <tag k="place" v="city"/>
     <tag k="type" v="boundary"/>
   </relation>
@@ -11269,7 +11268,7 @@
     <member type="way" ref="91986495" role="inner"/>
     <tag k="admin_level" v="6"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Ставропольский район"/>
+    <tag k="name" v="&#1057;&#1090;&#1072;&#1074;&#1088;&#1086;&#1087;&#1086;&#1083;&#1100;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="type" v="boundary"/>
   </relation>
   <relation id="1338520" visible="true" timestamp="2012-10-06T18:20:35Z" version="6" changeset="13388770" user="zetx16" uid="345493">
@@ -11287,7 +11286,7 @@
     <member type="way" ref="91233316" role="outer"/>
     <member type="way" ref="91233323" role="outer"/>
     <tag k="boundary" v="administrative"/>
-    <tag k="name" v="Шенталинский район"/>
+    <tag k="name" v="&#1064;&#1077;&#1085;&#1090;&#1072;&#1083;&#1080;&#1085;&#1089;&#1082;&#1080;&#1081; &#1088;&#1072;&#1081;&#1086;&#1085;"/>
     <tag k="admin_level" v="6"/>
     <tag k="type" v="boundary"/>
   </relation>
@@ -11420,9 +11419,9 @@
     <tag k="cladr:code" v="6300000000000"/>
     <tag k="int_ref" v="RU-SAM"/>
     <tag k="iso3166-2" v="RU-SAM"/>
-    <tag k="name" v="Самарская область"/>
+    <tag k="name" v="&#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1072;&#1103; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1100;"/>
     <tag k="timezone" v="Europe/Samara"/>
     <tag k="type" v="boundary"/>
-    <tag k="wikipedia" v="ru:Самарская область"/>
+    <tag k="wikipedia" v="ru:&#1057;&#1072;&#1084;&#1072;&#1088;&#1089;&#1082;&#1072;&#1103; &#1086;&#1073;&#1083;&#1072;&#1089;&#1090;&#1100;"/>
   </relation>
 </osm>

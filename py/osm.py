@@ -8,7 +8,7 @@ def api(type,id):
         X=lxml.etree.parse(F)
     except:
         X=lxml.etree.parse('%s/%s/%s/full'%(cfg.api,type,id))
-        T=open(F,'w') ; T.write(lxml.etree.tostring(X)) ; T.close()
+        T=open(F,'w') ; T.write(lxml.etree.tostring(X,xml_declaration=True,encoding='utf8')) ; T.close()
     return X 
 
 class relation:

@@ -7,16 +7,14 @@ yy,mm,dd,hh=time.localtime()[:4]
 NOW='%.2i%.2i%.2i%.2i'%(yy%100,mm,dd,hh)
 
 class IMGID:
-    def __init__(self,\
-                 ID=NOW,Name='Samara Globe (c) osm.org',LocalName='глобус Самары (c) osm.org',\
-                 Version=0,SubVersion=1,Copyright='(gpl) dponyatov@gmail.com (c) osm.org'):
-        self.ID=ID
-        self.Name=Name
-        self.LocalName=LocalName
-        self.Version=Version
-        self.VersionSub=SubVersion
-        self.Copyright=Copyright
+    Id=NOW
+    Name=''
+    Version=''
+    Copyright=''
+    def __init__(self):
+        pass
     def __str__(self):
+        VV,VS=self.Version.split('.')[:2]
         return '''
 [IMG ID]
 LblCoding=9
@@ -32,17 +30,36 @@ Elevation=m
 Levels=1
 Level0=26
 [END]
-'''%(self.ID,self.Name,self.LocalName,self.Version,self.VersionSub,self.Copyright)
+'''%(self.Id,self.Name,self.Name,VV,VS,self.Copyright)
 
 class POI:
-    def __init__(self,type,point,label=''):
+    def __init__(self,type,lat,lon,label=''):
         self.type=type
-        self.lat=point[0]
-        self.lon=point[1]
+        self.lat=lat
+        self.lon=lon
         self.label=label
     def __str__(self):
-        return '[POI]\nData0=(%s,%s)\nType=0x%.4X\nLabel=%s\n[END]\n'%(self.lat,self.lon,self.type,self.label)
-    
+        return '''
+[POI]
+Data0=(%s,%s)
+Type=0x%.4X
+Label=%s
+[END]
+'''%(self.lat,self.lon,self.type,self.label)
+
+class MP:
+    def __init__(self,FN):
+        self.FileName=FN
+        self.IMGID=IMGID()
+        self.POI=[POI(0x0100,0,0,'Main City')]
+    def dump(self):
+        F=open(self.FileName,'w') ; F.write(str(self)); F.close()
+    def __str__(self):
+        S=str(self.IMGID)
+        for i in self.POI:
+            S+=str(i)
+        return S
+
 class POLY:
     def __init__(self,type,points,label=[]):
         self.points=points
@@ -61,5 +78,4 @@ class POLY:
 
 Map_Coverage_Area = POLY(0x004b,[(-1,-1),(+1,-1),(+1,+1),(-1,+1)],'Map Coverage')
 
-Main_City = POI(0x0100,(0,0),'Main City')
 

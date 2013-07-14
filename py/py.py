@@ -60,13 +60,13 @@ MP.IMGID.Copyright=OSM.attrib['copyright']
 #     print lxml.etree.tostring(i)
 
 R=SAMARA_OBL.xpath('/osm/relation/member[@type="node"][@role="label"]')[0].attrib['ref']
-C=SAMARA_OBL_CENTER=osm.node(R) ; C.dump()
+C=SAMARA_OBL_CENTER=osm.node(R)
 print C.id,C.lat,C.lon,C.name
 MP.IMGID.PointView='%s %s'%(C.lat,C.lon)
-MP.add(cgmp.POI(C.id,C.lat,C.lon,C.name))
+MP.add(cgmp.AdminCenter(C.id,C.lat,C.lon,C.name))
 
 X=open('../tmp/xml.xml','w')
-# for i in SAMARA_OBL.xpath('/osm/relation/member[@role="label"]'):
+# # for i in SAMARA_OBL.xpath('/osm/relation/member[@role="label"]'):
 for i in SAMARA_OBL_CENTER.xpath('*'):
     print >>X,lxml.etree.tostring(i)
 X.close()

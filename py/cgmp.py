@@ -49,14 +49,16 @@ class mpobj:
         self.name=name
  
 class POI(mpobj):
+    type=0x0000
     def __str__(self):
         return '''
 ; %s %s
 [POI]
 Data0=(%s,%s)
 Label=%s
+Type=0x%.4X
 [END]
-'''%(self.__class__,self.id,self.lat,self.lon,self.name)
+'''%(self.__class__,self.id,self.lat,self.lon,self.name,self.type)
 #     def __init__(self,id,type,lat,lon,label=''):
 #         self.id=id
 #         self.type=type
@@ -87,6 +89,9 @@ Label=%s
 # Label=%s
 # [END]
 # '''%(self.id,nosp(str(self.coords)[1:-1]),self.type,self.label)
+
+class AdminCenter(POI):
+    type=0x1500
  
 class MP:
 # #     lats=[]

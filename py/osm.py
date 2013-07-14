@@ -1,15 +1,18 @@
 import os,sys
 import cfg
 import lxml.etree
+from idlelib.IOBinding import encoding
 
 def api(type,id):
     F='../tmp/%s.%s.osm'%(type,id) # cache file
-    mode =''#'/full'
     try:
         X=lxml.etree.parse(F)
     except:
-        X=lxml.etree.parse('%s/%s/%s%s'%(cfg.api,type,id,mode))
-        T=open(F,'w') ; T.write(lxml.etree.tostring(X,xml_declaration=True,encoding='utf8')) ; T.close()
+        try:
+            X=lxml.etree.parse('%s/%s/%s/full'%(cfg.api,type,id))
+        except:
+            X=lxml.etree.parse('%s/%s/%s'%(cfg.api,type,id))
+        T=open(F,'w') ; T.write(lxml.etree.tostring(X,xml_declaration=False,encoding='utf8')) ; T.close()
     return X
 
 class osm:
@@ -29,8 +32,6 @@ class osm:
         return self.xml.xpath(xp)
     def __str__(self):
         return '%s: id=%s xml:%s'%(self.__class__,self.id,self.xml)
-    def dump(self):
-        F=open(self.FileName+'.dump','w') ; F.write(lxml.etree.tostring(self.xml)) ; F.close()
 
 class relation(osm):
     pass

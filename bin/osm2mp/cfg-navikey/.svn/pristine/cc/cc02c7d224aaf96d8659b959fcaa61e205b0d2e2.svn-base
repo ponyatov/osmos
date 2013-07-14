@@ -1,0 +1,22 @@
+################################
+##  Addressible places
+################################
+
+
+--- address
+---
+
+
+- condition:
+    - place = city|town|village|hamlet|allotments|isolated_dwelling
+  action:
+    - action:       load_city
+      name:         %place
+    
+- condition:
+    - landuse = *
+  action:
+    - action:       load_access_area
+    
+    
+

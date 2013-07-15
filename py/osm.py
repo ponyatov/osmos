@@ -19,7 +19,9 @@ def api(type,id):
             X=lxml.etree.parse('%s/%s/%s/full'%(cfg.api,type,id))
         except:
             X=lxml.etree.parse('%s/%s/%s'%(cfg.api,type,id))
-        T=open(F,'w') ; T.write(lxml.etree.tostring(X,xml_declaration=False,encoding='utf8')) ; T.close()
+        T=open(F,'w')
+        T.write(lxml.etree.tostring(X,xml_declaration=False,encoding='utf8'))
+        T.close()
     return X
 
 class osm:

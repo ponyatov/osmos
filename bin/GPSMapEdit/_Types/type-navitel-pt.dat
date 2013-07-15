@@ -1,0 +1,197 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+;
+
+.TYPESET Navitel
+
+; The Language ID for Portuguese (Portugal) defined by Microsoft
+;
+.LANGID 0x816
+
+;========================================================================================
+
+.POINT
+
+0xf001	Estação de autocarros
+0xf002	Paragem de autocarros
+0xf003	Paragem de eléctrico
+0xf004	Paragem de trólebus
+0xf005	Estação de Metro
+0xf006	Estação de comboios
+0xf007	Terminal de comboios
+0xf008	Estação de monorail
+0xf009	Paragem de funicular/teleférico
+0xf00a	Porto
+0xf00b	Desembarcadouro
+0xf00c	Terminal do ferry
+
+0xf101	Igreja ortodoxa
+0xf102	Igreja católica
+0xf103	Igreja protestante
+0xf104	Mesquita
+0xf105	Sinagoga
+0xf106	Pagode
+
+0xf201	Semáforo (trânsito)
+0xf202	Polícia de trânsito
+0xf203	Travessia ferroviária (com barreira)
+0xf204	Estrada acidentada
+0xf205	Radares/Velocidade câmera
+0xf206	Limite de altura
+0xf207	O tráfego de trânsito é proibido
+0xf208	Gás combustível para o automóvel
+0xf209	Montagem de rodas
+0xf20a	Ajuste de rodas
+0xf20b	Travessia ferroviária (sem barreira)
+0xf20c	Desvio de trânsito
+
+0xf301	Monumento
+0xf302	Fonte
+0xf303	Depósito d'água (torre)
+0xf304	Torre TV/rádio
+0xf305	Ponto geodésico
+0xf306	Passagem de montanha
+0xf307	Vau
+0xf308	Cova
+0xf309	Pequena colina
+0xf30a	Pedras
+0xf30b	Turfa pedreira
+0xf30c	Ponte pedonal
+0xf30d	Entrada de caverna
+
+0xf401	Floresta decidual
+0xf402	Floresta conífera
+0xf403	Floresta mista
+0xf404	Árvore isolada
+0xf405	Arbusto isolado
+0xf406	Bosque
+
+0xf501	Creche
+0xf502	Escola secundária
+0xf503	Escola vocacional
+0xf504	Universidade/Colégio
+0xf505	Escola especializada
+
+0xf601	Multibanco
+0xf602	Cabeleireiro
+0xf603	Sauna
+0xf604	Lavandaria
+0xf605	Estúdio do fotógrafo
+0xf606	Alfaiataria atelier
+0xf607	Reparação de electrodomésticos
+0xf608	Reparação de computadores
+0xf609	Conserto de roupas
+0xf60a	Conserto de calçados
+0xf60b	Reparação de mobiliário
+0xf60c	Advogado do escritório
+0xf60d	Notário
+0xf60e	Seguro
+;0xf60f	
+0xf610	Serviço de Informação
+0xf611	Escritório do editor
+0xf612	Tipografia
+0xf613	Agencia de viagens
+0xf614	Reservas de escritório para vias aéreas/ferrovia
+0xf615	Livre de hotspots Wi-Fi
+;0xf616	
+
+0xf701	Mercado
+0xf702	Sapataria
+;0xf703	
+0xf704	Produtos químicos domésticos
+0xf705	Aparelhos eléctricos
+0xf706	Os dispositivos móveis
+0xf707	Artigos de desporto/Bens de turismo
+0xf708	Loja de arma
+0xf709	Loja de recordações
+0xf70a	Loja de flores
+0xf70b	Loja joalheiro
+;0xf70c	
+
+0xf801	Clínica dentária
+0xf802	Clínica veterinária
+
+0xf901	Circo
+
+;========================================================================================
+
+.POLYLINE
+
+0x3d	Dirigido texto, pequeno
+0x3e	Dirigido texto
+
+0x3f	Linha de eléctrico
+0x40	Pista de monorail
+0x41	Linha de funicular/teleférico
+
+0x42	Estrada de terra ou cascalho
+0x43	Túnel
+0x44	Rio largo
+
+0x45	Fronteira do bairro da cidade
+0x46	Sebe
+
+0x47	Rota planeada
+0x48	Florestal glade corta-fogo
+0x49	Faixa de trânsito
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Estrada secundária
+0x69	Estrada principal
+0x6a	Praça
+0x6b	Estrada
+
+; Buildings
+0x6c	Edifício residencial
+0x6d	Edifício de escritórios
+0x6e	Construção comum
+0x6f	Edifício industrial
+
+0x70	Área preto
+0x71	Área vermelho escuro
+0x72	Área verde escuro
+0x73	Área escura amarelo
+0x74	Área azul escuro 
+0x75	Área magenta escuro
+0x76	Área ciano escuro
+0x77	Área cinza claro
+0x78	Área cinza escuro
+0x79	Área vermelha
+0x7a	Área verde
+0x7b	Área amarela
+0x7c	Área azul
+0x7d	Área magenta
+0x7e	Área ciano
+0x7f	Área branco
+0x80	Área de texto
+
+0x81	Floresta pantanosa
+0x82	Floresta subdimensionadas
+0x83	Floresta esparsa
+0x84	Floresta queimada/morta
+0x85	Floresta de tocos
+0x86	Vinha
+0x87	Campo de arroz
+0x88	Prado
+0x89	Areia
+0x8a	Terreno pedregoso
+0x8b	Saline terra/Salgado
+0x8c	Cana
+0x8d	Algas
+0x8e	Arbustos espinhosos
+0x8f	Árvores derrubadas pelo vento
+0x90	Floresta elfin/pigmeu
+0x91	Saxaul
+0x92	Bambú
+0x93	Floresta de palmeiras
+0x94	Mangais
+0x95	Erva alta
+0x96	Musgo
+0x97	Liquenes
+0x98	Gramado

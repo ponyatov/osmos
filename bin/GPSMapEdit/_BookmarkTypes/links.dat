@@ -1,0 +1,17 @@
+﻿.bookmark_types 002
+
+.type link          @r8320
+
+.attributes
+comment multistring @r8361
+image   image       @r8370
+sound   sound       @r8371
+fileref fileref     @r8372
+url     url         @r8373
+
+.subtypes
+photo               @r8321 links\photo.ico   {image   @comment}
+image               @r8322 links\image.ico   {image   @comment}
+sound               @r8323 links\wav.ico     {sound   @comment}
+file                @r8324 links\fileref.ico {fileref @comment}
+url                 @r8325 links\url.ico     {url     @comment}

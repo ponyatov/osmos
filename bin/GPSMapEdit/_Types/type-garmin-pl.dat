@@ -1,0 +1,438 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+; (c) Translated to Polish by Alf/red/, 2011-2013
+;
+
+.TYPESET Garmin
+
+; The Language ID for Polish defined by Microsoft
+;
+.LANGID 0x415
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN	Brak danych
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	Niemożliwie duże miasto, ponad 10 mln
+0x0200	Olbrzymie miasto, 5-10 mln
+0x0300	Wielkie miasto, 2-5 mln
+0x0400	Bardzo duże miasto, 1-2 mln
+0x0500	Duże miasto, 0.5-1 mln
+0x0600	Większe miasto, 200-500 tys.
+0x0700	Większe miasto, 100-200 tys.
+0x0800	Średnie miasto, 50-100 tys.
+0x0900	Średnie miasto, 20-50 tys.
+0x0a00	Małe miasto, 10-20 tys.
+0x0b00	Mała miejscowość, 5-10 tys.
+0x0c00	Większa wieś, 2-5 tys.
+0x0d00	Mniejsza wieś, 1-2 tys.
+0x0e00	Przysiółek, 500-1 tys.
+0x0f00	Osada, 200-500
+0x1000	Osada, 100-200
+0x1100	Osada, <100
+
+; Labels without icons
+0x1400	Nazwa kraju, duża
+0x1500	Nazwa kraju, mała
+0x1e00	Nazwa prowincji/regionu
+0x1f00	Nazwa powiatu/parafii
+0x2800	Wytwórnia
+
+; Marine features
+0x1200	Port z usługami
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Obiekt nawigacyjny
+0x1601	Sygnał mgłowy
+0x1602	Radiolatarnia
+0x1603	Racon/Odzewowa stawa radarowa
+0x1604	Znak dzienny, czerwony trójkąt
+0x1605	Znak dzienny, zielony kwadrat
+0x1606	Znak dzienny, biały romb
+0x1607	Nieoświetlony obiekt nawigacyjny, biały
+0x1608	Nieoświetlony obiekt nawigacyjny, czerwony
+0x1609	Nieoświetlony obiekt nawigacyjny, zielony
+0x160a	Nieoświetlony obiekt nawigacyjny, czarny
+0x160b	Nieoświetlony obiekt nawigacyjny, bursztynowy
+0x160c	Nieoświetlony obiekt nawigacyjny, pomarańczowy
+0x160d	Nieoświetlony obiekt nawigacyjny, wielu kolorowych
+0x160e	Światło nawigacyjne, niekreślone
+0x160f	Światło nawigacyjne, białe
+0x1610	Światło nawigacyjne, czerwone
+0x1611	Światło nawigacyjne, zielone
+0x1612	Światło nawigacyjne, bursztynowe
+0x1613	Światło nawigacyjne, pomarańczowy
+0x1614	Światło nawigacyjne, fioletowy
+0x1615	Światło nawigacyjne, niebieski
+0x1616	Światło nawigacyjne, wielobarwne
+
+0x1c00	Nieokreślona przeszkoda
+0x1c01	Wrak widoczny
+0x1c02	Wrak zanurzony, niebezpieczny dla żeglugi
+0x1c03	Wrak zanurzony, bezpieczny dla żeglugi
+0x1c04	Wrak, głębokość sprawdzona trałowaniem
+0x1c05	Przeszkoda widoczna
+0x1c06	Przeszkoda okresowo widoczna
+0x1c07	Przeszkoda podwodna
+0x1c08	Przeszkoda, głębokość sprawdzona trałowaniem
+0x1c09	Skała okresowo widoczna
+0x1c0a	Skała podwodna
+0x1c0b	Niebezpieczna głębokość
+
+; Tide table prediction used in marine maps
+0x1d00	Punkt prognozowania pływów
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	Zjazd
+0x2100	Zjazd z usługami
+0x210f	Zjazd (usługi)
+0x2200	Zjazd (ubikacja)
+0x2300	Zjazd (sklep z artykułami szybko zbywalnymi)
+0x2400	Zjazd (wagi)
+0x2500	Zjazd (punkt opłat za autostradę)
+0x2600	Zjazd (informacje)
+0x2700	Zjazd
+
+0x2900	Inne (Bez kategorii biznes)
+
+0x2a00	Gastronomia
+0x2a01	Restauracja (kuchnia amerykańska)
+0x2a02	Restauracja (kuchnia azjatycka)
+0x2a03	Restauracja (barbecue)
+0x2a04	Restauracja (kuchnia chińska)
+0x2a05	Bar/piekarnia
+0x2a06	Restauracja (kuchnia międzynarodowa)
+0x2a07	Bar szybkiej obsługi
+0x2a08	Restauracja (kuchnia włoska)
+0x2a09	Restauracja (kuchnia meksykańska)
+0x2a0a	Pizzeria
+0x2a0b	Restauracja (owoce morza)
+0x2a0c	Restauracja (potrawy z rożna)
+0x2a0d	Cukiernia
+0x2a0e	Kawiarnia
+0x2a0f	Restauracja (kuchnia francuska)
+0x2a10	Restauracja (kuchnia niemiecka)
+0x2a11	Restauracja (kuchnia brytyjska)
+0x2a12	Inne restauracje
+
+0x2b00	Nocleg
+0x2b01	Hotel/motel
+0x2b02	Kwatera
+0x2b03	Kemping/Parking kempingowozów
+0x2b04	Ośrodek wypoczynkowy
+
+0x2c00	Atrakcje
+0x2c01	Park rozrywki/tematyczny
+0x2c02	Muzeum
+0x2c03	Biblioteka
+0x2c04	Punkt orientacyjny
+0x2c05	Szkoła
+0x2c06	Park/ogród
+0x2c07	Zoo
+0x2c08	Stadion
+0x2c09	Sala koncertowa/aula
+0x2c0a	Winiarnia
+0x2c0b	Miejsce kultu
+
+0x2d00	Rozrywka
+0x2d01	Teatr
+0x2d02	Bar/klub nocny
+0x2d03	Kino
+0x2d04	Kasyno
+0x2d05	Pole golfowe
+0x2d06	Ośrodek narciarski
+0x2d07	Kręgielnia
+0x2d08	Lodowisko
+0x2d09	Basen/nurki
+0x2d0a	Centrum sportowe/fitness
+0x2d0b	Cywilne lotnisko sportowe
+
+0x2e00	Zakupy
+0x2e01	Dom towarowy/hala
+0x2e02	Sklep spożywczy/bazar
+0x2e03	Sklep wielobranżowy/supermarket
+0x2e04	Centrum handlowe
+0x2e05	Apteka
+0x2e06	Sklep ogólnospożywczy/24h
+0x2e07	Odzież
+0x2e08	Dom i ogród/budowlany
+0x2e09	Meble
+0x2e0a	Sklep specjalistyczny/sportowy
+0x2e0b	Sprzęt komputerowy/oprogramowanie
+
+0x2f00	Usugi
+0x2f01	Benzyna
+0x2f02	Wypożyczalnia samochodów
+0x2f03	Warsztat samochodowy
+0x2f04	Lotnisko
+0x2f05	Poczta
+0x2f06	Bank/bankomat
+0x2f07	Dealer/części samochodowe
+0x2f08	Przystanek
+0x2f09	Przystań/naprawy i przechowywanie
+0x2f0a	Pomoc drogowa dla ciężarówek
+0x2f0b	Parking
+0x2f0c	Parking przy autostradzie/informacja turystyczna
+0x2f0d	Towarzystwo samochodowe(?)
+0x2f0e	Myjnia samochodowa
+0x2f0f	Dealer GARMIN
+0x2f10	Usługi drobne
+0x2f11	Usługi biznesowe/fabryka
+0x2f12	Telefon/wifi
+0x2f13	Naprawa
+0x2f14	Opieka społeczna
+0x2f15	Usługi publiczne/budynek
+0x2f16	Parking dla ciężarówek
+0x2f17	Usługi przewozowe
+
+0x3000	Ratunkowe/rządowe
+0x3001	Policja
+0x3002	Szpital
+0x3003	Ratusz
+0x3004	Sąd
+0x3005	Dom kultury
+0x3006	Przejście graniczne
+0x3007	Urząd państwowy
+0x3008	Straż pożarna
+
+0x4000	Pole golfowe
+0x4100	Łowisko
+0x4200	Wrak
+0x4300	Przystań
+0x4400	Stacja benzynowa
+0x4500	Restauracja
+0x4600	Bar
+0x4700	Pomost dla łodzi
+0x4800	Obozowisko
+0x4900	Park
+0x4a00	Piknik
+0x4b00	Punkt medyczny
+0x4c00	Informacja
+0x4d00	Parking
+0x4e00	Toaleta
+0x4f00	Natrysk
+0x5000	Woda pitna
+0x5100	Telefon
+0x5200	Punkt widokowy
+0x5300	Trasy narciarskie
+0x5400	Kąpielisko
+0x5500	Tama
+
+; Aviation
+0x5600	Strefa kontrolowana
+0x5700	Niebezpieczny obszar
+0x5800	Obszar zamknięty
+0x5900	Lotnisko
+0x5901	Lotnisko (duże)
+0x5902	Lotnisko (średnie)
+0x5903	Lotnisko (małe)
+0x5904	Lądowisko helikopterów
+0x5905	Lotnisko
+
+0x5a00	Znacznik odległości
+0x5b00	Dzwon
+0x5c00	Nurkowisko
+0x5d00	Daymark(?), zielony kwadrat
+0x5e00	Daymark(?), czerwony trójkąt
+0x6000	Róg
+0x6100	Dom
+
+0x6200	Ustalona głębokość
+0x6300	Ustalona wysokość
+
+; Man-made features
+0x6400	Obiekt sztuczny/pomnik
+0x6401	Most
+0x6402	Budowla/dom
+0x6403	Cmentarz
+0x6404	Kościół/meczet/etc
+0x6405	Budynek
+0x6406	Skrzyżowanie
+0x6407	Tama
+0x6408	Szpital
+0x6409	Wał przeciwpowodziowy
+;0x640a	
+0x640b	Wojsko
+0x640c	Kopalnia
+0x640d	Pole naftowe/platforma
+0x640e	Park
+0x640f	Urząd pocztowy
+0x6410	Szkoła
+0x6411	Wieża
+0x6412	Szlak
+0x6413	Tunel
+0x6414	Studnia/oligocen
+0x6415	Ruiny
+;0x6416	
+
+; Water features
+0x6500	Obiekt wodny
+;0x6501	
+;0x6502	
+0x6503	Zatoka
+;0x6504	
+;0x6505	
+;0x6506	
+;0x6507	
+;0x6508	
+0x6509	Gejzer
+0x650a	Lodowiec
+;0x650b	
+0x650c	Wyspa
+0x650d	Jezioro
+;0x650e	
+0x650f	Zbiornik/WC
+0x6510	Morze
+;0x6511	
+0x6512	Strumień
+0x6513	Mokradła
+
+; Land features
+0x6600	Obiekt lądowy
+0x6601	Łuk
+;0x6602	
+;0x6603	
+0x6604	Plaża
+;0x6605
+0x6606	Przylądek
+0x6607	Urwisko
+0x6608	Krater
+0x6609	Płaskowyż
+0x660a	Las
+0x660b	Szczelina
+0x660c	Jelito
+0x660d	Przesmyk
+0x660e	Lawa
+0x660f	Kolumna/wiatrak
+0x6610	Równina
+0x6611	Łańcuch górski
+;0x6612	
+0x6613	Grzbiet
+0x6614	Skała
+0x6615	Zbocze
+0x6616	Szczyt
+0x6617	Dolina
+0x6618	Lasy
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Droga
+
+; Three levels of highways
+0x01	Autostrada
+0x02	Droga szybkiego ruchu
+0x03	Droga ekspresowa
+
+; Most important kind of street
+0x04	Droga główna
+; Medium important kind of street
+0x05	Droga zbiorcza
+; Ordinary street (80%)
+0x06	Droga lokalna
+; Smallest kind of street
+0x07	Boczna uliczka/alejka
+
+0x08	Rampa (wolna)
+0x09	Rampa (szybka)
+0x0a	Droga gruntowa
+0x0b	Łącznik
+0x0c	Rondo
+0x16	Szlak/chodnik
+0x14	Tory kolejowe
+0x1a	Prom
+0x1b	Prom
+
+0x19	Strefa czasowa
+0x1e	Granica międzynarodowa
+0x1c	Granica województwa
+0x1d	Granica gminy/powiatu
+
+0x15	Linia brzegowa
+0x18	Strumień
+0x1f	Rzeka
+0x26	Strumień okresowy
+
+0x20	Linia konturu (1/10)
+0x21	Linia konturu (1/2)
+0x22	Linia konturu (1/1)
+0x23	Obrys głębokości (1/10)
+0x24	Obrys głębokości (1/2)
+0x25	Obrys głębokości (1/1)
+
+0x27	Lotnisko
+0x28	Rurociąg
+0x29	Linia wysokiego napięcia
+
+0x2a	Granica morska
+0x2b	Niebezpieczeństwo morskie
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Miasto duże (>200K)
+0x02	Miasto mniejsze (<200K)
+0x03	Wieś
+
+0x04	Baza wojskowa
+0x05	Parking
+0x06	Parking wielopoziomowy
+0x07	Lotnisko/hangar
+0x08	Sklep
+0x09	Przystań
+0x0a	Szkoła
+0x0b	Szpital
+0x0c	Kompleks przemysłowy
+0x0d	Wykopaliska
+0x0e	Pas startowy
+0x13	Budynek
+0x18	Pole golfowe
+0x19	Kompleks sportowy
+0x1a	Cmentarz
+
+0x14	Park narodowy
+0x15	Park narodowy
+0x16	Park narodowy
+0x17	Park miejski
+0x1e	Park stanowy
+0x1f	Park stanowy
+0x20	Park stanowy
+
+0x28	Ocean
+0x32	Morze
+0x3c	Jezioro, 250-600 km²
+0x3d	Jezioro, 77-250 km²
+0x3e	Jezioro średnie, 25-77 km²
+0x3f	Jezioro średnie, 11-25 km²
+0x40	Jezioro małe, 0.25-11 km²
+0x41	Jezioro małe, <0.25 km²
+0x42	Jezioro duże, >3300 km²
+0x43	Jezioro duże, 1100-3300 km²
+0x44	Jezioro, 600-1100 km²
+0x46	Rozlewisko rzeki, >1 km
+0x47	Wielka rzeka, 200 m-1 km
+0x48	Spora rzeka, 40-200 m
+0x49	Rzeka, <40 m
+0x4c	Zbiornik okresowy
+
+0x4a	Obszar wyboru map
+0x4b	Pokrycie mapy
+
+0x4d	Lodowiec
+0x4e	Sad/ogródki
+0x4f	Zarośla/nieużytki
+0x50	Lasy
+0x51	Mokradła
+0x52	Tundra
+0x53	Piasek/pływy/mieszkanie błoto

@@ -1,0 +1,41 @@
+.web_map_cache 1
+
+.name          @r8853
+.class         SASPlanet
+
+; Automatic unit-test for BuildFileName() and ParseFileName() for consistency:
+;              <x>    <y>    <level> <strFileName>
+.test          634811 327655 20      "z21\619\x634811\319\y327655"
+
+.script        JScript
+
+// Specifications: 
+// http://sasgis.ru/forum/viewtopic.php?f=2&t=23&start=0#p470
+// http://sasgis.ru/forum/viewtopic.php?f=2&t=140
+
+function BuildFileName (_x, _y, _level) {
+	return "z" + (_level + 1) + "\\" + (_x >> 10) + "\\x" + _x + "\\" + (_y >> 10) + "\\y" + _y;
+}
+
+function ParseFileName (_strFileName) {
+	// Find the beginning of file name.
+	var nPosZ;
+	for (nPosZ = _strFileName.length - 1; nPosZ >= 0; -- nPosZ) {
+		if (_strFileName.charAt (nPosZ) == "z")
+			break;
+	}
+	if (nPosZ < 0)
+		return false;
+
+	var nPosX = _strFileName.indexOf ("x", nPosZ + 1); if (nPosX == -1) return false;
+	var nPosY = _strFileName.indexOf ("y", nPosX + 1); if (nPosY == -1) return false;
+
+	var ret = {};
+
+	ret.x     = parseInt (_strFileName.substr (nPosX + 1)); if (isNaN (ret.x))     return false;
+	ret.y     = parseInt (_strFileName.substr (nPosY + 1));	if (isNaN (ret.y))     return false;
+	ret.level = parseInt (_strFileName.substr (nPosZ + 1));	if (isNaN (ret.level)) return false;
+	-- ret.level;
+
+	return ret;
+}

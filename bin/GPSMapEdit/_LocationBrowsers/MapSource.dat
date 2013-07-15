@@ -1,0 +1,40 @@
+.location_browser 1
+
+.name   @r8807
+.class  garmin-mapsource
+
+.script JScript
+////////////////////////////////////////////
+
+var g_hWndMapSource = 0;
+
+function Browse (_x, _y, _scale) {
+	if (g_hWndMapSource != 0 && ! LocationBrowser.IsWindow (g_hWndMapSource))
+		g_hWndMapSource = 0;
+
+	if (g_hWndMapSource == 0) {
+		var WshShell = new ActiveXObject ("WScript.Shell");
+
+		try {
+			var strInstallDir = WshShell.RegRead ("HKLM\\SOFTWARE\\Garmin\\MapSource\\Products\\InstallDir");
+		} catch (e) {
+			LocationBrowser.ReportAppNotInstalled ("MapSource");
+			return;
+		}
+
+		g_hWndMapSource = LocationBrowser.RunApplication ("\"" + strInstallDir + "MapSource.exe\"", "{7A96B96B-E756-4e42-8274-54CBF24F7944}");
+		if (g_hWndMapSource == 0) {
+			LocationBrowser.MsgBox ("Failed to start or to find the main window of MapSource.");
+			return;
+		}
+	}
+
+	LocationBrowser.ActivateWindow (g_hWndMapSource);
+
+	LocationBrowser.PostCommand (g_hWndMapSource, 8706);
+
+	LocationBrowser.Sleep (100);
+
+	WshShell.SendKeys ((_y > 0 ? "N" : "S") + _y.toFixed (5) + " " + (_x > 0 ? "E" : "W") + _x.toFixed (5));
+	WshShell.SendKeys ("{ENTER}");
+}

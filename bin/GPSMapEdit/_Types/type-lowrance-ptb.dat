@@ -1,0 +1,195 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Lowrance type set.
+; Este arquivo é usado pelo GPSMapEdit para fornecer nomes localizados para o conjunto de tipos Lowrance.
+; (c) Translated to Portuguese (Brazil) by Camilo Barreto and Jânio Barbosa.
+;
+
+.TYPESET Lowrance
+
+; The Language ID for Portuguese (Brazil) defined by Microsoft
+; O Identificador de idioma (Language ID) para Português (BR) definido pela Microsoft
+;
+.LANGID 0x416
+
+;========================================================================================
+
+; Placeholder for unknown type
+; Espaço Reservado para tipo desconhecido
+;
+.UNKNOWN  Tipo desconhecido
+
+;========================================================================================
+
+.POINT
+
+0x0100	Cidade Grande
+0x0200	Cidade Grande
+0x0300	Cidade Média
+0x0400	Cidade Média
+0x0500	Cidade Pequena
+0x0600	Cidade Pequena
+
+0x1000	Rótulo de Água
+0x1010	Rótulo de Riacho
+
+0x1601	Ajuda de Navegação
+0x1603	Ajuda de Navegação, branco
+0x1605	Ajuda de Navegação, verde
+0x1607	Ajuda de Navegação, vermelho
+
+0x1609	Radiofarol
+
+0x160b	Balisa de Dia, triângulo vermelho
+0x160d	Balisa de Dia, quadrado verde
+0x160f	Balisa de Dia, quadrado branco
+
+0x1611	Ajuda de navegação não iluminada, verde
+0x1613	Ajuda de navegação não iluminada, branco
+0x1615	Ajuda de navegação não iluminada, vermelho
+
+0x1617	Nota carta náutica
+
+0x1621	Obstrução
+0x1623	Rocha, submersa em águas rasas
+0x1625	Obstrução, visível em águas profundas
+0x1627	Destroços submersos, perigosos
+0x1629	Destroços
+0x162b	Destroços submersos, não-perigosos
+
+0x2401	Correio
+0x2501	Igreja
+0x2601	Loja de Conveniência
+0x2701	Criatório de Peixes
+0x2801	Oficina de Veículos
+0x2901	Restaurante
+0x2a01	Mercearia
+0x2b01	Polícia
+0x2c01	Serviços Financeiros
+0x2d01	Lavagem de Veículos
+0x2e01	Armazém
+0x2f01	Loja de Departmentos
+0x3001	Farmácia
+0x3101	Pizzaria
+0x3201	Universidade
+0x3301	Linha de ônibus
+0x3401	Aeroporto
+0x3501	Autopeças
+0x3601	Posto de Combustível
+0x3701	Serviços Médicos
+0x3801	Hospital
+0x3901	Boate
+0x3a01	Diversão
+0x3b01	Cinema
+0x3c01	Lanches Rápidos
+0x3d01	Comida Asiática
+0x3e01	Sanduiches
+0x3f01	Grelhados
+0x4001	Boliche
+0x4101	Patinação
+0x4201	Museu
+0x4301	Aluguel de Veículos
+0x4401	Taxi
+0x4501	Motel
+0x4601	Serviços de Demolição
+0x4701	Churrasco
+0x4801	Equipamento de Pesca
+0x4901	Confeitaria
+0x4a01	Comida Mexicana
+0x4b01	Golfe
+0x4c01	Supermercado
+0x4d01	Piscina
+0x4e01	Suprimentos para caça
+0x4f01	Marina
+0x5001	Local Historico
+0x5101	Área para Acampamento
+0x5201	Sorveteria
+0x5301	Parque
+0x5401	Pousada
+0x5501	Centro Turístico
+0x5601	Parada de Caminhões
+0x5701	Oficina de Barcos
+0x5801	Material Esportivo
+0x5901	Frutos do Mar
+0x5a01	Venda de Barcos
+0x5b01	Shopping Center
+0x5c01	Comida Italiana
+0x5d01	Salão de Festas
+0x5e01	Transporte (Outros)
+0x5f01	Cafeteria
+0x6001	Iscas de pesca
+0x6101	Informações ao Turista
+0x6201	Área Preservada para Caça
+0x6301	Sinagoga
+0x6401	Teatro
+0x6501	Centro de Recreação
+0x6601	Estrada de Ferro
+0x6701	Aluguel de Barcos
+0x6801	Arco e flexa
+0x6901	Marina (Outros)
+0x6a01	Oficina de Veículos de Recreação
+0x6b01	Zoológico
+0x6c01	Caça ao Tesouro com GPS (Geocache)
+0x7001	Trilha de Caminhada
+0x7201	Trilha de Ciclismo
+
+;========================================================================================
+
+.POLYLINE
+
+0x0001	Rodovia - Interestadual
+0x0003	Rodovia - Nacional
+0x0005	Rodovia - Estadual
+0x0010	Estrada - Rural
+0x0015	Rua - Cidade Grande
+0x0017	Rua - Cidade Pequena
+
+0x0030	Riacho - Intermitente
+0x0032	Riacho
+0x0040	Trilha de Caminhada
+0x0042	Trilha de Ciclismo
+
+0x0050	Contorno - 0
+0x0051	Contorno - 0
+0x0052	Contorno - 0
+0x0053	Contorno - 0
+0x0054	Contorno - 0
+0x0055	Contorno - 1
+0x0056	Contorno - 1
+0x0057	Contorno - 1
+0x0058	Contorno - 1
+0x0059	Contorno - 1
+0x005a	Contorno - 2
+0x005b	Contorno - 2
+0x005c	Contorno - 2
+0x005d	Contorno - 2
+0x005e	Contorno - 2
+
+0x0060	Elevação - 0
+0x0062	Elevação - 1
+0x0064	Elevação - 2
+0x0066	Elevação - 3
+
+0x0070	Estrada Férrea
+
+0x0078	Fronteira Municipal
+0x007a	Fronteira Estadual
+0x007c	Fronteira Internacional
+
+;========================================================================================
+
+.POLYGON
+
+0x0001	Área Urbana
+
+0x0010	Lago/Rio
+0x0012	Pântano
+0x0015	Oceano
+
+0x0020	Floresta Nacional
+0x0025	Parque Nacional
+0x002a	Parque Estadual
+0x002f	Parque Municipal
+0x0034	Campo de Golfe
+0x0039	Cemitério

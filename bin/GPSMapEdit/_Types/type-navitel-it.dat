@@ -1,0 +1,198 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+; Translated to Italian by Cati Mag
+;
+
+.TYPESET Navitel
+
+; The Language ID for Italian defined by Microsoft
+;
+.LANGID 0x410
+
+;========================================================================================
+
+.POINT
+
+0xf001	Stazione degli autobus
+0xf002	Fermata di autobus
+0xf003	Fermata di tram
+0xf004	Fermata di filobus
+0xf005	Stazione della metropolitana
+0xf006	Stazione ferroviaria
+0xf007	Stazione ferroviaria di testa (terminal)
+0xf008	Stazione di monorotaia
+0xf009	Fermata di funicolare / funivia
+0xf00a	Porto
+0xf00b	Pontile 
+0xf00c	Terminale traghetti 
+
+0xf101	Chiesa ortodossa
+0xf102	Chiesa cattolica
+0xf103	Chiesa protestante
+0xf104	Moschea
+0xf105	Sinagoga
+0xf106	Pagoda
+
+0xf201	Semaforo 
+0xf202	Polizia stradale
+0xf203	Passaggio a livello con barriere
+0xf204	Strada disagevole
+0xf205	Radar/Autovelox
+0xf206	Limite di altezza
+0xf207	Traffico di transito è vietato
+0xf208	Gas per automobili
+0xf209	Montaggio ruote 
+0xf20a	Regolazione ruote
+0xf20b	Passaggio a livello senza barriere
+0xf20c	Rotonda/Rotatoria
+
+0xf301	Monumento
+0xf302	Fontana
+0xf303	Torre idraulica
+0xf304	Torre TV/Pilone per antenna radio
+0xf305	Punto di rilevamento
+0xf306	Passo di montagna
+0xf307	Guado
+0xf308	Fossa
+0xf309	Collina
+0xf30a	Pietre
+0xf30b	Giacimento di torba
+0xf30c	Ponte pedonale
+0xf30d	Ingresso grotta
+
+0xf401	Bosco caduco
+0xf402	Bosco di conifere
+0xf403	Bosco misto
+0xf404	Albero solitario
+0xf405	Arbusti isolati
+0xf406	Boschetto 
+
+0xf501	Scuola materna
+0xf502	Scuola secondaria
+0xf503	Scuola di formazione professionale
+0xf504	Universitа/college
+0xf505	Scuola specializzata
+
+0xf601	Bancomat
+0xf602	Salone di parrucchiere
+0xf603	Sauna
+0xf604	Lavanderia
+0xf605	Studio fotografico
+0xf606	Sartoria
+0xf607	Riparazione elettrodomestici
+0xf608	Riparazione computer
+0xf609	Riparazione vestiti
+0xf60a	Calzoleria
+0xf60b	Riparazione mobili
+0xf60c	Studio legale
+0xf60d	Studio notarile
+0xf60e	Assicurazioni
+0xf60f	Agenzia immobiliare
+0xf610	Ufficio informazioni 
+0xf611	Redazione
+0xf612	Tipografia
+0xf613	Agenzia di viaggi
+0xf614	Prenotazione biglietti aerei/ferrovia
+0xf615	Wi-Fi hotspot gratuito
+0xf616	Cybercaffe
+
+0xf701	Market
+0xf702	Negozio di calzature
+0xf703	Negozio di prodotti industriali
+0xf704	Negozio di prodotti chimici per uso domestico
+0xf705	Elettrodomestici
+0xf706	Apparecchi mobili
+0xf707	Articoli sportivi / per turismo
+0xf708	Negozio di armi
+0xf709	Negozio di articoli da regalo 
+0xf70a	Negozio di fiori
+0xf70b	Gioielleria 
+0xf70c	Negozio di animali
+
+0xf801	Clinica stomatologica
+0xf802	Clinica veterinaria
+
+0xf901	Circo
+
+;========================================================================================
+
+.POLYLINE
+
+;0x3d	
+;0x3e	
+
+0x3f	Linea tranviaria
+0x40	Linea monorotaia
+0x41	Linea funicolare / funivia
+
+0x42	Strada di terra battuta o di ghiaia
+0x43	Tunnel
+0x44	Grande fiume
+
+0x45	Confine quartiere urbano
+0x46	Recinto
+
+0x47	Percorso pianificato
+0x48	Tagliafuoco boschivo
+0x49	Corsia di marcia
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Strada di collegamento
+0x69	Arteria
+0x6a	Piazza 
+0x6b	Strada
+
+; Buildings
+0x6c	Edificio residenziale
+0x6d	Palazzo di uffici
+0x6e	Edificio sociale
+0x6f	Fabbricato industriale 
+
+0x70	Area nera
+0x71	Area rosso scuro
+0x72	Area verde scuro
+0x73	Area giallo scuro
+0x74	Area blu scuro
+0x75	Area magenta scuro
+0x76	Area azzurro scuro
+0x77	Aread grigio chiare
+0x78	Area grigio scuro
+0x79	Area rossa
+0x7a	Area verde 
+0x7b	Area gialla
+0x7c	Area blu 
+0x7d	Aread magenta 
+0x7e	Area azzurro 
+0x7f	Area bianca
+0x80	Area testo
+
+0x81	Bosco paludoso
+0x82	Bosco nano
+0x83	Bosco rado
+0x84	Bosco bruciato/morto
+0x85	Bosco di ceppi
+0x86	Vigneto
+0x87	Risaia
+0x88	Prato
+0x89	Sabbia
+0x8a	Terreno sassoso
+0x8b	Terreno salino/Palude salmastra
+0x8c	Canna
+0x8d	Alghe
+0x8e	Cespugli spinosi
+0x8f	Alberi sradicati dalla bufera
+0x90	Elfin legno
+0x91	Saxaul
+0x92	Bambù
+0x93	Palmeto
+0x94	Mangrovie
+0x95	Erba alta
+0x96	Muschio
+0x97	Licheni
+0x98	Prato erboso

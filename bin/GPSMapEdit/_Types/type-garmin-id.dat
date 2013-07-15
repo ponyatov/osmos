@@ -1,0 +1,440 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+;
+
+.TYPESET Garmin
+
+; The Language ID for Indonesian defined by Microsoft
+;
+.LANGID 0x421
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN	Tipe tak dikenal
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	Kota besar, lebih dari 10M
+0x0200	Kota besar, 5-10M
+0x0300	Kota besar, 2-5M
+0x0400	Kota besar, 1-2M
+0x0500	Kota menengah, 0.5-1M
+0x0600	Kota menengah, 200-500K
+0x0700	Kota menengah, 100-200K
+0x0800	Kota kecil, 50-100K
+0x0900	Kota kecil, 20-50K
+0x0a00	Kota kecil, 10-20K
+0x0b00	Kota kecil, 5-10K
+0x0c00	Perkampungan, 2-5K
+0x0d00	Perkampungan, 1-2K
+0x0e00	Perkampungan, 500-1K
+0x0f00	Perkampungan, 200-500
+0x1000	Perkampungan, 100-200
+0x1100	Perkampungan, kurang 100
+
+; Labels without icons
+0x1400	Nama negara besar
+0x1500	Nama negara kecil
+0x1e00	Negara bagian/provinsi/nama wilayah
+0x1f00	Kabupatent/kodya
+0x2800	Label
+
+; Marine features
+0x1200	Pangkalan dengan berbagai fasilitas
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Navaid
+0x1601	Klakson kabut
+0x1602	Radio Mercu suar
+0x1603	Racon
+0x1604	Mercusuar, segitiga merah
+0x1605	Mercusuar, persegi hijau
+0x1606	Mercusuar, putih intan
+0x1607	Unlit navaid, putih
+0x1608	Unlit navaid, merah
+0x1609	Unlit navaid, hijau
+0x160a	Unlit navaid, hitam
+0x160b	Unlit navaid, kuning/sawo
+0x160c	Unlit navaid, jingga
+0x160d	Unlit navaid, banyak warna
+0x160e	Navaid, tidak dikenal
+0x160f	Navaid, putih
+0x1610	Navaid, merah
+0x1611	Navaid, hijau
+0x1612	Navaid, kuning/sawo
+0x1613	Navaid, jingga
+0x1614	Navaid, lembayung
+0x1615	Navaid, biru
+0x1616	Navaid, banyak warna
+
+0x1c00	Gangguan
+0x1c01	Kecelakaan
+0x1c02	Kecelakaan selam, berbahaya
+0x1c03	Kecelakaan selam, tidak berbahaya
+0x1c04	Kecelakaan, dibereskan oleh tarikan kawat
+0x1c05	Gangguan, tampak di air tinggi
+0x1c06	Gangguan, terapung
+0x1c07	Gangguan, berselam
+0x1c08	Gangguan, dibereskan oleh tarikan kawat
+0x1c09	Batu, terapung
+0x1c0a	Batu, ditenggelamkan diair rendah
+0x1c0b	Kemungkinan resiko pentanahan
+
+; Tide table prediction used in marine maps
+0x1d00	Prediksi pasang (laut)
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	HW Keluar
+0x2100	HW Keluar tanpa fasilitas
+0x210f	HW Keluar (palayananan)
+0x2200	HW Keluar (tempat istirahat)
+0x2300	HW Keluar (tempat menyenangkan)
+0x2400	HW Keluar (stasiun timbangan)
+0x2500	HW Keluar (toll booth)
+0x2600	HW Keluar (informasi)
+0x2700	HW Keluar
+
+0x2900	Bisnis tidak berkategori
+
+0x2a00	Makanan
+0x2a01	Makanan (American)
+0x2a02	Makanan (Asian)
+0x2a03	Makanan (barbecue)
+0x2a04	Makanan (Chinese)
+0x2a05	Makanan (Deli/Bakery)
+0x2a06	Makanan (international)
+0x2a07	Makanan cepat saji
+0x2a08	Makanan (Italian)
+0x2a09	Makanan (Mexican)
+0x2a0a	Makanan (pizza)
+0x2a0b	Makanan (sea food)
+0x2a0c	Makanan (steak/grill)
+0x2a0d	Makanan (bagel/donut)
+0x2a0e	Makanan (cafe/diner)
+0x2a0f	Makanan (French)
+0x2a10	Makanan (German)
+0x2a11	Makanan (British Isles)
+0x2a12	Produk khusus makanan
+
+0x2b00	Penginapan
+0x2b01	Hotel/Motel
+0x2b02	Tempat tidur dan  sarapan losmen
+0x2b03	Berkemah/Taman-RV
+0x2b04	Tempat istirahat
+
+0x2c00	Atraksi
+0x2c01	Tempat hiburan
+0x2c02	Musium/Sejarah
+0x2c03	Perpustakaan
+0x2c04	Penunjuk
+0x2c05	Sekolah
+0x2c06	Taman/Kebun
+0x2c07	Kebon binatang/Aquarium
+0x2c08	Arena/Track
+0x2c09	Hall/Auditorium
+0x2c0a	Kilang anggur
+0x2c0b	Tempat ibadah
+
+0x2d00	Hiburan
+0x2d01	Teater
+0x2d02	Bar/Club malam
+0x2d03	Bioskop
+0x2d04	Tempat judi
+0x2d05	Kursus Golf
+0x2d06	Pusat ski/tempat istirahat
+0x2d07	Pusat bowling
+0x2d08	Es skating
+0x2d09	Kolam renang
+0x2d0a	Olahraga/Pusat Fitness
+0x2d0b	Public sports airport
+
+0x2e00	Tempat belanja
+0x2e01	Department store
+0x2e02	Toko bahan makanan
+0x2e03	Perusahaan dagang
+0x2e04	Pusat belanja
+0x2e05	Farmasi
+0x2e06	Toko yg menyenangkan
+0x2e07	Pakaian
+0x2e08	Rumah dan taman
+0x2e09	Melengkap rumah
+0x2e0a	Khusus eceran
+0x2e0b	Komputer/Software
+
+0x2f00	Jasa umum
+0x2f01	bahan bakar mobil
+0x2f02	Sewa mobil
+0x2f03	Perbaikan mobil
+0x2f04	Transportasi udara
+0x2f05	Kantor pos
+0x2f06	Bank/ATM
+0x2f07	Dealer/part mobil
+0x2f08	Transportasi darat
+0x2f09	Tempat perbaikan kapal
+0x2f0a	Jasa tarik/seret
+0x2f0b	Parkir
+0x2f0c	Area istirahat/info turis
+0x2f0d	Club mobil
+0x2f0e	Tempat cuci mobil
+0x2f0f	Navitel dealer
+0x2f10	Jasa perorangan
+0x2f11	Pelayanan bisnis
+0x2f12	Jasa komunikasi
+0x2f13	Jasa perbaikan
+0x2f14	Pelayanan masyarakat
+0x2f15	Keperluan umum
+0x2f16	Pemberhentian Truk
+0x2f17	Jasa pelintasan
+
+0x3000	Pemerintahan darurat
+0x3001	Kantor polisi
+0x3002	Rumah sakit
+0x3003	Ruang kota
+0x3004	Halaman rumah
+0x3005	Pusat komunitas
+0x3006	Batas penyebrangan
+0x3007	Kantor pemerintah
+0x3008	Departemen kebakaran
+
+0x4000	Golf
+0x4100	Tempat Memancing
+0x4200	Kecelakaan
+0x4300	Marina
+0x4400	Pom bensin
+0x4500	Restoran
+0x4600	Bar
+0x4700	Kapal luncur
+0x4800	Mendaki
+0x4900	Taman
+0x4a00	Area piknik
+0x4b00	Tempat pertolongan pertama
+0x4c00	Informasi
+0x4d00	Parkir
+0x4e00	Kamar kecil
+0x4f00	Mandi
+0x5000	Minum air
+0x5100	Telephone
+0x5200	Area pemandangan
+0x5300	ber-ski
+0x5400	Area berenang
+0x5500	Bendungan
+
+; Aviation
+0x5600	Area kendali
+0x5700	Area bahaya
+0x5800	Area terlarang
+0x5900	Airport
+0x5901	Arport besar
+0x5902	Airport menengah
+0x5903	Airport kecil
+0x5904	Lapangan Helikopter
+0x5905	Airport
+
+0x5a00	Penanda Mile
+0x5b00	Bell
+0x5c00	Area menyelam
+0x5d00	Daymark, Persegi hijau
+0x5e00	Daymark, Segitiga merah
+0x6000	Klakson
+0x6100	Rumah
+
+0x6200	Tempat Kedalaman
+0x6300	Tempat Elevasi
+
+; Man-made features
+0x6400	Tempat buatan manusia
+0x6401	Jembatan
+0x6402	Bangunan
+0x6403	Pemakaman
+0x6404	Vihara/Gereja/Mesjid/Pura
+0x6405	Bangunan sipil
+0x6406	Penyebrangan
+0x6407	Bendungan
+0x6408	Rumah sakit
+0x6409	Dermaga
+0x640a	Lokasi
+0x640b	Militer
+0x640c	Tambang
+0x640d	Lahan Minyak
+0x640e	Taman
+0x640f	Kantor Pos
+0x6410	Sekolah
+0x6411	Gedung
+0x6412	Trailhead
+0x6413	Terowongan
+0x6414	Mata air
+0x6415	Kota Hantu
+0x6416	Penginapan
+
+; Water features
+0x6500	Fitur Air
+0x6501	Arroyo
+0x6502	Sand bar
+0x6503	Teluk
+0x6504	Tikungan
+0x6505	Terusan
+0x6506	Saluran
+0x6507	Teluk kecil
+0x6508	Kemerosotan
+0x6509	Air mancur panas
+0x650a	Sungai es
+0x650b	Pelabuhan
+0x650c	Pulau
+0x650d	Danau
+0x650e	Aliran deras
+0x650f	Waduk
+0x6510	Laut
+0x6511	Sumber mata air
+0x6512	Sungai
+0x6513	Rawa
+
+; Land features
+0x6600	Fitur tanah
+0x6601	Lengkungan
+0x6602	Area
+0x6603	Kolam
+0x6604	Pantai
+0x6605	Bangku
+0x6606	Tanjung
+0x6607	Jurang
+0x6608	Kawah
+0x6609	Datar
+0x660a	Hutan
+0x660b	Celah
+0x660c	Tali usus
+0x660d	Genting tanah
+0x660e	Lahar
+0x660f	Pilar
+0x6610	Daratan
+0x6611	Jarak
+0x6612	Cadangan
+0x6613	Bukit
+0x6614	Batu
+0x6615	Lereng
+0x6616	Puncak
+0x6617	Lembah
+0x6618	Area perpohonan
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Jalanan
+
+; Three levels of highways
+0x01	Jalan raya utama
+0x02	Jalan raya terutama
+0x03	Jalan raya lainnya
+
+; Most important kind of street
+0x04	Jalan arteri
+; Medium important kind of street
+0x05	Jalan kolektor
+; Ordinary street (80%)
+0x06	Jalanan tempat tinggal
+; Smallest kind of street
+0x07	Jalan kecil/gang/pribadi
+
+0x08	Jalan raya turunan, kecepatan-rendah
+0x09	Jalan raya turunan, kecepatan-tinggi
+0x0a	Jalanan tak beraspal
+0x0b	Jalan raya utama pilihan
+0x0c	Bundaran
+0x16	Tempat berjalan-kaki
+0x14	Rel kerta api
+0x1a	Air atau rel kapal
+0x1b	Air atau rel kapal
+
+0x19	Time-zone
+0x1e	Batas Internasional
+0x1c	Negara bagian/batas provinsi
+0x1d	Kabupaten/Kodya
+
+0x15	Kumpulan air garis pantai
+0x18	Sungai
+0x1f	Sungai
+0x26	Sungai musiman/selokan, parit
+
+0x20	Susunan tanah kecil
+0x21	Menanamkan. Susunan tanah
+0x22	Susunan tanah utama
+0x23	Susunan kedalaman rendah
+0x24	Susunan kedalaman menengah
+0x25	Susunan kedalaman lebih dalam
+
+0x27	Garis tengah lapangan landasan Airport
+0x28	Saluran oli atau air
+0x29	Saluran tenaga
+
+0x2a	Batas laut
+0x2b	Bahaya laut
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Area kota besar
+0x02	Area kota kecil
+0x03	Area perumahan desa
+
+0x04	Pangkalan Militer
+0x05	Parkir
+0x06	Garasi parkir
+0x07	Airport
+0x08	Pusat belanja
+0x09	Marina
+0x0a	Universitas/Perguruan tinggi
+0x0b	Rumah sakit
+0x0c	Komplek industri
+0x0d	Reservasi
+0x0e	Landasan Airport
+0x13	Area buatan manusia
+0x18	Kursus Golf
+0x19	komplek Olahraga
+0x1a	Pemakaman
+
+0x14	Taman Nasional
+0x15	Taman Nasional
+0x16	Taman Nasional
+0x17	Taman Kota
+0x1e	Taman negara bagian
+0x1f	Taman negara bagian
+0x20	Taman negara bagian
+
+0x28	Laut/Samudera
+0x29	Air
+0x32	Laut
+0x3b	Air
+0x3c	Danau besar, 250-600 km²
+0x3d	Danau besar, 77-250 km²
+0x3e	Danau menengah, 25-77 km²
+0x3f	Danau menengah, 11-25 km²
+0x40	Danau kecil, 0.25-11 km²
+0x41	Danau kecil, less 0.25 km²
+0x42	Danau utama, over 3300 km²
+0x43	Danau utama, 1100-3300 km²
+0x44	Danau besar, 600-1100 km²
+0x45	Air
+0x46	Sungai utama, >1 km
+0x47	Sungai besar, 200 m-1 km
+0x48	Sungai menengah, 40-200 m
+0x49	Sungai kecil, <40 m
+0x4c	Air Musiman
+
+0x4a	Luas seleksi peta
+0x4b	Luas cakupan peta
+
+0x4d	Sungai es
+0x4e	Kebun buah-buahan/perkebunan
+0x4f	Semak belukar
+0x50	Hutan
+0x51	Tanah basah/rawa-rawa
+0x52	Tundra
+0x53	Pasir/pasang naik-surutl/lumpur datar

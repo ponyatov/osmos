@@ -1,0 +1,201 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+;
+
+.TYPESET Navitel
+
+; The Language ID for Azerbaijani defined by Microsoft
+;
+.LANGID 0x42c
+
+; The Code Page ID for Turkish defined by Microsoft
+;
+.CODEPAGE 1254
+
+;========================================================================================
+
+.POINT
+
+0xf001	Avtovağzal
+0xf002	Avtobus dayanacağı
+0xf003	Tramvay dayanacağı
+0xf004	Troleybus dayanacağı
+0xf005	Metro
+0xf006	Dəmiryol vağzalı
+0xf007	Dəmiryol terminalı
+0xf008	Təkrels dəmiryolu stansiyası
+0xf009	Kanatyol stansiyası
+0xf00a	Liman
+0xf00b	Bulvar
+0xf00c	Bərə terminalə
+
+0xf101	Pravoslav kilsə
+0xf102	Katolik kilsə
+0xf103	Protestant kilsə
+0xf104	Məscid
+0xf105	Sinaqoq
+0xf106	Pagoda
+
+0xf201	İşıq siqnalizasiyası
+0xf202	Yol polisi
+0xf203	Dəmiryolu keçidi (maneələrlə)
+0xf204	Narahat yol
+0xf205	Radar
+0xf206	Hündürlük məhdudiyyəti
+0xf207	Tranzit keçid qadağandır
+0xf208	LPG
+0xf209	Təkər montajı
+0xf20a	Təkərin tənzimlənməsi
+0xf20b	Dəmiryolu keçidi (maneələrsiz) 
+0xf20c	Yol dairəsi
+
+0xf301	Abidə
+0xf302	Fontan
+0xf303	Su çəni
+0xf304	Radio/Televiziya qülləsi
+0xf305	Coğrafi nöqtə
+0xf306	Dağ keçidi
+0xf307	Keçid
+0xf308	Dərə 
+0xf309	Təpə
+0xf30a	Daşlıq
+0xf30b	Mamırlıq
+0xf30c	Piyada cığırı
+0xf30d	Mağaraya giriş
+
+0xf401	Yarpaqlı meşə
+0xf402	İynəyarpaqlı meşə
+0xf403	Qarışıq meşə
+0xf404	Tənha ağac 
+0xf405	Tənha kol
+0xf406	Ağaclıq
+
+0xf501	Uşaq bağçası
+0xf502	Orta məktəb 
+0xf503	Peşə məktəbi
+0xf504	Universitt/Ali məktəb
+0xf505	Texnikum
+
+0xf601	Bankomat
+0xf602	Bərbərxana
+0xf603	Sauna
+0xf604	Çamaşırxana
+0xf605	Fotoqraf
+0xf606	Dərzi
+0xf607	Elektrik qurğuların təmiri
+0xf608	Kompüterlərin təmiri
+0xf609	Paltar təmiri
+0xf60a	Ayaqqabı təmiri
+0xf60b	Mebel təmiri
+0xf60c	Hüquq Məsləhətxanası
+0xf60d	Notius
+0xf60e	Sığorta
+0xf60f	Daşınmaz əmlak alqı-satqısı
+0xf610	İnformasiya xidməti 
+0xf611	Redaksiya, nəşriyyat
+0xf612	Mətbəə
+0xf613	Turizm şirkəti
+0xf614	Hava yolları/dəmiryol ofisi
+0xf615	Pulsuz WiFi 
+0xf616	Internet klub
+
+0xf701	Bazar
+0xf702	Ayaqqabı dükanı
+0xf703	Sənaye malları
+0xf704	Ev üçün kimyəvi malların satışı
+0xf705	Məişət texnikası
+0xf706	Mobil qurğular
+0xf707	İdman və turist malları
+0xf708	Silah dükanı
+0xf709	Hədiyyələr
+0xf70a	Gül dükanı
+0xf70b	Zərgərlik
+0xf70c	Ev heyvanları dükanı
+
+0xf801	Stomatologiya
+0xf802	Baytar
+
+0xf901	Sirk 
+
+;========================================================================================
+
+.POLYLINE
+
+;0x3d	
+;0x3e	
+
+0x3f	Tramvay xətti
+0x40	Tək relsli dəmiryolu
+0x41	Kanat yolu
+
+0x42	Torpaq və ya səhra yolu
+0x43	Tunel
+0x44	Çay
+
+0x45	Şəhərin rayonlar arası sərhəddi
+0x46	Hasar
+
+0x47	Planlaşdırılan marşrut
+0x48	Meşə yanğına qarşı zolaq.
+0x49	Hərəkət zolağı
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Qovşaq yollar
+0x69	Əsas şosse
+0x6a	Meydan 
+0x6b	Şosse
+
+; Buildings
+0x6c	Yaşayış binası
+0x6d	Ofis binası 
+0x6e	İctimai bina
+0x6f	Sənaye binası
+
+;0x70	
+;0x71	
+;0x72	
+;0x73	
+;0x74	
+;0x75	
+;0x76	
+;0x77	
+;0x78	
+;0x79	
+;0x7a	
+;0x7b	
+;0x7c	
+;0x7d	
+;0x7e	
+;0x7f	
+;0x80	
+
+0x81	Bataqlıq meşə
+0x82	Kolluq meşə
+0x83	Seyrək meşə
+0x84	Yanmış/ölü meşə
+0x85	Ağacları kəsilmiş meşə
+0x86	Üzümlük
+0x87	Düyü sahəsi 
+0x88	Çəmənlik
+0x89	Qumlu ərazi
+0x8a	Daşlıq ərazi
+0x8b	Duzlaq/Duzlu bataqlıq
+0x8c	Qamışlıq
+0x8d	Yosunluq
+0x8e	Kolluq, canlı hasar
+0x8f	Küləkli yer 
+0x90	Qısaboy ağaclar
+0x91	Saxaul
+0x92	Bambus
+0x93	Palma meşəsi
+0x94	Mangrovlar
+0x95	Hündür otluq
+0x96	Yosunluq
+0x97	Lişaylar
+0x98	Qazon

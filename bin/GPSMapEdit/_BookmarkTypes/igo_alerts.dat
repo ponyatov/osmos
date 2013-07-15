@@ -1,0 +1,32 @@
+﻿.bookmark_types 001
+
+.type igo_alert    @r8400
+
+.default_heading true
+
+.attributes
+speed      integer     @r8380
+directions enum        @r8381 {
+	"0"        @r8382,
+	"1"        @r8383,
+	"2"        @r8384
+}
+
+.subtypes
+rw_crossing      @r8401   igo_alerts\RWCrossing.ico    {speed directions}
+bus_lane_camera  @r8402   speedcams\SpeedCam.ico       {speed directions}
+high_accident    @r8403   igo_alerts\OtherDangers.ico  {speed directions}
+school_zone      @r8404   igo_alerts\Children.ico      {speed directions}
+town_entry       @r8405   igo_alerts\TownEntry.ico     {speed directions}
+toll_booth       @r8406   igo_alerts\TollBooth.ico     {speed directions}
+hospital_zone    @r8407   igo_alerts\HospitalZone.ico  {speed directions}
+fire_station     @r8408   igo_alerts\FireStation.ico   {speed directions}
+ccz              @r8409   igo_alerts\TollBooth.ico     {speed directions}
+give_way         @r8410   igo_alerts\GiveWay.ico       {speed directions}
+speed_breaker    @r8342   igo_alerts\SpeedBreaker.ico  {speed directions}
+children         @r8411   igo_alerts\Children.ico      {speed directions}
+dangerous_turn   @r8344   igo_alerts\DangTurn.ico      {speed directions}
+tunnel           @r8412   igo_alerts\Tunnel.ico        {speed directions}
+poi              @r8413   poi.ico                      {speed directions}
+hw_patrol        @r8414   igo_alerts\HWPatrol.ico      {speed directions}
+dangerous_area   @r8415   igo_alerts\OtherDangers.ico  {speed directions}

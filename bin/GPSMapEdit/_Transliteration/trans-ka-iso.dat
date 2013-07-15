@@ -1,0 +1,65 @@
+﻿.TRANSLITERATION
+
+; This file is used by GPSMapEdit to provide translitertion table for Georgian.
+; Based on ISO-9984, http://en.wiktionary.org/wiki/Wiktionary:Georgian_transliteration
+;
+; NOTE: if you want to translate this file to another language,
+; please keep the first line (".TRANSLITERATION") as is.
+;
+
+; Display name for data
+.NAME Georgian->Ext.Latin (ISO-9984)
+
+; Language ID for Georgian defined by Microsoft
+.LANGID 1079
+
+;
+; Tests
+;
+
+.TEST თბილისი t'bilisi
+
+;
+; The substitutions
+;
+
+.DATA
+ა	a
+ბ	b
+გ	g
+დ	d
+ე	e
+ვ	v
+ზ	z
+ჱ	ē
+თ	t'
+ი	i
+კ	k
+ლ	l
+მ	m
+ნ	n
+ჲ	y
+ო	o
+პ	p
+ჟ	ž
+რ	r
+ს	s
+ტ	t
+ჳ	w
+უ	u
+ფ	p'
+ქ	k'
+ღ	ḡ
+ყ	q
+შ	š
+ჩ	č'
+ც	c'
+ძ	j
+წ	c
+ჭ	č
+ხ	x
+ჴ	ẖ
+ჯ	ǰ
+ჰ	h
+ჵ	ō
+ჶ	f

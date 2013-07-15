@@ -1,0 +1,25 @@
+.location_browser 1
+
+.name   @r8801
+.class  google-earth
+
+.script JScript
+////////////////////////////////////////////
+
+var EARTHLib_RelativeToGroundAltitudeGE = 1;
+
+function Browse (_x, _y, _scale) {
+	try {
+		var GE = new ActiveXObject ("GoogleEarth.ApplicationGE");
+	} catch (e) {
+		LocationBrowser.ReportAppNotInstalled (LocationBrowser.Application.LoadResourceString (8801));
+		return;
+	}
+
+	var hWnd = GE.GetMainHwnd ();
+	var h = LocationBrowser.GetWindowHeight (hWnd);
+
+	GE.SetCameraParams (_y, _x, 600*_scale*h/1000, EARTHLib_RelativeToGroundAltitudeGE, 600*_scale*h/1000, 0, 0, 1);
+
+	LocationBrowser.ActivateWindow (hWnd);
+}

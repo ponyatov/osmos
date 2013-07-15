@@ -1,0 +1,23 @@
+.web_map         1
+
+.name            "ESRI ArcGIS online"
+.image           ESRI.ico
+.class           esri-arcgis
+.cache_subfolder ArcGIS.Imagery
+.hotkey          Shift+A
+
+.def_version     ""
+.tile_referer    http://server.arcgisonline.com
+.tile_size       256
+.tile_ext        .jpg
+
+.include_script  ProjGoogle.js
+.script          JScript
+////////////////////////////////////////////
+
+function GetMaxLevel () {return 18;}
+function GetMinLevel () {return 0;}
+
+function MakeTileURL (_x, _y, _level, _version) {
+	return "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/" + _level + "/" + _y + "/" + _x + ".jpg";
+}

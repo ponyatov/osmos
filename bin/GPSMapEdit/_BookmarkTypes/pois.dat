@@ -1,0 +1,10 @@
+﻿.bookmark_types 001
+
+.type custom_poi    @r8330
+
+.attributes
+label   string      @r8360
+comment multistring @r8361
+
+.subtypes
+poi                 @r8330  poi.ico {@label comment}

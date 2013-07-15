@@ -1,0 +1,23 @@
+.web_map         1
+
+.name            "Nokia (Here.com)"
+.image           Here.bmp
+.class           nokia-maps-sat
+.cache_subfolder ovi_com_Sat
+.hotkey          Shift+H
+
+.def_version     ""
+.tile_referer    http://maps.ovi.com
+.tile_size       256
+.tile_ext        .png
+
+.include_script  ProjGoogle.js
+.script          JScript
+////////////////////////////////////////////
+
+function GetMaxLevel () {return 20;}
+function GetMinLevel () {return 0;}
+
+function MakeTileURL (_x, _y, _level, _version) {
+	return "http://1.maptile.lbs.ovi.com/maptiler/v2/maptile/newest/satellite.day/" + _level + "/" + _x + "/" + _y +"/256/png8?lg=RUS&token=fee2f2a877fd4a429f17207a57658582&appId=nokiaMaps";
+}

@@ -1,0 +1,440 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+;
+
+.TYPESET Garmin
+
+; The Language ID for Turkish defined by Microsoft
+;
+.LANGID 0x41f
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN	Bilinmeyen türü
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	Büyük il, 10M üzerinde
+0x0200	Büyük il, 2-5M
+0x0300	Büyük ülke, 2-5M
+0x0400	Büyük il, 1-2M
+0x0500	Orta büyüklükte İl, 0.5-1M
+0x0600	Orta büyüklükte İl, 200-500K
+0x0700	Orta büyüklükte İl, 100-200K
+0x0800	Küçük İl, 50-100K
+0x0900	Küçük İl, 20-50K
+0x0a00	Küçük İl/kasaba, 10-20K
+0x0b00	Küçük İl/kasaba, 5-10K
+0x0c00	Yerleşim, 2-5K
+0x0d00	Yerleşim, 1-2K
+0x0e00	Yerleşim, 500-1K
+0x0f00	Yerleşim, 200-500
+0x1000	Yerleşim, 100-200
+0x1100	Yerleşim, 100 den az
+
+; Labels without icons
+0x1400	Büyük ülke adı
+0x1500	Küçük ülke adı
+0x1e00	Eyalet/il/bölge adı
+0x1f00	Mahalle/köy adı
+0x2800	Etiket
+
+; Marine features
+0x1200	Tesisli marina
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Navigasyon yardımı
+0x1601	Radyo bikını
+0x1602	Radyo işaret vericisi
+0x1603	Radar hüzmesi
+0x1604	İşaret ışığı, kırmızı üçgen
+0x1605	İşaret ışığı, yeşil kare
+0x1606	İşaret ışığı, beyaz elmas
+0x1607	Sönük navigasyon yardımı, beyaz
+0x1608	Sönük navigasyon yardımı, kırmızı
+0x1609	Sönük navigasyon yardımı, yeşil
+0x160a	Sönük navigasyon yardımı, siyah
+0x160b	Sönük navigasyon yardımı, sarı/koyu sarı
+0x160c	Sönük navigasyon yardımı, turuncu
+0x160d	Sönük navigasyon yardımı, çok renkli
+0x160e	Navigasyon yardımı, bilinmeyen
+0x160f	Navigasyon yardımı, beyaz
+0x1610	Navigasyon yardımı, kırmızı
+0x1611	Navigasyon yardımı, yeşil
+0x1612	Navigasyon yardımı, sarı/koyu sarı
+0x1613	Navigasyon yardımı, turuncu
+0x1614	Navigasyon yardımı, mor
+0x1615	Navigasyon yardımı, mavi
+0x1616	Navigasyon yardımı, çok renkli
+
+0x1c00	Sınıflandırılmamış engel
+0x1c01	Görünür enkaz
+0x1c02	Sualtında enkaz, tehlikeli
+0x1c03	Sualtında enkaz, tehlikesiz
+0x1c04	Enkaz, Kabloyla çekilerek kurtarılmış
+0x1c05	Engel, yüksek suda görünür
+0x1c06	Engel, su seviyesinde
+0x1c07	Engel, sualtında
+0x1c08	Engel, giderilmiş
+0x1c09	Kaya, su seviyesinde
+0x1c0a	Kaya, sığ suda batık
+0x1c0b	Karaya oturmak riski ihtimali
+
+; Tide table prediction used in marine maps
+0x1d00	Gelgit/Geçerli Tahmin İstasyonu
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	Otoban Çıkışı
+0x2100	Otoban Çıkışı -tesisli
+0x210f	Otoban Çıkışı (servis)
+0x2200	Otoban Çıkışı (tuvaletler)
+0x2300	Otoban Çıkışı (24 saat açık market)
+0x2400	Otoban Çıkışı (kantar)
+0x2500	Otoban Çıkışı (Ücret gişesi)
+0x2600	Otoban Çıkışı (bilgi)
+0x2700	Otoban Çıkışı
+
+0x2900	Diğer / Kategorisiz işletme
+
+0x2a00	Yiyecek ve İçecek
+0x2a01	Yemek (Amerikan)
+0x2a02	Yemek (Asya)
+0x2a03	Yemek (barbekü)
+0x2a04	Yemek (Çin)
+0x2a05	Yemek (Şarküteri/Fırın)
+0x2a06	Yemek (Uluslararası)
+0x2a07	Fast food
+0x2a08	Yemek (İtalyan)
+0x2a09	Yemek (Meksika)
+0x2a0a	Pizzacı
+0x2a0b	Yemek (deniz ürünü)
+0x2a0c	Yemek (biftek/izgara)
+0x2a0d	Yemek (tatlı)
+0x2a0e	Yemek (kafe)
+0x2a0f	Yemek (Fransız)
+0x2a10	Yemek (Alman)
+0x2a11	Yemek (İngiliz)
+0x2a12	Özel gıda ürünleri
+
+0x2b00	Konaklama yeri
+0x2b01	Otel/Motel
+0x2b02	Kahvaltı ve yatak
+0x2b03	Kamp/Karavan
+0x2b04	Dinlenme yeri
+
+0x2c00	Cazip yer
+0x2c01	Lunapark/Tema parkı
+0x2c02	Müze/Tarihi
+0x2c03	Kütüphane
+0x2c04	Sınır taşı
+0x2c05	Okul
+0x2c06	Park/Bahçe
+0x2c07	Hayvanat bahçesi/Akvaryum
+0x2c08	Arena/Koşu pisti
+0x2c09	Salon/Odotoryum
+0x2c0a	Şarapevi
+0x2c0b	İbadet yeri
+
+0x2d00	Eğlence
+0x2d01	Tiyatro
+0x2d02	Bar/Gece kulübü
+0x2d03	Sinema salonu
+0x2d04	Kumarhane
+0x2d05	Golf sahası
+0x2d06	Kayak merkezi/Tesisi
+0x2d07	Bowling salonu
+0x2d08	Buz pateni
+0x2d09	Yüzme havuzu
+0x2d0a	Spor/Jimnastik salonu
+0x2d0b	Devlet spor hava limanı
+
+0x2e00	Alışveriş
+0x2e01	Büyük mağaza
+0x2e02	Manav
+0x2e03	Genel ticari ürün
+0x2e04	Alışveriş merkezi
+0x2e05	Eczane/İlaç deposu
+0x2e06	24 Saat açık
+0x2e07	Giyim
+0x2e08	Ev ve bahçe
+0x2e09	Ev mobilya
+0x2e0a	Özel perakende
+0x2e0b	Bilgisayar/Yazılım
+
+0x2f00	Genel hizmetler
+0x2f01	Otomobil yakıtı
+0x2f02	Oto kiralama
+0x2f03	Otomobil tamiri
+0x2f04	Hava nakliye
+0x2f05	Postane
+0x2f06	Banka/Bankamatik
+0x2f07	Dağıtımcı/Otomobil yedek parça
+0x2f08	Kara nakliye
+0x2f09	Marina/Tamir ve depo
+0x2f0a	Enkaz toplama servisi
+0x2f0b	Park yeri
+0x2f0c	Dinlenme alanı/Turizm danışma
+0x2f0d	Otomobil kulübü
+0x2f0e	Araba yıkama
+0x2f0f	GARMIN bayii
+0x2f10	Kişisel servis
+0x2f11	Ticari servis
+0x2f12	İletişim
+0x2f13	Tamir servisi
+0x2f14	Sosyal hizmetler
+0x2f15	Hizmet
+0x2f16	Kamyon durağı
+0x2f17	Transit servis
+
+0x3000	Acil Durum/Yönetim
+0x3001	Polis Karakolu
+0x3002	Hastane
+0x3003	Valilik
+0x3004	Adliye
+0x3005	Halkevi
+0x3006	Sınır Geçiş
+0x3007	Devlet Binası
+0x3008	İtfaiye
+
+0x4000	Golf sahası
+0x4100	Balık avlama bölgesi
+0x4200	Enkaz
+0x4300	Marina
+0x4400	Benzin İstasyonu
+0x4500	Restoran
+0x4600	Bar
+0x4700	Tekne rampası
+0x4800	Kamp alanı
+0x4900	Park
+0x4a00	Piknik alanı
+0x4b00	Tıbbi tesis
+0x4c00	Bilgi
+0x4d00	Park sahası
+0x4e00	Tuvalet
+0x4f00	Duş
+0x5000	İçme suyu
+0x5100	Telefon
+0x5200	Manzara
+0x5300	Kayak pisti
+0x5400	Yüzme alanı
+0x5500	Baraj
+
+; Aviation
+0x5600	Kontrollü alan
+0x5700	Tehlikeli bölge
+0x5800	Yasak bölge
+0x5900	Havalimanı
+0x5901	Büyük havalimanı
+0x5902	Orta büyüklükte havalimanı
+0x5903	Küçük havalimanı
+0x5904	Helikopter pisti
+0x5905	Havalimanı
+
+0x5a00	Km işareti
+0x5b00	Zil
+0x5c00	Dalış bölgesi
+0x5d00	Gündüz İşaretçisi, yeşil kare
+0x5e00	Gündüz İşaretçisi, kırmızı üçgen
+0x6000	Korna
+0x6100	Ev
+
+0x6200	Mevki Derinliği
+0x6300	Mevki Yüksekliği
+
+; Man-made features
+0x6400	İnsan yapımı özellik
+0x6401	Köprü
+0x6402	Bina
+0x6403	Mezarlık
+0x6404	İbadet yeri
+0x6405	Sivil
+0x6406	Dört Yol
+0x6407	Baraj
+0x6408	Hastane
+0x6409	Sedde
+;0x640a	
+0x640b	Askeri
+0x640c	Mayın
+0x640d	Petrol sahası
+0x640e	Park
+0x640f	Postane
+0x6410	Okul
+0x6411	Kule
+0x6412	İz başlangıcı
+0x6413	Tünel
+0x6414	Kuyu
+0x6415	Tarihi (hayalet) kasaba
+;0x6416	Ev parselasyonu
+
+; Water features
+0x6500	Su özelliğii
+0x6501	Kuru vadi
+0x6502	Sığlık
+0x6503	Körfez
+;0x6504
+;0x6505
+;0x6506
+0x6507	Koy
+0x6508	Şelale
+0x6509	Gayzer
+0x650a	Buzul
+0x650b	Liman
+0x650c	Ada
+0x650d	Göl
+0x650e	Nehrin akıntılı yeri
+;0x650f
+0x6510	Deniz
+0x6511	Kaynak
+0x6512	Dere
+0x6513	Sulak arazi
+
+; Land features
+0x6600	Kara özelliği
+;0x6601
+;0x6602
+;0x6603
+0x6604	Kumsal
+0x6605	Bank
+0x6606	Burun
+0x6607	Uçurum
+0x6608	Krater
+0x6609	Düzlük
+0x660a	Orman
+0x660b	Boşluk
+0x660c	Dar geçit
+0x660d	Kıstak
+0x660e	Lav
+0x660f	Sütun
+0x6610	Düzlük
+;0x6611	
+0x6612	Korunmuş
+0x6613	Sırt
+0x6614	Kaya
+0x6615	Yamaç
+0x6616	Zirve
+0x6617	Vadi
+0x6618	Ağaçlık alan
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Yol
+
+; Three levels of highways
+0x01	Önemli karayolu
+0x02	Ana karayolu
+0x03	Diğer anayol
+
+; Most important kind of street
+0x04	Arter cadde
+; Medium important kind of street
+0x05	Toplayıcı yol
+; Ordinary street (80%)
+0x06	Konut alanı yolu
+; Smallest kind of street
+0x07	Dar yol/Geçit
+
+0x08	Karayolu rampa, düşük-hız
+0x09	Karayolu rampa, yüksek-hız
+0x0a	Asfaltsız yol/Kaplamasız yol
+0x0b	Ana otoyol bağlantısı
+0x0c	Dönel kavşak
+0x16	Patika
+0x14	Tren Yolu
+0x1a	Feribot
+0x1b	Feribot
+
+0x19	Saat dilimi
+0x1e	Uluslararası sınır
+0x1c	İl/Bölge sınır
+0x1d	İlçe sınırı
+
+0x15	Sahil hattı
+0x18	Dere
+0x1f	Nehir
+0x26	Aralıklı dere/kanal
+
+0x20	Kontur çizgisi (1/10)
+0x21	Kontur çizgisi (1/2)
+0x22	Kontur çizgisi (1/1)
+0x23	Derinlik konturu (1/10)
+0x24	Derinlik konturu (1/2)
+0x25	Derinlik konturu (1/1)
+
+0x27	Havaalanı pist ortaçizgisi
+0x28	Petrol veya su boruhattı
+0x29	Güç hattı
+
+0x2a	Deniz sınırı
+0x2b	Deniz tehlikesi
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Geniş kentsel alan (>200K)
+0x02	Küçük kentsel alan (<200K)
+0x03	Kırsal konut alanı
+
+0x04	Askeri üs
+0x05	Açık otopark
+0x06	Kapalı otopark
+0x07	Havalimanı
+0x08	Alışveriş merkezi
+0x09	Marina
+0x0a	Universite/Kolej
+0x0b	Hastane
+0x0c	Sanayi sitesi
+0x0d	Ayrılmış arazi
+0x0e	Havalimanı uçuş pisti
+0x13	Bina
+0x18	Golf sahası
+0x19	Spor kompleksi
+0x1a	Mezarlık
+
+0x14	Milli park
+0x15	Milli park
+0x16	Milli park
+0x17	Belediye parkı
+0x1e	Devlet parkı
+0x1f	Devlet parkı
+0x20	Devlet parkı
+
+0x28	Deniz/Okyanus
+0x29	Su nesnesi
+0x32	Deniz
+0x3b	Su nesnesi
+0x3c	Geniş göl, 250-600 km²
+0x3d	Geniş göl, 77-250 km²
+0x3e	Orta göl, 25-77 km²
+0x3f	Orta göl, 11-25 km²
+0x40	Küçük göl, 0.25-11 km²
+0x41	Küçük göl, 0.25 km² den az
+0x42	Büyük göl, 3300 km² den büyük
+0x43	Büyük göl, 1100-3300 km²
+0x44	Geniş Göl, 600-1100 km²
+0x45	Su nesnesi
+0x46	Büyük nehir, >1 km
+0x47	Geniş nehir, 200 m-1 km
+0x48	Orta nehir, 40-200 m
+0x49	Küçük nehir, <40 m
+0x4c	Aralıklı su
+
+0x4a	Harita seçimi alanı
+0x4b	Harita kapsama alanı
+
+0x4d	Buzul
+0x4e	Meyve bahçesi/Fidanlık
+0x4f	Çalı
+0x50	Orman
+0x51	Sulak arazi/Bataklık
+0x52	Tundra
+0x53	Kum/gelgitli/çamur yüzey

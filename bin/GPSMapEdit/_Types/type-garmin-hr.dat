@@ -1,0 +1,437 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+;
+
+.TYPESET Garmin
+
+; The Language ID for Croatian defined by Microsoft
+;
+.LANGID 0x41a
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN	Nepoznato
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	Grad veliki (>10M)
+0x0200	Grad veliki (5-10M)
+0x0300	Grad veliki (2-5M)
+0x0400	Grad veliki (1-2M)
+0x0500	Grad srednji (0.5-1M)
+0x0600	Grad srednji (200-500K)
+0x0700	Grad srednji (100-200K)
+0x0800	Grad mali (50-100K)
+0x0900	Grad mali (20-50K)
+0x0a00	Grad mali (10-20K)
+0x0b00	Grad mali (5-10K)
+0x0c00	Naselje (2-5K)
+0x0d00	Naselje (1-2K)
+0x0e00	Naselje (500-1K)
+0x0f00	Naselje (200-500)
+0x1000	Naselje (100-200)
+0x1100	Naselje (<100)
+
+; Labels without icons
+0x1400	Major države ime
+0x1500	Minor države ime
+0x1e00	Pokrajina/regije ime 
+0x1f00	Županije/župe ime
+0x2800	Oznaka
+
+; Marine features
+0x1200	Marina s objektima
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Navigacijska oznaka
+0x1601	Rog
+0x1602	Radio signalizacija
+0x1603	Racon
+0x1604	Dnevna signalizacija (red triangle)
+0x1605	Dnevna signalizacija (green square)
+0x1606	Dnevna signalizacija (white diamond)
+0x1607	Neosvijetljena navigacijska oznaka, bijela
+0x1608	Neosvijetljena navigacijska oznaka, crvena
+0x1609	Neosvijetljena navigacijska oznaka, zelena
+0x160a	Neosvijetljena navigacijska oznaka, crna
+0x160b	Neosvijetljena navigacijska oznaka, jantarno žuta
+0x160c	Neosvijetljena navigacijska oznaka, narančasta
+0x160d	Neosvijetljena navigacijska oznaka (multi colored)
+0x160e	Navigacijska oznaka (unknown)
+0x160f	Navigacijska oznaka, bijela
+0x1610	Navigacijska oznaka, crvena
+0x1611	Navigacijska oznaka, zelena
+0x1612	Navigacijska oznaka, jantarno žuta
+0x1613	Navigacijska oznaka, narančasta
+0x1614	Navigacijska oznaka, ljubičasta
+0x1615	Navigacijska oznaka, plava
+0x1616	Navigacijska oznaka (multi colored)
+
+0x1c00	Neklasificirana prepreka
+0x1c01	Vidljiva olupina
+0x1c02	Potopljena olupina, opasnost
+0x1c03	Potopljena olupina
+0x1c04	Olupina, odstranjena žicom
+0x1c05	Prepreka, vidljiva kod plime
+0x1c06	Prepreka, u razini vode
+0x1c07	Prepreka, podvodna
+0x1c08	Prepreka, očišćena
+0x1c09	Stijena, u razini vode
+;0x1c0a	
+;0x1c0b	
+
+; Tide table prediction used in marine maps
+0x1d00	Stanica za predviđanje morskih mijena/struja
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	Izlaz 
+0x2100	Izlaz  (facilities)
+0x210f	Izlaz  (service)
+0x2200	Izlaz  (restroom)
+0x2300	Trgovina mješovitom robom
+0x2400	Vaga
+0x2500	Naplatna kućica
+0x2600	Izlaz  (information)
+0x2700	Izlaz 
+
+0x2900	Drugo
+
+0x2a00	Hrana i piće
+0x2a01	Američki
+0x2a02	Azijski
+0x2a03	Roštilj
+0x2a04	Kineski
+0x2a05	Delikatese/pekara
+0x2a06	Međunarodna kuhinja
+0x2a07	Fast Food
+0x2a08	Talijanski
+0x2a09	Meksički
+0x2a0a	Pizza
+0x2a0b	Morski plodovi
+0x2a0c	Odresci/Roštilj
+;0x2a0d	
+;0x2a0e	
+0x2a0f	Francuski
+0x2a10	Njemački
+0x2a11	Britansko otočje
+0x2a12	Specijalne živežne namirnice
+
+0x2b00	Konačište
+0x2b01	Hotel/Motel
+;0x2b02	
+0x2b03	Kamp/Parkiralište za pokretne kućice
+;0x2b04	
+
+0x2c00	Atrakcije
+0x2c01	Zabavni park
+0x2c02	Muzej/Povijesni sadržaji
+0x2c03	Knjižnica
+0x2c04	Orijentir
+0x2c05	Škola
+0x2c06	Park/Vrt
+0x2c07	Zoološki vrt
+0x2c08	Dvorana/trkalište
+0x2c09	Dvorana/Auditorij
+0x2c0a	Vinarija
+0x2c0b	Vjerski objekt
+
+0x2d00	Zabava
+0x2d01	Kazalište
+0x2d02	Bar/Noćni klub
+0x2d03	Kino
+0x2d04	Kasino
+0x2d05	Golf teren
+0x2d06	Skijaški centar/Odmaralište
+0x2d07	Kuglana
+0x2d08	Klizanje
+0x2d09	Bazen
+0x2d0a	Sportski/Fitnes centar
+0x2d0b	Sportski aerodrom
+
+0x2e00	Kupovina
+0x2e01	Robna kuća
+0x2e02	Trgovina
+0x2e03	Opće potrepštine
+0x2e04	Trgovački centar
+0x2e05	Ljekarna/Drogerija
+0x2e06	Mješovita roba
+0x2e07	Odjeća
+0x2e08	Kuća i vrt
+0x2e09	Oprema za dom
+0x2e0a	Trgovina s posebnom robom
+0x2e0b	Računala/Softver
+
+;0x2f00	
+0x2f01	Automobilsko gorivo
+0x2f02	Auto Rental
+0x2f03	Automobilski servis
+0x2f04	Zračni prijevoz
+0x2f05	Poštanski ured
+0x2f06	Banka/Bankomat
+0x2f07	Distributer/Auto dijelovi
+0x2f08	Kopneni prijevoz
+0x2f09	Marina/Popravci i čuvanje
+0x2f0a	Služba za spašavanje
+0x2f0b	Parkiranje
+0x2f0c	Odmorište/Turističke informacije
+0x2f0d	Auto Club
+0x2f0e	Autopraona
+0x2f0f	Zastupništvo tvrtke Garmin
+0x2f10	Osobne usluge
+0x2f11	Poslovne usluge
+0x2f12	Komunikacije
+0x2f13	Servis
+0x2f14	Socijalna služba
+0x2f15	Komunalije
+0x2f16	Odmorište za kamione
+0x2f17	Tranzitne usluge
+
+;0x3000	
+0x3001	Policijska stanica
+0x3002	Bolnica
+0x3003	Gradska vijećnica
+0x3004	Sudnica
+0x3005	Općinski centar
+0x3006	Granični prijelaz
+0x3007	Državni uredi
+0x3008	Vatrogasna služba
+
+0x4000	Golf teren
+0x4100	Ribolovno područje
+0x4200	Olupina
+0x4300	Marina
+0x4400	Benzinska crpka
+0x4500	Restoran
+0x4600	Bar
+0x4700	Pristanišna rampa
+0x4800	Teren za kampiranje
+0x4900	Park
+0x4a00	Izletište
+0x4b00	Zdravstveni objekt
+0x4c00	Informacije
+0x4d00	Parkiralište
+0x4e00	Toalet
+0x4f00	Tuš
+0x5000	Pitka voda
+0x5100	Telefon
+0x5200	Slikovito područje
+0x5300	Skijalište
+0x5400	Plivalište
+0x5500	Brana
+
+; Aviation
+0x5600	Područje pod kontrolom
+0x5700	Opasno područje
+0x5800	Zabranjeno područje
+0x5900	Zračna luka
+0x5901	Zračna luka (veliki)
+0x5902	Zračna luka (srednji)
+0x5903	Zračna luka (mali)
+0x5904	Heliodrom
+0x5905	Zračna luka
+
+0x5a00	Oznaka za kilometre/milje
+0x5b00	Zvono
+;0x5c00	
+;0x5d00	
+;0x5e00	
+0x6000	Rog
+;0x6100	
+
+0x6200	Dubina točke
+0x6300	Visina točke
+
+; Man-made features
+0x6400	Umjetna površina
+0x6401	Most
+0x6402	Zgrada
+0x6403	Groblje
+0x6404	Crkva
+0x6405	Gradilište
+0x6406	Prijelaz
+0x6407	Brana
+0x6408	Bolnica
+0x6409	Nasip
+;0x640a	
+0x640b	Vojni objekti
+0x640c	Rudnik
+0x640d	Naftno polje
+0x640e	Park
+0x640f	Poštanski ured
+0x6410	Škola
+0x6411	Toranj
+0x6412	Početak staze
+0x6413	Tunel
+0x6414	Bunar
+0x6415	Grad utvara
+;0x6416	
+
+; Water features
+0x6500	Vodena površina
+;0x6501	
+;0x6502	
+;0x6503	
+;0x6504	
+;0x6505	
+;0x6506	
+;0x6507	
+;0x6508	
+;0x6509	
+0x650a	Ledenjak
+;0x650b	
+;0x650c	
+0x650d	Jezero
+;0x650e	
+;0x650f	
+0x6510	More
+;0x6511	
+0x6512	Rječica
+0x6513	Močvarno područje
+
+; Land features
+0x6600	Osobina terena
+;0x6601	
+;0x6602	
+;0x6603	
+0x6604	Plaža
+;0x6605	
+;0x6606	
+;0x6607	
+;0x6608	
+0x6609	Zaravan
+0x660a	Šuma
+;0x660b	
+;0x660c	
+;0x660d	
+;0x660e	
+;0x660f	
+;0x6610	
+;0x6611	
+;0x6612	
+;0x6613	
+0x6614	Stijena
+;0x6615	
+0x6616	Planinski vrh
+;0x6617	
+0x6618	Šuma
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Cesta
+
+; Three levels of highways
+0x01	Glavni autoput
+0x02	Principal autoceste
+0x03	Ostali autoceste
+
+; Most important kind of street
+0x04	Arterijski put
+; Medium important kind of street
+0x05	Kolekcionar ceste
+; Ordinary street (80%)
+0x06	Stambena ulica
+; Smallest kind of street
+0x07	Uska ulica
+
+0x08	Rampa (low-speed)
+0x09	Rampa (high-speed)
+0x0a	Makadam
+0x0b	Glavni autoput priključak
+0x0c	Kružni tok
+0x16	Staza
+0x14	Pruga
+0x1a	Trajekt
+0x1b	Trajekt
+
+0x19	Vremenska zona
+0x1e	Međunarodna. granica
+0x1c	Javna/privatna granica
+0x1d	Županijska granica
+
+0x15	Obalna linija
+0x18	Rječica
+0x1f	Rijeka
+0x26	Potok koji ponekad presuši
+
+0x20	Kontura (1/10)
+0x21	Kontura (1/2)
+0x22	Kontura (1/1)
+0x23	Dubinske konture (1/10)
+0x24	Dubinske konture (1/2)
+0x25	Dubinske konture (1/1)
+
+;0x27	
+0x28	Cjevovod
+0x29	Električni vodovi
+
+0x2a	Morska granica
+0x2b	Morska opasnost
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Veliki gradsko područje (>200K)
+0x02	Mali gradsko područje (<200K)
+0x03	Ruralni stambene površine
+
+0x04	Vojna baza
+0x05	Parkiralište
+0x06	Parkirna garaža
+0x07	Zračna luka
+0x08	Trgovački centar
+0x09	Marina
+0x0a	Sveučilište
+0x0b	Bolnica
+0x0c	Industrijski kompleks
+0x0d	Zaštićeno područje
+0x0e	Zrakoplovna staza
+0x13	Zgrada
+0x18	Golf teren
+0x19	Sportski kompleks
+0x1a	Groblje
+
+0x14	Nacionalni park
+0x15	Nacionalni park
+0x16	Nacionalni park
+0x17	Gradski park
+0x1e	Park prirode
+0x1f	Park prirode
+0x20	Park prirode
+
+0x28	Ocean
+0x32	More
+0x3c	Jezero (250-600 km²)
+0x3d	Jezero (77-250 km²)
+0x3e	Jezero (25-77 km²)
+0x3f	Jezero (11-25 km²)
+0x40	Jezero (0.25-11 km²)
+0x41	Jezero (<0.25 km²)
+0x42	Jezero (>3300 km²)
+0x43	Jezero (1100-3300 km²)
+0x44	Jezero (600-1100 km²)
+0x46	Rijeka (>1 km)
+0x47	Rijeka (200 m-1 km)
+0x48	Rijeka (40-200 m)
+0x49	Rijeka (<40 m)
+0x4c	Vodena površina koja ponekad presuši
+
+0x4a	Područje odabira karte
+0x4b	Područje karta pokrivenosti
+
+0x4d	Ledenjak
+0x4e	Voćnjak
+0x4f	Šipražje
+0x50	Šuma
+0x51	Močvarno područje
+0x52	Tundra
+0x53	Zaravan

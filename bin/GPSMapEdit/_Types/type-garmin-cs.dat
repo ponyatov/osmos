@@ -1,0 +1,437 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+;
+
+.TYPESET Garmin
+
+; The Language ID for Czech defined by Microsoft
+;
+.LANGID 0x405
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN	Neznámý
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	Město velké (>10M)
+0x0200	Město velké (5-10M)
+0x0300	Město velké (2-5M)
+0x0400	Město velké (1-2M)
+0x0500	Město střední (0.5-1M)
+0x0600	Město střední (200-500K)
+0x0700	Město střední (100-200K)
+0x0800	Město malé (50-100K)
+0x0900	Město malé (20-50K)
+0x0a00	Město malé (10-20K)
+0x0b00	Město malé (5-10K)
+0x0c00	Vypořádání (2-5K)
+0x0d00	Vypořádání (1-2K)
+0x0e00	Vypořádání (500-1K)
+0x0f00	Vypořádání (200-500)
+0x1000	Vypořádání (100-200)
+0x1100	Vypořádání (<100)
+
+; Labels without icons
+0x1400	Hlavní název země
+0x1500	Menší název země
+0x1e00	Provincie/regionu jméno
+0x1f00	Kraj/farnost jméno
+0x2800	Štítek
+
+; Marine features
+0x1200	Marina s příslušenstvím
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Navigační pomůcka
+0x1601	Mys
+0x1602	Radiomaják
+0x1603	Radarový maják
+0x1604	Denní maják, červený trojúhelník
+0x1605	Denní maják, zelený čtverec
+0x1606	Denní maják, bílý diamant
+0x1607	Neosvětlená navigační pomůcka, bílá
+0x1608	Neosvětlená navigační pomůcka, červená
+0x1609	Neosvětlená navigační pomůcka, zelená
+0x160a	Neosvětlená navigační pomůcka, černá
+0x160b	Neosvětlená navigační pomůcka, jantarová
+0x160c	Neosvětlená navigační pomůcka, oranžová
+0x160d	Neosvětlená navigační pomůcka, vícebarevná
+0x160e	Navigační pomůcka, neznámá
+0x160f	Navigační pomůcka, bílá
+0x1610	Navigační pomůcka, červená
+0x1611	Navigační pomůcka, zelená
+0x1612	Navigační pomůcka, jantarová
+0x1613	Navigační pomůcka, oranžová
+0x1614	Navigační pomůcka, fialová
+0x1615	Navigační pomůcka, modrá
+0x1616	Navigační pomůcka, vícebarevná
+
+0x1c00	Nezařazená překážka
+0x1c01	Viditelný vrak
+0x1c02	Ponořený vrak, nebezpečný
+0x1c03	Ponořený vrak
+0x1c04	Vrak, Označený nataženým drátem
+0x1c05	Překážka viditelná při přílivu
+0x1c06	Překážka, na úrovni hladiny
+0x1c07	Překážka, ponořená
+0x1c08	Překážka, odstraněná
+0x1c09	Skála, na úrovni hladiny
+0x1c0a	Skála pod odlívanou vodou
+0x1c0b	Případný provozní risk
+
+; Tide table prediction used in marine maps
+0x1d00	Předpovědní stanice přílivu a proudu
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	Sjezd
+0x2100	Sjezd z přistrojí
+0x210f	Sjezd (služba)
+0x2200	Sjezd (Toaleta)
+0x2300	Samoobsluha
+0x2400	Váhy
+0x2500	Výběr mýtného
+0x2600	Sjezd (informace)
+0x2700	Sjezd
+
+0x2900	Nekategorizované služby
+
+0x2a00	Jídlo a pití
+0x2a01	Americký
+0x2a02	Asijský
+0x2a03	Grilování
+0x2a04	Čínský
+0x2a05	Pekárna
+0x2a06	Mezinárodní
+0x2a07	Občerstvení
+0x2a08	Italský
+0x2a09	Mexický
+0x2a0a	Pizza
+0x2a0b	Plody moře
+0x2a0c	Stejk/gril
+0x2a0d	Slané pečivo/kobliha
+0x2a0e	Kavárna/restaurace
+0x2a0f	Francouzský
+0x2a10	Německý
+0x2a11	Britský
+0x2a12	Speciální potravinové produkty
+
+0x2b00	Nocleh
+0x2b01	Hotel/Motel
+0x2b02	Motel s restaurace
+0x2b03	Kemp/RV Park
+0x2b04	Lázně
+
+0x2c00	Atrakce
+0x2c01	Zábavní/tematický park
+0x2c02	Historické muzeum
+0x2c03	Knihovna
+0x2c04	Pamětihodnost
+0x2c05	Škola
+0x2c06	Park/zahrada
+0x2c07	Zoo
+0x2c08	Aréna/závodiště
+0x2c09	Zasedací místnost/Posluchárna
+0x2c0a	Vinárna
+0x2c0b	Kostel
+
+0x2d00	Zábava
+0x2d01	Divadlo
+0x2d02	Bar/noční klub
+0x2d03	Kino
+0x2d04	Kasino
+0x2d05	Golfové hřiště
+0x2d06	Lyžařské středisko/rezort
+0x2d07	Bowlingové středisko
+0x2d08	Bruslení
+0x2d09	Bazén
+0x2d0a	Sportovní/fitness centrum
+0x2d0b	Veřejné sportovní letiště
+
+0x2e00	Nákupy
+0x2e01	Obchodní dům
+0x2e02	Potraviny
+0x2e03	Smíšené zboží
+0x2e04	Nákupní středisko
+0x2e05	Lékárna
+0x2e06	Samoobsluha
+0x2e07	Oblečení
+0x2e08	Dům a zahrada
+0x2e09	Domácí potřeby
+0x2e0a	Speciální prodej
+0x2e0b	Počítače/software
+
+0x2f00	Všeobecně služby
+0x2f01	Automobilové palivo
+0x2f02	Autopůjčovna
+0x2f03	Servis automobilů
+0x2f04	Letecká doprava
+0x2f05	Pošta
+0x2f06	Banka/bankomat
+0x2f07	Prodejce auto/Náhradní díly
+0x2f08	Pozemní doprava
+0x2f09	Přístav/Opravy a uskladnění
+0x2f0a	Odtahová služba
+0x2f0b	Parkování
+0x2f0c	Odpočívadlo/turistické informace
+0x2f0d	Autoklub
+0x2f0e	Mytí aut
+0x2f0f	Prodejce GARMIN
+0x2f10	Osobní služby
+0x2f11	Obchodní služby
+0x2f12	Komunikace
+0x2f13	Servisní služby
+0x2f14	Sociální služby
+0x2f15	Komunální služby
+0x2f16	Odpočívadlo pro kamiony
+0x2f17	Přepravní služby
+
+0x3000	Pohotovost/Státní
+0x3001	Policejní stanice
+0x3002	Nemocnice
+0x3003	Radnice
+0x3004	Soudní budova
+0x3005	Kulturní dům
+0x3006	Hraniční přechod
+0x3007	Vládní úřad
+0x3008	Hasičské oddělení
+
+0x4000	Golfové hřiště
+0x4100	Rybářská oblast
+0x4200	Vrak
+0x4300	Přístav
+0x4400	Benzínové čerpadlo
+0x4500	Restaurace
+0x4600	Bar
+0x4700	Přístaviště
+0x4800	Kemp
+0x4900	Park
+0x4a00	Odpočívadlo
+0x4b00	Zdravotnické zařízení
+0x4c00	Informace
+0x4d00	Parkoviště
+0x4e00	WC
+0x4f00	Sprcha
+0x5000	Pitná voda
+0x5100	Telefon
+0x5200	Hezké místo
+0x5300	Lyžařská oblast
+0x5400	Plavecká oblast
+0x5500	Přehrada
+
+; Aviation
+0x5600	Řízená oblast
+0x5700	Nebezpečná oblast
+0x5800	Zakázaná prostor
+0x5900	Letiště
+0x5901	Letiště (velké)
+0x5902	Letiště (střední)
+0x5903	Letiště (malé)
+0x5904	Heliport
+0x5905	Letiště
+
+0x5a00	Kilometrovník
+0x5b00	Zvonec
+0x5c00	Potápěčská oblast
+0x5d00	Maják, zelený čtyřúhelník
+0x5e00	Maják, červený trojúhelník
+0x6000	Mys
+0x6100	Dům
+
+0x6200	Bodová hloubka
+0x6300	Bodová výška
+
+; Man-made features
+0x6400	Lidský výtvor
+0x6401	Most
+0x6402	Budova
+0x6403	Hřbitov
+0x6404	Kostel/Církev/mešita
+0x6405	Městský
+0x6406	Přechod
+0x6407	Přehrada
+0x6408	Nemocnice
+0x6409	Hráz
+0x640a	Lokalita
+0x640b	Vojáci
+0x640c	Důl
+0x640d	Ropné naleziště
+0x640e	Park
+0x640f	Pošta
+0x6410	Škola
+0x6411	Věž
+0x6412	Začátek stezky
+0x6413	Tunel
+0x6414	Studna
+0x6415	Město duchů
+;0x6416	
+
+; Water features
+0x6500	Vodní prvek
+0x6501	Vyschlé koryto
+0x6502	Písková lavice
+0x6503	Záliv
+;0x6504	
+0x6505	Kanál
+0x6506	Průliv
+0x6507	Zátoka
+0x6508	Vodopád
+0x6509	Gejzír
+0x650a	Ledovec
+0x650b	Útulek
+0x650c	Ostrov
+0x650d	Jezero
+0x650e	Slap
+0x650f	Vodojem
+0x6510	Moře
+0x6511	Pramen
+0x6512	Vodní tok
+0x6513	Mokřady
+
+; Land features
+0x6600	Pozemní prvek
+;0x6601	
+;0x6602	
+;0x6603	
+0x6604	Pláž
+;0x6605	
+0x6606	Mys
+0x6607	Útes
+0x6608	Kráter
+0x6609	Rovina
+0x660a	Les
+0x660b	Díra
+;0x660c	
+0x660d	Pevninská šíje
+0x660e	Láva
+;0x660f	
+;0x6610	
+0x6611	Horský hřeben
+0x6612	Rezervace
+0x6613	Hřeben
+0x6614	Skála
+0x6615	Sklon
+0x6616	Vrchol
+0x6617	Dolina
+0x6618	Lesy
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Cesta
+
+; Three levels of highways
+0x01	Hlavní dálnice
+0x02	Hlavní silnice
+0x03	Ostatní silnice
+
+; Most important kind of street
+0x04	Hlavní tepna
+; Medium important kind of street
+0x05	Sběratel silnice
+; Ordinary street (80%)
+0x06	Obytné ulice
+; Smallest kind of street
+0x07	Alej/Ulička/Pruh
+
+0x08	Nájezdová rampa malé rychlostí
+0x09	Nájezdová rampa, rychlostní
+0x0a	Silnice s nezpevněným povrchem
+0x0b	Hlavní dálniční spojka
+0x0c	Kruhový objezd
+0x16	Stezka
+0x14	Železnice
+0x1a	Vodní nebo železniční trajekt
+0x1b	Vodní nebo železniční trajekt
+
+0x19	Časové pásmo
+0x1e	Mezinárodní hranice
+0x1c	Stát/Provincie hranice
+0x1d	Hranice kraje
+
+0x15	Břeh
+0x18	Vodní tok
+0x1f	Řeka
+0x26	Občasný tok
+
+0x20	Menší obrysová linie (1/10)
+0x21	Středně obrysová linie (1/2)
+0x22	Hlavní obrysová linie (1/1)
+0x23	Menší hloubkový obrys (1/10)
+0x24	Střední hloubkový obrys (1/2)
+0x25	Hlavní hloubkový obrys (1/1)
+
+0x27	Letištní vzletová a přistávací dráha
+0x28	Naftovod nebo vodovod
+0x29	Elektrické vedení
+
+0x2a	Námořní hranice
+0x2b	Námořní nebezpečí
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Velké městské oblasti (>200K)
+0x02	Malé městské oblasti (<200K)
+0x03	Venkovské oblasti bydlení
+
+0x04	Vojenská základna
+0x05	Parkoviště
+0x06	Garáž
+0x07	Letiště
+0x08	Nákupní středisko
+0x09	Přístav
+0x0a	Univerzita/vysoká škola
+0x0b	Nemocnice
+0x0c	Průmyslový komplex
+0x0d	Rezervace
+0x0e	Letištní plocha
+0x13	Budova
+0x18	Golfové hřiště
+0x19	Sportovní komplex
+0x1a	Hřbitov
+
+0x14	Národní park
+0x15	Národní park
+0x16	Národní park
+0x17	Městský park
+0x1e	Státní park
+0x1f	Státní park
+0x20	Státní park
+
+0x28	Moře/Oceán
+0x32	Moře
+0x3c	Velké jezero (250-600 km²)
+0x3d	Velké jezero (77-250 km²)
+0x3e	Střední jezero (25-77 km²)
+0x3f	Střední jezero (11-25 km²)
+0x40	Malé jezero (0.25-11 km²)
+0x41	Malé jezero (<0.25 km²)
+0x42	Velké jezero (>3300 km²)
+0x43	Velké jezero (1100-3300 km²)
+0x44	Velké jezero (600-1100 km²)
+0x46	Hlavní řeka (>1 km)
+0x47	Velká řeka (200 m-1 km)
+0x48	Střední řeka (40-200 m)
+0x49	Malá řeka (<40 m)
+0x4c	Nesouvislá vodní plocha
+
+0x4a	Oblast výběru map
+0x4b	Oblast pokrytí mapami
+
+0x4d	Ledovec
+0x4e	Sad/pěstování
+0x4f	Keře
+0x50	Lesy
+0x51	Mokřady
+0x52	Tundra
+0x53	Pláž/příliv/mělčina při ústí řeky 

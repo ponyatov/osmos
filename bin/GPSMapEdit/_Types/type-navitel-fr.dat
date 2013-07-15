@@ -1,0 +1,197 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+;
+
+.TYPESET Navitel
+
+; The Language ID for French defined by Microsoft
+;
+.LANGID 0x40c
+
+;========================================================================================
+
+.POINT
+
+0xf001	Gare de bus
+0xf002	Arrêt de bus
+0xf003	Arrêt de tram
+0xf004	Arrêt de bus trolley
+0xf005	Station de métro
+0xf006	Gare de train
+0xf007	Terminus de train
+0xf008	Gare de monorail
+0xf009	Station de funiculaire/téléphérique
+0xf00a	Port
+0xf00b	Quai
+0xf00c	Terminus de ferry
+
+0xf101	Eglise orthodoxe
+0xf102	Eglise catholique
+0xf103	Eglise protestante
+0xf104	Mosquée
+0xf105	Synagogue
+0xf106	Pagode
+
+0xf201	Feux de circulation routière
+0xf202	Police de la circulaltion
+0xf203	Passage de ferroviaire (avec barrière)
+0xf204	Rough route
+0xf205	Vitesse radar
+0xf206	Hauteur limite
+0xf207	Le trafic de transit est interdite
+0xf208	Gaz combustible automobile
+0xf209	Montage de roues
+0xf20a	Ajustment de roues
+0xf20b	Passage de ferroviaire (sans barrière)
+0xf20c	Rond-point
+
+0xf301	Monument
+0xf302	Fontaine
+0xf303	Château d'eau
+0xf304	Tour TV/Radio 
+0xf305	Point géodésique
+0xf306	Col de montagne
+0xf307	Gué
+0xf308	Fosse
+0xf309	Brouette
+0xf30a	Cailloux
+0xf30b	Tourbe
+0xf30c	Passerelle
+0xf30d	Caverne
+
+0xf401	Forêt à feuilles caduques
+0xf402	Forêt de conifères
+0xf403	Forêt mixte
+0xf404	Arbre
+0xf405	Buisson isolé
+0xf406	Bosquet
+
+0xf501	Maternelle
+0xf502	Lycée/L'école
+0xf503	Ecole professionnelle
+0xf504	Université/collège
+0xf505	Ecole spécialisée
+
+0xf601	Guichet automatique
+0xf602	Coiffeur
+0xf603	Sauna
+0xf604	Lave-linge
+0xf605	Studio Photo
+0xf606	Atelier de couture
+0xf607	Reparation d'appareils electriques
+0xf608	Réparation d'ordinateurs
+0xf609	Retouche de vêtements
+0xf60a	Réparation de chaussures
+0xf60b	Reparation de meubles
+0xf60c	Cabinet d'avocat
+0xf60d	Notaire
+0xf60e	Assurance
+0xf60f	Agence immobilière
+0xf610	Service de renseignement
+0xf611	Service éditorial
+0xf612	Imprimerie
+0xf613	Agence de voyage
+0xf614	Agence de réservation aérienne / chemin de fer
+0xf615	Hotspot Wi-Fi gratuit
+0xf616	Cybercafé
+
+0xf701	Marché
+0xf702	Magasin de chaussures
+0xf703	Produits de consommation
+0xf704	Produits chimiques de ménage
+0xf705	Appareils électriques
+0xf706	Appareils mobiles
+0xf707	Produits de sport et de tourisme
+0xf708	Armes
+0xf709	Cadeaux
+0xf70a	Fleuristes
+0xf70b	Bijouterie
+0xf70c	Animaux domestiques
+
+0xf801	Cabinet dentaire
+0xf802	Clinique vétérinaire
+
+0xf901	Cirque
+
+;========================================================================================
+
+.POLYLINE
+
+;0x3d	
+;0x3e	
+
+0x3f	Ligne de tram
+0x40	Ligne de monorail
+0x41	Ligne de funiculaire/téléphérique
+
+0x42	Route de terre ou gravier
+0x43	Tunnel
+0x44	Large rivière
+
+0x45	Frontière de district de ville
+0x46	Barrière
+
+0x47	Trajet planifié
+0x48	Clairière de forêt
+0x49	Voie de circulation
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Route collectrice
+0x69	Artère principale
+0x6a	Place
+0x6b	Rue
+
+; Buildings
+0x6c	Immeuble résidentiel
+0x6d	Immeuble de bureaux
+0x6e	Immeuble commune
+0x6f	Immeuble industriel
+
+;0x70	
+;0x71	
+;0x72	
+;0x73	
+;0x74	
+;0x75	
+;0x76	
+;0x77	
+;0x78	
+;0x79	
+;0x7a	
+;0x7b	
+;0x7c	
+;0x7d	
+;0x7e	
+;0x7f	
+;0x80	
+
+0x81	Forêt marécageuse
+0x82	Forêt sous-dimensionnés
+0x83	Forêt clairsemée
+0x84	Forêt sèche/ morte
+0x85	Forêt de souches
+0x86	Vigne
+0x87	Rizière
+0x88	Prairie
+0x89	Sable
+0x8a	Sol rocailleux
+0x8b	Terre saline
+0x8c	Roseau
+0x8d	Algue
+0x8e	Buisson épineux
+0x8f	Arbres tombés
+0x90	Elfin wood/Krummholz
+0x91	Saxaoul
+0x92	Bambou
+0x93	Palmeraie
+0x94	Mangroves
+0x95	Hautes herbes
+0x96	Mousses
+0x97	Lichens
+0x98	Pelouse

@@ -1,0 +1,73 @@
+﻿.TRANSLITERATION
+
+; This file is used by GPSMapEdit to provide translitertion table for Arabic.
+; Based on ISO 233, http://en.wikipedia.org/wiki/ISO_233.
+;
+; NOTE: if you want to translate this file to another language,
+; please keep the first line (".TRANSLITERATION") as is.
+;
+
+; Display name for data
+.NAME Arabic->Latin (ISO 233)
+
+; Language ID for Arabic defined by Microsoft
+.LANGID 1025
+
+;
+; Tests
+;
+
+.TEST العربية  ʾˈalʿrbyẗ
+
+;
+; The substitutions
+;
+
+.DATA
+ﺀ	ˌ
+ٔ◌	ˈ
+ٕ◌	
+ﺍ	ʾ
+ب	b
+ت	t
+ث	ṯ
+ج	ǧ
+ح	ḥ
+خ	ḫ
+د	d
+ذ	ḏ
+ر	r
+ز	z
+س	s
+ش	š
+ص	ṣ
+ض	ḍ
+ط	ṭ
+ظ	ẓ
+ع	ʿ
+غ	ġ
+ف	f
+ق	q
+ك	k
+ل	l
+م	m
+ن	n
+ه	h
+ة	ẗ
+و	w
+ي	y
+ى	ỳ
+ﺁ	ʾâ
+ﻻ	laʾ
+ال	ʾˈal
+
+٠	0
+١	1
+٢	2
+٣	3
+٤	4
+٥	5
+٦	6
+٧	7
+٨	8
+٩	9

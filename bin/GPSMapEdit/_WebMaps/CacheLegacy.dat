@@ -1,0 +1,51 @@
+.web_map_cache 1
+
+.name          @r8851
+.class         Legacy
+
+; Automatic unit-test for BuildFileName() and ParseFileName() for consistency:
+;              <x>    <y>    <level> <strFileName>
+.test          634811 327655 20      "rtqrststssssstsrrtss"
+
+.script        JScript
+
+var c_strCodes = "qrts";
+
+function BuildFileName (_x, _y, _level) {
+	var strFileName = "";
+
+	for (var n = 0; n < _level; ++ n) {
+		var bxi = (_x >> (_level - 1 - n)) & 0x1;
+		var byi = (_y >> (_level - 1 - n)) & 0x1;
+		strFileName += c_strCodes.charAt (bxi + 2*byi);
+	}
+
+	return strFileName;
+}
+
+function ParseFileName (_strFileName) {
+	// Find the beginning of file name.
+	var nPos;
+	for (nPos = _strFileName.length - 1; nPos >= 0; -- nPos) {
+		if (_strFileName.charAt (nPos) == "\\")
+			break;
+	}
+	++ nPos;
+
+	var ret = {};
+	ret.level = _strFileName.length - nPos;
+	ret.x = 0;
+	ret.y = 0;
+
+	for (var n = 0; n < ret.level; ++ n) {
+		var d = c_strCodes.indexOf (_strFileName.charAt (nPos + n));
+		if (d == -1)
+			return false;
+		if (d & 0x1)
+			ret.x |= 1 << (ret.level - 1 - n);
+		if (d & 0x2)
+			ret.y |= 1 << (ret.level - 1 - n);
+	}
+
+	return ret;
+}

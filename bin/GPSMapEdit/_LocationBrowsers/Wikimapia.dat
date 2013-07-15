@@ -1,0 +1,22 @@
+.location_browser 1
+
+.name            @r8808
+.class           wikimapia
+
+.include_script  StdLevel.js
+.script          JScript
+////////////////////////////////////////////
+
+// Sample:
+//   http://wikimapia.org/#lat=55.678&lon=37.2777&z=10&l=1&m=b
+//
+function Browse (_x, _y, _scale) {
+	var nLevel = GetStdLevel (_y, _scale) + 1;
+	if (nLevel > 19)
+		nLevel = 19;
+	if (nLevel < 0)
+		nLevel = 0;
+
+	var WshShell = new ActiveXObject ("WScript.Shell");
+	WshShell.Run ("http://wikimapia.org/#lat=" + _y.toFixed (5) + "&lon=" + _x.toFixed (5) + "&z=" + nLevel + "&l=1&m=b");
+}

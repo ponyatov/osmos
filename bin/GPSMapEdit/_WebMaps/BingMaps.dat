@@ -1,0 +1,75 @@
+.web_map         1
+
+.name            @r8803
+.image           BingMaps.ico
+.class           bing-maps-sat
+.cache_subfolder vesat
+.hotkey          Shift+B
+
+.def_version     1188
+.tile_referer    http://www.bing.com/maps/
+.tile_size       256
+.tile_ext        .jpg
+
+.include_script  StdLib.js
+.include_script  ProjGoogle.js
+.script          JScript
+////////////////////////////////////////////
+
+function OnStart () {
+	WebMap.Browse ("root", "http://www.bing.com/maps/", true);
+}
+
+var nMaxLevel = 20;
+
+function OnPageComplete (_strBrowser, _strURL, _pHTMLDocument2, _RawData) {
+	if (_strBrowser == "root" && _strURL.match (/http:\/\/[^.]*.bing.com\/maps\/#?/) != null) {
+		WebMap.SetReady ();
+
+		var strScripts = _ExtractScripts (_pHTMLDocument2);
+		strScripts = strScripts.replace (/\s/, "");
+		strScripts = strScripts.replace (/'/,  "\"");
+
+		// Max Zoom (from "maxMercatorZoom:20").
+		var matchMaxZoom = strScripts.match (/maxMercatorZoom:/i);
+		if (matchMaxZoom != null) {
+			var strPostMaxZoom = strScripts.substr (matchMaxZoom.lastIndex, 32);
+			var nMaxZoom = parseInt (strPostMaxZoom);
+			WebMap.Log ("Max Zoom = " + nMaxZoom);
+			if (nMaxLevel < nMaxZoom)
+				nMaxLevel = nMaxZoom;
+		}
+
+		// Version (from "tilegeneration:1135")
+		var matchVersion = strScripts.match (/tilegeneration:/i);
+		if (matchVersion != null) {
+			var strPostVersion = strScripts.substr (matchVersion.lastIndex, 32);
+			var nVersion = parseInt (strPostVersion);
+			if (nVersion != NaN)
+				WebMap.SetVersion (nVersion);
+		}
+
+		//"aerialUriFormat","{urischeme}ecn.t{subdomain}.tiles.virtualearth.net/tiles/a{quadkey}.jpeg?g={generation}&n=z"
+	}
+}
+
+function GetMaxLevel () {return nMaxLevel < 20 ? nMaxLevel : 20;}
+function GetMinLevel () {return 1;}
+
+// Sample:
+//   http://ecn.t1.tiles.virtualearth.net/tiles/a12031.jpeg?g=1135&n=z
+//
+function MakeTileURL (_x, _y, _level, _version) {
+	if (_level < 1)
+		return "";
+
+	var strQuadKey = "";
+
+	for (var n = 1; n <= _level; ++ n) {
+		var bxi = (_x >> (_level - n)) & 0x1;
+		var byi = (_y >> (_level - n)) & 0x1;
+		strQuadKey += (bxi + 2*byi).toString ();
+	}
+
+	return "http://ecn.t" + strQuadKey.charAt (strQuadKey.length - 1) + ".tiles.virtualearth.net/tiles/a" + strQuadKey + ".jpeg?g=" + _version + "&n=z";
+}

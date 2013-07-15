@@ -1,0 +1,77 @@
+﻿.TRANSLITERATION
+
+; This file is used by GPSMapEdit to provide translitertion table for New Persian (Farsi).
+; Based on BGN/PCGN, http://en.wikipedia.org/wiki/Romanization_of_Persian.
+; http://gort.ucsd.edu/edocs/fed/USBGN_romanization.pdf, pp. 87-89
+;
+; NOTE: if you want to translate this file to another language,
+; please keep the first line (".TRANSLITERATION") as is.
+;
+
+; Display name for data
+.NAME Persian->Latin (BGN/PCGN)
+
+; Language ID for Farsi defined by Microsoft
+.LANGID 1065
+
+;
+; Tests
+;
+
+.TEST فارسی  frsy
+
+;
+; The substitutions
+;
+
+.DATA
+آ	ā
+ٔ◌	a
+ٕ◌	e
+ا
+ﺍ
+ب	b
+پ	p
+ت	t
+ث	s̄̄
+ج	j
+چ	ch
+ح	ḩ
+خ	kh
+د	d
+ذ	z̄̄
+ر	r
+ز	z
+ژ	zh
+س	s
+ش	sh
+ص	ş
+ض	ẕ
+ط	ţ
+ظ	z̧
+ع	ʿ
+غ	gh
+ف	f
+ق	q
+ك	k
+گ	g
+ل	l
+م	m
+ن	n
+ه	h
+و	v
+ى	y
+ی	y
+
+۰	0
+۱	1
+۲	2
+۳	3
+٤	4
+۴	4
+۵	5
+٦	6
+۶	6
+۷	7
+۸	8
+۹	9

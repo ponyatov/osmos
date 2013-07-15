@@ -1,0 +1,28 @@
+﻿.bookmark_types 001
+
+.type nn_speedcam @r8340
+
+.default_heading true
+
+.attributes
+speed      integer @r8380
+directions enum    @r8381 {
+	"0"     @r8382,
+	"1"     @r8383,
+	"2"     @r8384
+}
+comment    string  @r8361
+
+.subtypes
+1   @r8332   nn_speedcams\SpeedCam.ico   {*@speed *directions comment}
+2   @r8333   nn_speedcams\SpeedCam2.ico  {*@speed *directions comment}
+3   @r8334   nn_speedcams\SpeedCam2.ico  {*@speed *directions comment}
+4   @r8335   nn_speedcams\SpeedCam4.ico  {*@speed *directions comment}
+5   @r8336   nn_speedcams\SpeedCam5.ico  {*@speed *directions comment}
+100 @r8347   nn_speedcams\Crosswalk.ico  {*@speed *directions comment}
+101 @r8341   nn_speedcams\SpeedLimit.ico {*@speed *directions comment}
+102 @r8342   nn_speedcams\Warn102.ico    {*@speed *directions comment}
+103 @r8343   nn_speedcams\Warn103.ico    {*speed  *directions comment}
+104 @r8344   nn_speedcams\Warn104.ico    {*speed  *directions comment}
+105 @r8345   nn_speedcams\Warn105.ico    {*speed  *directions comment}
+106 @r8346   nn_speedcams\Warn106.ico    {*speed  *directions comment}

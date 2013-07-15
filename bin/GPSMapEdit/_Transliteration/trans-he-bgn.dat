@@ -1,0 +1,94 @@
+﻿.TRANSLITERATION
+
+; This file is used by GPSMapEdit to provide translitertion table for Hebrew.
+; Based on BGN/PCGN, http://gort.ucsd.edu/edocs/fed/USBGN_romanization.pdf, pp.33-37.
+;
+; NOTE: if you want to translate this file to another language,
+; please keep the first line (".TRANSLITERATION") as is.
+;
+
+; Display name for data
+.NAME Hebrew->Latin (BGN/PCGN)
+
+; Language ID for Hebrew defined by Microsoft
+.LANGID 1037
+
+;
+; Tests
+;
+
+.TEST עִבְרִית  iveryt
+
+;
+; The substitutions
+;
+
+.DATA
+א	ʼ
+אּ	ʼ
+ב	v
+בּ	b
+ג	g
+גּ	g
+ד	d
+דּ	d
+ה	h
+הּ	h
+ו	w
+וּ	ww
+ז	z
+זּ	zz
+ח	h̲̲̲
+ט	t
+טּ	tt
+י	y
+יּ	yy
+כ	kh
+ך	kh
+כּ	k
+ךּ	k
+ל	l
+לּ	ll
+ם	m
+מ	m
+מּ	mm
+ן	n
+נ	n
+נּ	nn
+ס	s
+סּ	ss
+ע	ʻ
+ף	f
+פ	f
+פּ	p
+צ	ẕ
+ץ	ẕ
+צּ	ẕẕ
+ק	q
+קּ	qq
+ר	r
+שׁ	sh
+שּׁ	sh
+שׂ	s
+שּׂ	s
+ת	t
+תּ	t
+
+טְ	e
+בְ	ve
+חֱ	e
+חֲ	a
+חֳ	o
+רִ	r
+עִ	i
+טִ	i
+ḥ	i
+טֵ	e
+טֶ	e
+טַ	a
+טָ	a
+טֹ	o
+טֻ	u
+טוּ	u
+טֵי	e
+טִי	i

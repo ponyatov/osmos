@@ -1,0 +1,167 @@
+.TRANSLITERATION
+
+; This file is used by GPSMapEdit to provide reverse translitertion table to Russian.
+;
+; NOTE: if you want to translate this file to another language,
+; please keep the first line (".TRANSLITERATION") as is.
+;
+
+; Display name for data
+.NAME Russian<-Latin
+
+; The code page of this file.
+.CODEPAGE 1251
+; Language ID for Russian defined by Microsoft
+.LANGID 1049
+
+;
+; Tests
+;
+
+.TEST Moskva       Ìîñêâà
+.TEST Sheremet'evo Øåðåìåòüåâî
+.TEST Mytishhi     Ìûòèùè
+
+;
+; The substitutions
+;
+
+.DATA
+a	à
+b	á
+b'	áü
+v	â
+v'	âü
+g	ã
+g'	ãü
+d	ä
+d'	äü
+e	å
+jo	¸
+yo	¸
+zh	æ
+zh'	æü
+z	ç
+z'	çü
+i	è
+jj	é
+ji	é
+k	ê
+k'	êü
+l	ë
+l'	ëü
+m	ì
+m'	ìü
+n	í
+n'	íü
+o	î
+p	ï
+p'	ïü
+r	ð
+r'	ðü
+s	ñ
+s'	ñü
+t	ò
+t'	òü
+u	ó
+f	ô
+f'	ôü
+kh	õ
+kh'	õü
+h	õ
+h'	õü
+c	ö
+ts  ö
+ch	÷
+ch'	÷ü
+sh	ø
+sh'	øü
+shh	ù
+sch	ù
+shch	ù
+y	û
+yi	û
+eh	ý
+yu	þ
+ju	þ
+ya	ÿ
+ja	ÿ
+A	À
+B	Á
+B'	Áü
+V	Â
+V'	Âü
+G	Ã
+G'	Ãü
+D	Ä
+D'	Äü
+E	Å
+Jo	¨
+JO	¨
+Yo	¨
+YO	¨
+Zh	Æ
+ZH	Æ
+Zh'	Æü
+ZH'	ÆÜ
+Z	Ç
+Z'	Çü
+I	È
+Jj	É
+JJ	É
+K	Ê
+K'	Êü
+L	Ë
+L'	Ëü
+M	Ì
+M'	Ìü
+N	Í
+N'	Íü
+O	Î
+P	Ï
+P'	Ïü
+R	Ð
+R'	Ðü
+S	Ñ
+S'	Ñü
+T	Ò
+T'	Òü
+U	Ó
+F	Ô
+F'	Ôü
+Kh	Õ
+KH	Õ
+KH'	ÕÜ
+Kh'	Õü
+H	Õ
+H'	Õü
+C	Ö
+Ts  Ö
+TS  Ö
+Ch	×
+CH	×
+Ch'	×ü
+CH'	×Ü
+Sh	Ø
+SH	Ø
+Sh'	Øü
+SH'	ØÜ
+Shh	Ù
+Shch	Ù
+SHH	Ù
+SHCH	Ù
+Sch	Ù
+SCH	Ù
+Y	Û
+Yi	Û
+Ji	Û
+Eh	Ý
+EH	Ý
+Yu	Þ
+YU	Þ
+Ju	Þ
+JU	Þ
+Ya	ß
+YA	ß
+Ja	ß
+JA	ß

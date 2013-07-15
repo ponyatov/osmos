@@ -1,0 +1,47 @@
+.location_browser 1
+
+.name             @r8809
+.submenu1         @r8812
+.submenu2         @c:RUS
+.class            rosreestr
+
+.include_script   StdLevel.js
+.script           JScript
+////////////////////////////////////////////
+
+// Sample:
+//   http://maps.rosreestr.ru/PortalOnline/?l=10&x=4179837.6467966805&y=7510203.33810068&mls=map|anno&cls=cadastre
+//
+function Browse (_x, _y, _scale) {
+	var nLevel = GetStdLevel (_y, _scale) + 1;
+	if (nLevel > 20)
+		nLevel = 20;
+	if (nLevel < 0)
+		nLevel = 0;
+
+	var x = _LonToMercX (_x);
+	var y = _LatToMercY (_y);
+
+	var WshShell = new ActiveXObject ("WScript.Shell");
+	WshShell.Run ("http://maps.rosreestr.ru/PortalOnline/?l=" + nLevel + "&x=" + x + "&y=" + y + "&mls=map|anno&cls=cadastre");
+}
+
+///////////////////////////////
+// NOTE: Based on EPSG:3857
+
+// Earth radius, in meters.
+var R = 6378137.0;
+
+// [private]
+function _LonToMercX (_x) {return _x*Math.PI/180*R;}
+
+// [private]
+function _LatToMercY (_y) {
+	var z = Math.sin (_y*Math.PI/180);
+	if (z == -1)
+		z = -0.99999;
+	else if (z == 1)
+		z = 0.99999;
+	return .5*Math.log ((1 + z)/(1 - z))*R;
+}
+

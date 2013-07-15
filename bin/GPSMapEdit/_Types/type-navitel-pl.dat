@@ -1,0 +1,198 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+; (c) Translated to Polish by Alf/red/, 2011
+;
+
+.TYPESET Navitel
+
+; The Language ID for Polish defined by Microsoft
+;
+.LANGID 0x415
+
+;========================================================================================
+
+.POINT
+
+0xf001	Dworzec autobusowy
+0xf002	Przystanek autobusowy
+0xf003	Przystanek tramwajowy
+0xf004	Wуzek przystanek autobusowy
+0xf005	Underground / metra / stacja metra
+0xf006	Dworzec kolejowy
+0xf007	Terminal kolejowy
+0xf008	Stacji jednoszynowy
+0xf009	Przystanek kolej linowo/kolejki
+0xf00a	Port
+0xf00b	Estakada
+0xf00c	Terminal promowy
+
+0xf101	Cerkiew
+0xf102	Kościół
+0xf103	Kościół ewangelicki
+0xf104	Meczet
+0xf105	Synagoga
+0xf106	Pagoda
+
+0xf201	Sygnalizacja świetlna
+0xf202	Policja drogowa
+0xf203	Przejazd kolejowy (z zapory)
+0xf204	Rough drogowego
+0xf205	Fotoradar
+0xf206	Wysokość limitu
+0xf207	Nie ruchu tranzytowego
+0xf208	Paliwo gazowe
+0xf209	Zawieszenie kół
+0xf20a	Regulacja koła
+0xf20b	Przejazd kolejowy (bez zapory)
+0xf20c	Rondo
+
+0xf301	Pomnik
+0xf302	Fontanna
+0xf303	Wieża ciśnień
+0xf304	TV / radiowej wieży 
+0xf305	Punkt geodezyjny
+0xf306	Przełęcz
+0xf307	Brуd
+0xf308	Dół
+0xf309	Wуzek
+0xf30a	Kamienie
+0xf30b	Torf
+0xf30c	Kładka
+0xf30d	Wejście do jaskini
+
+0xf401	Lasów liściastych
+0xf402	Bуr
+0xf403	Las mieszany
+0xf404	Jednym drzewie
+0xf405	Bush oddzielny
+0xf406	Gaj
+
+0xf501	Przedszkola
+0xf502	Szkoły
+0xf503	Szkoła zawodowa
+0xf504	Uniwersytet / College
+0xf505	Specjalistycznej szkole
+
+0xf601	Bankomat
+0xf602	Fryzjer
+0xf603	Sauna
+0xf604	Pralnia
+0xf605	Studio fotografa
+0xf606	Pracownia krawiectwa
+0xf607	Naprawy urządzeń elektrycznych
+0xf608	Naprawa komputerуw
+0xf609	Naprawy na ubrania
+0xf60a	Naprawy butуw
+0xf60b	Naprawa mebli
+0xf60c	Prawnik
+0xf60d	Notariusz
+0xf60e	Ubezpieczenie
+0xf60f	Agencja nieruchomości
+0xf610	Serwis informacyjny
+0xf611	Redakcji
+0xf612	Drukarnia
+0xf613	Biuro podróży
+0xf614	Kasa biletowa avia / kolej
+0xf615	Darmowe Wi-Fi hotspot
+0xf616	Kawiarenki internetowej
+
+0xf701	Rynek
+0xf702	Sklep obuwniczy
+0xf703	Sklep towarуw wyprodukowanych
+0xf704	Sklep domowego chemiczny
+0xf705	Urządzenia elektryczne
+0xf706	Telefony komórkowe / komputerów przenośnych
+0xf707	Sport i towarуw turystycznych
+0xf708	Sklep z bronią
+0xf709	Sklep pamiątkarski
+0xf70a	Kwiaciarnia
+0xf70b	Jubilera
+;0xf70c	
+
+0xf801	Stomatologia
+0xf802	Kliniki weterynaryjne
+
+0xf901	Cyrk
+
+;========================================================================================
+
+.POLYLINE
+
+;0x3d	
+;0x3e	
+
+0x3f	Linia tramwajowa
+0x40	Linia jednoszynowy
+0x41	Linia kolej linowo/kolejki
+
+0x42	Ziemi lub żwiru drogowego
+0x43	Tunel
+0x44	Rzeka, szeroka
+
+0x45	Granicy dzielnica
+0x46	Płot
+
+0x47	Planowane trasy
+0x48	Polana w lesie
+0x49	Pasa ruchu
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Droga zbiorcza
+0x69	Droga główna
+0x6a	Kwadrat
+0x6b	Droga
+
+; Buildings
+0x6c	Budynek mieszkalny
+0x6d	Budynek biurowy
+0x6e	Wspуlnych budynku
+0x6f	Budynek przemysłowy
+
+;0x70	
+;0x71	
+;0x72	
+;0x73	
+;0x74	
+;0x75	
+;0x76	
+;0x77	
+;0x78	
+;0x79	
+;0x7a	
+;0x7b	
+;0x7c	
+;0x7d	
+;0x7e	
+;0x7f	
+;0x80	
+
+0x81	Drewna podmokłych
+0x82	Niewymiarowych lesie
+0x83	Nieliczne wzrostu drzew
+0x84	Spalony / martwy las
+0x85	Las zakłopotany
+0x86	Winnica
+0x87	Pole ryżowe
+0x88	Łąka
+0x89	Piasek
+0x8a	Powierzchni skalnych
+0x8b	Soli gruntуw / marsz
+0x8c	Trzcina
+0x8d	Glonуw
+0x8e	Cierniowym
+0x8f	Zwalone drzewa wiatr
+0x90	Karzełek las
+0x91	Haloxylon
+0x92	Bambus
+0x93	Palm las
+0x94	Namorzynowe
+0x95	Wysoka trawa
+0x96	Mchy
+0x97	Porosty
+0x98	Trawnik

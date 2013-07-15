@@ -1,0 +1,437 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+;
+
+.TYPESET Garmin
+
+; The Language ID for Lithuanian defined by Microsoft
+;
+.LANGID 0x427
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN	Nežinomas tipas
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	Didelis miestas, virš 10 M
+0x0200	Didelis miestas, 5–10 M
+0x0300	Didelis miestas, 2–5 M
+0x0400	Didelis miestas, 1–2 M
+0x0500	Vidutinio dydžio miestas, 0,5–1 M
+0x0600	Vidutinio dydžio miestas, 200–500 K
+0x0700	Vidutinio dydžio miestas, 100–200 K
+0x0800	Mažas miestas, 50–100 K
+0x0900	Mažas miestas, 20–50 K
+0x0a00	Mažas miestas / miestelis, 10–20 K
+0x0b00	Mažas miestas / miestelis, 5–10 K
+0x0c00	Gyvenvietė, 2–5 K
+0x0d00	Gyvenvietė, 1–2 K
+0x0e00	Gyvenvietė, 500–1 K
+0x0f00	Gyvenvietė, 200–500
+0x1000	Gyvenvietė, 100–200
+0x1100	Gyvenvietė, mažiau nei 100
+
+; Labels without icons
+0x1400	Didelės šalies pavadinimas
+0x1500	Mažos šalies pavadinimas
+0x1e00	Šalies / provincijos / regiono pavadinimas
+0x1f00	Šalies / gyvenvietės pavadinimas
+0x2800	Žymena
+
+; Marine features
+0x1200	Įrengta prieplauka
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Navigacijos priemonės
+0x1601	Rūko sirena
+0x1602	Radijo švyturys
+0x1603	„Racon“
+0x1604	Dieninis švyturys, raudonas trikampis
+0x1605	Dieninis švyturys, žalias kvadratas
+0x1606	Dieninis švyturys, baltas rombas
+0x1607	Neapšviesta navigacijos priemonė, balta
+0x1608	Neapšviesta navigacijos priemonė, raudona
+0x1609	Neapšviesta navigacijos priemonė, žalia
+0x160a	Neapšviesta navigacijos priemonė, juoda
+0x160b	Neapšviesta navigacijos priemonė, geltona / gintarinė
+0x160c	Neapšviesta navigacijos priemonė, oranžinė
+0x160d	Neapšviesta navigacijos priemonė, įvairiaspalvė
+0x160e	Nežinoma navigacijos priemonė
+0x160f	Navigacijos priemonė, balta
+0x1610	Navigacijos priemonė, raudona
+0x1611	Navigacijos priemonė, žalia
+0x1612	Navigacijos priemonė, geltona / gintarinė
+0x1613	Navigacijos priemonė, oranžinė
+0x1614	Navigacijos priemonė, violetinė
+0x1615	Navigacijos priemonė, mėlyna
+0x1616	Navigacijos priemonė, įvairiaspalvė
+
+0x1c00	Kliūtis
+0x1c01	Nuolaužos
+0x1c02	Povandeninės nuolaužos, pavojinga
+0x1c03	Povandeninės nuolaužos, nepavojinga
+0x1c04	Nuolaužos, išvalytos tempiant trosą
+0x1c05	Kliūtis, matoma per potvynį
+0x1c06	Kliūtis, užtvindyta
+0x1c07	Kliūtis, po vandeniu
+0x1c08	Kliūtis, išvalyta tempiant trosą
+0x1c09	Uolos, užtvindytos
+0x1c0a	Uolos, užliejamos per atoslūgį
+0x1c0b	Seklumos pavojus
+
+; Tide table prediction used in marine maps
+0x1d00	Potvynio ir atoslūgio prognozė
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	Išvažiavimas iš greitkelio
+0x2100	Išvažiavimas (su infrastruktūra) iš greitkelio
+0x210f	Išvažiavimas (servisas) iš greitkelio
+0x2200	Išvažiavimas (tualetas) iš greitkelio
+0x2300	Išvažiavimas (parduotuvė) iš greitkelio
+0x2400	Išvažiavimas (svarstyklės) iš greitkelio
+0x2500	Išvažiavimas (mokėjimo postas) iš greitkelio
+0x2600	Išvažiavimas (informacija) iš greitkelio
+0x2700	Išvažiavimas iš greitkelio
+
+0x2900	Verslas be kategorijos
+
+0x2a00	Užkandinė
+0x2a01	Užkandinė (amerikiečių)
+0x2a02	Užkandinė (Azijos)
+0x2a03	Užkandinė (kepsninė)
+0x2a04	Užkandinė (kinų)
+0x2a05	Užkandinė (delikatesai / kepykla)
+0x2a06	Užkandinė (tarptautinė)
+0x2a07	Greitasis maistas
+0x2a08	Užkandinė (italų)
+0x2a09	Užkandinė (meksikiečių)
+0x2a0a	Užkandinė (pica)
+0x2a0b	Užkandinė (jūrų gėrybės)
+0x2a0c	Užkandinė (kepsniai)
+0x2a0d	Užkandinė (bandelės / spurgos)
+0x2a0e	Užkandinė (kavinė)
+0x2a0f	Užkandinė (prancūzų)
+0x2a10	Užkandinė (vokiečių)
+0x2a11	Užkandinė (britų)
+0x2a12	Specialūs maisto produktai
+
+0x2b00	Kambariai
+0x2b01	Viešbutis / motelis
+0x2b02	Nakvynė ir pusryčiai
+0x2b03	Stovyklavietė / kempingas
+0x2b04	Kurortas
+
+0x2c00	Atrakcionai
+0x2c01	Pramogų / teminiai parkai
+0x2c02	Muziejus / istorija
+0x2c03	Biblioteka
+0x2c04	Orientyras
+0x2c05	Mokykla
+0x2c06	Parkas / sodas
+0x2c07	Zoologijos sodas / akvariumas
+0x2c08	Arena / trasa
+0x2c09	Salė / auditorija
+0x2c0a	Vyninė
+0x2c0b	Maldos namai
+
+0x2d00	Pramogos
+0x2d01	Teatras
+0x2d02	Baras / naktinis klubas
+0x2d03	Kino teatras
+0x2d04	Kazino
+0x2d05	Golfo laukas
+0x2d06	Slidinėjimo centras / kurortas
+0x2d07	Boulingo centras
+0x2d08	Čiuožykla
+0x2d09	Baseinas
+0x2d0a	Sporto / lengvojo kultūrizmo centras
+0x2d0b	Viešasis sportinis aerodromas
+
+0x2e00	Apsipirkimas
+0x2e01	Universalinė parduotuvė
+0x2e02	Gastronomas
+0x2e03	Prekybos įmonė
+0x2e04	Prekybos centras
+0x2e05	Farmacija
+0x2e06	Vartojimo prekių parduotuvė
+0x2e07	Drabužiai
+0x2e08	Namai ir sodas
+0x2e09	Namų apdaila
+0x2e0a	Specializuota mažmeninė prekyba
+0x2e0b	Kompiuteris / programinė įranga
+
+0x2f00	Bendrosios paslaugos
+0x2f01	Automatinė degalinė
+0x2f02	Automatinė nuoma
+0x2f03	Automatinis taisymas
+0x2f04	Oro transportas
+0x2f05	Paštas
+0x2f06	Bankas / bankomatas
+0x2f07	Platintojas / automobilių detalės
+0x2f08	Sausumos transportas
+0x2f09	Prieplauka / valčių remontas
+0x2f0a	Techninės pagalbos paslaugos
+0x2f0b	Stovėjimas
+0x2f0c	Poilsinė / informacija turistams
+0x2f0d	Automobilių klubas
+0x2f0e	Automobilių plovykla
+0x2f0f	„Garmin“ platintojas
+0x2f10	Asmeninės paslaugos
+0x2f11	Verslo paslaugos
+0x2f12	Komunikacijų paslaugos
+0x2f13	Remonto paslaugos
+0x2f14	Socialinės paslaugos
+0x2f15	Komunalinės paslaugos
+0x2f16	Sunkvežimių sustojimo vieta
+0x2f17	Vežimo paslaugos
+
+0x3000	Nelaimės atveju / vyriausybinė
+0x3001	Policijos nuovada
+0x3002	Ligoninė
+0x3003	Rotušė
+0x3004	Teismas
+0x3005	Bendruomenės centras
+0x3006	Sienos perėjimo punktas
+0x3007	Vyriausybės biuras
+0x3008	Ugniagesių stotis
+
+0x4000	Golfas
+0x4100	Sportinė žūklė
+0x4200	Nuolaužos
+0x4300	Prieplauka
+0x4400	Degalinė
+0x4500	Restoranas
+0x4600	Baras
+0x4700	Valčių nuleidimo vieta
+0x4800	Stovyklavietė
+0x4900	Parkas
+0x4a00	Iškylų vieta
+0x4b00	Pirmosios pagalbos punktas
+0x4c00	Informacija
+0x4d00	Stovėjimas
+0x4e00	Tualetas
+0x4f00	Dušas
+0x5000	Geriamasis vanduo
+0x5100	Telefonas
+0x5200	Vaizdinga vietovė
+0x5300	Slidinėjimas
+0x5400	Vieta plaukioti
+0x5500	Užtvanka
+
+; Aviation
+0x5600	Kontroliuojama teritorija
+0x5700	Pavojinga teritorija
+0x5800	Apribota teritorija
+0x5900	Oro uostas
+0x5901	Didelis oro uostas
+0x5902	Vidutinio dydžio oro uostas
+0x5903	Mažas oro uostas
+0x5904	Sraigtasparnių nusileidimo vieta
+0x5905	Oro uostas
+
+0x5a00	Mylių žymeklis
+0x5b00	Kupolas
+0x5c00	Nardymo vieta
+0x5d00	Dieninė žymė, žalias kvadratas
+0x5e00	Dieninė žymė, raudonas trikampis
+0x6000	Garsinis signalas
+0x6100	Namas
+
+0x6200	Įduba
+0x6300	Kalnas
+
+; Man-made features
+0x6400	Žmogaus sukurtos vietos
+0x6401	Tiltas
+0x6402	Pastatas
+0x6403	Kapinės
+0x6404	Bažnyčia / mečetė / t. t.
+;0x6405	
+0x6406	Perėja
+0x6407	Užtvanka
+0x6408	Ligoninė
+0x6409	Krantinė
+0x640a	Vieta
+0x640b	Karinė
+0x640c	Kasykla
+0x640d	Naftos telkinys
+0x640e	Parkas
+0x640f	Paštas
+0x6410	Mokykla
+0x6411	Bokštas
+0x6412	Tako pradžia
+0x6413	Tunelis
+0x6414	Šulinys
+0x6415	Istoriniai miesteliai (vaiduokliai)
+0x6416	Namų padalijimas
+
+; Water features
+0x6500	Vandens ypatybės
+0x6501	Upokšnis
+0x6502	Smėlio juosta
+0x6503	Pakrantė
+0x6504	Posūkis
+0x6505	Kanalas
+0x6506	Kanalas
+0x6507	Užutėkis
+0x6508	Kriokliai
+0x6509	Geizeris
+0x650a	Ledynas
+0x650b	Uostas
+0x650c	Sala
+0x650d	Ežeras
+0x650e	Slenksčiai
+0x650f	Rezervuaras
+0x6510	Jūra
+0x6511	Šaltinis
+0x6512	Upeliukas
+0x6513	Pelkė
+
+; Land features
+0x6600	Žemės ypatybės
+0x6601	Kalva
+0x6602	Plotas
+0x6603	Įduba
+0x6604	Paplūdimys
+0x6605	Terasa
+0x6606	Iškyšulys
+0x6607	Uola
+0x6608	Krateris
+0x6609	Plokštuma
+0x660a	Miškas
+0x660b	Tarpas
+0x660c	Sąsiauris
+0x660d	Sąsmauka
+0x660e	Lava
+0x660f	Kolona
+0x6610	Lyguma
+0x6611	Masyvas
+0x6612	Rezervatas
+0x6613	Gūbrys
+0x6614	Uola
+0x6615	Šlaitas
+0x6616	Viršūnė
+0x6617	Slėnis
+0x6618	Medžiais apaugusi teritorija
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Kelias
+
+; Three levels of highways
+0x01	Svarbus greitkelis
+0x02	Pagrindinis greitkelis
+0x03	Kitas greitkelis
+
+; Most important kind of street
+0x04	Magistralinis kelias
+; Medium important kind of street
+0x05	Jungiamasis kelias
+; Ordinary street (80%)
+0x06	Gatvė gyvenamojoje zonoje
+; Smallest kind of street
+0x07	Alėja / privatus kiemas
+
+0x08	Įvažiavimas į greitkelį, mažu greičiu
+0x09	Įvažiavimas į greitkelį, dideliu greičiu
+0x0a	Kelias be dangos
+0x0b	Pagrindinio greitkelio jungtis
+0x0c	Žiedas
+0x16	Pėsčiųjų takas
+0x14	Geležinkelis
+0x1a	Vandens ar geležinkelio keltas
+0x1b	Vandens ar geležinkelio keltas
+
+0x19	Laiko juosta
+0x1e	Tarptautinė siena
+0x1c	Valstijos / provincijos riba
+0x1d	Šalies / žemės riba
+
+0x15	Vandens telkinio pakrantė
+0x18	Upeliukas
+0x1f	Upė
+0x26	Nutrūkstantis upelis / griovys
+
+0x20	Nedidelis žemės kontūras
+0x21	Vidutinio dydžio žemės kontūras
+0x22	Didelis žemės kontūras
+0x23	Nedidelio gylio kontūras
+0x24	Vidutinio gylio kontūras
+0x25	Didelio gylio kontūras
+
+0x27	Centrinė oro uosto kilimo tako linija
+0x28	Naftos ar vandens vamzdynas
+0x29	Elektros linija
+
+0x2a	Jūros riba
+0x2b	Jūros pavojus
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Didelio miesto teritorija
+0x02	Mažo miesto teritorija
+0x03	Kaimo vietovė
+
+0x04	Karinė bazė
+0x05	Stovėjimas
+0x06	Automobilių stovėjimo garažas
+0x07	Oro uostas
+0x08	Prekybos centras
+0x09	Prieplauka
+0x0a	Universitetas / kolegija
+0x0b	Ligoninė
+0x0c	Pramoninis kompleksas
+0x0d	Rezervatas
+0x0e	Oro uosto takas
+0x13	Žmogaus sukurta teritorija
+0x18	Golfo laukas
+0x19	Sporto kompleksas
+0x1a	Kapinės
+
+0x14	Nacionalinis parkas
+0x15	Nacionalinis parkas
+0x16	Nacionalinis parkas
+0x17	Miesto parkas
+0x1e	Valstybinis parkas
+0x1f	Valstybinis parkas
+0x20	Valstybinis parkas
+
+0x28	Jūra / vandenynas
+0x32	Jūra
+0x3c	Didelis ežeras, 250–600 km²
+0x3d	Didelis ežeras, 77–250 km²
+0x3e	Vidutinio dydžio ežeras, 22–77 km²
+0x3f	Vidutinio dydžio ežeras, 11–25 km²
+0x40	Mažas ežeras, 0,25–11 km²
+0x41	Mažas ežeras, mažesnis nei 0,25 km²
+0x42	Itin didelis ežeras, didesnis nei 3,3 t.km²
+0x43	Itin didelis ežeras, 1,1–3,3 t.km²
+0x44	Didelis ežeras, 0,6–1,1 t.km²
+0x46	Pagrindinė upė
+0x47	Didelė upė
+0x48	Vidutinio dydžio upė
+0x49	Maža upė
+0x4c	Nutrūkstantis vanduo
+
+;0x4a	
+0x4b	Plotas žemėlapio aprėptis
+
+0x4d	Ledynas
+0x4e	Sodas / plantacija
+0x4f	Brūzgynai
+0x50	Miškas
+0x51	Drėgnos pievos / pelkės
+0x52	Tundra
+0x53	Smėlio / užliejama / purvo plynė

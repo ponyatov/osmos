@@ -1,0 +1,442 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+;
+
+.TYPESET Garmin
+
+; The Language ID for Hebrew defined by Microsoft
+;
+.LANGID 0x040d
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN  סוג לא ידוע
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	העיר הגדולה, על 10 מיליוני
+0x0200	העיר הגדולה, 5-10 מיליוני
+0x0300	העיר הגדולה, 2-5 מיליוני
+0x0400	העיר הגדולה, 1-2 מיליוני
+0x0500	עיר בינונית, 0.5-1 מיליונים
+0x0600	עיר בינונית, 200-500 אלפי
+0x0700	עיר בינונית, 100-200 אלפי
+0x0800	עיר קטנה, 50-100 אלפי
+0x0900	עיר קטנה, 20-50 אלפי
+0x0a00	עיר קטנה, 10-20 אלפי
+0x0b00	עיר קטנה, 5-10 אלפי
+0x0c00	ההסדר, 2-5 אלפים
+0x0d00	ההסדר, 1-2 אלפים
+0x0e00	ההסדר, 500-1000 
+0x0f00	ההסדר, 200-500 
+0x1000	ההסדר, 100-200 
+0x1100	ההסדר, פחות 100
+
+; Labels without icons
+0x1400	Name of major country
+0x1500	Name of minor country
+0x1e00	Name of province/region
+0x1f00	Name of county/parish
+0x2800	לייבל
+
+; Marine features
+0x1200	Marina with facilities
+0x1300	Marine unknown
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16??-0x1b??.
+0x1600	Navaid
+0x1601	Fog horn
+0x1602	Radio beacon
+0x1603	Racon
+0x1604	יום המשואה, משולש אדום
+0x1605	יום המשואה, ירוק מרובע
+0x1606	יום המשואה, לבן מעוין
+0x1607	מגדלור כבוי, לבן
+0x1608	מגדלור כבוי, אדום
+0x1609	מגדלור כבוי, ירוק
+0x160a	מגדלור כבוי, שחור
+0x160b	מגדלור כבוי, צהוב
+0x160c	מגדלור כבוי, כתום
+0x160d	מגדלור כבוי, צבעוניות
+0x160e	מגדלור, לא ידוע צבע
+0x160f	מגדלור, לבן
+0x1610	מגדלור, אדום
+0x1611	מגדלור, ירוק
+0x1612	מגדלור, צהוב
+0x1613	מגדלור, כתום
+0x1614	מגדלור, סגול
+0x1615	מגדלור, כחול
+0x1616	מגדלור, צבעוניות
+
+0x1c00	Unclassified obstruction
+0x1c01	Visible wreck
+0x1c02	Submerged wreck, dangerous
+0x1c03	Submerged wreck, non-dangerous
+0x1c04	Wreck, cleared by wire-drag
+0x1c05	Obstr., visible at high water
+0x1c06	Obstruction, awash
+0x1c07	Obstruction, submerged
+0x1c08	Obstr., cleared by wire-drag
+0x1c09	Rock, awash
+0x1c0a	Rock, submerged at low water
+0x1c0b	Possible grounding risk
+
+; Tide table prediction used in marine maps
+0x1d00	Tide prediction
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	HW Exit
+0x2100	HW Exit with facilities
+0x210f	HW Exit (service)
+0x2200	HW Exit (בית שימוש)
+0x2300	HW Exit (חנות נוחות)
+0x2400	HW Exit (weight station)
+0x2500	HW Exit (toll booth)
+0x2600	HW Exit (information)
+0x2700	HW Exit
+
+0x2900	Other/Uncategorized business
+
+0x2a00	Dining
+0x2a01	Dining (American)
+0x2a02	Dining (Asian)
+0x2a03	Dining (barbecue)
+0x2a04	Dining (Chinese)
+0x2a05	Dining (Deli/Bakery)
+0x2a06	Dining (international)
+0x2a07	Fast food
+0x2a08	Dining (Italian)
+0x2a09	Dining (Mexican)
+0x2a0a	Dining (pizza)
+0x2a0b	Dining (sea food)
+0x2a0c	Dining (steak/grill)
+0x2a0d	Dining (bagel/donut)
+0x2a0e	Dining (cafe/diner)
+0x2a0f	Dining (French)
+0x2a10	Dining (German)
+0x2a11	Dining (British Isles)
+0x2a12	Special food products
+
+0x2b00	לינה
+0x2b01	בית מלון/מוטל
+0x2b02	Bed&Breakfast inn
+0x2b03	מחנאות/RV פארק
+0x2b04	מקום נופש
+
+0x2c00	Attraction
+0x2c01	פארק שעשועים
+0x2c02	מוזיאון
+0x2c03	ספרייה
+0x2c04	ציון דרך
+0x2c05	בית ספר
+0x2c06	פארק/גן
+0x2c07	גן חיות/Aquarium
+0x2c08	אצטדיון
+0x2c09	Hall/Auditorium
+0x2c0a	יקב
+0x2c0b	כנסייה/בית כנסת/מסגד
+
+0x2d00	בידור
+0x2d01	אולם תיאטרון
+0x2d02	Bar/מועדון לילה
+0x2d03	בית קולנוע
+0x2d04	קזינו
+0x2d05	גולף
+0x2d06	Skiing center/אתר סקי
+0x2d07	כדורת
+0x2d08	החלקה על הקרח
+0x2d09	בריכת שחייה
+0x2d0a	חדר כושר
+0x2d0b	Public sports airport
+
+0x2e00	קמעונאות
+0x2e01	חנות כלבו
+0x2e02	מכולת
+0x2e03	General merchandiser
+0x2e04	מרכז קניות
+0x2e05	הרוקחות
+0x2e06	חנות נוחות
+0x2e07	ביגוד
+0x2e08	House and garden
+0x2e09	Home furnishing
+0x2e0a	Speciality retail
+0x2e0b	Computer/Software
+
+0x2f00	Generic services
+0x2f01	תחנת דלק
+0x2f02	השכרת רכב
+0x2f03	Auto repair
+0x2f04	Air transportation
+0x2f05	סניף דואר
+0x2f06	בנק/כספומט
+0x2f07	Dealer/Auto parts
+0x2f08	Ground transportation
+0x2f09	מרינה/Boat repair & storage
+0x2f0a	Wrecker service
+0x2f0b	חניון
+0x2f0c	Rest area/Tourist info
+0x2f0d	Automobile club
+0x2f0e	רחיצת מכוניות
+0x2f0f	Garmin dealer
+0x2f10	שירות אישי
+0x2f11	Business service
+0x2f12	Communication service
+0x2f13	Repair service
+0x2f14	עבודה סוציאלית
+0x2f15	Public utilities
+0x2f16	Truck stop
+0x2f17	Transit service
+
+0x3000	Emergency/Governmental
+0x3001	תחנת משטרה
+0x3002	בית חולים
+0x3003	בנין העיריה
+0x3004	בית המשפט
+0x3005	Community center
+0x3006	מעבר גבול
+0x3007	Government office
+0x3008	מכבי האש
+
+0x4000	גולף
+0x4100	דיג
+0x4200	Wreck
+0x4300	מרינה
+0x4400	תחנת דלק
+0x4500	מסעדה
+0x4600	Bar
+0x4700	Boat ramp
+0x4800	מחנאות
+0x4900	פארק
+0x4a00	Picnic area
+0x4b00	עזרה ראשונה
+0x4c00	Information
+0x4d00	חניון
+0x4e00	בית שימוש
+0x4f00	מקלחת
+0x5000	Drinking water
+0x5100	טלפון
+0x5200	Scenic area
+0x5300	סקי
+0x5400	Swimming area
+0x5500	Dam
+
+; Aviation
+0x5600	Controlled area
+0x5700	Danger area
+0x5800	Restricted area
+0x5900	Generic airport
+0x5901	גדול התעופה
+0x5902	בינוני התעופה
+0x5903	קטן התעופה
+0x5904	מנחת מסוקים
+0x5905	שדה תעופה
+
+0x5a00	אבן מיל
+0x5b00	Bell
+0x5c00	Diving area
+0x5d00	Daymark, ירוק מרובע
+0x5e00	Daymark, משולש אדום
+0x6000	Horn
+0x6100	House
+
+0x6200	Depth spot
+0x6300	Elevation spot
+
+; Man-made features
+0x6400	Man-made place
+0x6401	גשר
+0x6402	בניה
+0x6403	בית קברות
+0x6404	כנסייה/בית כנסת/מסגד
+0x6405	Civil building
+0x6406	Crossing
+0x6407	Dam
+0x6408	בית חולים
+0x6409	Levee
+0x640a	Locale
+0x640b	צבאי
+0x640c	כרייה
+0x640d	שדה נפט
+0x640e	פארק
+0x640f	סניף דואר
+0x6410	בית ספר
+0x6411	מגדל
+0x6412	Trailhead
+0x6413	מנהרה
+0x6414	באר מים
+0x6415	עיר רפאים
+0x6416	Subdivision of housing
+
+; Water features
+0x6500	Water feature
+0x6501	Arroyo
+0x6502	שרטון
+0x6503	מפרץ
+0x6504	Bend
+0x6505	תעלה
+0x6506	מצר ים
+0x6507	Cove
+0x6508	מפל מים
+0x6509	גייזר
+0x650a	קרחון יבשתי
+0x650b	מעגן
+0x650c	אי
+0x650d	אגם
+0x650e	אשד
+0x650f	מאגר מים
+0x6510	ים
+0x6511	מעיין
+0x6512	נחל
+0x6513	ביצה
+
+; Land features
+0x6600	Land feature
+0x6601	Arch
+0x6602	Area
+0x6603	Basin
+0x6604	Beach
+0x6605	Bench
+0x6606	כף התקווה 
+0x6607	צוק
+0x6608	קלדרה
+0x6609	Flat
+0x660a	יער
+0x660b	Gap
+0x660c	Gut
+0x660d	מצר יבשה
+0x660e	לבה
+0x660f	Pillar
+0x6610	Plain
+0x6611	Range
+0x6612	שמורת טבע
+0x6613	Ridge
+0x6614	Rock
+0x6615	Slope
+0x6616	פסגה
+0x6617	עמק
+0x6618	יער
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	כביש
+
+; Three levels of highways
+0x01	בכביש ארציים
+0x02	בכביש אזורי
+0x03	בכביש מקומי
+
+; Most important kind of street
+0x04	גדולה מאוד ברחוב
+; Medium important kind of street
+0x05	גדול ברחוב
+; Ordinary street (80%)
+0x06	רחוב
+; Smallest kind of street
+0x07	סמטה
+
+0x08	כביש רמפה, מהירות נמוכה
+0x09	כביש רמפה, במהירות גבוהה
+0x0a	Unpaved road
+0x0b	Major highway connector
+0x0c	מעגל תנועה
+0x16	שביל
+0x14	מסלת רכבת
+0x1a	מעבורת
+0x1b	מעבורת
+
+0x19	אזור זמן
+0x1e	הגבול הבינלאומי
+0x1c	הגבול האזורי
+0x1d	County/parish boundary
+
+0x15	Shoreline of water body
+0x18	נחל
+0x1f	נהר
+0x26	לסירוגין נחל
+
+0x20	Minor land contour (1/10)
+0x21	Interm. land contour (1/2)
+0x22	Major land contour (1/1)
+0x23	Minor depth contour (1/10)
+0x24	Interm. depth contour (1/2)
+0x25	Major depth contour (1/1)
+
+0x27	מסלול טיסה
+0x28	צינור
+0x29	Power line
+
+0x2a	Marine boundary (no line)
+0x2b	Marine hazard (no line)
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Large urban area (>200K)
+0x02	Small urban area (<200K)
+0x03	Rural housing area
+
+0x04	בסיס צבאי
+0x05	מגרש חניה
+0x06	חניון רב קומות 
+0x07	שדה תעופה
+0x08	מרכז קניות
+0x09	מרינה
+0x0a	באוניברסיטה /מכללה
+0x0b	בית חולים
+0x0c	תעשיתי
+0x0d	שמורת טבע
+0x0e	מסלול טיסה
+0x13	בניה/Man-made area
+0x18	גולף
+0x19	Sports complex
+0x1a	בית קברות
+
+0x14	פארק לאומי
+0x15	פארק לאומי
+0x16	פארק לאומי
+0x17	פארק ציבורי בעיר
+0x1e	פארק של פרובינציה
+0x1f	פארק של פרובינציה
+0x20	פארק של פרובינציה
+
+0x28	ים/אוקיינוס
+0x29	מקווה מים
+0x32	ים
+0x3b	מקווה מים
+;	ק"מ² 
+0x3c	km² אגם גדול, 250-600
+0x3d	km² אגם גדול, 77-250
+0x3e	km² אגם בינוני, 25-77
+0x3f	km² אגם בינוני, 11-25
+0x40	km² אגם קטן, 0.25-11
+0x41	km² אגם קטן, <0.25
+0x42	km² אגם גדול, >3300
+0x43	km² אגם גדול, 1100-3300
+0x44	km² אגם גדול, 600-1100
+0x45	מקווה מים
+0x46	סרן הנהר, >1  ק"מ
+0x47	נהר גדול, 200  מ '1  ק"מ
+0x48	הנהר בינוני, 40-200  מ
+0x49	נהר קטן, <40  מ
+0x4c	מים לסירוגין
+
+0x4a	Area of map selection (in MapSource)
+0x4b	Area of map coverage
+
+0x4d	קרחון יבשתי
+0x4e	פרדס/מטע
+0x4f	שיח
+0x50	יער
+0x51	ביצה
+0x52	טונדרה
+0x53	שרטון, tidal/mud flat

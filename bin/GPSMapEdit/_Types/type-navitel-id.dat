@@ -1,0 +1,197 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+;
+
+.TYPESET Navitel
+
+; The Language ID for Indonesian defined by Microsoft
+;
+.LANGID 0x421
+
+;========================================================================================
+
+.POINT
+
+0xf001	Stasiun bis
+0xf002	Tempat berhenti bis
+0xf003	Tempat berhenti trem
+0xf004	Tempat berhenti bis listrik
+0xf005	Bawah tanah/Kereta api bawah tanah/Stasiun
+0xf006	Stasiun jalan kereta api
+0xf007	Terminal jalan kereta api
+0xf008	Stasiun kereta api
+0xf009	Tempat berhenti mobil kabel
+0xf00a	Port
+0xf00b	Dermaga
+0xf00c	Terminal kapal ferry
+
+0xf101	Gereja Ortodox
+0xf102	Gereja Katholik
+0xf103	Gereja Protestan
+0xf104	Mesjid
+0xf105	Gereja Yahudi
+0xf106	Pagoda
+
+0xf201	Lampu lalu lintas
+0xf202	Polisi lalu lintas
+0xf203	Penyebrangan rel kereta api dengan portal
+0xf204	Jalanan kasar
+0xf205	Radar/Kecepatan kamera
+0xf206	Batas ketinggian
+0xf207	Tidak ada lalu lintas transit
+0xf208	Bahan bakar gas untuk mobil
+0xf209	Perbaikan ban
+0xf20a	Pengaturan ban
+0xf20b	Penyebrangan rel kereta api tanpa portal
+0xf20c	Bundaran
+
+0xf301	Monumen
+0xf302	Air mancur
+0xf303	Air meluap-luap
+0xf304	Menara TV/Radio
+0xf305	Poin geodetik
+0xf306	Puncak pas
+0xf307	Arungan
+0xf308	Lubang
+0xf309	Barrow
+0xf30a	Batu
+0xf30b	Tanah lunak sbg bahan bakar
+0xf30c	Jembatan penyebrangan
+0xf30d	Masuk goa besar
+
+0xf401	Hutan rontok
+0xf402	Hutan jarum
+0xf403	Hutan campuran
+0xf404	Pohon single
+0xf405	Semak terisolasi
+0xf406	Belukar
+
+0xf501	Sekolah perawat
+0xf502	Sekolah sekunder
+0xf503	Sekolah kejuruan
+0xf504	Universitas/Perguruan tinggi
+0xf505	Sekolah khusus
+
+0xf601	ATM
+0xf602	Salon
+0xf603	Sauna
+0xf604	Binatu
+0xf605	Studio Photographer
+0xf606	Studio pembuat baju
+0xf607	Perbaikan barang elektronik
+0xf608	Perbaikan komputer
+0xf609	Perbaikan pakaian
+0xf60a	Perbaikan sepatu
+0xf60b	Perbaikan perabot rumah
+0xf60c	Kantor pengacara
+0xf60d	Notaris
+0xf60e	Asuransi
+0xf60f	Agen perumahan
+0xf610	Pelayanan informasi
+0xf611	Kantor editor
+0xf612	Kantor percetakan
+0xf613	Agen travel
+0xf614	Tempat booking karcis pesawat/kereta api
+0xf615	Gratis Wi-Fi hotspot
+0xf616	Cyber kafe
+
+0xf701	Pasar
+0xf702	Toko sepatu
+0xf703	Toko barang pabrikasi
+0xf704	Toko kimia industri rumah tangga
+0xf705	Alat listrik rumah tangga
+0xf706	Gadget
+0xf707	Barang sport dan turis
+0xf708	Toko senjata
+0xf709	Toko barang-barang hadiah
+0xf70a	Toko bunga
+0xf70b	Perhiasan/permata
+0xf70c	Toko binatang
+
+0xf801	Kedokteran gigi
+0xf802	Klinik hewan
+
+0xf901	Sirkus
+
+;========================================================================================
+
+.POLYLINE
+
+;0x3d	
+;0x3e	
+
+0x3f	Aliran listrik
+0x40	Saluran rel tunggal
+0x41	Garis kabel mobil
+
+0x42	Jalanan tanah atau kerikil
+0x43	Terowongan
+0x44	Luas sungai
+
+0x45	Batasan wilayah kota
+0x46	Pagar
+
+0x47	Rute yang direncanakan
+0x48	Kebakaran hutan
+0x49	Jalan kecil
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Jalan arteri
+0x69	Jalan kolektor
+0x6a	Persegi
+0x6b	Jalanan
+
+; Buildings
+0x6c	Bangunan tempat tinggal
+0x6d	Bangungan kantor
+0x6e	Bangungan umum
+0x6f	Bangunan industri
+
+;0x70	
+;0x71	
+;0x72	
+;0x73	
+;0x74	
+;0x75	
+;0x76	
+;0x77	
+;0x78	
+;0x79	
+;0x7a	
+;0x7b	
+;0x7c	
+;0x7d	
+;0x7e	
+;0x7f	
+;0x80	
+
+0x81	Hutan rawa
+0x82	Hutan dalam pengukuran
+0x83	Hutan gundul
+0x84	Hutan terbakar/mati
+0x85	Hutan ujung
+0x86	Kebun anggur
+0x87	Lapangan padi
+0x88	Padang rumput
+0x89	Pasir
+0x8a	Lahan berbatuan
+0x8b	Daratan garam/rawa-garam
+0x8c	Alang-alang
+0x8d	Ganggang
+0x8e	Thornbush
+0x8f	Pohon tumbang
+0x90	Kayu elfin
+0x91	Saxaul
+0x92	Bambu
+0x93	Hutan palem
+0x94	Bakau
+0x95	Rumput tinggi
+0x96	Lumut
+0x97	Lichen (sebangsa lumut)
+0x98	Komplotan rumput

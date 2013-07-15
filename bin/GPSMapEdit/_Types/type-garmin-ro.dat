@@ -1,0 +1,440 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+;
+
+.TYPESET Garmin
+
+; The Language ID for Romanian defined by Microsoft
+;
+.LANGID 0x418
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN	Tip necunoscut
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	Oraş mare, peste 10 mil.
+0x0200	Oraş mare, 5-10 mil.
+0x0300	Oraş mare, 2-5 mil.
+0x0400	Oraş mare, 1-2 mil.
+0x0500	Oraş mediu, 0,5-1 mil.
+0x0600	Oraş mediu, 200-500 mii
+0x0700	Oraş mediu, 100-200 mii
+0x0800	Oraş mic, 50-100 mii
+0x0900	Oraş mic, 20-50 mii
+0x0a00	Oraşel, 10-20 mii
+0x0b00	Oraşel, 5-10 mii
+0x0c00	Localitate, 2-5 mii
+0x0d00	Localitate, 1-2 mii
+0x0e00	Sat, 500-1000
+0x0f00	Sat, 200-500
+0x1000	Sat, 100-200
+0x1100	Sat, sub 100
+
+; Labels without icons
+0x1400	Denumire stat mare
+0x1500	Denumire stat mic
+0x1e00	Denumire provincie/regiune
+0x1f00	Denumire judeţ/raion
+0x2800	Inscripţie
+
+; Marine features
+0x1200	Port cu infrastructură
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Far
+0x1601	Sirenă pt. ceaţă
+0x1602	Far emiţător radio
+0x1603	Geamandur radio
+0x1604	Far de zi, triunghi roşu
+0x1605	Far de zi, pătrat verde
+0x1606	Far de zi, romb alb
+0x1607	Far fără lumina, alb
+0x1608	Far fără lumina, roşu
+0x1609	Far fără lumina, verde
+0x160a	Far fără lumina, negru
+0x160b	Far fără lumina, galben
+0x160c	Far fără lumina, portocaliu
+0x160d	Far fără lumina, multicolor
+0x160e	Far luminos
+0x160f	Far luminos, alb
+0x1610	Far luminos, roşu
+0x1611	Far luminos, verde
+0x1612	Far luminos, galben
+0x1613	Far luminos, portocaliu
+0x1614	Far luminos, violet
+0x1615	Far luminos, albastru
+0x1616	Far luminos, multicolor
+
+0x1c00	Obstacol
+0x1c01	Epavă
+0x1c02	Epavă scufundată, pericol
+0x1c03	Epavă scufundată, fătă pericol
+0x1c04	Epavă înlăturată cu plasa
+0x1c05	Obstacol vizibil la apă înaltă
+0x1c06	Obstacol la nivelul apei
+0x1c07	Obstacol sub nivelul apei
+0x1c08	Obstacol înlăturat cu plasa
+0x1c09	Roci la nivelul apei
+0x1c0a	Roci sub nivelul apei
+0x1c0b	Risc de atingere a solului
+
+; Tide table prediction used in marine maps
+0x1d00	Orar fluxuri
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	Ieşire de pe şosea
+0x2100	Ieşire de pe şosea, cu infrastructură
+0x210f	Ieşire de pe şosea (spre service)
+0x2200	Ieşire de pe şosea (spre WC)
+0x2300	Ieşire de pe şosea (spre magazin)
+0x2400	Ieşire de pe şosea (spre cântar)
+0x2500	Ieşire de pe şosea (ghişeu achitare drum)
+0x2600	Ieşire de pe şosea (ghişeu informaţii)
+0x2700	Ieşire de pe şosea
+
+0x2900	Servicii necategorizate
+
+0x2a00	Restaurant/cantină
+0x2a01	Restaurant (american)
+0x2a02	Restaurant (asiatic)
+0x2a03	Restaurant (frigărui)
+0x2a04	Restaurant (chinezesc)
+0x2a05	Restaurant (delicatese/dulciuri)
+0x2a06	Restaurant (internaţional)
+0x2a07	Fast food
+0x2a08	Restaurant (italian)
+0x2a09	Restaurant (mexican)
+0x2a0a	Pizza
+0x2a0b	Restaurant (bucatele mării)
+0x2a0c	Restaurant (grill)
+0x2a0d	Cofetărie
+0x2a0e	Cafenea
+0x2a0f	Restaurant (francez)
+0x2a10	Restaurant (german)
+0x2a11	Restaurant (britanic)
+0x2a12	Bucate speciale
+
+0x2b00	Cazare
+0x2b01	Hotel/motel
+0x2b02	Cazare cu mic dejun
+0x2b03	Camping
+0x2b04	Staţiune balneară
+
+0x2c00	Odihnă, atracţii
+0x2c01	Parc de distracţii, odihnă
+0x2c02	Muzeu
+0x2c03	Bibiotecă
+0x2c04	Obiect turistic
+0x2c05	Şcoală
+0x2c06	Parc/grădină
+0x2c07	Zoo/acvarium
+0x2c08	Stadion
+0x2c09	Sală/aulă
+0x2c0a	Vinărie
+0x2c0b	Catedrală/moscheie
+
+0x2d00	Distracţie
+0x2d01	Teatru
+0x2d02	Bar/club
+0x2d03	Cinematograf
+0x2d04	Cazinou
+0x2d05	Câmp de golf
+0x2d06	Zonă de schi
+0x2d07	Centru de bowling
+0x2d08	Patinoar
+0x2d09	Bazin de înot
+0x2d0a	Sport/fitness
+0x2d0b	Aerodrom sportiv
+
+0x2e00	Cumpărături
+0x2e01	Supermarket
+0x2e02	Magazin băcănie
+0x2e03	Firmă de comerţ
+0x2e04	Centru comercial
+0x2e05	Farmacie
+0x2e06	Magazin universal
+0x2e07	Haine gata
+0x2e08	Mărfuri de uz casnic/grădină
+0x2e09	Mobilier
+0x2e0a	Magazin specializat
+0x2e0b	Computere/software
+
+0x2f00	Servicii
+0x2f01	Benzinărie
+0x2f02	Chirie auto
+0x2f03	Auto service
+0x2f04	Aeroport
+0x2f05	Oficiu poştal
+0x2f06	Bancă/bancomat
+0x2f07	Dealer auto/piese de schimb
+0x2f08	Staţie transport terestru
+0x2f09	Reparaţie bărci
+0x2f0a	Serviciu depanare
+0x2f0b	Parcare auto
+0x2f0c	Zonă de odihnă/informaţii
+0x2f0d	Club auto
+0x2f0e	Spălătorie auto
+0x2f0f	Dealer Garmin
+0x2f10	Deservire populaţie
+0x2f11	Servicii pt. business
+0x2f12	Servicii tecomunicaţii
+0x2f13	Servicii de reparaţie
+0x2f14	Deservirea socială
+0x2f15	Utilităţi publice
+0x2f16	Staţie TIR-uri
+0x2f17	Staţie transport public
+
+0x3000	Urgenţă/guvernmental
+0x3001	Poliţia
+0x3002	Spital
+0x3003	Primărie
+0x3004	Judecătorie
+0x3005	Centru comunitar
+0x3006	Trecere frontieră
+0x3007	Instituţie guvernamentală
+0x3008	Pompierii
+
+0x4000	Golf club
+0x4100	Loc pentru pescuit
+0x4200	Epavă
+0x4300	Port
+0x4400	Benzinărie
+0x4500	Restaurant
+0x4600	Bar
+0x4700	Ancorare bărci
+0x4800	Camping
+0x4900	Parc
+0x4a00	Loc pentru picnic
+0x4b00	Asistenţă medicală
+0x4c00	Informaţii
+0x4d00	Parcare auto
+0x4e00	Toaletă
+0x4f00	Duş
+0x5000	Apă potabilă
+0x5100	Telefon
+0x5200	Peisaj frumos
+0x5300	Bază de schi
+0x5400	Loc de scăldat
+0x5500	Dig
+
+; Aviation
+0x5600	Zonă interzisă
+0x5700	Zonă periculoasă
+0x5800	Zonă acces limitat
+0x5900	Aeroport
+0x5901	Aeroport mare
+0x5902	Aeroport mediu
+0x5903	Aeroport mic
+0x5904	Heliport
+0x5905	Aeroport
+
+0x5a00	Bornă km
+0x5b00	Clopot
+0x5c00	Loc pentru scufundări
+0x5d00	Semn, pătrat verde
+0x5e00	Semn, triunghi roşu
+0x6000	Sirenă
+0x6100	Casă
+
+0x6200	Marcaj adâncime
+0x6300	Marcaj altitudine
+
+; Man-made features
+0x6400	Construcţie
+0x6401	Pod
+0x6402	Clădire
+0x6403	Cimitir
+0x6404	Biserică/moschee/etc
+0x6405	Constructii civile
+0x6406	Trecere
+0x6407	Dig
+0x6408	Spital
+0x6409	Dig/chei
+0x640a	Indicator
+0x640b	Obiect militar
+0x640c	Mină
+0x640d	Teren petrolier
+0x640e	Parc
+0x640f	Oficiu poştal
+0x6410	Şcoală
+0x6411	Turn
+0x6412	Cărare
+0x6413	Tunel
+0x6414	Fântână/izvor
+0x6415	Oraş abandonat/vechime
+0x6416	Anexă construcţie
+
+; Water features
+0x6500	Obiect hidrografic
+0x6501	Arroyo, secat
+0x6502	Banc de nisip
+0x6503	Golf
+0x6504	Meandru
+0x6505	Canal
+0x6506	Strâmtoare
+0x6507	Golf mic
+0x6508	Cascadă
+0x6509	Gheizer
+0x650a	Gheţar
+0x650b	Rada portului
+0x650c	Insulă
+0x650d	Lac
+0x650e	Praguri
+0x650f	Bazin de apă
+0x6510	Mare
+0x6511	Izvor
+0x6512	Pârău
+0x6513	Mlaştină
+
+; Land features
+0x6600	Obiect al naturii terestru
+0x6601	Arcă
+0x6602	Arie/regiune
+0x6603	Adâncitură
+0x6604	Mal
+0x6605	Prag
+0x6606	Cap
+0x6607	Stâncă abruptă
+0x6608	Crater
+0x6609	Platou
+0x660a	Pădure
+0x660b	Prăpastie
+0x660c	Trecere îngustă
+0x660d	Istm
+0x660e	Lavă
+0x660f	Stâlp
+0x6610	Câmpie
+0x6611	Lanţ
+0x6612	Rezervaţie naturală
+0x6613	Catenă muntoasă
+0x6614	Stâncă
+0x6615	Pantă
+0x6616	Vârf
+0x6617	Vale
+0x6618	Zonă împădurită
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Drum
+
+; Three levels of highways
+0x01	Magistrale auto
+0x02	Drumuri naţionale
+0x03	Drumuri secundare
+
+; Most important kind of street
+0x04	Artere principale urbane
+; Medium important kind of street
+0x05	Colector rutier
+; Ordinary street (80%)
+0x06	Străzi
+; Smallest kind of street
+0x07	Stradelă
+
+0x08	Ieşire de pe magistrală
+0x09	Ieşire accelerată de pe magistrală
+0x0a	Drumuri nepavate
+0x0b	Joncţiune şosele
+0x0c	Sens giratoriu
+0x16	Alee/cărare
+0x14	Cale ferată
+0x1a	Bac
+0x1b	Bac
+
+0x19	Hotar fus orar
+0x1e	Hotar internaţional
+0x1c	Hotar provincie/regiune
+0x1d	Hotar judeţ/raion
+
+0x15	Linia malului
+0x18	Pârău
+0x1f	Râu
+0x26	Râu/pârău în secare
+
+0x20	Izolinii minore
+0x21	Izolinii medii
+0x22	Izolinii majore
+0x23	Izobare minore
+0x24	Izobare medii
+0x25	Izobare majore
+
+0x27	Aeroportul pistă de decolare (axa)
+0x28	Conducte
+0x29	Fire electrice
+
+0x2a	Hotar maritim
+0x2b	Pericol maritim
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Sector localitate majoră
+0x02	Sector localitate medie
+0x03	Case în zonă rurală
+
+0x04	Unitate militară
+0x05	Parcare auto
+0x06	Garaje auto
+0x07	Aeroport
+0x08	Centru comercial
+0x09	Port
+0x0a	Universitate/colegiu
+0x0b	Spital
+0x0c	Zonă industrială
+0x0d	Rezervaţie naturală
+0x0e	Pistă de decolare
+0x13	Clădiri
+0x18	Câmp de golf
+0x19	Complex sportiv
+0x1a	Cimitir
+
+0x14	Parc naţional
+0x15	Parc naţional
+0x16	Parc naţional
+0x17	Parc urban
+0x1e	Parc public
+0x1f	Parc public
+0x20	Parc public
+
+0x28	Mare/ocean
+0x29	Ape
+0x32	Mare
+0x3b	Ape
+0x3c	Lac mare, 250-600 km²
+0x3d	Lac mare, 77-250 km²
+0x3e	Lac mediu, 25-77 km²
+0x3f	Lac mediu, 11-25 km²
+0x40	Lac mic, 0.25-11 km²
+0x41	Lac mic, sub 0.25 km²
+0x42	Lac f. mare, peste 3300 km²
+0x43	Lac f. mare, 1100-3300 km²
+0x44	Lac mare, 600-1100 km²
+0x45	Ape
+0x46	Râu f. mare, >1 km
+0x47	Râu mare, 200 m-1 km
+0x48	Râu mediu, 40-200 m
+0x49	Râu mic, <40 m
+0x4c	Râu/lac ce seacă
+
+0x4a	Zona de selecţie hartă
+0x4b	Zona de acoperire hartă
+
+0x4d	Gheţar
+0x4e	Grădini/livezi
+0x4f	Tufiş/arbuşti
+0x50	Pădure
+0x51	Mlaştină
+0x52	Tundră
+0x53	Banc de nisip

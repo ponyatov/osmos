@@ -1,0 +1,22 @@
+.location_browser 1
+
+.name            @r8800
+.class           google-maps-hyb
+
+.include_script  StdLevel.js
+.script          JScript
+////////////////////////////////////////////
+
+// Sample:
+//   https://maps.google.com/?ll=55.534071,38.486481&spn=0.728204,2.108002&t=h&z=10
+//
+function Browse (_x, _y, _scale) {
+	var nLevel = GetStdLevel (_y, _scale);
+	if (nLevel > 21)
+		nLevel = 21;
+	if (nLevel < 0)
+		nLevel = 0;
+
+	var WshShell = new ActiveXObject ("WScript.Shell");
+	WshShell.Run ("https://maps.google.com/?ll=" + _y + "," + _x + "&spn=1,1&t=h&z=" + nLevel);
+}

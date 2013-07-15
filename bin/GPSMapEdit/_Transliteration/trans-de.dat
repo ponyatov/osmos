@@ -1,0 +1,35 @@
+.TRANSLITERATION
+
+; This file is used by GPSMapEdit to provide translitertion table for German (Latin-1) extra characters.
+;
+; NOTE: if you want to translate this file to another language,
+; please keep the first line (".TRANSLITERATION") as is.
+;
+
+; Display name for data
+.NAME German->Latin
+
+; The code page of this file.
+.CODEPAGE 1252
+; Language ID for German defined by Microsoft
+.LANGID 1031
+
+;
+; Tests
+;
+
+.TEST ä,ö,ü,ß,Ä,Ö,Ü  ae,oe,ue,ss,Ae,Oe,Ue
+
+;
+; The substitutions
+;
+
+.DATA
+
+ä ae
+ö oe
+ü ue
+ß ss
+Ä Ae
+Ö Oe
+Ü Ue

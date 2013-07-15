@@ -1,0 +1,197 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+;
+
+.TYPESET Navitel
+
+; The Language ID for Czech defined by Microsoft
+;
+.LANGID 0x405
+
+;========================================================================================
+
+.POINT
+
+0xf001	Autobusové nádraží
+0xf002	Autobusová zastávka
+0xf003	Tramvajová zastávka
+0xf004	Trolejbusová zastávka
+0xf005	Stanice metro
+0xf006	Železniční nádraží
+0xf007	Železniční terminál
+0xf008	Jednokolejka stanice
+0xf009	Zastávka lanové dráhy
+0xf00a	Přístav
+0xf00b	Přístaviště
+0xf00c	Trajekt terminál
+
+0xf101	Pravoslavná církev
+0xf102	Katolická církev
+0xf103	Protestanští církev
+0xf104	Mešita
+0xf105	Synagoga
+0xf106	Pagoda
+
+0xf201	Dopravní světlo
+0xf202	Dopravní policie
+0xf203	Zabezpečený železniční přejezd (s ohradou)
+0xf204	Hrubý silnice
+0xf205	Radar/rychlost fotoaparátu
+0xf206	Limit výšky
+0xf207	Žádní tranzitní doprava
+0xf208	Na plynná paliva pro automobilový
+0xf209	Pneuservis - montování kol
+0xf20a	Pneuservis - opravy kol
+0xf20b	Nezabezpečený železniční přejezd (bez ohrady)
+0xf20c	Kruhový objezd
+
+0xf301	Monument
+0xf302	Fontán
+0xf303	Vodárenská věž
+0xf304	Televizní/rádio věž
+0xf305	Geodetický cíl
+0xf306	Horský přechod
+0xf307	Brod
+0xf308	Jáma
+0xf309	Trakař
+0xf30a	Kameny
+0xf30b	Rašelina lomu
+0xf30c	Lávka pro pěší
+0xf30d	Vstup do jeskyně
+
+0xf401	Listnatý les
+0xf402	Jehličnatý les
+0xf403	Smíšený les
+0xf404	Samostatný strom
+0xf405	Samostatný buš
+0xf406	Háj
+
+0xf501	Mateřská škola
+0xf502	Střední škola
+0xf503	Odborné učiliště 
+0xf504	Univerzita/Vyšší odborná škola
+0xf505	Speciální škola
+
+0xf601	Bankomat
+0xf602	Kadeřnictví
+0xf603	Sauna
+0xf604	Prádelna
+0xf605	Fotografický ateliér
+0xf606	Krejčovství
+0xf607	Oprava elektrické spotřebiče
+0xf608	Oprava počítaču
+0xf609	Krejčovství
+0xf60a	Oprava obuvi
+0xf60b	Oprava nábytku
+0xf60c	Právník úřadu
+0xf60d	Notář
+0xf60e	Pojištění
+0xf60f	Realitní kancelář
+0xf610	Informační služby
+0xf611	Redakce
+0xf612	Tiskárna
+0xf613	Cestovní kancelář
+0xf614	Pokladna letecké/železniční dopravy
+0xf615	Bezplatné Wi-Fi připojení k Internetu
+0xf616	Cyberkavárna
+
+0xf701	Trh
+0xf702	Obuv
+0xf703	Průmyslové zboží
+0xf704	Chemické spotřeby
+0xf705	Elektrické spotřebiče
+0xf706	Mobilní zařízení
+0xf707	Sportovní a cestovní potřeby
+0xf708	Zbrojní technika
+0xf709	Suvenýry
+0xf70a	Květinářství
+0xf70b	Klenotnictví
+0xf70c	Prodejna domácích mazlíčků
+
+0xf801	Stomatologická klinika
+0xf802	Veterinární klinika
+
+0xf901	Cirkus
+
+;========================================================================================
+
+.POLYLINE
+
+0x3d	Režie text, malé
+0x3e	Režie text
+
+0x3f	Tramvajová linka
+0x40	Jednokolejka linka
+0x41	Lanová dráha 
+
+0x42	Zemní nebo štěrková silnice
+0x43	Tunel
+0x44	Řeka, husté
+
+0x45	Hranice městského obvodu
+0x46	Ohrazení 
+
+0x47	Planovaná cesta
+0x48	Lesní protipožární pruh
+0x49	Dopravní pruh
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Sběratel silnice
+0x69	Hlavní tepna
+0x6a	Náměstí
+0x6b	Silniční, ulice
+
+; Buildings
+0x6c	Obytná budova
+0x6d	Kancelářská budova
+0x6e	Společné budova
+0x6f	Průmyslová budova
+
+0x70	Černá plocha
+0x71	Temné červená plocha
+0x72	Temná zelená plochu
+0x73	Tmavě žlutá plocha
+0x74	Tmavě modrá plocha
+0x75	Temná purpurová plocha
+0x76	Temná azurová plocha
+0x77	Světle šedá plocha
+0x78	Tmavě šedá plocha
+0x79	Červená plocha
+0x7a	Zelená plocha
+0x7b	Žlutá plocha
+0x7c	Modrá plocha
+0x7d	Purpurová plocha
+0x7e	Azurová plocha
+0x7f	Bílá plocha
+0x80	Text plocha
+
+0x81	Zatopený les
+0x82	Podměrečné les
+0x83	Řídký les
+0x84	Spálený/mrtvý les
+0x85	Agitoval les
+0x86	Vinice
+0x87	Riceové pole
+0x88	Louka
+0x89	Písek
+0x8a	Kamenitá země
+0x8b	Solná země/Solná mokřina
+0x8c	Třtina
+0x8d	Řasa
+0x8e	Trní
+0x8f	Spadlé stromy
+0x90	Diblík les
+0x91	Saxaul
+0x92	Bambus
+0x93	Palmový les
+0x94	Mangrovníky
+0x95	Vysoká tráva
+0x96	Mechy
+0x97	Lišejníky
+0x98	Trávník

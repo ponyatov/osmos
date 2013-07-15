@@ -1,0 +1,197 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+;
+
+.TYPESET Navitel
+
+; The Language ID for Dutch defined by Microsoft
+;
+.LANGID 0x413
+
+;========================================================================================
+
+.POINT
+
+0xf001	Busstation
+0xf002	Bushalte
+0xf003	Tramhalte
+0xf004	Trolley bushalte
+0xf005	Ondergronds/Metro station
+0xf006	Treinstation
+0xf007	Spoorweg-terminal
+0xf008	Monorail station
+0xf009	Kabelbaan halte
+0xf00a	Poort
+0xf00b	Werf
+0xf00c	Veerhaven
+
+0xf101	Orthodoxe kerk
+0xf102	Katholieke kerk
+0xf103	Protestantse kerk
+0xf104	Moskee
+0xf105	Synagoge
+0xf106	Pagode
+
+0xf201	Verkeerslicht
+0xf202	Verkeerspolitie
+0xf203	Spoorwegovergang (bewaakt)
+0xf204	Slecht wegdek
+0xf205	Radar/Flitspalen
+0xf206	Beperkte hoogte
+0xf207	Geen doorgaand verkeer
+0xf208	LPG Tankstation (gasvormige brandstof)
+0xf209	Montage van het wiel
+0xf20a	Wiel aanpassing
+0xf20b	Spoorwegovergang (onbewaakt)
+0xf20c	Rotonde
+
+0xf301	Monument
+0xf302	Fontein
+0xf303	Watertoren
+0xf304	TV/Radiotoren
+0xf305	Geodetische punt
+0xf306	Bergpas
+0xf307	Doorwaadbare plaats
+0xf308	Kuil
+0xf309	Berrie
+0xf30a	Stenen
+0xf30b	Veenderij
+0xf30c	Wandelbrug
+0xf30d	Grotten ingang
+
+0xf401	Loofbos
+0xf402	Naaldbos
+0xf403	Gemengd bos
+0xf404	Enkele boom
+0xf405	Geïsoleerd struik
+0xf406	Bosje
+
+0xf501	Kleuterschool
+0xf502	Middelbare school
+0xf503	Vakschool
+0xf504	Universiteit/College
+0xf505	Vakopleidingen
+
+0xf601	Geldautomaat
+0xf602	Kapsalon
+0xf603	Sauna
+0xf604	Wasserij
+0xf605	Fotostudio
+0xf606	Kleermakerij atelier
+0xf607	Reparatiedienst
+0xf608	Computers reparatie
+0xf609	Kleermakerij atelier
+0xf60a	Schoenmaker
+0xf60b	Meubelmaker 
+0xf60c	Advocatenkantoor
+0xf60d	Notaris
+0xf60e	Verzekering
+0xf60f	Makelaarskantoor
+0xf610	Informatiedienst
+0xf611	Redactie/PR buro
+0xf612	Drukkerij
+0xf613	Reisbureau
+0xf614	Boekingskantoor voor luchtwegen/spoorlijn
+0xf615	Gratis Wi-Fi-hotspot
+0xf616	Internetcafe
+
+0xf701	Markt
+0xf702	Schoenwinkel
+0xf703	Vervaardigde goederen
+0xf704	Huishoudelijke chemische goederen
+0xf705	Elektrische apparaten
+0xf706	Mobiele apparaten
+0xf707	Sport en toeristische goederen
+0xf708	Wapenwinkel
+0xf709	Souvenirwinkel
+0xf70a	Bloemenwinkel
+0xf70b	Juweliers
+0xf70c	Dierenwinkel
+
+0xf801	Tandarts
+0xf802	Dierenarts
+
+0xf901	Circus
+
+;========================================================================================
+
+.POLYLINE
+
+;0x3d	
+;0x3e	
+
+0x3f	Tramlijn
+0x40	Monorail lijn
+0x41	Kabelbaan lijn
+
+0x42	Aarde of onverharde weg
+0x43	Tunnel
+0x44	Brede rivier
+
+0x45	Plaats district grens
+0x46	Hek
+
+0x47	Geplande route
+0x48	Bos brandgang
+0x49	Rijstrook
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Collector weg
+0x69	Verkeersader
+0x6a	Plein
+0x6b	Weg
+
+; Buildings
+0x6c	Woonhuis
+0x6d	Kantoorgebouw
+0x6e	Gemeenschappelijk gebouw
+0x6f	Industrieel gebouw
+
+;0x70	
+;0x71	
+;0x72	
+;0x73	
+;0x74	
+;0x75	
+;0x76	
+;0x77	
+;0x78	
+;0x79	
+;0x7a	
+;0x7b	
+;0x7c	
+;0x7d	
+;0x7e	
+;0x7f	
+;0x80	
+
+0x81	Moerasbos
+0x82	Ondermaatse bos
+0x83	Sparse bos
+0x84	Verbrand/dood bos
+0x85	Gekapt bos
+0x86	Wijngaard
+0x87	Rijstveld
+0x88	Weide
+0x89	Zand
+0x8a	Steengebied
+0x8b	Zoutmoerassen
+0x8c	Riet
+0x8d	Algen
+0x8e	Doornstruik
+0x8f	Omgevallen bomen
+0x90	Elfachtig hout
+0x91	Haloxylon
+0x92	Bamboe
+0x93	Palmbos
+0x94	Mangroves
+0x95	Hoog gras
+0x96	Mosland
+0x97	Korstmossen
+0x98	Gazon

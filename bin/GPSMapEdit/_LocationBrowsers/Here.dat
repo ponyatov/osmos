@@ -1,0 +1,22 @@
+.location_browser 1
+
+.name             "Nokia (Here.com)"
+.class            nokia-maps
+
+.include_script   StdLevel.js
+.script           JScript
+////////////////////////////////////////////
+
+// Sample:
+//   http://maps.navitel.su/?zoom=9&lat=55.75268&lon=37.83083
+//
+function Browse (_x, _y, _scale) {
+	var nLevel = GetStdLevel (_y, _scale);
+	if (nLevel > 20)
+		nLevel = 20;
+	if (nLevel < 3)
+		nLevel = 3;
+
+	var WshShell = new ActiveXObject ("WScript.Shell");
+	WshShell.Run ("http://here.com/#/" + _y.toFixed (5) + "," + _x.toFixed (5) + "," + nLevel + ",0,0,normal.day");
+}

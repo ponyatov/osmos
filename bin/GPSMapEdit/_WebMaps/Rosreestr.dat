@@ -1,0 +1,43 @@
+.web_map         1
+
+.name            @r8809
+.submenu1        @r8812
+.submenu2        @c:RUS
+.image           ru.ico
+.class           ru-cadastral
+.cache_subfolder RussianCadastralMap
+;.hotkey          
+
+.def_version     ""
+.tile_referer    http://maps.rosreestr.ru
+.tile_size       256
+.tile_ext        .png
+
+.include_script  ProjGoogle.js
+.include_script  Proj3857.js
+.script          JScript
+////////////////////////////////////////////
+
+function GetMaxLevel () {return 22;}
+function GetMinLevel () {return 1;}
+
+// SAMPLE:
+//   http://maps.rosreestr.ru/ArcGIS/rest/services/CadastreNew/Cadastre/MapServer/export?dpi=96&transparent=true&format=png32&bbox=4222148.74630141%2C7514133.342224177%2C4226042.257429789%2C7516299.854244692&bboxSR=102113&imageSR=102113&size=1630%2C907&f=image
+function MakeTileURL (_x, _y, _level, _version) {
+	var x0 = XToLon ((_x    )*256, _level);
+	var x1 = XToLon ((_x + 1)*256, _level);
+	var y0 = YToLat ((_y + 1)*256, _level);
+	var y1 = YToLat ((_y    )*256, _level);
+
+//	WebMap.Log ("x=" + _x + " y=" + _y + " level=" + _level + " x0=" + x0 + " y0=" + y0);
+
+	var mx0 = _LonToMercX (x0);
+	var mx1 = _LonToMercX (x1);
+	var my0 = _LatToMercY (y0);
+	var my1 = _LatToMercY (y1);
+
+	return "http://maps.rosreestr.ru/ArcGIS/rest/services/CadastreNew/Cadastre/MapServer/export?dpi=96&transparent=true&format=png32&bbox=" +
+		mx0.toFixed (8) + "%2C" + my0.toFixed (8) + "%2C" + mx1.toFixed (8) + "%2C" + my1.toFixed (8)
+		+ "&bboxSR=102113&imageSR=102113&size=256%2C256&f=image";
+}
+

@@ -1,0 +1,97 @@
+﻿.IMGTYPES
+
+;
+; This file is just base template for localizations used by GPSMapEdit to provide localized names
+; for Holux type set. This file is ignored by GPSMapEdit!
+;
+; NOTE 1: if you want to translate the file to another language,
+; please keep the first line (".IMGTYPES") as is.
+;
+; NOTE 2: the numeric codes below are just references to some hard-coded tables.
+; To add some missed type you need to modify the source file 'HoluxTypes.cpp' of GPSMapEdit.
+;
+
+.TYPESET Holux
+
+; The Language ID for English (U.S.) defined by Microsoft
+;
+.LANGID 0x409
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN  Unknown type
+
+;========================================================================================
+
+.POINT
+
+7	Airport
+8	Government
+9	Gas station
+10	Hotel
+11	Hospital
+12	Sports
+13	Scenic
+14	Shopping
+15	Bank
+16	School
+17	Parking
+18	Station
+19	Marina
+20	Other
+22	Dam
+23	Nature
+24	Police
+25	Car service
+26	Restaurant
+27	Railway station
+28	Camping
+29	Recreation
+30	Park
+31	Culture
+32	Religion
+33	Building
+34	Monument
+35	Cable car
+36	Mountain pass
+
+40	Big city
+41	Middle city
+42	City
+
+52	Bike
+53	Buoy
+54	Fish
+55	Horse
+56	Man
+57	Beacon
+58	Anchorage
+
+
+;========================================================================================
+
+.POLYLINE
+
+4	Highway
+5	Road
+6	Street
+43	Line style 1
+44	Line style 2
+45	Line style 3
+46	Line style 4
+47	Line style 5
+48	Line style 6
+50	Rail road
+51	Border
+
+
+;========================================================================================
+
+.POLYGON
+
+0	Urban area
+1	Water area
+2	Vegetation
+3	Other

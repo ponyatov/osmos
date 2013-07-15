@@ -1,0 +1,89 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Holux type set.
+;
+
+.TYPESET Holux
+
+; The Language ID for German(Germany) defined by Microsoft
+;
+.LANGID 0x407
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN  Unbekannt
+
+;========================================================================================
+
+.POINT
+
+7    Airport
+8    Behorde
+9    Tankstelle
+10   Hotel
+11   Hospital
+12   Sportplatz
+13   Wissen
+14   Einkaufen
+15   Bank
+16   Schule
+17   Parkplatz
+18   Station
+19   Hafen
+20   Andere
+22   Damm
+23   Natur
+24   Polizei
+25   Autowerkstatt
+26   Restaurant
+27   Bahnstation
+28   Campingplatz
+29   Unterhaltung
+30   Park
+31   Kultur
+32   Religion
+33   Gebaude
+34   Interessantes
+35   Drahtseilbahn
+36   Gebirgspaß
+
+40   Groß Stadt
+41   Stadt
+42   Klein stadt
+
+52	Fahrrad
+53	Boje
+54	Fisch
+55	Pferd
+56	Mensch
+57	Leuchtfeuer
+58	Anlegeplatz
+
+;========================================================================================
+
+.POLYLINE
+
+4    Autobahn
+5    Weg
+6    Straße
+43   Linie stil 1
+44   Linie stil 2
+45   Linie stil 3
+46   Linie stil 4
+47   Linie stil 5
+48   Linie stil 6
+50   Eisenbahn
+51   Grenze
+
+
+;========================================================================================
+
+.POLYGON
+
+0    Besiedelten Punkt
+1    Wasserbehalter
+2    Vegetation
+3    Andere

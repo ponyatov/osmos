@@ -1,0 +1,197 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+;
+
+.TYPESET Navitel
+
+; The Language ID for Estonian defined by Microsoft
+;
+.LANGID 0x425
+
+;========================================================================================
+
+.POINT
+
+0xf001	Bussijaam
+0xf002	Bussipeatus
+0xf003	Trammipeatus
+0xf004	Trollibussipeatus
+0xf005	Metroo-/allmaaraudteejaam
+0xf006	Raudteejaam
+0xf007	Raudteeterminal
+0xf008	Üherööpmeliste rongide jaam
+0xf009	Köisraudtee tõstuki peatus
+0xf00a	Sadam
+0xf00b	Sadamakai
+0xf00c	Laevaterminal
+
+0xf101	Ortodoksi kirik
+0xf102	Katoliku kirik
+0xf103	Protestantlik kirik
+0xf104	Mošee
+0xf105	Sünagoog
+0xf106	Pagooda
+
+0xf201	Valgusfoor
+0xf202	Liikluspolitsei
+0xf203	Raudteeülesõit (tõkkega)
+0xf204	Ebatasane tee
+0xf205	Radar
+0xf206	Kõrgusepiirang
+0xf207	Transiitliiklusele keelatud
+0xf208	Gaasikütus
+0xf209	Rataste paigaldamine
+0xf20a	Rataste reguleerimine
+0xf20b	Raudteeülesõit (ilma tõkketa)
+0xf20c	Möödasõit
+
+0xf301	Ausammas
+0xf302	Purskkaev
+0xf303	Veetorn
+0xf304	Tele-/raadiotorn
+0xf305	Geodeetiline punkt
+0xf306	Kuristikust ülesõit
+0xf307	Koolmekoht
+0xf308	Kaevis
+0xf309	Kalmuküngas
+0xf30a	Kivid
+0xf30b	Turbaauk
+0xf30c	Jalakäijate sild
+0xf30d	Sissepääs maa-alusesse õõnsusesse
+
+0xf401	Lehtpuumets
+0xf402	Okaspuumets
+0xf403	Segamets
+0xf404	Üksik puu
+0xf405	Isoleeritud võsastik
+0xf406	Lehtpuusalu
+
+0xf501	Lasteaed
+0xf502	Keskkool
+0xf503	Ametikool
+0xf504	Ülikool/Kolledž
+0xf505	Spetsialiseeritud kool
+
+0xf601	Pangaautomaat
+0xf602	Juuksur
+0xf603	Saun
+0xf604	Pesumaja
+0xf605	Fotostuudio
+0xf606	Õmblusateljee
+0xf607	Elektriseadmete remonditöökoda
+0xf608	Arvutite remonditöökoda
+0xf609	Rõivaparandus
+0xf60a	Kingsepp
+0xf60b	Mööbliremont
+0xf60c	Advokaadibüroo
+0xf60d	Notar
+0xf60e	Kindlustus
+0xf60f	Kinnisvarabüroo
+0xf610	Infopunktid
+0xf611	Kirjastus
+0xf612	Trükikoda
+0xf613	Reisibüroo
+0xf614	Lennu-/rongipiletite broneerimiskeskus
+0xf615	Tasuta Wi-Fi
+0xf616	Küberkohvik
+
+0xf701	Turg
+0xf702	Kingakauplus
+0xf703	Lõpptoodete kauplus
+0xf704	Majapidamiskemikaalide kauplus
+0xf705	Elektriseadmed
+0xf706	Mobiilseadmed
+0xf707	Spordi- ja turimismikaubad
+0xf708	Relvakauplus
+0xf709	Kingituste kauplus
+0xf70a	Lillekauplus
+0xf70b	Juveelitooted
+0xf70c	Lemmikloomakauplus
+
+0xf801	Hambaarst
+0xf802	Loomakliinik
+
+0xf901	Tsirkus
+
+;========================================================================================
+
+.POLYLINE
+
+;0x3d	
+;0x3e	
+
+0x3f	Trammiliin
+0x40	Üherööpmelise raudtee liin
+0x41	Köisraudteeliin
+
+0x42	Mulla- või kruusatee
+0x43	Tunnel
+0x44	Jõgi
+
+0x45	Linnarajooni piir
+0x46	Tara
+
+0x47	Planeeritud marsruut
+0x48	Metsa tuletõke
+0x49	Sõidurada
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Kogumistee
+0x69	Magistraalteed
+0x6a	Väljak
+0x6b	Maantee
+
+; Buildings
+0x6c	Elumaja
+0x6d	Ärihoone
+0x6e	Ühiskondlik hoone
+0x6f	Tööstushoone
+
+;0x70	
+;0x71	
+;0x72	
+;0x73	
+;0x74	
+;0x75	
+;0x76	
+;0x77	
+;0x78	
+;0x79	
+;0x7a	
+;0x7b	
+;0x7c	
+;0x7d	
+;0x7e	
+;0x7f	
+;0x80	
+
+0x81	Soomets
+0x82	Väike mets
+0x83	Hõre mets
+0x84	Põlenud/surnud mets
+0x85	Kändudeni mahavõetud mets
+0x86	Viinamarjaistandus
+0x87	Riisiväli
+0x88	Heinamaa
+0x89	Liiv
+0x8a	Kivine maa
+0x8b	Sooldunud maa/sooldunud märgala
+0x8c	Kõrkjad
+0x8d	Vetikad
+0x8e	Okaspõõsas
+0x8f	Tuulest murdunud puud
+0x90	Haldjapuu
+0x91	Saksauulipuu
+0x92	Bambus
+0x93	Palmimets
+0x94	Mangroovipuu
+0x95	Kõrge rohi
+0x96	Sammal
+0x97	Samblikud
+0x98	Muruplats

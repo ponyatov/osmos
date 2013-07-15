@@ -1,0 +1,24 @@
+.web_map         1
+
+.name            "UMP-pcPL"
+.submenu1        @r8812
+.submenu2        @c:POL
+.image           UMP.ico
+.class           pl-ump
+.cache_subfolder umpmap
+
+.def_version     ""
+.tile_referer    http://ump.waw.pl/
+.tile_size       256
+.tile_ext        .png
+
+.include_script  ProjGoogle.js
+.script          JScript
+////////////////////////////////////////////
+
+function GetMaxLevel () {return 20;}
+function GetMinLevel () {return 0;}
+
+function MakeTileURL (_x, _y, _level, _version) {
+	return "http://tiles.ump.waw.pl/ump_tiles/" + _level + "/" + _x + "/" + _y + ".png";
+}

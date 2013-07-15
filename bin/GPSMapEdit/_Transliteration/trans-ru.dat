@@ -1,0 +1,95 @@
+.TRANSLITERATION
+
+; This file is used by GPSMapEdit to provide translitertion table for Russian.
+;
+; NOTE: if you want to translate this file to another language,
+; please keep the first line (".TRANSLITERATION") as is.
+;
+
+; Display name for data
+.NAME Russian->Latin
+
+; The code page of this file.
+.CODEPAGE 1251
+; Language ID for Russian defined by Microsoft
+.LANGID 1049
+
+;
+; Tests
+;
+
+.TEST Москва Moskva
+.TEST Шереметьево Sheremet'evo
+.TEST Мытищи Myitischi
+
+;
+; The substitutions
+;
+
+.DATA
+а	a
+б	b
+в	v
+г	g
+д	d
+е	e
+ё	yo
+ж	zh
+з	z
+и	i
+й	y
+к	k
+л	l
+м	m
+н	n
+о	o
+п	p
+р	r
+с	s
+т	t
+у	u
+ф	f
+х	kh
+ц	c
+ч	ch
+ш	sh
+щ	sch
+ъ	'
+ы	yi
+ь	'
+э	e
+ю	yu
+я	ya
+А	A
+Б	B
+В	V
+Г	G
+Д	D
+Е	E
+Ё	Yo
+Ж	Zh
+З	Z
+И	I
+Й	Y
+К	K
+Л	L
+М	M
+Н	N
+О	O
+П	P
+Р	R
+С	S
+Т	T
+У	U
+Ф	F
+Х	Kh
+Ц	C
+Ч	Ch
+Ш	Sh
+Щ	Sch
+Ъ	'
+Ы	Yi
+Ь	'
+Э	E
+Ю	Yu
+Я	Ya

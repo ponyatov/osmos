@@ -1,0 +1,437 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+;
+
+.TYPESET Garmin
+
+; The Language ID for Estonian defined by Microsoft
+;
+.LANGID 0x425
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN	tundmatu tüüp
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	Suur linn, üle 10 miljoni 
+0x0200	Suur linn, 5-10 miljonit
+0x0300	Suur linn, 2-5 miljonit
+0x0400	Suur linn, 1-2 miljonit
+0x0500	Keskmine linn, 0,5-1 miljonit
+0x0600	Keskmine linn, 200-500 tuhat
+0x0700	Keskmine linn, 100-200 tuhat
+0x0800	Väike linn, 50-100 tuhat
+0x0900	Väike linn, 20-50 tuhat
+0x0a00	Väike linn, 10-20 tuhat
+0x0b00	Väike linn, 5-10 tuhat
+0x0c00	Asundus, 2-5 tuhat
+0x0d00	Asundus, 1-2 tuhat
+0x0e00	Asundus, 500 - 1 tuhat
+0x0f00	Asundus, 200-500
+0x1000	Asundus, 100-200
+0x1100	Asundus, alla 100
+
+; Labels without icons
+0x1400	Suurema riigi nimi
+0x1500	Väiksema riigi nimi
+0x1e00	Osariigi/provintsi/piirkonna nimi
+0x1f00	Riigi/valla nimi
+0x2800	Märgend
+
+; Marine features
+0x1200	Jahisadam rajatistega
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Navigatsiooniseadmed
+0x1601	Udupasun
+0x1602	Raadiosignaal
+0x1603	Raadiosignaal
+0x1604	Valgustamata meremärk, punane kolmnurk
+0x1605	Valgustamata meremärk, roheline ruut
+0x1606	Valgustamata meremärk, valge romb
+0x1607	Valgustamata navigatsiooniseade, valge
+0x1608	Valgustamata navigatsiooniseade, punane
+0x1609	Valgustamata navigatsiooniseade, roheline
+0x160a	Valgustamata navigatsiooniseade, must
+0x160b	Valgustamata navigatsiooniseade, kollane/merevaiguvärvi
+0x160c	Valgustamata navigatsiooniseade, oranž
+0x160d	Valgustamata navigatsiooniseade, mitmevärviline
+0x160e	Navigatsiooniseade, tundmatu
+0x160f	Navigatsiooniseade, valge
+0x1610	Navigatsiooniseade, punane
+0x1611	Navigatsiooniseade, roheline
+0x1612	Navigatsiooniseade, kollane/merevaiguvärvi
+0x1613	Navigatsiooniseade, oranž
+0x1614	Navigatsiooniseade, violetne
+0x1615	Navigatsiooniseade, sinine
+0x1616	Navigatsiooniseade, mitmevärviline
+
+0x1c00	Takistus
+0x1c01	Laevavrakk
+0x1c02	Vette uppunud laevavrakk, ohtlik
+0x1c03	Vette uppunud laevavrakk, mitteohtlik
+0x1c04	Laevavrakk, traatvõrguga ümbritsetud
+0x1c05	Takistus, nähtav suurvee ajal
+0x1c06	Takistus, vees
+0x1c07	Takistus, vette uppunud
+0x1c08	Takistus, traatvõrguga ümbritsetud
+0x1c09	Kivi, vees
+0x1c0a	Kivi, madalvette uppunud
+0x1c0b	Võimalik oht maandamisel
+
+; Tide table prediction used in marine maps
+0x1d00	Tõusuveeoht
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	Mahasõit kiirteelt
+0x2100	Mahasõit kiirteelt, rajatistega
+0x210f	Mahasõit kiirteelt (teenindus)
+0x2200	Mahasõit kiirteelt (tualetid)
+0x2300	Mahasõit kiirteelt (esmatarbekaupade kauplus)
+0x2400	Mahasõit kiirteelt (kaalumispunkt)
+0x2500	Mahasõit kiirteelt (tollipunkt)
+0x2600	Mahasõit kiirteelt (info)
+0x2700	Mahasõit kiirteelt
+
+0x2900	Kategoriseerimata äri
+
+0x2a00	Söögikoht
+0x2a01	Söögikoht (ameerikapärane)
+0x2a02	Söögikoht (aasiapärane)
+0x2a03	Söögikoht (grill)
+0x2a04	Söögikoht (hiinapärane)
+0x2a05	Söögikoht (deli/pagaritooted)
+0x2a06	Söögikoht (rahvusvaheline)
+0x2a07	Kiirtoit
+0x2a08	Söögikoht (itaaliapärane)
+0x2a09	Söögikoht (mehhikopärane)
+0x2a0a	Söögikoht (pitsa)
+0x2a0b	Söögikoht (mereannid)
+0x2a0c	Söögikoht (praed/grill)
+0x2a0d	Söögikoht (soolakringlid, sõõrikud)
+0x2a0e	Söögikoht (kohvik, einelaud)
+0x2a0f	Söögikoht (prantsusepärane)
+0x2a10	Söögikoht (saksapärane)
+0x2a11	Söögikoht (inglisepärane)
+0x2a12	Erilised toiduained
+
+0x2b00	Majutus
+0x2b01	Hotell/motell
+0x2b02	Kodumajutus hommikusöögiga
+0x2b03	Kämping/karavanipark
+0x2b04	Puhkekeskus
+
+0x2c00	Vaatamisväärsus
+0x2c01	Meelelahutus/teemapark
+0x2c02	Muuseum/ajalugu
+0x2c03	Raamatukogu
+0x2c04	Maamärk
+0x2c05	Kool
+0x2c06	Park/aed
+0x2c07	Loomaaed/akvaarium
+0x2c08	Areen/velodroom
+0x2c09	Hall/saal
+0x2c0a	Veiniaed
+0x2c0b	Pühapaigad
+
+0x2d00	Meelelahutus
+0x2d01	Teater
+0x2d02	Baar/ööklubi
+0x2d03	Kino
+0x2d04	Kasiino
+0x2d05	Golfiväljak
+0x2d06	Suusakeskus/puhkekeskus
+0x2d07	Keeglikeskus
+0x2d08	Uisutamine
+0x2d09	Ujula
+0x2d0a	Sport/jõusaalid
+0x2d0b	Sportlennukite lennuväli
+
+0x2e00	Kauplused
+0x2e01	Kaubamaja
+0x2e02	Toidainetekauplus
+0x2e03	Äriettevõte
+0x2e04	Kaubanduskeskus
+0x2e05	Apteek
+0x2e06	Esmatarbekaupade kauplus
+0x2e07	Rõivakauplus
+0x2e08	Maja ja aed
+0x2e09	Kodukaubad
+0x2e0a	Erikaupade jaemüük
+0x2e0b	Arvutid, tarkvara
+
+0x2f00	Üldteenused
+0x2f01	Autokütus
+0x2f02	Autorent
+0x2f03	Autoremont
+0x2f04	Lennutransport
+0x2f05	Postkontor
+0x2f06	Pank/pangaautomaat
+0x2f07	Edasimüüja/autoosad
+0x2f08	Maismaatransport
+0x2f09	Laeva-/paadiremont
+0x2f0a	Auto lahtimuukimimsteenus
+0x2f0b	Parkimine
+0x2f0c	Puhkeala/turismiinfo
+0x2f0d	Autoklubi
+0x2f0e	Autopesula
+0x2f0f	Garmini edasimüüja
+0x2f10	Teenused
+0x2f11	Äriteenused
+0x2f12	Sideteenused
+0x2f13	Remonditeenused
+0x2f14	Sotsiaalsed teenused
+0x2f15	Ühiskondlikud asutused
+0x2f16	Veokite peatuskoht
+0x2f17	Transiitteenus
+
+0x3000	Hädaabiteenused/riiklikud asutused
+0x3001	Politseijaoskond
+0x3002	Haigla
+0x3003	Raekoda
+0x3004	Kohtumaja
+0x3005	Kogukonna keskus
+0x3006	Piiriületuspunkt
+0x3007	Riigiasutus
+0x3008	Tuletõrjedepoo
+
+0x4000	Golf
+0x4100	Kalastamiskoht
+0x4200	Laevavrakk
+0x4300	Jahisadam
+0x4400	Bensiinijaam
+0x4500	Restoran
+0x4600	Baar
+0x4700	Paadikai
+0x4800	Kämping
+0x4900	Park
+0x4a00	Piknikuala
+0x4b00	Esmaabipunkt
+0x4c00	Teave
+0x4d00	Parkimine
+0x4e00	Tualettruum
+0x4f00	Dušš
+0x5000	Joogivesi
+0x5100	Telefon
+0x5200	Looduskaunis koht
+0x5300	Suustamine
+0x5400	Ujumiskoht
+0x5500	Tamm
+
+; Aviation
+0x5600	Kontrollitud ala
+0x5700	Ohtlik ala
+0x5800	Kinnine ala
+0x5900	Lennuväli
+0x5901	Suur lennuväli
+0x5902	Keskmine lennuväli
+0x5903	Väike lennuväli
+0x5904	Helikopterite maandumisplats
+0x5905	Lennuväli
+
+0x5a00	Miilitähis
+0x5b00	Kell
+0x5c00	Sukeldumisala
+0x5d00	Valgustamata meremärk, roheline
+0x5e00	Valgustamata meremärk, punane kolmnurk
+0x6000	Signaal
+0x6100	Maja
+
+0x6200	Sügavuspunkt
+0x6300	Kõrguspunkt
+
+; Man-made features
+0x6400	Inimese loodud koht
+0x6401	Sild
+0x6402	Hoone
+0x6403	Surnuaed
+0x6404	Kirik/mošee/jne.
+;0x6405	
+0x6406	Ristmik
+0x6407	Tamm
+0x6408	Haigla
+0x6409	Kaldapealne
+0x640a	Asukoht
+0x640b	Sõjaväeline
+0x640c	Kaevandus
+0x640d	Naftaväli
+0x640e	Park
+0x640f	Postkontor
+0x6410	Kool
+0x6411	Torn
+0x6412	Raja alguspunkt
+0x6413	Tunnel
+0x6414	Kaev
+0x6415	Ajalooline (mahajäetud) linn
+0x6416	Maja osa
+
+; Water features
+0x6500	Vesi
+0x6501	Kuiv jõesäng
+0x6502	Liivarand
+0x6503	Laht
+0x6504	Looklev
+0x6505	Kanal
+0x6506	Väin
+0x6507	Väike laht
+0x6508	Joad
+0x6509	Geiser
+0x650a	Liustik
+0x650b	Sadam
+0x650c	Saar
+0x650d	Järv
+0x650e	Kosk
+0x650f	Reservuaar
+0x6510	Meri
+0x6511	Allikas
+0x6512	Hoovus
+0x6513	Soo
+
+; Land features
+0x6600	Maastiku omadused
+0x6601	Kumer
+0x6602	Ala
+0x6603	Nõgu
+0x6604	Rand
+0x6605	Astang
+0x6606	Neem
+0x6607	Kalju
+0x6608	Kraater
+0x6609	Tasandik
+0x660a	Mets
+0x660b	Lõhe
+0x660c	Tühimik
+0x660d	Maakitsus
+0x660e	Laava
+0x660f	Sammas
+0x6610	Tasandik
+0x6611	Vahemik
+0x6612	Reservuaar
+0x6613	Mäehari
+0x6614	Kivi
+0x6615	Langus
+0x6616	Tipp
+0x6617	Org
+0x6618	Metsapiirkond
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Maantee
+
+; Three levels of highways
+0x01	Suurem kiirtee
+0x02	Põhikiirtee
+0x03	Muud kiirteed
+
+; Most important kind of street
+0x04	Magistraalteed
+; Medium important kind of street
+0x05	Kogumistee
+; Ordinary street (80%)
+0x06	Tänav elamurajoonis
+; Smallest kind of street
+0x07	Vahekäik/eratee
+
+0x08	Kiirtee ramp, väiksem kiirus
+0x09	Kiirtee ramp, suurem kiirus
+0x0a	Asfaltkatteta tee
+0x0b	Ühendus suurema kiirteega
+0x0c	Möödasõit
+0x16	Läbipääs/rada
+0x14	Raudtee
+0x1a	Praam/raudteepraam
+0x1b	Praam/raudteepraam
+
+0x19	Ajatsoon
+0x1e	Rahvusvaheline piir
+0x1c	Osariigi/provintsi piir
+0x1d	Riigi/valla piir
+
+0x15	Veekogu kallas
+0x18	Hoovus
+0x1f	Jõgi
+0x26	Keskmine jõgi/oja
+
+0x20	Väiksema maa-ala kontuur
+0x21	Keskmise maa-ala kontuur
+0x22	Suurema maa-ala kontuur
+0x23	Väiksema sügavuse kontuur
+0x24	Keskmise sügavuse kontuur
+0x25	Suure sügavuse kontuur
+
+0x27	Lennujaama stardiraja keskjoon
+0x28	Nafta- või veetoru
+0x29	Elektriliin
+
+0x2a	Merepiir
+0x2b	Mereoht
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Suur linna-ala
+0x02	Väike linna-ala
+0x03	Eramajade piirkond linnapiiril
+
+0x04	Sõjaväebaas
+0x05	Parkimine
+0x06	Parkimisgaraaž
+0x07	Lennuväli
+0x08	Kaubanduskeskus
+0x09	Jahisadam
+0x0a	Ülikool/Kolledž
+0x0b	Haigla
+0x0c	Tööstuskompleks
+0x0d	Reserveeritud
+0x0e	Lennuvälja stardirada
+0x13	Inimese loodud ala
+0x18	Golfiväljak
+0x19	Spordikompleks
+0x1a	Surnuaed
+
+0x14	Rahvuspark
+0x15	Rahvuspark
+0x16	Rahvuspark
+0x17	Linnapark
+0x1e	Riiklik park
+0x1f	Riiklik park
+0x20	Riiklik park
+
+0x28	Meri/Ookekan
+0x32	Meri
+0x3c	Suur järv, 250-600 km²
+0x3d	Suur järv, 77-250 km²
+0x3e	Keskmine järv, 25-77 km²
+0x3f	Keskmine järv, 11-25 km²
+0x40	Väike järv, 0,25-11 km²
+0x41	Väike järv, all  0,25 km²
+0x42	Suurem järv, üle 3,3 t.km²
+0x43	Suurem järv, 1.1-3,3 t.km²
+0x44	Suur järv, 0,6-1,1 t.km²
+0x46	Suurem jõgi
+0x47	Suur jõgi
+0x48	Keskmine jõgi
+0x49	Väike jõgi
+0x4c	Keskmine veekogu
+
+;0x4a	
+0x4b	Ala kaardi katvus
+
+0x4d	Liustik
+0x4e	Viljapuuaed/istandus
+0x4f	Võsa
+0x50	Mets
+0x51	Märgala/soo
+0x52	Tundra
+0x53	Liiv/tõusulained/muda

@@ -1,0 +1,437 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+;
+
+.TYPESET Garmin
+
+; The Language ID for Dutch defined by Microsoft
+;
+.LANGID 0x413
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN	Onbekend
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	Grote stad, boven 10M
+0x0200	Grote stad, 5-10M
+0x0300	Grote stad, 2-5M
+0x0400	Grote stad, 1-2M
+0x0500	Middelgrote stad, 0.5-1M
+0x0600	Middelgrote stad, 200-500K
+0x0700	Middelgrote stad, 100-200K
+0x0800	Kleine stad, 50-100K
+0x0900	Kleine stad, 20-50K
+0x0a00	Kleine stad/plaats, 10-20K
+0x0b00	Kleine stad/plaats, 5-10K
+0x0c00	Dorp, 2-5K
+0x0d00	Dorp, 1-2K
+0x0e00	Dorp, 500-1K
+0x0f00	Dorp, 200-500
+0x1000	Dorp, 100-200
+0x1100	Dorp, minder dan 100
+
+; Labels without icons
+0x1400	Naam van het grote land
+0x1500	Naam van het kleine land
+0x1e00	Naam van de regio/gebied
+0x1f00	Naam van de district/parochie
+0x2800	Label
+
+; Marine features
+0x1200	Haven met faciliteiten
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Navigatiehulpmiddel
+0x1601	Misthoorn
+0x1602	Radiobaken
+0x1603	Radarbaken
+0x1604	Dagbaken, rode driehoek
+0x1605	Dagbaken, groen vierkantje
+0x1606	Dagbaken, witte diamant
+0x1607	Onverlicht navigatiehulpmiddel, wit
+0x1608	Onverlicht navigatiehulpmiddel, rood
+0x1609	Onverlicht navigatiehulpmiddel, groen
+0x160a	Onverlicht navigatiehulpmiddel, zwart
+0x160b	Onverlicht navigatiehulpmiddel, geel / oranje
+0x160c	Onverlicht navigatiehulpmiddel, oranje
+0x160d	Onverlicht navigatiehulpmiddel, veelkleurige
+0x160e	Navigatiehulpmiddel, onbekend
+0x160f	Navigatiehulpmiddel, wit
+0x1610	Navigatiehulpmiddel, rood
+0x1611	Navigatiehulpmiddel, groen
+0x1612	Navigatiehulpmiddel, geel / oranje
+0x1613	Navigatiehulpmiddel, oranje
+0x1614	Navigatiehulpmiddel, violet
+0x1615	Navigatiehulpmiddel, blauw
+0x1616	Navigatiehulpmiddel, veelkleurige
+
+0x1c00	Ongeclassificeerd obstakel
+0x1c01	Zichtbaar wrak
+0x1c02	Wrak onder water, gevaarlijk
+0x1c03	Wrak onder water, ongevaarlijk
+0x1c04	Wrak, ongevaarlijk gemaakt met kabelslepen
+0x1c05	Obstakel, zichtbaar bij hoog water
+0x1c06	Obstakel, overspoeld
+0x1c07	Obstakel, onder water
+0x1c08	Obstakel, ongevaarlijk gemaakt met kabelslepen
+0x1c09	Rots, onder water
+0x1c0a	Rots, onder water bij laag water
+0x1c0b	Mogelijk stranding risico
+
+; Tide table prediction used in marine maps
+0x1d00	Getijden/Huidig voorspellingsstation
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	Snelweg afslag
+0x2100	Snelweg afslag met faciliteiten
+0x210f	Snelweg afslag (service)
+0x2200	Snelweg afslag (toilet)
+0x2300	Snelweg afslag (warenhuis)
+0x2400	Snelweg afslag (weeg station)
+0x2500	Snelweg afslag (tol poort)
+0x2600	Snelweg afslag (informatie)
+0x2700	Snelweg afslag
+
+0x2900	Overige bedrijven
+
+0x2a00	Eten & Drinken
+0x2a01	Restaurant (Amerikaans)
+0x2a02	Restaurant (Aziatische)
+0x2a03	Restaurant (barbecue)
+0x2a04	Restaurant (Chinees)
+0x2a05	Restaurant (Delicatessen/Bakker)
+0x2a06	Restaurant (internationaal)
+0x2a07	Fastfood
+0x2a08	Restaurant (Italiaans)
+0x2a09	Restaurant (Mexicaans)
+0x2a0a	Pizzarestaurant
+0x2a0b	Restaurant (zeevruchten)
+0x2a0c	Restaurant (steak/grill)
+0x2a0d	Restaurant (bagel/donut)
+0x2a0e	Restaurant (cafe/diner)
+0x2a0f	Restaurant (Frans)
+0x2a10	Restaurant (Duits)
+0x2a11	Restaurant (Britse Eilanden)
+0x2a12	Speciale voedingsproducten
+
+0x2b00	Onderdak
+0x2b01	Hotel/Motel
+0x2b02	Bed and breakfast inn
+0x2b03	Camping/Kampeerterrein voor campers
+0x2b04	Resort
+
+0x2c00	Attracties
+0x2c01	Pretpark/thematisch park
+0x2c02	Museum/Historisch
+0x2c03	Bibliotheek
+0x2c04	Bezienswaardigheid
+0x2c05	School
+0x2c06	Park/tuin
+0x2c07	Dierentuin/Aquarium
+0x2c08	Stadion
+0x2c09	Zaal/aula
+0x2c0a	Wijnboerderij
+0x2c0b	Religieuze locatie
+
+0x2d00	Amusement
+0x2d01	Theater
+0x2d02	Bar/nachtclub
+0x2d03	Bioscoop
+0x2d04	Casino
+0x2d05	Golfbaan
+0x2d06	Skigebied
+0x2d07	Bowlingcentrum
+0x2d08	Schaatsbaan
+0x2d09	Zwembad
+0x2d0a	Sport-/fitnesscentrum
+0x2d0b	Openbaar sportvliegveld
+
+0x2e00	Winkelen
+0x2e01	Warenhuis
+0x2e02	Kruidenier
+0x2e03	Algemene koopwaar
+0x2e04	Winkelcentrum
+0x2e05	Apotheker
+0x2e06	Kiosk
+0x2e07	Kleding
+0x2e08	Huis en tuin
+0x2e09	Meubilair/Woninginrichting
+0x2e0a	Gespecialiseerde detailhandel
+0x2e0b	Computer/Software
+
+0x2f00	Algemene diensten
+0x2f01	Autobrandstof
+0x2f02	Autohuur
+0x2f03	Autoreparatie
+0x2f04	Luchtvervoer
+0x2f05	Postkantoor
+0x2f06	Bank/geldautomaat
+0x2f07	Dealer/auto-onderdelen
+0x2f08	Grondtransport
+0x2f09	Jachthaven/bootreparatiewerkzaamheden
+0x2f0a	Bergingsdienst
+0x2f0b	Parking
+0x2f0c	Stiltegebied/toeristische informatie
+0x2f0d	Automobielclub
+0x2f0e	Autowasstraat
+0x2f0f	GARMIN-dealer
+0x2f10	Persoonlijke service
+0x2f11	Zakelijke service
+0x2f12	Communicatie
+0x2f13	Reparatiedienst
+0x2f14	Sociale dienst
+0x2f15	Openbare nutsbedrijven
+0x2f16	Truck stop
+0x2f17	Transferdienst
+
+0x3000	Nooddienst/overheid
+0x3001	Politiepost
+0x3002	Ziekenhuis
+0x3003	Stadhuis
+0x3004	Gerechtsgebouw
+0x3005	Buurthuis
+0x3006	Grenspost
+0x3007	Overheidskantoor
+0x3008	Brandweer
+
+0x4000	Golfbaan
+0x4100	Visgebied
+0x4200	Wrak
+0x4300	Jachthaven
+0x4400	Tankstation
+0x4500	Restaurant
+0x4600	Bar
+0x4700	Boothelling
+0x4800	Camping
+0x4900	Park
+0x4a00	Picknickplaats
+0x4b00	Eerste medische hulp
+0x4c00	Informatie
+0x4d00	Parkeerzone
+0x4e00	Toilet
+0x4f00	Douche
+0x5000	Drinkwater
+0x5100	Telefooncel
+0x5200	Panorama
+0x5300	Skipiste
+0x5400	Zwemwater
+0x5500	Dam
+
+; Aviation
+0x5600	Bewaakt terrein
+0x5700	Gevaarlijk gebied
+0x5800	Beperkt toeg. gebied
+0x5900	Luchthaven
+0x5901	Luchthaven (large)
+0x5902	Luchthaven (medium)
+0x5903	Luchthaven (small)
+0x5904	Helihaven
+0x5905	Luchthaven
+
+0x5a00	Mijlmarkering
+0x5b00	Bel
+0x5c00	Duikgebied
+0x5d00	Duikmarkering, groen vierkantje
+0x5e00	Duikmarkering, rode driehoek
+0x6000	Hoorn
+0x6100	Huis
+
+0x6200	Omgevingsdiepte
+0x6300	Omgevingshoogte
+
+; Man-made features
+0x6400	Door mensen gemaakt kenmerk
+0x6401	Brug
+0x6402	Gebouw
+0x6403	Begraafplaats
+0x6404	Kerk/Moskee/etc
+0x6405	Civiel
+0x6406	Overtocht
+0x6407	Dam
+0x6408	Ziekenhuis
+0x6409	Rivierdijk
+;0x640a	
+0x640b	Militair
+0x640c	Mijnenveld
+0x640d	Olieveld
+0x640e	Park
+0x640f	Postkantoor
+0x6410	School
+0x6411	Toren
+0x6412	Parcours begin
+0x6413	Tunnel
+0x6414	Bron
+0x6415	Spookstad
+;0x6416	
+
+; Water features
+0x6500	Waterkenmerk
+;0x6501	
+0x6502	Zandplaat
+0x6503	Baai
+;0x6504	
+;0x6505	
+;0x6506	
+0x6507	Inham
+0x6508	Watervallen
+0x6509	Geiser
+0x650a	Gletsjer
+0x650b	Haven
+0x650c	Eiland
+0x650d	Meer
+0x650e	Stroomversnelling
+0x650f	Reservoir
+0x6510	Zee
+0x6511	Waterbron
+0x6512	Stroom
+0x6513	Moerasland
+
+; Land features
+0x6600	Landkenmerk
+0x6601	Boog
+0x6602	Gebied
+;0x6603	
+0x6604	Strand
+;0x6605	
+0x6606	Kaap
+0x6607	Klif
+0x6608	Krater
+0x6609	Vlakte
+0x660a	Bos
+0x660b	Kloof
+;0x660c	
+0x660d	Nauwe doorgang
+0x660e	Lava
+0x660f	Pijler
+0x6610	Vlakte
+;0x6611
+0x6612	Reserve
+0x6613	Nok
+0x6614	Rots
+0x6615	Helling
+0x6616	Top
+0x6617	Vallei
+0x6618	Bosrijk gebied
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Weg
+
+; Three levels of highways
+0x01	Hoofdsnelweg
+0x02	Belangrijkste snelweg
+0x03	Andere snelweg
+
+; Most important kind of street
+0x04	Verkeersader
+; Medium important kind of street
+0x05	Collector weg
+; Ordinary street (80%)
+0x06	Straat
+; Smallest kind of street
+0x07	Steeg/Gang/Oprijlaan
+
+0x08	Snelweg oprit, lage snelheid
+0x09	Snelweg oprit, hoge snelheid
+0x0a	Onverharde weg
+0x0b	Belangrijke snelweg connector
+0x0c	Rotonde
+0x16	Wandelpad
+0x14	Spoorweg
+0x1a	Veerpont
+0x1b	Veerpont
+
+0x19	Tijdzone
+0x1e	Internationale grens
+0x1c	Regio/provincie grens
+0x1d	County/parochie grens
+
+0x15	Kustlijn
+0x18	Stroom
+0x1f	Rivier
+0x26	Periodieke stroom/greppel
+
+0x20	Contourlijn (1/10)
+0x21	Contourlijn (1/2)
+0x22	Contourlijn (1/1)
+0x23	Dieptecontour (1/10)
+0x24	Dieptecontour (1/2)
+0x25	Dieptecontour (1/1)
+
+0x27	Landingsbaan van de luchthaven middenlijn
+0x28	Olie of water pijpleiding
+0x29	Elektriciteitslijn
+
+0x2a	Maritieme grens
+0x2b	Maritiem gevaar
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Groot stedelijk gebied (>200K)
+0x02	Kleine stedelijk gebied (<200K)
+0x03	Landelijke woonwijk
+
+0x04	Militaire basis
+0x05	Parkeerterrein
+0x06	Parkeergarage
+0x07	Luchthaven
+0x08	Winkelcentrum
+0x09	Jachthaven
+0x0a	Universiteit/hogeschool
+0x0b	Ziekenhuis
+0x0c	Industrieterrein
+0x0d	Reservaat
+0x0e	Start- of landingsbaan
+0x13	Gebouw
+0x18	Golfbaan
+0x19	Sportcomplex
+0x1a	Begraafplaats
+
+0x14	Nationaal park
+0x15	Nationaal park
+0x16	Nationaal park
+0x17	Stadspark
+0x1e	Provinciepark
+0x1f	Provinciepark
+0x20	Provinciepark
+
+0x28	Zee/Oceaan
+0x32	Zee
+0x3c	Groot meer, 250-600 km²
+0x3d	Groot meer, 77-250 km²
+0x3e	Medium meer, 25-77 km²
+0x3f	Medium meer, 11-25 km²
+0x40	Klein meer, 0.25-11 km²
+0x41	Klein meer, <0.25 km²
+0x42	Meer, >3300 km²
+0x43	Meer, 1100-3300 km²
+0x44	Groot meer, 600-1100 km²
+0x46	Rivier, >1 km
+0x47	Grote rivier, 200 m-1 km
+0x48	Medium rivier, 40-200 m
+0x49	Kleine rivier, <40 m
+0x4c	Periodiek water
+
+0x4a	Gebied van de kaart selectie
+0x4b	Gebied van kaartdekking
+
+0x4d	Gletsjer
+0x4e	Boomgaard/Plantage
+0x4f	Struikgewas
+0x50	Bos
+0x51	Moeras
+0x52	Toendra
+0x53	Zand/getijden/wad

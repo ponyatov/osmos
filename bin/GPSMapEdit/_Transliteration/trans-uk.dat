@@ -1,0 +1,94 @@
+.TRANSLITERATION
+
+; This file is used by GPSMapEdit to provide translitertion table for Ukrainian.
+;
+; NOTE: if you want to translate this file to another language,
+; please keep the first line (".TRANSLITERATION") as is.
+;
+
+; Display name for data
+.NAME Ukrainian->Latin
+
+; The code page of this file.
+.CODEPAGE 1251
+; Language ID for Ukrainian defined by Microsoft
+.LANGID 1058
+
+;
+; Tests
+;
+
+.TEST Ê³¿â Kiyiv
+
+;
+; The substitutions
+;
+
+.DATA
+à	a
+á	b
+â	v
+ã	g
+´	g
+ä	d
+å	ye
+º	e
+æ	zh
+ç	z
+è	y
+³	i
+¿	yi
+é	y
+ê	k
+ë	l
+ì	m
+í	n
+î	o
+ï	p
+ð	r
+ñ	s
+ò	t
+ó	u
+ô	f
+õ	kh
+ö	ts
+÷	ch
+ø	sh
+ù	sch
+ü	'
+þ	yu
+ÿ	ya
+À	A
+Á	B
+Â	V
+Ã	G
+¥	G
+Ä	D
+Å	Ye
+ª	E
+Æ	Zh
+Ç	Z
+È	Y
+²	I
+¯	Yi
+É	Y
+Ê	K
+Ë	L
+Ì	M
+Í	N
+Î	O
+Ï	P
+Ð	R
+Ñ	S
+Ò	T
+Ó	U
+Ô	F
+Õ	Kh
+Ö	Ts
+×	Ch
+Ø	Sh
+Ù	Sch
+Ü	'
+Þ	Yu
+ß	Ya
+'	'

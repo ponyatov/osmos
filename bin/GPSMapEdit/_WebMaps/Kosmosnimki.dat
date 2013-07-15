@@ -1,0 +1,50 @@
+.web_map         1
+
+.name            @r8805
+.image           Kosmosnimki.ico
+.class           kosmosnimki-sat
+.cache_subfolder kssat
+.hotkey          Shift+K
+
+.def_version     ""
+.tile_referer    http://kosmosnimki.ru/
+.tile_size       256
+.tile_ext        .jpg
+
+.include_script  StdLib.js
+.include_script  ProjYandex.js
+.script          JScript
+////////////////////////////////////////////
+
+function OnStart () {
+	WebMap.Browse ("root", "http://kosmosnimki.ru/", true);
+}
+
+//GET /ApiKey.ashx?WrapStyle=func&Key=E5FB6CCB5D23B5E119D2F1B26BCC57BD&CallbackName=random_5&0.2966556882020086 HTTP/1.1
+//random_5({"Status":"ok","Result":{"Status":true,"Key":                                                                                                                        Ziu6TPYb5bPGbzlMGJvEZW9aC+  YgOPqEXyTtc/  FzrigkewPGSWWdyNRVV3hxbKprlPGbANQCrlLwT1REcaaIV0rGnRUALluoEaVX7YDcythlQfEmQtPKXXWKB0LTwHsZPEcAZFKYfa4aUXau8x//    HEehyEEJUI7cXanbyQOUXsmSbIQa2apCniKWBTt2MNBM"}})
+//                                   /TileSender.ashx?ModeKey=tile&MapName=1D30C72D02914C5FB90D1D448159CAB6&LayerName=FFE60CFA7DAF498381F811C08A5E8CF5                     &key=Ziu6TPYb5bPGbzlMGJvEZW9aC%2BYgOPqEXyTtc%2FFzrigkewPGSWWdyNRVV3hxbKprlPGbANQCrlLwT1REcaaIV0rGnRUALluoEaVX7YDcythlQfEmQtPKXXWKB0LTwHsZPEcAZFKYfa4aUXau8x%2F%2FHEehyEEJUI7cXanbyQOUXsmSbIQa2apCniKWBTt2MNBM&z=5&x=3&y=6 HTTP/1.1
+
+function OnPageComplete (_strBrowser, _strURL, _pHTMLDocument2, _RawData) {
+	if (_strBrowser == "root" && _strURL == "http://kosmosnimki.ru/") {
+		WebMap.SetReady ();
+	}
+}
+
+function GetMaxLevel () {return 17;}
+function GetMinLevel () {return 1;}
+
+// Sample:
+//   old - http://maps.kosmosnimki.ru/TileSender.ashx?ModeKey=tile&MapName=1D30C72D02914C5FB90D1D448159CAB6&LayerName=C9458F2DCB754CEEACC54216C7D1EB0A&z=17&x=13698&y=24444&key=Ziu6TPYb5bPGbzlMGJvEZW9aC%2BYgOPqEXyTtc%2FFzrigkewPGSWWdyNRVV3hxbKpr7Z2dk5YcUNzBOjrJMfAgU5J3%2BQGOkGXABruVMeLmiXsCcwmihz3VXCwIWgYam1Evh7WTsd2HLkx%2F9FVs%2F2G2xFruMNeNSqzCVccLYG9UZlrfKxUB109BNNwnV1%2FiKVYO&0.7244612025399029
+//   new - http://maps.kosmosnimki.ru/TileSender.ashx?ModeKey=tile&MapName=1D30C72D02914C5FB90D1D448159CAB6&LayerName=C9458F2DCB754CEEACC54216C7D1EB0A                     &key=Ziu6TPYb5bPGbzlMGJvEZW9aC%2BYgOPqEXyTtc%2FFzrigkewPGSWWdyNRVV3hxbKpr0QA8iNz3wFlAka2gOrcsg1QdUr6FhPjxaHtkcDKTTW%2BQO%2BTW83Eebq0SoAK6E0mcTJnzeiuNsQAHn4xM9h%2BKygc4rvqiFWiIeT%2Fo3maVOgN2mUTESJn8dF%2FSf6b58oQw&z=1&x=-1&y=-1
+//
+function MakeTileURL (_x, _y, _level, _version) {
+	if (_level < 1)
+		return "";
+
+	var a = 1 << _level;
+	return "http://maps.kosmosnimki.ru/TileSender.ashx?ModeKey=tile&MapName=1D30C72D02914C5FB90D1D448159CAB6&LayerName=C9458F2DCB754CEEACC54216C7D1EB0A" +
+		"&z=" + _level +
+		"&x=" + (-a/2 + _x) +
+		"&y=" + (-a/2 + (a - (_y + 1))) +
+		"&key=Ziu6TPYb5bPGbzlMGJvEZW9aC%2BYgOPqEXyTtc%2FFzrigkewPGSWWdyNRVV3hxbKpr7Z2dk5YcUNzBOjrJMfAgU5J3%2BQGOkGXABruVMeLmiXsCcwmihz3VXCwIWgYam1Evh7WTsd2HLkx%2F9FVs%2F2G2xFruMNeNSqzCVccLYG9UZlrfKxUB109BNNwnV1%2FiKVYO&0.7244612025399029";
+}

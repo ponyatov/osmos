@@ -1,0 +1,11 @@
+﻿.bookmark_types 002
+
+.type comment       @r8310
+
+.attributes
+comment multistring @r8361
+
+.subtypes
+info                @r8311  txt.ico {@comment}
+error               @r8312  bug.ico {@comment}
+

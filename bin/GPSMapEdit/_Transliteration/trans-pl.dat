@@ -1,0 +1,46 @@
+.TRANSLITERATION
+
+; This file is used by GPSMapEdit to provide one way translitertion table for Poland.
+;
+; NOTE: if you want to translate this file to another language,
+; please keep the first line (".TRANSLITERATION") as is.
+;
+
+; Display name for data
+.NAME Polish->Latin
+
+; The code page of this file.
+.CODEPAGE 1250
+; Language ID for Polish defined by Microsoft
+.LANGID 1045
+
+;
+; Tests
+;
+
+.TEST •å∆ πúÊÍ≥Û ASCEascelo
+
+;
+; The substitutions
+;
+
+.DATA
+π a
+Ê c
+Í e
+≥ l
+Ò n
+Û o
+ú s
+ø z
+ü z
+• A
+∆ C
+  E
+£ L
+— N
+” O
+å S
+Ø Z
+è Z
+

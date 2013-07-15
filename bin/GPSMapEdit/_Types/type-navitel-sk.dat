@@ -1,0 +1,197 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+;
+
+.TYPESET Navitel
+
+; The Language ID for Slovak defined by Microsoft
+;
+.LANGID 0x41b
+
+;========================================================================================
+
+.POINT
+
+0xf001	Autobusová stanica
+0xf002	Autobusová zastávka
+0xf003	Zastávka električky
+0xf004	Zastávka trolejbusu
+0xf005	Stanica metra
+0xf006	Železničná stanica
+0xf007	Železničný terminál
+0xf008	Stanica jednokoľajovej dráhy
+0xf009	Zastávka lanovky/visutá lanovky
+0xf00a	Prístavisko
+0xf00b	Mólo
+0xf00c	Trajekt terminál
+
+0xf101	Pravoslávny kostol
+0xf102	Katolícky kostol
+0xf103	Protestantský kostol
+0xf104	Mešita
+0xf105	Synagóga
+0xf106	Pagoda
+
+0xf201	Semafor
+0xf202	Dopravná polícia
+0xf203	Železničné priecestie (so závorami)
+0xf204	Nerovná vozovka
+0xf205	Radar/Rýchlosť fotoaparátu
+0xf206	Obmedzenie výšky
+0xf207	Zákaz tranzitnej dopravy
+0xf208	Pohonné hmoty (plyn)
+0xf209	Montáž kolies
+0xf20a	Nastavenie kolies
+0xf20b	Železničné priecestie (bez závor)
+0xf20c	Kruhový objazd
+
+0xf301	Pamiatka
+0xf302	Fontána
+0xf303	Vodárenská veža
+0xf304	Televízna/rozhlasová veža
+0xf305	Geodetický bod
+0xf306	Horský priechod
+0xf307	Brod
+0xf308	Jama
+0xf309	Dvoukolák
+0xf30a	Kamene
+0xf30b	Rašelina
+0xf30c	Most pre peších
+0xf30d	Ústie jaskyne
+
+0xf401	Listnatý les
+0xf402	Ihličnatý les
+0xf403	Zmiešaný les
+0xf404	Orientačný strom
+0xf405	Orientačný ker
+0xf406	Háj
+
+0xf501	Materská škola
+0xf502	Stredná škola
+0xf503	Odborná škola
+0xf504	Univerzita/vysoká škola
+0xf505	Špeciálna škola
+
+0xf601	Bankomat
+0xf602	Kaderníctvo
+0xf603	Sauna
+0xf604	Práčovňa
+0xf605	Fotografické štúdio
+0xf606	Krajčírstvo ateliér
+0xf607	Oprava elektrických spotrebičov
+0xf608	Oprava počítačov
+0xf609	Oprava oblečenia
+0xf60a	Oprava obuvi
+0xf60b	Oprava nábytku
+0xf60c	Právnická kancelária
+0xf60d	Notár
+0xf60e	Poistenie
+0xf60f	Realitná kancelária
+0xf610	Informačné služby
+0xf611	Redakčná kancelária
+0xf612	Tlačiareň
+0xf613	Cestovná kancelária
+0xf614	Predpredaj leteniek/železničných lístkov
+0xf615	Wi-Fi pripojenie zdarma
+0xf616	Internetová kaviareň
+
+0xf701	Trh
+0xf702	Obuv
+0xf703	Priemyselný tovar
+0xf704	Výrobky domácej chémie
+0xf705	Elektrické spotrebiče
+0xf706	Mobilné zariadenia
+0xf707	Športový a turistický tovar
+0xf708	Zbrane
+0xf709	Darčeky
+0xf70a	Kvetinárstvo
+0xf70b	Bižutéria
+0xf70c	Domáce zvieratá
+
+0xf801	Zubná ambulancia
+0xf802	Veterinárna klinika
+
+0xf901	Cirkus
+
+;========================================================================================
+
+.POLYLINE
+
+;0x3d	
+;0x3e	
+
+0x3f	Električková koľaj
+0x40	Jednokoľajnicová dráha
+0x41	Lanovka/Visutá lanovka
+
+0x42	Poľná alebo štrková cesta
+0x43	Tunel
+0x44	Široká rieka
+
+0x45	Hranica mestského obvodu
+0x46	Plot
+
+0x47	Plánovaná cesta
+0x48	Lesný protipožiarny pruh
+0x49	Jazdný pruh
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Zberateľ cesty
+0x69	Hlavná cesta
+0x6a	Námestie
+0x6b	Cesta
+
+; Buildings
+0x6c	Obytná budova
+0x6d	Administratívna budova
+0x6e	Obyčajná budova
+0x6f	Priemyselná budova
+
+;0x70	
+;0x71	
+;0x72	
+;0x73	
+;0x74	
+;0x75	
+;0x76	
+;0x77	
+;0x78	
+;0x79	
+;0x7a	
+;0x7b	
+;0x7c	
+;0x7d	
+;0x7e	
+;0x7f	
+;0x80	
+
+0x81	Lužný les
+0x82	Poddimenzovaný les
+0x83	Riedky les
+0x84	Vyhorený/vyschnutý les
+0x85	Pne les
+0x86	Vinica
+0x87	Ryžové pole
+0x88	Lúka
+0x89	Piesok
+0x8a	Kamenitá pôda
+0x8b	Slaná pôda/soľný močiar
+0x8c	Trstina
+0x8d	Riasy
+0x8e	Tŕnie
+0x8f	Vývraty
+0x90	Zakrpatený les
+0x91	Saxauly
+0x92	Bambusy
+0x93	Palmový les
+0x94	Mangrovy
+0x95	Vysoká tráva
+0x96	Machy
+0x97	Lišajníky
+0x98	Trávnik

@@ -1,0 +1,197 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+;
+
+.TYPESET Navitel
+
+; The Language ID for Turkish defined by Microsoft
+;
+.LANGID 0x41f
+
+;========================================================================================
+
+.POINT
+
+0xf001	Otobüs terminali
+0xf002	Otobüs durağı
+0xf003	Tranvay durağı
+0xf004	Troleybüs durağı
+0xf005	Yeraltı Metro istasyonu
+0xf006	Demiryolu istasyonu
+0xf007	Demiryolu terminali
+0xf008	Monoray istasyonu
+0xf009	Kablolu/Teleferik durağı
+0xf00a	Liman
+0xf00b	İskele
+0xf00c	Feribot terminali
+
+0xf101	Ortodoks kilisesi
+0xf102	Katolik kilisesi
+0xf103	Protestan kilisesi
+0xf104	Cami
+0xf105	Sinagog
+0xf106	Pagoda
+
+0xf201	Trafik ışığı
+0xf202	Trafik polisi
+0xf203	Demiryolu geçidi (bariyerli) 
+0xf204	Pürüzlü yol
+0xf205	Radar/Hız kamerası
+0xf206	Maks. yükseklik
+0xf207	Transit geçiş yasak
+0xf208	Gaz yakıt
+0xf209	Teker Takma
+0xf20a	Rot/Balans ayarı
+0xf20b	Demiryolu geçidi (bariyersiz)
+0xf20c	Dönel kavşak
+
+0xf301	Anıt
+0xf302	Çeşme
+0xf303	Su kulesi
+0xf304	TV/Radyo kulesi
+0xf305	Geodetik nokta
+0xf306	Dağ geçidi
+0xf307	Ford
+0xf308	Çukur
+0xf309	Tümsek
+0xf30a	Taşlar
+0xf30b	Turbalık alan
+0xf30c	Ayak köprü
+0xf30d	Mağara girişi
+
+0xf401	Dökülür yapraklı orman
+0xf402	İğne yapraklı orman
+0xf403	Karışık orman
+0xf404	Tek ağaç
+0xf405	Ayrık çalılık
+0xf406	Koruluk
+
+0xf501	Çocuk yuvası
+0xf502	Ortaokul
+0xf503	Meslek lisesi
+0xf504	Universite/Kolej
+0xf505	Özel okul
+
+0xf601	Bankamatik
+0xf602	Kuaför
+0xf603	Sauna
+0xf604	Çamaşırhane
+0xf605	Fotoğraf stüdyosu
+0xf606	Terzi
+0xf607	Elektrikli eşya tamircisi
+0xf608	Bilgisayar tamircisi
+0xf609	Elbise tamircisi
+0xf60a	Ayakkabı tamircisi
+0xf60b	Mobilya tamircisi
+0xf60c	Avukatlık bürosu
+0xf60d	Noter
+0xf60e	Sigorta
+0xf60f	Emlakçı
+0xf610	Danışma
+0xf611	Yazı İşleri
+0xf612	Matbaa
+0xf613	Seyahat acentası
+0xf614	Havayolları / demiryolları bilet gişesi
+0xf615	Ücretsiz Wi-Fi noktası
+0xf616	İnternet Cafe
+
+0xf701	Market
+0xf702	Ayakkabı mağazası
+0xf703	Sanayi malları
+0xf704	Ev kimyasalları dükkanı
+0xf705	Elektrikli aletler
+0xf706	Mobil cihazlar
+0xf707	Spor ve turizm malzemeleri
+0xf708	Silah dükkanı
+0xf709	Hediyelik eşya dükkanı
+0xf70a	Çiçekci dükkanı
+0xf70b	Kuyumcu
+0xf70c	Evcil hayvanlar ve ihtiyaçlarının satıldığı dükkân
+
+0xf801	Diş hekimi
+0xf802	Veteriner kliniği
+
+0xf901	Sirk
+
+;========================================================================================
+
+.POLYLINE
+
+;0x3d	
+;0x3e	
+
+0x3f	Tramvay hattı
+0x40	Monoray hattı
+0x41	Kablolu/Teleferik hattı
+
+0x42	Toprak veya çakıl yol
+0x43	Tünel
+0x44	Geniş bir nehir
+
+0x45	İl bölge sınırı
+0x46	Çit
+
+0x47	Planlı rota
+0x48	Orman yangın önleme yolu
+0x49	Trafik şeridi
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Toplayıcı yol
+0x69	Arter cadde
+0x6a	Kare
+0x6b	Yol
+
+; Buildings
+0x6c	Konut inşaatı
+0x6d	Ofis binası
+0x6e	Ortak bina
+0x6f	Endüstriyel bina
+
+;0x70	
+;0x71	
+;0x72	
+;0x73	
+;0x74	
+;0x75	
+;0x76	
+;0x77	
+;0x78	
+;0x79	
+;0x7a	
+;0x7b	
+;0x7c	
+;0x7d	
+;0x7e	
+;0x7f	
+;0x80	
+
+0x81	Bataklık ormanı
+0x82	Düşük orman
+0x83	Seyrek orman
+0x84	Ölü orman
+0x85	Kesilmiş orman
+0x86	Üzüm bağı
+0x87	Pirinç tarlası
+0x88	Çayır
+0x89	Kum
+0x8a	Taşlık alan
+0x8b	Tuzlu arazi
+0x8c	Sazlık
+0x8d	Alg
+0x8e	Dikenli çalılık
+0x8f	Rüzgardan yıkılmış ağaçlık
+0x90	cinlerle orman
+0x91	Saxaul
+0x92	Bambu
+0x93	Palmiye ormanı
+0x94	Mangrov
+0x95	Uzun otların
+0x96	karayosunu
+0x97	Liken
+0x98	Çimenlik

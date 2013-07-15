@@ -1,0 +1,198 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for NaviTel type set.
+; (c) Inicialmente traducido por Álvaro Bosch, 2006
+;
+
+.TYPESET Navitel
+
+; The Language ID for Spanish(Modern) defined by Microsoft
+;
+.LANGID 0xc0a
+
+;========================================================================================
+
+.POINT
+
+0xf001	Terminal de autobús
+0xf002	Parada de autobús
+0xf003	Parada de tranvía
+0xf004	Parada de trolebús
+0xf005	Estación de subte/metro
+0xf006	Estación de tren
+0xf007	Terminal de trenes
+0xf008	Estación de monorriel
+0xf009	Parada de funicular/cablecarril
+0xf00a	Puerto
+0xf00b	Embarcadero
+0xf00c	Terminal ferry
+
+0xf101	Iglesia ortodoxa
+0xf102	Iglesia católica
+0xf103	Iglesia protestante
+0xf104	Mezquita
+0xf105	Sinagoga
+0xf106	Pagoda
+
+0xf201	Semáforo
+0xf202	Policía de tránsito
+0xf203	Cruce de ferrocarril (con barrera)
+0xf204	Ruta en mal estado
+0xf205	Radar/Velocidad de la cámara
+0xf206	Límite de altura
+0xf207	El tráfico de tránsito está prohibido
+0xf208	Gas combustible para automóvil
+0xf209	Montaje de llantas
+0xf20a	Ajuste de llantas
+0xf20b	Cruce de ferrocaril (sin barrera)
+0xf20c	Glorieta
+
+0xf301	Monumento
+0xf302	Fuente
+0xf303	Torre de agua
+0xf304	Torre de TV/radio
+0xf305	Punto geodésico
+0xf306	Paso de montaña
+0xf307	Vado
+0xf308	Hoyo
+0xf309	Túmulo
+0xf30a	Piedras
+0xf30b	Turba de cantera
+0xf30c	Puente peatonal
+0xf30d	Entrada de caverna
+
+0xf401	Bosque de hojas caducas
+0xf402	Bosque de coníferas
+0xf403	Bosque mixto
+0xf404	Árbol aislado
+0xf405	Arbusto aislado
+0xf406	Arboleda aislada
+
+0xf501	Jardín de infantes
+0xf502	Escuela secundaria
+0xf503	Escuela técnica
+0xf504	Universidad/Colegio
+0xf505	Instituto de educación especial
+
+0xf601	Cajero automático
+0xf602	Estilista
+0xf603	Sauna
+0xf604	Lavandería
+0xf605	Estudio fotográfico
+0xf606	Sastre
+0xf607	Reparación de artículos eléctricos
+0xf608	Reparación de computadoras
+0xf609	Reparación de ropa
+0xf60a	Reparación de calzado
+0xf60b	Reparación de muebles
+0xf60c	Abogados
+0xf60d	Notario
+0xf60e	Seguros
+0xf60f	Agencia de bienes raíces
+0xf610	Servicio de información
+0xf611	Editorial
+0xf612	Imprenta
+0xf613	Agencia de viajes
+0xf614	Agencia de boletos de avión/tren
+0xf615	Acceso Wi-Fi gratuito
+0xf616	Cibercafe
+
+0xf701	Mercado
+0xf702	Tienda de calzado
+0xf703	Tienda de artículos manufacturados
+0xf704	Artículos químicos para el hogar
+0xf705	Artículos eléctricos
+0xf706	Dispositivos móbiles
+0xf707	Artículos deportivos y turísticos
+0xf708	Tienda de armas
+0xf709	Tienda de regalos
+0xf70a	Florería
+0xf70b	Joyería
+0xf70c	Tienda de animales
+
+0xf801	Dentista
+0xf802	Clínica veterinaria
+
+0xf901	Circo
+
+;========================================================================================
+
+.POLYLINE
+
+0x3d	Texto direccionado pequeño
+0x3e	Texto direccionado
+
+0x3f	Línea de tranvía
+0x40	Línea de monoriel
+0x41	Línea de funicular/cablecarril
+
+0x42	Tierra o ripio ruta
+0x43	Túnel
+0x44	Río, grueso
+
+0x45	Límite distrital de ciudad
+0x46	Valla
+
+0x47	Ruta planificada
+0x48	Cortafuegos de bosque
+0x49	Carril
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Colectora
+0x69	Avenida/Ruta Arterial
+0x6a	Plaza
+0x6b	Ruta/calle
+
+; Buildings
+0x6c	Edificio residencial
+0x6d	Edificio de oficinas
+0x6e	Edificio común
+0x6f	Edificio Industrial
+
+0x70	Polígono negro
+0x71	Polígono rojo oscuro
+0x72	Polígono verde oscuro
+0x73	Polígono amarillo oscuro
+0x74	Polígono azul oscuro
+0x75	Polígono magenta oscuro
+0x76	Polígono cyan oscuro
+0x77	Polígono gris claro
+0x78	Polígono gris oscuro
+0x79	Polígono rojo
+0x7a	Polígono verde
+0x7b	Polígono amarillo
+0x7c	Polígono azul
+0x7d	Polígono magenta
+0x7e	Polígono cyan
+0x7f	Polígono blanco
+0x80	Texto/Inscripción
+
+0x81	Bosque pantanoso
+0x82	Bosque de baja altura
+0x83	Bosque abierto/disgregado
+0x84	Bosque quemado/seco
+0x85	Bosque talado
+0x86	Viñedos
+0x87	Arrozal
+0x88	Pradera
+0x89	Arena
+0x8a	Suelo pedregoso
+0x8b	Salina
+0x8c	Cañaveral
+0x8d	Algas
+0x8e	Arbustos espinosos
+0x8f	Árboles caídos
+0x90	Árbol Elfin/Krumholz
+0x91	Árbol Saxaul
+0x92	Caña Bambú
+0x93	Bosque de palmeras
+0x94	Manglar
+0x95	Pastizal alto
+0x96	Musgos
+0x97	Líquenes
+0x98	Cesped

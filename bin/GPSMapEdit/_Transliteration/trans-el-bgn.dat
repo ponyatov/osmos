@@ -1,0 +1,152 @@
+﻿.TRANSLITERATION
+
+; This file is used by GPSMapEdit to provide translitertion table for Modern Greek.
+; Based on BGN/PCGN, http://en.wikipedia.org/wiki/Romanization_of_Greek
+;
+; NOTE: if you want to translate this file to another language,
+; please keep the first line (".TRANSLITERATION") as is.
+;
+
+; Display name for data
+.NAME Greek->Latin (BGN/PCGN)
+
+; Language ID for Russian defined by Microsoft
+.LANGID 1032
+
+;
+; Tests
+;
+
+.TEST ελληνικά ellinika
+
+;
+; The substitutions
+;
+
+.DATA
+Α	A
+α	a
+ά	a
+Β	V
+β	v
+
+Γ	G
+Γαι	Yai
+Γε	Ye
+Γει	Yei
+Γη	Yi
+Γι	Yi
+Γοι	Yoi
+Γυ	Yi
+Γυι	Yii
+γ	g
+γαι	yai
+γε	ye
+γει	yei
+γη	yi
+γι	yi
+γοι	yoi
+γυ	yi
+γυι	yii
+
+Δ	Dh
+δ	dh
+Νδρ	Ndr
+νδρ	ndr
+
+Ε	E
+ε	e
+Ζ	Z
+ζ	z
+Η	I
+η	i
+Θ	Th
+θ	th
+Ι	I
+ι	i
+Κ	K
+κ	k
+Λ	L
+λ	l
+Μ	M
+μ	m
+Ν	N
+ν	n
+Ξ	X
+ξ	x
+Ο	O
+ο	o
+Π	P
+π	p
+Ρ	R
+ρ	r
+Σ	S
+σ	s
+Τ	T
+τ	t
+Υ	I
+υ	i
+Φ	F
+φ	f
+Χ	Kh
+χ	kh
+Ψ	Ps
+ψ	ps
+Ω	o
+ω	o
+
+ΑΙ	E
+Αι	E
+αι	e
+
+ΑΥ	AV
+Αυ	Av
+αυ	av
+
+ΕΙ	I
+Ει	I
+ει	i
+
+ΕΥ	EV
+Ευ	Ev
+ευ	ev
+
+ΗΥ	IV
+Ηυ	Iv
+ηυ	iv
+
+ΟΙ	I
+Οι	I
+οι	i
+
+ΟΥ	U
+Ου	U
+ου	u
+
+ΥΙ	I
+Υι	I
+υι	i
+
+ΓΓ	NG
+Γγ	Ng
+γγ	ng
+
+ΓΞ	NX
+Γξ	Nx
+γξ	nx
+
+ΓΚ	G
+Γκ	G
+γκ	g
+
+ΓΧ	NKH
+Γχ	Nkh
+γχ	nkh
+
+ΜΠ	B
+Μπ	B
+μπ	b
+
+ΝΤ	D
+Ντ	D
+ντ	d

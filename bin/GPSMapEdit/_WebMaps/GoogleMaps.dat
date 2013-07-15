@@ -1,0 +1,95 @@
+.web_map          1
+
+.name             @r8800
+.image            GoogleMaps.ico
+.class            google-maps-sat
+.cache_subfolder  "sat"
+.cache2_subfolder ""
+.hotkey           Shift+G
+
+.def_version      126
+.tile_referer     https://maps.google.com/
+.tile_size        256
+.tile_ext         .jpg
+.tile_header      "Accept: */*"
+;.tile_header      "Accept-Language: en"
+.tile_header      "Accept-Encoding: gzip, deflate"
+
+; Max bitrate, in kbits/s. 0 means no limit.
+.limit_rate       500
+
+; Period of authorization, in munutes.
+.auth_period      30
+
+.include_script   StdLib.js
+.include_script   ProjGoogle.js
+.script           JScript
+////////////////////////////////////////////
+
+function OnStart () {
+	WebMap.Browse ("root", "https://maps.google.com/", true);
+}
+
+var m_cMirrorServers = 2;
+var m_strCookieKH = "";
+
+function OnPageComplete (_strBrowser, _strURL, _pHTMLDocument2, _RawData) {
+	if (_strBrowser == "root" && _strURL == "https://maps.google.com/") {
+		var strScripts = _ExtractScripts (_pHTMLDocument2);
+		strScripts = strScripts.replace (/\s/, "");
+		strScripts = strScripts.replace (/'/,  "\"");
+
+		var matchRequestPattern = strScripts.match (/"https:\/\/khms0.google.com\/kh/);
+		if (matchRequestPattern != null) {
+			//
+			// Determine version.
+			//
+			var strPostRequestPattern = strScripts.substr (matchRequestPattern.lastIndex, 256);
+			strPostRequestPattern = unescape (strPostRequestPattern);
+			strPostRequestPattern = WebMap.UndecorateCStringLiteral (strPostRequestPattern);
+			var matchVer = strPostRequestPattern.match (/v=[^&"]*/);
+			if (matchVer != null) {
+				var strVer = strPostRequestPattern.substr (matchVer.index + 2, matchVer.lastIndex - matchVer.index - 2);
+				WebMap.SetVersion (strVer);
+			} else {
+				WebMap.Log ("Failed to determine version!");
+			}
+
+			//
+			// Determine the number of mirror servers.
+			//
+			if      (strScripts.search (/"https:\/\/khms3.google.com\/kh/) != -1) m_cMirrorServers = 4;
+			else if (strScripts.search (/"https:\/\/khms2.google.com\/kh/) != -1) m_cMirrorServers = 3;
+			else if (strScripts.search (/"https:\/\/khms1.google.com\/kh/) != -1) m_cMirrorServers = 2;
+			else if (strScripts.search (/"https:\/\/khms0.google.com\/kh/) != -1) m_cMirrorServers = 1;
+			else
+				WebMap.Log ("Failed to determine number of mirror servers!");
+
+			WebMap.Log ("Mirror servers = " + m_cMirrorServers);
+		}
+
+		//
+		// Determine cookies (not used now).
+		//
+		var matchCookieKH = strScripts.match (/"fzwq[^"]*/);
+		if (matchCookieKH != null) {
+			m_strCookieKH = strScripts.substr (matchCookieKH.index + 1, matchCookieKH.lastIndex - matchCookieKH.index - 1);
+			WebMap.Log ("CookieKH = " + m_strCookieKH);
+		}
+
+		var strCookiePID = WebMap.GetCookie ("http://maps.google.com/", "");
+		WebMap.Log ("CookiePID = " + strCookiePID);
+
+		WebMap.SetReady ();
+	}
+}
+
+function GetMaxLevel () {return 21;}
+function GetMinLevel () {return 0;}
+
+function MakeTileURL (_x, _y, _level, _version) {
+	var cMirror = ((_x + _y*2) % m_cMirrorServers);
+	var strSecureWord = "Galileo";
+	var strSpecial = (_y >= 10000 && _y < 100000) ? "&s=" : "";
+	return "https://khms" + cMirror + ".google.com/kh/v=" + _version + "&src=app&x=" + _x + strSpecial + "&y=" + _y + "&z=" + _level + "&s=" + strSecureWord.substr (0, (3*_x + _y) & 0x7);
+}

@@ -1,0 +1,180 @@
+.export_schema_shp
+
+; This file is used by GPSMapEdit to provide default export schema for SHP.
+;
+
+.name @r8900
+
+;----------------------------------------------------------------------------------------------
+
+; First, split multi-node roads to separate 2-node segments able to export.
+.preprocess split_roads_at_nodes
+; Then, update all road_id's.
+.preprocess update_road_ids
+
+; This preprocessing is required for country_idx, region_idx and city_idx to be valid.
+.preprocess update_address_idx
+
+.countries "Countries"
+{
+	integer                "Index"      {return country_idx;}
+	string                 "Name"       {return country;}
+	string                 "AbbrevName" {return country_abbr;}
+}
+
+.regions "Regions"
+{
+	integer                "Index"      {return region_idx;}
+	string                 "Name"       {return region;}
+	string                 "AbbrevName" {return region_abbr;}
+	integer                "CountryIdx" {return country_idx;}
+}
+
+.cities "Cities"
+{
+	integer                "Index"      {return city_idx;}
+	string                 "Name"       {return city;}
+	integer                "RegionIdx"  {return region_idx;}
+}
+
+.turn_restrictions "TurnRestrictions" {
+	integer                "FromRoadID" {return tr_from_road_id (tr_id);}
+	integer                "ToRoadID"   {return tr_to_road_id   (tr_id);}
+	logical                "FromFwd"    {return if (tr_from_forward  (tr_id), "Y", "N");}
+	logical                "ToFwd"      {return if (tr_to_forward    (tr_id), "Y", "N");}
+
+	logical  optional("Y") "NoEmergncy" {return if (tr_no_emergency  (tr_id), "Y", "N");}
+	logical  optional("Y") "NoDelivery" {return if (tr_no_delivery   (tr_id), "Y", "N");}
+	logical  optional("Y") "NoCar"      {return if (tr_no_car        (tr_id), "Y", "N");}
+	logical  optional("Y") "NoBus"      {return if (tr_no_bus        (tr_id), "Y", "N");}
+	logical  optional("Y") "NoTaxi"     {return if (tr_no_taxi       (tr_id), "Y", "N");}
+	logical  optional("Y") "NoPedestrn" {return if (tr_no_pedestrian (tr_id), "Y", "N");}
+	logical  optional("Y") "NoBicycle"  {return if (tr_no_bicycle    (tr_id), "Y", "N");}
+	logical  optional("Y") "NoTruck"    {return if (tr_no_truck      (tr_id), "Y", "N");}
+}
+
+.points "Points"
+{
+	string                 "Label"      {return label;}
+	integer                "Type"       {return type;}
+	string                 "TypeHex"    {return "0x" + hex (type, 4);}
+
+	integer  optional(-1)  "CityIdx"    {return city_idx;}
+	string   optional("")  "City"       {return city;}
+	string   optional("")  "Region"     {return region;}
+	string   optional("")  "Country"    {return country;}
+	string   optional("")  "ZipCode"    {return zipcode;}
+	string   optional("")  "Street"     {return street;}
+	string   optional("")  "Number"     {return number;}
+	string   optional("")  "Phone"      {return phone;}
+	string   optional("")  "Fax"        {return fax;}
+	string   optional("")  "Email"      {return email;}
+	string   optional("")  "Web"        {return webpage;}
+	string   optional("")  "Descr"      {return descr;}
+
+	logical  optional("N") "IsIndxCity" {return if (is_indexed_city,  "Y", "N");}
+
+	logical  optional("N") "DontFind"   {return if (dont_find,        "Y", "N");}
+	integer  optional(0)   "EndLevel"   {return end_level;}
+	string   optional("")  "Comment"    {return comment;}
+
+	logical  optional("N") "HasEntryPt" {return if (has_entry_points, "Y", "N");}
+	fixed(6) optional(0)   "EntryPtX"   {return entry_point_0_lon;}
+	fixed(6) optional(0)   "EntryPtY"   {return entry_point_0_lat;}
+}
+
+.polylines "Polylines"
+{
+	string                 "Label"      {return label;}
+	string   optional("")  "Label2"     {return label2;}
+	string   optional("")  "Label3"     {return label3;}
+	integer                "Type"       {return type;}
+	string                 "TypeHex"    {return "0x" + hex (type, 2);}
+
+	integer  optional(-1)  "CityIdx"    {return city_idx;}
+	string   optional("")  "City"       {return city;}
+	string   optional("")  "Region"     {return region;}
+	string   optional("")  "Country"    {return country;}
+	string   optional("")  "ZipCode"    {return zipcode;}
+	string   optional("")  "Street"     {return street;}
+;	string   optional("")  "Number"     {return number;}
+;	string   optional("")  "Phone"      {return phone;}
+;	string   optional("")  "Fax"        {return fax;}
+;	string   optional("")  "Email"      {return email;}
+	string   optional("")  "Web"        {return webpage;}
+	string   optional("")  "Descr"      {return descr;}
+
+	logical  optional("N") "DirIndictr" {return if (has_dirindicator, "Y", "N");}
+
+	logical  optional("N") "IsRoad"     {return if (is_road,          "Y", "N");}
+	integer  optional(-1)  "RoadID"     {return road_id;}
+	integer  optional(0)   "RouteClass" {return route_class;}
+	integer  optional(0)   "SpeedLimit" {return speed_limit;}
+	integer  optional(0)   "SpdLmtKMH"  {return speed_limit_kmh;}
+	integer  optional(0)   "SpdLmtMPH"  {return speed_limit_mph;}
+	logical  optional("N") "OneWay"     {return if (is_oneway,        "Y", "N");}
+	logical  optional("N") "Toll"       {return if (is_toll,          "Y", "N");}
+	logical  optional("N") "NoEmergncy" {return if (no_emergency,     "Y", "N");}
+	logical  optional("N") "NoDelivery" {return if (no_delivery,      "Y", "N");}
+	logical  optional("N") "NoCar"      {return if (no_car,           "Y", "N");}
+	logical  optional("N") "NoBus"      {return if (no_bus,           "Y", "N");}
+	logical  optional("N") "NoTaxi"     {return if (no_taxi,          "Y", "N");}
+	logical  optional("N") "NoPedestrn" {return if (no_pedestrian,    "Y", "N");}
+	logical  optional("N") "NoBicycle"  {return if (no_bicycle,       "Y", "N");}
+	logical  optional("N") "NoTruck"    {return if (no_truck,         "Y", "N");}
+	logical  optional("N") "NoTransit"  {return if (no_transit,       "Y", "N");}
+
+	integer  optional(-1)  "NumStartL"  {return number_start_left;}
+	integer  optional(-1)  "NumEndL"    {return number_end_left;}
+	integer  optional(-1)  "NumStartR"  {return number_start_right;}
+	integer  optional(-1)  "NumEndR"    {return number_end_right;}
+	integer  optional(-1)  "NumParityL" {return number_parity_left;}
+	integer  optional(-1)  "NumParityR" {return number_parity_right;}
+	integer  optional(-1)  "CityIdxL"   {return city_idx_left;}
+	integer  optional(-1)  "CityIdxR"   {return city_idx_right;}
+	string   optional("")  "CityL"      {return city_left;}
+	string   optional("")  "CityR"      {return city_right;}
+	string   optional("")  "RegionL"    {return region_left;}
+	string   optional("")  "RegionR"    {return region_right;}
+	string   optional("")  "CountryL"   {return country_left;}
+	string   optional("")  "CountryR"   {return country_right;}
+	string   optional("")  "ZipCodeL"   {return zipcode_left;}
+	string   optional("")  "ZipCodeR"   {return zipcode_right;}
+
+	integer  optional(0)   "Lev3DStart" {return level_3d_start;}
+	integer  optional(0)   "Lev3DEnd"   {return level_3d_end;}
+
+	logical  optional("N") "DontFind"   {return if (dont_find,        "Y", "N");}
+	integer  optional(0)   "EndLevel"   {return end_level;}
+	string   optional("")  "Comment"    {return comment;}
+}
+
+.polygons "Polygons"
+{
+	string                 "Label"      {return label;}
+	integer                "Type"       {return type;}
+	string                 "TypeHex"    {return "0x" + hex (type, 2);}
+
+	integer  optional(-1)  "CityIdx"    {return city_idx;}
+	string   optional("")  "City"       {return city;}
+	string   optional("")  "Region"     {return region;}
+	string   optional("")  "Country"    {return country;}
+	string   optional("")  "ZipCode"    {return zipcode;}
+	string   optional("")  "Street"     {return street;}
+	string   optional("")  "Number"     {return number;}
+	string   optional("")  "Phone"      {return phone;}
+	string   optional("")  "Fax"        {return fax;}
+	string   optional("")  "Email"      {return email;}
+	string   optional("")  "Web"        {return webpage;}
+	string   optional("")  "Descr"      {return descr;}
+
+	logical  optional("N") "DontFind"   {return if (dont_find,        "Y", "N");}
+	integer  optional(0)   "EndLevel"   {return end_level;}
+	string   optional("")  "Comment"    {return comment;}
+
+	logical  optional("N") "HasEntryPt" {return if (has_entry_points, "Y", "N");}
+	fixed(6) optional(0)   "EntryPtX"   {return entry_point_0_lon;}
+	fixed(6) optional(0)   "EntryPtY"   {return entry_point_0_lat;}
+
+	integer  optional(-1)  "Floors"     {return floors;}
+}

@@ -1,0 +1,40 @@
+.web_map         1
+
+.name            @r8810
+.submenu1        @r8812
+.submenu2        @c:UKR
+.image           ua.ico
+.class           ua-cadastral
+.cache_subfolder UkrainianCadastralMap
+;.hotkey          
+
+.def_version     "1.1.1"
+.tile_referer    http://map.dazru.gov.ua/kadastrova-karta
+.tile_size       256
+.tile_ext        .png
+
+.include_script  ProjGoogle.js
+.include_script  Proj3857.js
+.script          JScript
+////////////////////////////////////////////
+
+function GetMaxLevel () {return 18;}
+function GetMinLevel () {return 5;}
+
+function MakeTileURL (_x, _y, _level, _version) {
+	var x0 = XToLon ((_x    )*256, _level);
+	var x1 = XToLon ((_x + 1)*256, _level);
+	var y0 = YToLat ((_y + 1)*256, _level);
+	var y1 = YToLat ((_y    )*256, _level);
+
+//	WebMap.Log ("x=" + _x + " y=" + _y + " level=" + _level + " x0=" + x0 + " y0=" + y0);
+
+	var mx0 = _LonToMercX (x0);
+	var mx1 = _LonToMercX (x1);
+	var my0 = _LatToMercY (y0);
+	var my1 = _LatToMercY (y1);
+
+	return "http://map.dazru.gov.ua/geowebcache/service/wms?tiled=true&LAYERS=kadastr&STYLES=&FORMAT=image%2Fpng&TRANSPARENT=true&SERVICE=WMS&VERSION=" + _version + "&REQUEST=GetMap&SRS=EPSG%3A900913&BBOX=" +
+		mx0.toFixed (7) + "," + my0.toFixed (7) + "," + mx1.toFixed (7) + "," + my1.toFixed (7)
+		+ "&WIDTH=256&HEIGHT=256";
+}

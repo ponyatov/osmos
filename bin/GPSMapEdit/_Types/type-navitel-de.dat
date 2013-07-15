@@ -1,0 +1,197 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+;
+
+.TYPESET Navitel
+
+; The Language ID for German(Germany) defined by Microsoft
+;
+.LANGID 0x407
+
+;========================================================================================
+
+.POINT
+
+0xf001	Busstation
+0xf002	Bushaltestelle
+0xf003	Strassenbahnhaltestelle
+0xf004	Trolleybushaltestelle
+0xf005	U-Bahnstation
+0xf006	Bahnstation
+0xf007	Bahnhof
+0xf008	Einschienenbahnhaltestelle
+0xf009	Standseilbahn/Luftseilbahn Haltestelle
+0xf00a	Port
+0xf00b	Schiffsanlegestelle
+0xf00c	Fährterminal
+
+0xf101	Orthodoxe Kirche
+0xf102	Katholische Kirche
+0xf103	Protestantische Kirche
+0xf104	Mosche
+0xf105	Synagoge
+0xf106	Pagode
+
+0xf201	Ampel
+0xf202	Verkehrspolizei
+0xf203	Bahnübergang (mit Schranke)
+0xf204	Unebene Strasse
+0xf205	Radar/Blitzer
+0xf206	Höhenbegrenzung
+0xf207	Transitverkehr ist verboten
+0xf208	Gas Brennstoff für Autos
+0xf209	Radbefestigung
+0xf20a	Spureinstellen
+0xf20b	Bahnübergang (ohne Schranke)
+0xf20c	Kreisverkehr
+
+0xf301	Denkmal
+0xf302	Fontäne
+0xf303	Wasserturm
+0xf304	funkturm
+0xf305	Geodetischer Punkt
+0xf306	Bergpass
+0xf307	Ford
+0xf308	Grube
+0xf309	Hügel
+0xf30a	Steine
+0xf30b	Torf
+0xf30c	Fussgängerbrücke
+0xf30d	Höhleneingang
+
+0xf401	Laubwald
+0xf402	Nadelwald
+0xf403	Mischwald
+0xf404	Einzelner baum
+0xf405	Einzelner Busch
+0xf406	Hain
+
+0xf501	Kindertagesstätte
+0xf502	Schule
+0xf503	Berufsschule
+0xf504	Universität/Hochschule
+0xf505	Sonderschule
+
+0xf601	Geldautomat
+0xf602	Frisörsalon
+0xf603	Sauna
+0xf604	Wäscherei
+0xf605	Fotografatelier
+0xf606	Schneiderei Atelier
+0xf607	Reparatur für Elektrogeräte
+0xf608	Reparatur von Computern
+0xf609	Reparatur für Kleidung
+0xf60a	Reparatur für Schuhe
+0xf60b	Reparatur für Möbel
+0xf60c	Rechtsanwalt Büro
+0xf60d	Notar
+0xf60e	Versicherungen
+0xf60f	Immo-Agentur
+0xf610	Info-Service
+0xf611	Editor's Büro
+0xf612	Druckerei
+0xf613	Reisebüro
+0xf614	Buchung Büro für Flugzeuge/Eisenbahn
+0xf615	Kostenloser WLAN-Hotspot
+0xf616	Cybercafe
+
+0xf701	Market
+0xf702	Schuhgeschäft
+0xf703	Bearbeitete Waren
+0xf704	Waren der Haushaltschemie
+0xf705	Elektrogeräte
+0xf706	Mobile-Geräte
+0xf707	Sport und Tourismus Waren
+0xf708	Waffen-Shop
+0xf709	Geschenkboutique
+0xf70a	Blumengeschäft
+0xf70b	Schmuck-Shop
+0xf70c	Pet-Shop
+
+0xf801	Zahnklinik
+0xf802	Tierärztliche Klinik
+
+0xf901	Zirkus
+
+;========================================================================================
+
+.POLYLINE
+
+0x3d	Regietext, kleinen
+0x3e	Regietext
+
+0x3f	Strassenbahn
+0x40	Einschienenbahn
+0x41	Standseilbahn/Luftseilbahn
+
+0x42	Erde oder Schotterpiste
+0x43	Tunnel
+0x44	Breit Fluss
+
+0x45	Stadtbezirksgrenze
+0x46	Zaun, Mauer
+
+0x47	Planierte Route
+0x48	Waldbrandschutzstreifen
+0x49	Verkehrsweg
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Hauptstraße
+0x69	Ausfallstraße
+0x6a	Platz
+0x6b	Straße
+
+; Buildings
+0x6c	Wohnhaus
+0x6d	Bürogebäude
+0x6e	Gemeinsame Gebäude
+0x6f	Industriegebäude
+
+0x70	Schwarzen Bereich
+0x71	Dunkelroter Bereich
+0x72	Dunkelgrün Bereich
+0x73	Dunkelgelb Bereich
+0x74	Dunkelblaue Bereich
+0x75	Dunkelmagenta Bereich
+0x76	Dunkelcyan Bereich
+0x77	Hellgrauen Bereich
+0x78	Dunkelgrauen Bereich
+0x79	Roter Bereich
+0x7a	Grün Bereich
+0x7b	Gelber Bereich
+0x7c	Blaue Bereich
+0x7d	Magenta Bereich
+0x7e	Cyan Bereich
+0x7f	Weiß Bereich
+0x80	Textbereich
+
+0x81	Sumpfiger wald
+0x82	Niederwald
+0x83	Lichter Wald
+0x84	Toter Wald
+0x85	Baumstümpfe
+0x86	Weinberg
+0x87	Reisfeld
+0x88	Wiese
+0x89	Sand
+0x8a	Steinigland
+0x8b	Salzland/Salzwiese
+0x8c	Schilf
+0x8d	Algen
+0x8e	Dornbusch
+0x8f	Windbruch wald
+0x90	Elfenwald/Krummholz
+0x91	Saxaul
+0x92	Bambus
+0x93	Palmen
+0x94	Mangroven
+0x95	Hohes Gras
+0x96	Moos
+0x97	Flechten
+0x98	Rasenplatz

@@ -1,0 +1,94 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Holux type set.
+; Este arquivo é usado pelo GPSMapEdit para fornecer nomes localizados para o conjunto de tipos Holux.
+; (c) Translated to Portuguese (Brazil) by Camilo Barreto and Jânio Barbosa.
+;
+
+.TYPESET Holux
+
+; The Language ID for Portuguese (Brazil) defined by Microsoft
+; Identificação de idioma para Português (Brasil), definida pela Microsoft
+;
+.LANGID 0x416
+
+;========================================================================================
+
+; Placeholder for unknown type
+; Espaço reservado para tipo desconhecido
+;
+.UNKNOWN	Tipo desconhecido
+
+;========================================================================================
+
+.POINT
+
+7	Aeroporto
+8	Governo
+9	Posto de gasolina
+10	Hotel
+11	Hospital
+12	Esportes
+13	Cênico
+14	Compras
+15	Banco
+16	Escola
+17	Estacionamento
+18	Estação
+19	Marina
+20	Outros
+22	Barragem
+23	Natureza
+24	Polícia
+25	Serviços para Carros
+26	Restaurante
+27	Estação ferroviária
+28	Acampamento
+29	Recreação
+30	Parque
+31	Cultura
+32	Religião
+33	Construção
+34	Monumento
+35	Teleférico
+36	Passagem de Montanha
+
+40	Cidade Grande
+41	Cidade Média
+42	Cidade
+
+52	Bicicleta
+53	Bóia
+54	Peixe
+55	Cavalos
+56	Homem
+57	Farol
+58	Ancoragem
+
+
+;========================================================================================
+
+.POLYLINE
+
+4	Auto-estrada
+5	Estrada
+6	Rua
+43	Linha estilo 1
+44	Linha estilo 2
+45	Linha estilo 3
+46	Linha estilo 4
+47	Linha estilo 5
+48	Linha estilo 6
+50	Ferrovia
+51	Fronteira
+
+
+;========================================================================================
+
+.POLYGON
+
+0	Área Urbana
+1	Área de água
+2	Vegetação
+3	Outros

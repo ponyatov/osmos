@@ -1,0 +1,197 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+;
+
+.TYPESET Navitel
+
+; The Language ID for Hungarian defined by Microsoft
+;
+.LANGID 0x40e
+
+;========================================================================================
+
+.POINT
+
+0xf001	Busz pályaudvar
+0xf002	Buszállomás
+0xf003	Villamos megálló
+0xf004	Trolibusz megálló
+0xf005	Metro megálló
+0xf006	Vasútállomás
+0xf007	Vasúti terminált
+0xf008	Egysínű állomás
+0xf009	Sikló/Kötélpálya megálló
+0xf00a	Kikötő
+0xf00b	Móló
+0xf00c	Komp kikötő
+
+0xf101	Orthodox templom
+0xf102	Katolikus templom
+0xf103	Református/Protestáns templom
+0xf104	Mecset
+0xf105	Zsinagóga
+0xf106	Pagoda
+
+0xf201	Közlekedési lámpa
+0xf202	Közlekedési rendőr
+0xf203	Vasúti kereszteződés (sorompóval)
+0xf204	Durva út
+0xf205	Traffipax-Radar
+0xf206	Magasság korlátozás
+0xf207	Nem szállító forgalom
+0xf208	Gáz benzinkút (gáz üzemanyag)
+0xf209	Kerék szerelő
+0xf20a	Kerék beállítás
+0xf20b	Vasúti átjáró sorompó nélkül
+0xf20c	Körforgalom
+
+0xf301	Emlékmű
+0xf302	Szökőkút
+0xf303	Víztorony
+0xf304	TV/rádio torony
+0xf305	Geodéta-pont
+0xf306	Hágó
+0xf307	Gázló
+0xf308	Gödör
+0xf309	Talicska
+0xf30a	Kövek
+0xf30b	Tőzegtelep
+0xf30c	Gyaloghíd
+0xf30d	Barlang bejárat
+
+0xf401	Lombhullató erdő
+0xf402	Fenyő erdő
+0xf403	Vegyes erdő
+0xf404	Magányos fa
+0xf405	Magányos cserje
+0xf406	Liget
+
+0xf501	Ápolói iskola/Óvoda
+0xf502	Közép iskola
+0xf503	Szakiskola
+0xf504	Főiskola/Egyetem
+0xf505	Speciális iskola
+
+0xf601	ATM
+0xf602	Fodrász
+0xf603	Szauna
+0xf604	Mosoda
+0xf605	Fényképész
+0xf606	Ruhakészítés műterem
+0xf607	Javítás elektromos készülékek
+0xf608	Számítógép javító
+0xf609	Ruhajavító
+0xf60a	Cipőjavító
+0xf60b	Bútorjavító
+0xf60c	Ügyvédi iroda
+0xf60d	Közjegyző
+0xf60e	Biztosítás
+0xf60f	Ingatlan iroda
+0xf610	Információ
+0xf611	Szerkesztő hivatal
+0xf612	Nyomda
+0xf613	Utazási iroda
+0xf614	Repülő és vasúti jegy iroda
+0xf615	Ingyenes Wi-Fi hotspot
+0xf616	Internetkávézó
+
+0xf701	Piaci
+0xf702	Cipőbolt
+0xf703	Nem élelmiszer áruk boltja
+0xf704	Háztartási vegyiárú bolt
+0xf705	Elektronikai áruk
+0xf706	Mobil eszközök
+0xf707	Sport és szabadidő áruk
+0xf708	Fegyver üzlet
+0xf709	Ajándék bolt
+0xf70a	Virágbolt
+0xf70b	Ékszer
+0xf70c	Kisállat kereskedés
+
+0xf801	Fogászat
+0xf802	Állatorvos
+
+0xf901	Cirkusz
+
+;========================================================================================
+
+.POLYLINE
+
+;0x3d	
+;0x3e	
+
+0x3f	Villamos vonal
+0x40	Egysínű vasút vonal
+0x41	Sikló/Kötélpálya vonal
+
+0x42	Föld vagy kavicsos út
+0x43	Alagút
+0x44	Széles folyó
+
+0x45	Város kerület határ
+0x46	Kerítés
+
+0x47	Tervezett útvonal
+0x48	Erdő tűzvonal
+0x49	Forgalmi sáv
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Kollektor út
+0x69	Főút
+0x6a	Négyzet
+0x6b	Út
+
+; Buildings
+0x6c	Lakó épület
+0x6d	Iroda épület
+0x6e	Közösségi épület
+0x6f	Ipari épület
+
+;0x70	
+;0x71	
+;0x72	
+;0x73	
+;0x74	
+;0x75	
+;0x76	
+;0x77	
+;0x78	
+;0x79	
+;0x7a	
+;0x7b	
+;0x7c	
+;0x7d	
+;0x7e	
+;0x7f	
+;0x80	
+
+0x81	Mocsaras erdő
+0x82	Alacsony erdő
+0x83	Ritkás erdő
+0x84	Égetett/halott erdő
+0x85	Vágott erdő
+0x86	Szőlő
+0x87	Rizsföld
+0x88	Rét
+0x89	Homok
+0x8a	Köves terület
+0x8b	Szikes terület
+0x8c	Nád
+0x8d	Algák
+0x8e	Tüskés bokor
+0x8f	Kidőlt fák
+0x90	Törpe fák
+0x91	Sakszaul bokor
+0x92	Bambusz
+0x93	Pálma erdő
+0x94	Mangrove fák
+0x95	Magas fű
+0x96	Moha
+0x97	Zuzmó
+0x98	Pázsit

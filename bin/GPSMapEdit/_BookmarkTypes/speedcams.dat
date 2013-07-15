@@ -1,0 +1,22 @@
+﻿.bookmark_types 001
+
+.type speedcam         @r8331
+
+.default_heading true
+
+.attributes
+speed      integer     @r8380
+directions enum        @r8381 {
+	"0"        @r8382,
+	"1"        @r8383,
+	"2"        @r8384
+}
+label      string       @r8360
+comment    multistring  @r8361
+
+.subtypes
+speed    @r8332  speedcams\SpeedCam.ico   {*@speed *directions  label comment}
+rl_speed @r8333  speedcams\RedLight.ico   {*@speed *directions  label comment}
+redlight @r8334  speedcams\RedLight.ico   {        *directions @label comment}
+specs    @r8335  speedcams\SPECS.ico      {*@speed *directions  label comment}
+mobile   @r8336  speedcams\Mobile.ico     {*@speed *directions  label comment}

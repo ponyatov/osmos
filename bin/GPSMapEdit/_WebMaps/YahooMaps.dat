@@ -1,0 +1,59 @@
+.web_map         1
+
+.name            @r8804
+.image           YahooMaps.ico
+.class           yahoo-maps-sat
+.cache_subfolder yhsat
+.hotkey          Shift+Y
+
+.def_version     d3617790e3
+.tile_referer    http://maps.yahoo.com/
+.tile_size       256
+.tile_ext        .png
+
+.include_script  StdLib.js
+.include_script  ProjGoogle.js
+.script          JScript
+////////////////////////////////////////////
+
+function OnStart () {
+	WebMap.Browse ("root", "http://maps.yahoo.com/", true);
+}
+
+function OnPageComplete (_strBrowser, _strURL, _pHTMLDocument2, _RawData) {
+	if (_strBrowser == "root" && _strURL == "http://maps.yahoo.com/") {
+		WebMap.SetReady ();
+
+		WebMap.Download ("auth", "http://gws2.maps.yahoo.com/tile/version?flags=j&callback=YUI.Env.JSONP.yui_3_5_0_15_1355059024421_902&appid=ymapsaura2", true, "http://maps.yahoo.com/");
+	} else if (_strBrowser == "auth") {
+		var strScripts = "";
+		if (_pHTMLDocument2 != null)
+			strScripts = _ExtractScripts (_pHTMLDocument2);
+		else if (_RawData != undefined)
+			strScripts = WebMap.ByteArrayToString (_RawData, 65001);
+		strScripts = strScripts.replace (/\s/, "");
+
+		// Determine version ("hash":"b9e8949142").
+		var matchVer = strScripts.match (/["']hash["']:["']/);
+		if (matchVer != null) {
+			var strVer0 = strScripts.substr (matchVer.lastIndex, 256);
+			var matchVer = strVer0.match (/[^"']*/);
+			WebMap.SetVersion (matchVer);
+		} else {
+			WebMap.Log ("Failed to determine version!");
+			WebMap.Log (strScripts);
+		}
+	}
+}
+
+function GetMaxLevel () {return 20;}
+function GetMinLevel () {return 0;}
+
+// Sample:
+//   http://2.maps.nlp.nokia.com/maptile/2.1/maptile/b9e8949142/satellite.day/14/9902/5107/256/png8?lg=ENG&token=TrLJuXVK62IQk0vuXFzaig%3D%3D&requestid=yahoo.prod&app_id=eAdkWGYRoc4RfxVo0Z4B
+// Original Nokia Maps sample (http://here.com/)
+//   http://4.maps.nlp.nokia.com/maptile/2.1/maptile/b9e8949142/hybrid.day   /10/622 /317 /256/png8?app_id=SqE1xcSngCd3m4a1zEGb&token=r0sR1DzqDkS6sDnh902FWQ&lg=RUS
+//
+function MakeTileURL (_x, _y, _level, _version) {
+	return "http://" + 1 + ".maps.nlp.nokia.com/maptile/2.1/maptile/" + _version + "/satellite.day/" + _level + "/" + _x + "/" + _y + "/256/png8?lg=ENG&token=TrLJuXVK62IQk0vuXFzaig%3D%3D&requestid=yahoo.prod&app_id=eAdkWGYRoc4RfxVo0Z4B";
+}

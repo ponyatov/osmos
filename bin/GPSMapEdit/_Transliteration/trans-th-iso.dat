@@ -1,0 +1,116 @@
+﻿.TRANSLITERATION
+
+; This file is used by GPSMapEdit to provide translitertion table for Thai.
+; Based on ISO 11940, http://en.wikipedia.org/wiki/ISO_11940
+;
+; NOTE: if you want to translate this file to another language,
+; please keep the first line (".TRANSLITERATION") as is.
+;
+
+; Display name for data
+.NAME Thai->Ext.Latin (ISO 11940)
+
+; Language ID for Thai defined by Microsoft
+.LANGID 1054
+
+;
+; Tests
+;
+
+.TEST ภาษาไทย  p̣hās̛̄āịthy
+
+;
+; The substitutions
+;
+
+.DATA
+ก	k
+ข	k̄h
+ฃ	ḳ̄h
+ค	kh
+ฅ	k̛h
+ฆ	ḳh
+ง	ng
+จ	c
+ฉ	c̄h
+ช	ch
+ซ	s
+ฌ	c̣h
+ญ 	ỵ
+ฎ	ḍ
+ฏ	ṭ
+ฐ	ṭ̄h
+ฑ	ṯh
+ฒ	t̛h
+ณ	ṇ
+ด	d
+ต	t
+ถ	t̄h
+ท	th
+ธ	ṭh
+น	n
+บ	b
+ป	p
+ผ	p̄h
+ฝ	f̄
+พ	ph
+ฟ	f
+ภ	p̣h
+ม	m
+ร	r
+ฤ	v
+ล	l
+ฦ	ł
+ศ	ṣ̄
+ษ	s̛̄
+ส	s̄
+ห	h̄
+ฬ	ḷ
+อ	x
+ฮ	ḥ
+
+ะ	a
+–ั	ạ
+า	ā
+ ำ	å
+–ิ	i
+–ี	ī
+–ึ	ụ
+–ื	ụ̄
+–ุ	u
+–ู	ū
+เ	e
+แ	æ
+โ	o 
+ใ	ı
+ไ	ị
+ฤๅ	vɨ
+ฦๅ	łɨ
+ย	y
+ว	w
+
+–่	–̀
+–้	–̂
+–๊	–́
+–๋	–̌
+–็	–̆
+–์	–̒
+–๎	~
+–ํ	–̊
+–ฺ	–̥
+ 
+ๆ	«
+๏	§
+ฯ	ǀ
+๚	ǁ
+๛	»
+๐	0
+๑	1
+๒	2
+๓	3
+๔	4
+๕	5
+๖	6
+๗	7
+๘	8
+๙ 	9

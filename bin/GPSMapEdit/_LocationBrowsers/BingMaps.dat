@@ -1,0 +1,23 @@
+.location_browser 1
+
+.name            @r8803
+.class           microsoft-bing-maps
+
+.include_script  StdLevel.js
+.script          JScript
+////////////////////////////////////////////
+
+// Sample:
+//   http://www.bing.com/maps/?v=2&cp=55.750000~37.583336&lvl=4&dir=0&sty=r&form=LMLTCC
+//
+function Browse (_x, _y, _scale) {
+	var nLevel = GetStdLevel (_y, _scale);
+	if (nLevel > 20)
+		nLevel = 20;
+	if (nLevel < 1)
+		nLevel = 1;
+
+	var WshShell = new ActiveXObject ("WScript.Shell");
+	WshShell.Run ("http://www.bing.com/maps/?v=2&cp=" + _y.toFixed (6) + "~" + _x.toFixed (5) + "&lvl=" + nLevel + "&dir=0&sty=r&form=LMLTCC");
+}
+

@@ -1,0 +1,197 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+;
+
+.TYPESET Navitel
+
+; The Language ID for Finnish defined by Microsoft
+;
+.LANGID 0x40b
+
+;========================================================================================
+
+.POINT
+
+0xf001	Bussiasema
+0xf002	Bussipysäkki
+0xf003	Raitiovaunupysäkki
+0xf004	Johdinauton pysäkki
+0xf005	Maanalainen/metroasema
+0xf006	Rautatieasema
+0xf007	Rautatieterminaali
+0xf008	Yksiraiteisen pysäkki
+0xf009	Rautiovaunupysäkki
+0xf00a	Satama
+0xf00b	Laituri
+0xf00c	Lauttaterminaali
+
+0xf101	Ortodoksinen kirkko
+0xf102	Katolinen kirkko
+0xf103	Protestanttinen kirkko
+0xf104	Moskeija
+0xf105	Synagoga
+0xf106	Pagoda
+
+0xf201	Liikennevalo
+0xf202	Liikennepoliisi
+0xf203	Rautatieristeys (puomilla)
+0xf204	Epätasainen tie
+0xf205	Tutka
+0xf206	Korkeusrajoitus
+0xf207	Ei vaihtoliikennettä
+0xf208	Polttoaine
+0xf209	Rengasasennusta
+0xf20a	Rengassäätöä
+0xf20b	Rautatieylitys (ilman puomia)
+0xf20c	Kiertoliittymä
+
+0xf301	Monumentti
+0xf302	Suihkulähde
+0xf303	Vesitorni
+0xf304	TV-/radiotorni
+0xf305	Geodeettinen piste
+0xf306	Sola
+0xf307	Kahlauspaikka
+0xf308	Kuoppa
+0xf309	Kumpu
+0xf30a	Kiviä
+0xf30b	Turvetuotantoa
+0xf30c	Jalankulkusilta
+0xf30d	Luolansuu
+
+0xf401	Kesävihantainen metsä
+0xf402	Havumetsä
+0xf403	Sekametsä
+0xf404	Yksittäinen puu
+0xf405	Yksittäinen pusikko
+0xf406	Lehto
+
+0xf501	Päiväkoti
+0xf502	Yläaste
+0xf503	Ammattikoulu
+0xf504	Yliopisto/oppilaitos
+0xf505	Erikoiskoulu
+
+0xf601	Pankkiautomaatti
+0xf602	Kampaamo
+0xf603	Sauna
+0xf604	Pesula
+0xf605	Valokuvaajan studio
+0xf606	Ompelimo
+0xf607	Kodinkonehuolto
+0xf608	Tietokonehuolto
+0xf609	Räätäli
+0xf60a	Suutari
+0xf60b	Huonekalukorjaaja
+0xf60c	Lakitoimisto
+0xf60d	Notaari
+0xf60e	Vakuutus
+0xf60f	Kiinteistövälittäjä
+0xf610	Neuvontapalvelu
+0xf611	Lehden toimitus
+0xf612	Painotoimisto
+0xf613	Matkatoimisto
+0xf614	Lento-/junaliikenteen lipunmyynti
+0xf615	Maksuton Wi-Fi-yhteyspiste
+0xf616	Internet-kahvila
+
+0xf701	Tori
+0xf702	Kenkäkauppa
+0xf703	Kulutustavarakauppa
+0xf704	Kodin kemikaalikauppa
+0xf705	Sähkölaitteet
+0xf706	Matkapuhelimet
+0xf707	Urheilu- ja matkailutarvikkeet
+0xf708	Asekauppa
+0xf709	Lahjakauppa
+0xf70a	Kukkakauppa
+0xf70b	Kultasepänliike
+0xf70c	Eläinkauppa
+
+0xf801	Hammaslääkäri
+0xf802	Eläinklinikka
+
+0xf901	Sirkus
+
+;========================================================================================
+
+.POLYLINE
+
+;0x3d	
+;0x3e	
+
+0x3f	Raitiovaunulinja
+0x40	Kaupunkijunarata
+0x41	Kaapeliautolinja
+
+0x42	Hiekka- tai soratie
+0x43	Tunneli
+0x44	Joki
+
+0x45	Kaupunginosan raja
+0x46	Aita
+
+0x47	Suunniteltu reitti
+0x48	Metsäpalo
+0x49	Ajokaista
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Kokoojatie
+0x69	Päätie
+0x6a	Aukio
+0x6b	Tie/Tonttikatu
+
+; Buildings
+0x6c	Asuinrakennus
+0x6d	Toimistorakennus
+0x6e	Julkinen rakennus
+0x6f	Teollisuusrakennus
+
+;0x70	
+;0x71	
+;0x72	
+;0x73	
+;0x74	
+;0x75	
+;0x76	
+;0x77	
+;0x78	
+;0x79	
+;0x7a	
+;0x7b	
+;0x7c	
+;0x7d	
+;0x7e	
+;0x7f	
+;0x80	
+
+0x81	Suometsä
+0x82	Pienikokoinen metsä
+0x83	Harva metsä
+0x84	Palanut/kuollut metsä
+0x85	Hakkuualue
+0x86	Viinitila
+0x87	Riisipelto
+0x88	Niitty
+0x89	Hiekkaa
+0x8a	Kivinen maa
+0x8b	Suolamaa/suolasuo
+0x8c	Kaislikko
+0x8d	Levää
+0x8e	Piikkipensaikko
+0x8f	Tuulen kaatamia puita
+0x90	Kitukasvuisia puita
+0x91	Pensaikko
+0x92	Bambumetsä
+0x93	Palmumetsä
+0x94	Mangrovekasvusto
+0x95	Korkea ruohikko
+0x96	Sammaleet
+0x97	Jäkälät
+0x98	Nurmikko

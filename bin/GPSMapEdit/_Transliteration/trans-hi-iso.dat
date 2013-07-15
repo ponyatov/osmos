@@ -1,0 +1,123 @@
+﻿.TRANSLITERATION
+
+; This file is used by GPSMapEdit to provide translitertion table for Devanagari.
+; Based on ISO 15919:2001, http://transliteration.eki.ee/pdf/Hindi-Marathi-Nepali.pdf
+;
+; NOTE: if you want to translate this file to another language,
+; please keep the first line (".TRANSLITERATION") as is.
+;
+
+; Display name for data
+.NAME Devanagari->Ext.Latin (ISO 15919:2001)
+
+; Language ID for Hindi defined by Microsoft
+.LANGID 1081
+
+;
+; Tests
+;
+
+.TEST हिन्दी  hainadaī
+
+;
+; The substitutions
+;
+
+.DATA
+अ	a
+आ	ā
+ा	ā
+इ	i
+ि	i
+ई	ī
+ी	ī
+उ	u
+ु	u
+ऊ	ū
+ू	ū
+ऋ	r̥
+ृ	r̥
+ॠ	r̥ ̄
+ॄ	r̥ ̄
+ऌ	l̥
+ॢ	l̥
+ॡ	l̥̄
+ॣ	l̥̄
+ऎ	e
+ॆ	e
+ए	ē
+े	ē
+ऐ	ai
+ै	ai
+ऒ	o
+ॊ	o
+ओ	ō
+ो	ō
+औ	au
+ौ	au
+ऍ	ê
+ॅ	ê
+ऑ	ô
+ॉ	ô
+ं	ṁ
+ँ	m̐
+ः	ḥ
+्
+ऽ	:’
+क	ka
+ख	kha
+ग	ga
+घ	gha
+ङ	ṅa
+च	ca
+छ	cha
+ज	ja
+झ	jha
+ञ	ña
+ट	ṭa
+ठ	ṭha
+ड	ḍa
+ढ	ḍha
+ण	ṇa
+त	ta
+थ	tha
+द	da
+ध	dha
+न	na
+प	pa
+फ	pha
+ब	ba
+भ	bha
+म	ma
+य	ya
+र	ra
+ल	la
+व	va
+श	śa
+ष	ṣa
+स	sa
+ह	ha
+क़	qa
+ख़	k̲h̲a
+ग़	ġa
+ज़	za
+ड़	ṛa
+ढ़	ṛha
+फ़	fa
+􀃉	r̆
+ळ	ḷa
+ऩ	ṉa
+ऱ	ṟa
+य़	ẏa
+ऴ	ḻa
+।	.
+०	0
+१	1
+२	2
+३	3
+४	4
+५	5
+६	6
+७	7
+८	8
+९	9

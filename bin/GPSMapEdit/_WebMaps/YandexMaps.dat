@@ -1,0 +1,72 @@
+.web_map         1
+
+.name            @r8802
+.image           YandexMaps.ico
+.class           yandex-maps-sat
+.cache_subfolder yasat
+.hotkey          Shift+Z
+
+.def_version     3.32.0
+.tile_referer    http://maps.yandex.ru/
+.tile_size       256
+.tile_ext        .jpg
+
+.include_script  StdLib.js
+.include_script  ProjYandex.js
+.script          JScript
+////////////////////////////////////////////
+
+function OnStart () {
+	WebMap.Browse ("root", "http://maps.yandex.ru/", true);
+}
+
+function OnPageComplete (_strBrowser, _strURL, _pHTMLDocument2, _RawData) {
+	if (_strBrowser == "root" && (_strURL == "http://maps.yandex.ru/" || _strURL == "http://maps.yandex.ua/" || _strURL == "http://maps.yandex.com/")) {
+		WebMap.SetReady ();
+
+		var strScripts = "";
+		if (_pHTMLDocument2 != null)
+			strScripts = _ExtractScripts (_pHTMLDocument2);
+		else if (_RawData != undefined)
+			strScripts = WebMap.ByteArrayToString (_RawData, 65001);
+
+		//
+		// Determine URL of API-scripts.
+		//
+		var matchApi = strScripts.match (/api-maps.yandex.ru[^"']*/);
+		if (matchApi != null) {
+			var strApi = "http://" + WebMap.UndecorateCStringLiteral (matchApi);
+			WebMap.Log ("API = " + strApi);
+
+			WebMap.Download ("auth", strApi, true, "http://maps.yandex.ru/");
+		} else
+			WebMap.Log ("Failed to determine link to API scripts!");
+	} else if (_strBrowser == "auth") {
+		var strScripts = "";
+		if (_pHTMLDocument2 != null)
+			strScripts = _ExtractScripts (_pHTMLDocument2);
+		else if (_RawData != undefined)
+			strScripts = WebMap.ByteArrayToString (_RawData, 65001);
+		strScripts = strScripts.replace (/\s/, "");
+
+		var matchVer = strScripts.match (/["']sat["']:\{version:["']/);
+		if (matchVer != null) {
+			var strVer0 = strScripts.substr (matchVer.lastIndex, 256);
+			var matchVer = strVer0.match (/[^"']*/);
+			WebMap.SetVersion (matchVer);
+		} else {
+			WebMap.Log ("Failed to determine version!");
+			WebMap.Log (strScripts);
+		}
+	}
+}
+
+function GetMaxLevel () {return 19;}
+function GetMinLevel () {return 0;}
+
+// Sample:
+//   http://sat01.maps.yandex.net/tiles?l=sat&v=1.34.0&x=6918&y=5939&z=14&lang=ru-RU
+//
+function MakeTileURL (_x, _y, _level, _version) {
+	return "http://sat0" + (2*(_x & 1) + (_y & 1) + 1) + ".maps.yandex.net/tiles?l=sat&v=" + _version + "&x=" + _x + "&y=" + _y + "&z=" + _level + "&lang=ru-RU";
+}

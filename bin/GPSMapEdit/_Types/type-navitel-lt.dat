@@ -1,0 +1,197 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+;
+
+.TYPESET Navitel
+
+; The Language ID for Lithuanian defined by Microsoft
+;
+.LANGID 0x427
+
+;========================================================================================
+
+.POINT
+
+0xf001	Autobusų stotis
+0xf002	Autobusų stotelė
+0xf003	Tramvajaus stotelė
+0xf004	Troleibuso stotelė
+0xf005	Metro stotis
+0xf006	Geležinkelio stotis
+0xf007	Geležinkelio terminalas
+0xf008	Vienbėgio geležinkelio stotis
+0xf009	Funikulieriaus stotelė
+0xf00a	Uostas
+0xf00b	Prieplauka
+0xf00c	Keltų terminalas
+
+0xf101	Ortodoksų bažnyčia
+0xf102	Katalikų bažnyčia
+0xf103	Protestantų bažnyčia
+0xf104	Mečetė
+0xf105	Sinagoga
+0xf106	Pagoda
+
+0xf201	Šviesoforas
+0xf202	Eismo policija
+0xf203	Geležinkelio pervaža (su užtvaru)
+0xf204	Blogas kelias
+0xf205	Radaras
+0xf206	Aukščio riba
+0xf207	Nėra tranzitinio eismo
+0xf208	Kuras
+0xf209	Ratų montavimas
+0xf20a	Ratų balansavimas
+0xf20b	Geležinkelio pervaža (be užtvaro)
+0xf20c	Žiedas
+
+0xf301	Paminklas
+0xf302	Fontanas
+0xf303	Vandens bokštas
+0xf304	Televizijos / radijo bokštas
+0xf305	Geodezinis punktas
+0xf306	Kalnų perėja
+0xf307	Brasta
+0xf308	Įduba
+0xf309	Piliakalnis
+0xf30a	Akmenys
+0xf30b	Durpynas
+0xf30c	Pėsčiųjų tiltas
+0xf30d	Įėjimas į olą
+
+0xf401	Lapuočių miškas
+0xf402	Spygliuočių miškas
+0xf403	Maišytas miškas
+0xf404	Vienas medis
+0xf405	Atskiras krūmas
+0xf406	Giraitė
+
+0xf501	Lopšelis
+0xf502	Vidurinė mokykla
+0xf503	Profesinė mokykla
+0xf504	Universitetas / kolegija
+0xf505	Specializuota mokykla
+
+0xf601	ATM
+0xf602	Kirpėjas
+0xf603	Sauna
+0xf604	Skalbykla
+0xf605	Fotostudija
+0xf606	Perukų salonas
+0xf607	Elektros prietaisų remonto dirbtuvės
+0xf608	Kompiuterių remontas
+0xf609	Drabužių siuvykla
+0xf60a	Avalynės taisykla
+0xf60b	Baldų remontas
+0xf60c	Teisininko biuras
+0xf60d	Notaras
+0xf60e	Draudimas
+0xf60f	Nekilnojamojo turto agentūra
+0xf610	Informacinės paslaugos
+0xf611	Redakcija
+0xf612	Spaustuvė
+0xf613	Kelionių agentūra
+0xf614	Traukinių / lėktuvų bilietų užsakymo biuras
+0xf615	Nemokami „Wi-Fi“ taškai
+0xf616	Interneto kavinė
+
+0xf701	Turgus
+0xf702	Avalynės parduotuvė
+0xf703	Pagamintų prekių parduotuvė
+0xf704	Buitinės chemijos parduotuvė
+0xf705	Elektros prietaisai
+0xf706	Mobilieji įrenginiai
+0xf707	Sporto ir turizmo prekės
+0xf708	Ginklų parduotuvė
+0xf709	Dovanų parduotuvė
+0xf70a	Gėlių parduotuvė
+0xf70b	Juvelyras
+0xf70c	Naminių gyvūnėlių parduotuvė
+
+0xf801	Stomatologo kabinetas
+0xf802	Veterinarijos klinika
+
+0xf901	Cirkas
+
+;========================================================================================
+
+.POLYLINE
+
+;0x3d	
+;0x3e	
+
+0x3f	Tramvajaus linija
+0x40	Vienbėgio geležinkelio linija
+0x41	Funikulieriaus linija
+
+0x42	Žemės ar žvyro kelias
+0x43	Tunelis
+0x44	Upė
+
+0x45	Miesto riba
+0x46	Tvora
+
+0x47	Suplanuotas maršrutas
+0x48	Miško gaisras
+0x49	Eismo juosta
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Jungiamasis kelias
+0x69	Magistralinis kelias
+0x6a	Aikštė
+0x6b	Kelias
+
+; Buildings
+0x6c	Gyvenamieji pastatai
+0x6d	Biurų pastatai
+0x6e	Įprasti pastatai
+0x6f	Pramoniniai pastatai
+
+;0x70	
+;0x71	
+;0x72	
+;0x73	
+;0x74	
+;0x75	
+;0x76	
+;0x77	
+;0x78	
+;0x79	
+;0x7a	
+;0x7b	
+;0x7c	
+;0x7d	
+;0x7e	
+;0x7f	
+;0x80	
+
+0x81	Pelkėtas miškas
+0x82	Mažas miškas
+0x83	Retas miškas
+0x84	Išdegęs / negyvas miškas
+0x85	Iškirstas miškas
+0x86	Vynuogynas
+0x87	Ryžių laukas
+0x88	Pieva
+0x89	Smėlis
+0x8a	Akmenuota žemė
+0x8b	Druskinga žemė / druskinga pieva
+0x8c	Nendrynas
+0x8d	Dumbliai
+0x8e	Dygieji krūmai
+0x8f	Vėjavartos
+0x90	Smulkus miškas
+0x91	Saksaūlai
+0x92	Bambukai
+0x93	Palmių giraitė
+0x94	Mangrovės
+0x95	Aukšta žolė
+0x96	Samanos
+0x97	Kerpės
+0x98	Ganykla

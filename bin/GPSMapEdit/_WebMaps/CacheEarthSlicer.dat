@@ -1,0 +1,84 @@
+.web_map_cache 1
+
+.name          @r8852
+.class         EarthSlicer
+
+; Automatic unit-test for BuildFileName() and ParseFileName() for consistency:
+;              <x>    <y>    <level> <strFileName>
+.test          39674  20477  16      "10-309-159\17\L12390639\17-39674-20477"
+.test          1446   662    11      "10-361-165\12\G4520\12-1446-0662"
+.test          634811 327655 20      "10-309-159\21\P1983710239\21-0634811-0327655"
+
+.script        JScript
+
+function _log10 (_x) {return Math.log (_x)/Math.LN10;}
+
+function _int2str (_n, _MinDigits) {
+	var str = _n.toString ();
+	while (str.length < _MinDigits)
+		str = "0" + str;
+	return str;
+}
+
+function BuildFileName (_x, _y, _level) {
+	var strFileName = "";
+
+	var level = _level + 1;
+
+	var cTiles = (1 << (level - 1)) - 1;
+	var cDigits = Math.floor (_log10 (0.5 + cTiles)) + 1;
+
+	if (level > 10) {
+		var x10 = _x >> (level - 10);
+		var y10 = _y >> (level - 10);
+
+		strFileName += "10-" + _int2str (x10, 3) + "-" + _int2str (y10, 3) + "\\";
+	}
+
+	strFileName += _int2str (level, 2) + "\\";
+
+	if (level > 6) {
+		var cTiles5 = (1 << (level - 6)) - 1;
+		var cDigits5 = Math.floor (_log10 (0.5 + cTiles5)) + 1;
+		var x1024 = _x >> 5;
+		var y1024 = _y >> 5; 
+
+		strFileName += String.fromCharCode (0x0041 + level - 6) + _int2str (x1024, cDigits5) + _int2str (y1024, cDigits5) + "\\";
+	}
+
+	strFileName += _int2str (level, 2) + "-" + _int2str (_x, cDigits) + "-" + _int2str (_y, cDigits);
+
+	return strFileName;
+}
+
+function ParseFileName (_strFileName) {
+	var ret = {};
+
+	// Find the beginning of file name.
+	var nPos;
+	for (nPos = _strFileName.length - 1; nPos >= 0; -- nPos) {
+		if (_strFileName.charAt (nPos) == "\\")
+			break;
+	}
+	++ nPos
+	;
+	// Level.
+	var nEnd = _strFileName.indexOf ("-", nPos);
+	if (nEnd == -1)
+		return false;
+	ret.level = parseInt (_strFileName.substr (nPos), 10);
+	-- ret.level;
+	nPos = nEnd + 1;
+
+	// X.
+	nEnd = _strFileName.indexOf ("-", nPos);
+	if (nEnd == -1)
+		return false;
+	ret.x = parseInt (_strFileName.substr (nPos), 10);
+	nPos = nEnd + 1;
+
+	// Y.
+	ret.y = parseInt (_strFileName.substr (nPos), 10);
+
+	return ret;
+}

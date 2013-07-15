@@ -1,0 +1,441 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+; (c) Inicialmente traducido por Álvaro Bosch, 2006
+;
+
+.TYPESET Garmin
+
+; The Language ID for Spanish(Modern) defined by Microsoft
+;
+.LANGID 0xc0a
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN  Tipo indeterminado
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	Ciudad grande (mayor a 10M)
+0x0200	Ciudad grande (5-10M)
+0x0300	Ciudad grande (2-5M)
+0x0400	Ciudad grande (1-2M)
+0x0500	Ciudad mediana (0.5-1M)
+0x0600	Ciudad mediana (200-500K)
+0x0700	Ciudad mediana (100-200K)
+0x0800	Ciudad pequeña (50-100K)
+0x0900	Ciudad pequeña (20-50K)
+0x0a00	Ciudad pequeña/pueblo (10-20K)
+0x0b00	Ciudad pequeña/pueblo (5-10K)
+0x0c00	Asentamiento (2-5K)
+0x0d00	Asentamiento (1-2K)
+0x0e00	Asentamiento (500-1000)
+0x0f00	Asentamiento (200-500)
+0x1000	Asentamiento (100-200)
+0x1100	Asentamiento (menos de 100)
+
+; Labels without icons
+0x1400	Nombre de país principal
+0x1500	Nombre de país menor
+0x1e00	Nombre de estado/provincia/región
+0x1f00	Nombre de municipio/departamento
+0x2800	Nombre
+
+; Marine features
+0x1200	Marina con instalaciones
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Ayuda de Navegación
+0x1601	Sirena de neblina
+0x1602	Radiofaro
+0x1603	Faro radar (Racon)
+0x1604	Faro diurno, triángulo rojo
+0x1605	Faro diurno, cuadrado verde
+0x1606	Faro diurno, diamante blanco
+0x1607	Ayuda de navegación sin luz, blanca
+0x1608	Ayuda de navegación sin luz, roja
+0x1609	Ayuda de navegación sin luz, verde
+0x160a	Ayuda de navegación sin luz, negra
+0x160b	Ayuda de navegación sin luz, amarilla/ámbar
+0x160c	Ayuda de navegación sin luz, naranja
+0x160d	Ayuda de navegación sin luz, multicolor
+0x160e	Ayuda de navegación, desconocida
+0x160f	Ayuda de navegación, blanca
+0x1610	Ayuda de navegación, roja
+0x1611	Ayuda de navegación, verde
+0x1612	Ayuda de navegación, amarilla/ámbar
+0x1613	Ayuda de navegación, naranja
+0x1614	Ayuda de navegación, violeta
+0x1615	Ayuda de navegación, azul
+0x1616	Ayuda de navegación, multicolor
+
+0x1c00	Obstrucción no clasificada
+0x1c01	Naufragio visibles
+0x1c02	Naufragio sumergido, peligroso
+0x1c03	Naufragio sumergido, no peligroso
+0x1c04	Naufragio, recogido mediante dragaje hidrográfico
+0x1c05	Obstrucción, visible con marea alta
+0x1c06	Obstrucción, inundada
+0x1c07	Obstrucción, sumergida
+0x1c08	Obstrucción, recogido mediante dragaje hidrográfico
+0x1c09	Roca, inundada
+0x1c0a	Roca, sumergida con marea baja
+0x1c0b	Riesgo de encallar
+
+; Tide table prediction used in marine maps
+0x1d00	Predicción de mareas
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	Salida de AU
+0x2100	Salida de AU con instalaciones
+0x210f	Salida de AU (servicios)
+0x2200	Salida de AU (baños)
+0x2300	Salida de AU (tienda 24Hs)
+0x2400	Salida de AU (estación de pesaje)
+0x2500	Salida de AU (cabina de peaje)
+0x2600	Salida de AU (información)
+0x2700	Salida de AU
+
+0x2900	Comercio no categorizado
+
+0x2a00	Comida y bebida
+0x2a01	Comida (americana)
+0x2a02	Comida (asiática)
+0x2a03	Comida (parrilla)
+0x2a04	Comida (china)
+0x2a05	Comida (panadería/pastelería)
+0x2a06	Comida (internacional)
+0x2a07	Comida rápida
+0x2a08	Comida (italiana)
+0x2a09	Comida (mejicana)
+0x2a0a	Comida (pizza)
+0x2a0b	Comida (pescados/mariscos)
+0x2a0c	Comida (carne/parrilla)
+0x2a0d	Comida (pastelería/panadería)
+0x2a0e	Comida (café/cena)
+0x2a0f	Comida (francesa)
+0x2a10	Comida (alemana)
+0x2a11	Comida (británica)
+0x2a12	Alimentos especiales
+
+0x2b00	Alojamiento
+0x2b01	Hotel/Motel
+0x2b02	Casa Rural por habitaciones posada
+0x2b03	Camping/Estacionamiento para caravanas
+0x2b04	Complejo hotelero
+
+0x2c00	Atracción
+0x2c01	Parque de atracciones/Parque temático
+0x2c02	Museo/Histórico
+0x2c03	Biblioteca
+0x2c04	Monumento
+0x2c05	Escuela
+0x2c06	Parque/Jardín
+0x2c07	Zoológico/Acuario
+0x2c08	Estadio/Pista
+0x2c09	Salón/Auditorio
+0x2c0a	Vinería
+0x2c0b	Lugar de culto
+
+0x2d00	Entretenimiento
+0x2d01	Teatro
+0x2d02	Bar/Club nocturno
+0x2d03	Cine
+0x2d04	Casino
+0x2d05	Campo de golf
+0x2d06	Centro de esquí
+0x2d07	Bowling
+0x2d08	Patín sobre hielo
+0x2d09	Piscina
+0x2d0a	Deportes/Centro deportivo
+0x2d0b	Aeropuerto deportivo público
+
+0x2e00	Compras
+0x2e01	Grandes tiendas
+0x2e02	Tienda de comestibles
+0x2e03	Comercio general
+0x2e04	Centro comercial/Shopping
+0x2e05	Farmacia
+0x2e06	Tienda 24 Hs
+0x2e07	Indumentaria
+0x2e08	Casa y jardín
+0x2e09	Muebles
+0x2e0a	Tienda especializada
+0x2e0b	Informática/Software
+
+0x2f00	Servicios generales
+0x2f01	Combustible para automóvil
+0x2f02	Alquiler de autos
+0x2f03	Taller mecánico
+0x2f04	Transporte aéreo
+0x2f05	Oficina de correos
+0x2f06	Banco/Cajero automático
+0x2f07	Concesionarios/Autopartista/Repuestos
+0x2f08	Transporte terrestre
+0x2f09	Marinas/Reparación de embarcaciones y dique seco
+0x2f0a	Auxilio Mecánico/Remolque/Servicio de grúa
+0x2f0b	Estacionamiento
+0x2f0c	Área de descanso/Información turística
+0x2f0d	Automóvil Club
+0x2f0e	Lava-autos
+0x2f0f	Vendedor Garmin
+0x2f10	Servicios a particulares
+0x2f11	Servicios comerciales
+0x2f12	Servicios de comunicaciones
+0x2f13	Servicio de reparación
+0x2f14	Servicio social
+0x2f15	Instalaciones públicas
+0x2f16	Parada de camiones
+0x2f17	Servicio de tránsito
+
+0x3000	Emergencia/Gubernamental
+0x3001	Comisaría
+0x3002	Hospital
+0x3003	Municipalidad
+0x3004	Juzgado
+0x3005	Centro comunitario
+0x3006	Cruce de frontera
+0x3007	Oficina gubernamental
+0x3008	Bomberos
+
+0x4000	Golf
+0x4100	Punto de pesca
+0x4200	Naufragio
+0x4300	Marina
+0x4400	Gasolinera
+0x4500	Restaurante
+0x4600	Bar
+0x4700	Rampa de embarcaciones
+0x4800	Camping
+0x4900	Parque
+0x4a00	Zona de picnic
+0x4b00	Primeros médicos auxilios
+0x4c00	Información
+0x4d00	Estacionamiento
+0x4e00	Baños
+0x4f00	Duchas
+0x5000	Agua potable
+0x5100	Teléfono
+0x5200	Zona panorámica
+0x5300	Ski
+0x5400	Zona de nado
+0x5500	Dique
+
+; Aviation
+0x5600	Zona controlada
+0x5700	Zona peligrosa
+0x5800	Zona restringida
+0x5900	Aeropuerto genérico
+0x5901	Aeropuerto grande
+0x5902	Aeropuerto mediano
+0x5903	Aeropuerto pequeño
+0x5904	Helipuerto
+0x5905	Aeropuerto
+
+0x5a00	Marcador de Milla/Km.
+0x5b00	Campana
+0x5c00	Zona de buceo
+0x5d00	Marca diurna, cuadrado verde
+0x5e00	Marca diurna, triángulo rojo
+0x6000	Sirena
+0x6100	Casa
+
+0x6200	Punto de profundidad
+0x6300	Punto de elevación
+
+; Man-made features
+0x6400	Lugar construido por el hombre
+0x6401	Puente
+0x6402	Edificio
+0x6403	Cementerio
+0x6404	Iglesia/mezquita/etc.
+0x6405	Edificio civil
+0x6406	Cruce
+0x6407	Dique
+0x6408	Hospital
+0x6409	Represa
+0x640a	Indicador
+0x640b	Militar
+0x640c	Mina
+0x640d	Yacimiento petrolífero
+0x640e	Parque
+0x640f	Oficina de correos
+0x6410	Escuela
+0x6411	Torre
+0x6412	Inicio de sendero
+0x6413	Túnel
+0x6414	Pozo
+0x6415	Pueblo histórico (fantasma)
+0x6416	Anexo de propiedad
+
+; Water features
+0x6500	Objeto hidrográfico
+0x6501	Arroyo seco
+0x6502	Banco de arena
+0x6503	Bahía
+0x6504	Curva del río
+0x6505	Canal artificial
+0x6506	Canal
+0x6507	Ensenada
+0x6508	Cataratas
+0x6509	Geiser
+0x650a	Glaciar
+0x650b	Puerto
+0x650c	Isla
+0x650d	Lago
+0x650e	Rápidos
+0x650f	Reservorio
+0x6510	Mar
+0x6511	Manantial
+0x6512	Arroyo
+0x6513	Pantano
+
+; Land features
+0x6600	Objeto terrestre
+0x6601	Arco
+0x6602	Área
+0x6603	Delta
+0x6604	Playa
+0x6605	Nivelado
+0x6606	Cabo
+0x6607	Acantilado
+0x6608	Cráter
+0x6609	Meseta
+0x660a	Bosque
+0x660b	Brecha/Precipicio
+0x660c	Pasaje angosto
+0x660d	Istmo
+0x660e	Lava
+0x660f	Pilar/Columna
+0x6610	Llanura
+0x6611	Sierra
+0x6612	Reserva
+0x6613	Cresta
+0x6614	Roca
+0x6615	Pendiente
+0x6616	Cumbre/Cima
+0x6617	Valle
+0x6618	Zona boscosa
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Carretera
+
+; Three levels of highways
+0x01	Autopista
+0x02	Ruta principal
+0x03	Otra ruta
+
+; Most important kind of street
+0x04	Avenida/Ruta Arterial
+; Medium important kind of street
+0x05	Colectora
+; Ordinary street (80%)
+0x06	Calle residencial
+; Smallest kind of street
+0x07	Callejón/Calle privada
+
+0x08	Rampa de autopista, baja velocidad
+0x09	Rampa de autopista, alta velocidad
+0x0a	Camino sin pavimentar
+0x0b	Conector de autopistas
+0x0c	Glorieta
+0x16	Sendero
+0x14	Ferrocarril
+0x1a	Ferry
+0x1b	Ferry
+
+0x19	Límite de huso horario
+0x1e	Límite internacional
+0x1c	Límite de provincia/región
+0x1d	Límite del condado/parroquia
+
+0x15	Costa de espejo de agua
+0x18	Arroyo
+0x1f	Río
+0x26	Arroyo/cauce intermitente
+
+0x20	Curva de nivel menor (1/10)
+0x21	Curva de nivel media (1/2)
+0x22	Curva de nivel mayor (1/1)
+0x23	Curva de profundidad (Isobata) menor (1/10)
+0x24	Curva de profundidad (Isobata) media (1/2)
+0x25	Curva de profundidad (Isobata) mayor (1/1)
+
+0x27	Línea central de pista de aterrizaje
+0x28	Ducto de agua o petróleo
+0x29	Líneas de alta tensión
+
+0x2a	Límite marítimo
+0x2b	Peligro marítimo
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Gran zona urbana (>200K)
+0x02	Pequeña zona urbana (<200K)
+0x03	Zona de vivienda rural
+
+0x04	Base militar
+0x05	Estacionamiento abierto
+0x06	Estacionamiento cerrado
+0x07	Aeropuerto
+0x08	Centro comercial/Shopping
+0x09	Marina
+0x0a	Universidad/Colegio
+0x0b	Hospital
+0x0c	Complejo industrial
+0x0d	Reserva
+0x0e	Pista de aterrizaje
+0x13	Edificio/Zona construida por el hombre
+0x18	Campo de Golf
+0x19	Complejo deportivo
+0x1a	Cementerio
+
+0x14	Parque nacional
+0x15	Parque nacional
+0x16	Parque nacional
+0x17	Parque municipal
+0x1e	Parque provincial
+0x1f	Parque provincial
+0x20	Parque provincial
+
+0x28	Mar/Océano
+0x29	Agua (tipo desconocido) 
+0x32	Mar
+0x3b	Agua (tipo desconocido) 
+0x3c	Lago grande (250-600 km²)
+0x3d	Lago grande (77-250 km²)
+0x3e	Lago mediano (25-77 km²)
+0x3f	Lago mediano (11-25 km²)
+0x40	Laguna (0.25-11 km²)
+0x41	Laguna (menos de 0.25 km²)
+0x42	Gran lago (mayor a 3300 km²)
+0x43	Gran lago (1100-3300 km²)
+0x44	Lago grande, 600-1100 km²)
+0x45	Agua (tipo desconocido)
+0x46	Río principal (>1 km)
+0x47	Río grande (200 m-1 km)
+0x48	Río mediano (40-200 m)
+0x49	Río pequeño (<40 m)
+0x4c	Lago o río intermitente
+
+0x4a	Área de selección del mapa (en MapSource)
+0x4b	Dominio de definición del mapa
+
+0x4d	Glaciar
+0x4e	Huerta/plantación
+0x4f	Maleza
+0x50	Bosque
+0x51	Pantano/ciénaga
+0x52	Tundra
+0x53	Banco de arena / Mareas/barro plana

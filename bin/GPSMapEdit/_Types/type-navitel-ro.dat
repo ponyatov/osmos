@@ -1,0 +1,197 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+;
+
+.TYPESET Navitel
+
+; The Language ID for Romanian defined by Microsoft
+;
+.LANGID 0x418
+
+;========================================================================================
+
+.POINT
+
+0xf001	Autogara
+0xf002	Staţie autobuz
+0xf003	Staţie tramvai
+0xf004	Staţie troleu
+0xf005	Staţie metro
+0xf006	Staţie feroviară
+0xf007	Gară feroviară
+0xf008	Staţie monoşină
+0xf009	Telecabină stop
+0xf00a	Portul
+0xf00b	Chei
+0xf00c	Terminal bac
+
+0xf101	Biserică ortodoxă
+0xf102	Biserică catolică
+0xf103	Biserică protestantă
+0xf104	Moschee
+0xf105	Sinagogă
+0xf106	Pagodă
+
+0xf201	Semafor
+0xf202	Poliţia rutieră
+0xf203	Trecere cale ferată (cu bară)
+0xf204	Drum cu hopuri
+0xf205	Radar/Viteza de camera
+0xf206	Limită la înălţime
+0xf207	Trafic tranzit interzis
+0xf208	PECO Gaz
+0xf209	Montare roţi
+0xf20a	Ajustare roţi
+0xf20b	Trecere peste cale ferată (fără bară)
+0xf20c	Sens giratoriu
+
+0xf301	Monument
+0xf302	Havuz
+0xf303	Turn pt. apă
+0xf304	Turn emisie radio/TV
+0xf305	Punct geodezic
+0xf306	Defileu
+0xf307	Vad
+0xf308	Groapă
+0xf309	Movilă
+0xf30a	Pietre
+0xf30b	Zăcăminte turbă
+0xf30c	Pod pt. pietoni
+0xf30d	Intrare peşteră
+
+0xf401	Pădure de foioase
+0xf402	Pădure de coniferi
+0xf403	Pădure mixtă
+0xf404	Copac singuratic
+0xf405	Arbust izolat
+0xf406	Dumbravă
+
+0xf501	Instituţie preşcolară
+0xf502	Şcoală medie
+0xf503	Şcoală profesional-tehnică
+0xf504	Universitate/colegiu
+0xf505	Şcoală specializată
+
+0xf601	Bancomat
+0xf602	Frizerie
+0xf603	Saună
+0xf604	Curăţătorie haine
+0xf605	Studio foto
+0xf606	Atelier de haine
+0xf607	Reparaţie electrocasnice
+0xf608	Reparaţie computere
+0xf609	Reparaţie haine
+0xf60a	Reparaţie încălţăminte
+0xf60b	Reparaţie mobilă
+0xf60c	Birou jurişti
+0xf60d	Biriu notarial
+0xf60e	Asigurări
+0xf60f	Agenţie imobiliară
+0xf610	Birou de infomaţii
+0xf611	Redacţii
+0xf612	Tipografie
+0xf613	Agenţie de turism
+0xf614	Rezervare tichete avion/cale ferată
+0xf615	Wi-Fi hotspot gratis
+0xf616	Cybercafe
+
+0xf701	Piaţă
+0xf702	Magazin încălţăminte
+0xf703	Mărfuri industriale
+0xf704	Chimicalii
+0xf705	Electrocasnice
+0xf706	Telefonie mobilă / Minicomputere
+0xf707	Mărfuri sport/turism
+0xf708	Magazin de arme
+0xf709	Magazin de cadouri
+0xf70a	Florărie
+0xf70b	Bijuterii
+0xf70c	Animale
+
+0xf801	Clinică stomatologică
+0xf802	Clinică veterinară
+
+0xf901	Circ
+
+;========================================================================================
+
+.POLYLINE
+
+;0x3d	
+;0x3e	
+
+0x3f	Linie de tramvai
+0x40	Mono-linie tramvai
+0x41	Teleferic
+
+0x42	Drum natural
+0x43	Tunel
+0x44	Râu, largă
+
+0x45	Hotar zonă urbană
+0x46	Gard
+
+0x47	Ruta planificată
+0x48	Potecă forestieră
+0x49	Bandă în trafic
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Drum de legătură
+0x69	Şosea
+0x6a	Piaţă
+0x6b	Drum
+
+; Buildings
+0x6c	Clădire locativă
+0x6d	Clădire oficiu
+0x6e	Cladire de uz comun
+0x6f	Clădire industrială
+
+;0x70	
+;0x71	
+;0x72	
+;0x73	
+;0x74	
+;0x75	
+;0x76	
+;0x77	
+;0x78	
+;0x79	
+;0x7a	
+;0x7b	
+;0x7c	
+;0x7d	
+;0x7e	
+;0x7f	
+;0x80	
+
+0x81	Pădure înmlăştinită
+0x82	Pădure joasă
+0x83	Pădure rară
+0x84	Pădure arsă/uscată
+0x85	Pădure defrişată
+0x86	Viţă de vie
+0x87	Câmp de orez
+0x88	Păşune
+0x89	Nisip
+0x8a	Teren pietros
+0x8b	Pământ salinizat
+0x8c	Trestie
+0x8d	Alge
+0x8e	Tufiş ţepos
+0x8f	Copaci căzuţi
+0x90	Desiş
+0x91	Saxaul
+0x92	Bambus
+0x93	Palmieri
+0x94	Mangrove
+0x95	Iarbă înaltă
+0x96	Muşchi
+0x97	Licheni
+0x98	Teren de iarbă

@@ -1,0 +1,23 @@
+.web_map         1
+
+.name            "PL - Mass Tracks"
+.submenu1        @r8812
+.submenu2        @c:POL
+.class           pl-masstracks
+.cache_subfolder MassTracks
+
+.def_version     ""
+.tile_referer    http://masstracks.media-lab.com.pl/
+.tile_size       256
+.tile_ext        .gif
+
+.include_script  ProjGoogle.js
+.script          JScript
+////////////////////////////////////////////
+
+function GetMaxLevel () {return 18;}
+function GetMinLevel () {return 5;}
+
+function MakeTileURL (_x, _y, _level, _version) {
+	return "http://masstracks.media-lab.com.pl/" + _level + "/" + _x + "/" + _y + ".png";
+}

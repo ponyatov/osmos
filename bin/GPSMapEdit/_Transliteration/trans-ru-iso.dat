@@ -1,0 +1,126 @@
+﻿.TRANSLITERATION
+
+; This file is used by GPSMapEdit to provide translitertion table for Russian.
+; Based on ISO 9:1995 = GOST 7.79-2000, http://www.transliteration.ru/iso.html
+;
+; NOTE: if you want to translate this file to another language,
+; please keep the first line (".TRANSLITERATION") as is.
+;
+
+; Display name for data
+.NAME Russian->Ext.Latin (ISO 9:1995)
+
+; Language ID for Russian defined by Microsoft
+.LANGID 1049
+
+;
+; Tests
+;
+
+.TEST Москва      Moskva
+.TEST Шереметьево Šeremet'evo
+.TEST Мытищи      Mytiŝi
+
+;
+; The substitutions
+;
+
+.DATA
+а	a
+б	b
+в	v
+г	g
+д	d
+е	e
+ё	ë
+ж	ž
+з	z
+и	i
+й	j
+к	k
+л	l
+м	m
+н	n
+о	o
+п	p
+р	r
+с	s
+т	t
+у	u
+ф	f
+х	h
+ц	c
+ч	č
+ш	š
+щ	ŝ
+ъ	"
+ы	y
+ь	'
+э	è
+ю	û
+я	â
+А	A
+Б	B
+В	V
+Г	G
+Д	D
+Е	E
+Ё	Ë
+Ж	Ž
+З	Z
+И	I
+Й	J
+К	K
+Л	L
+М	M
+Н	N
+О	O
+П	P
+Р	R
+С	S
+Т	T
+У	U
+Ф	F
+Х	H
+Ц	C
+Ч	Č
+Ш	Š
+Щ	Ŝ
+Ъ	"
+Ы	Y
+Ь	'
+Э	È
+Ю	Û
+Я	Â
+Ѓ	Ǵ
+ѓ	ǵ
+Ґ	G̀
+ґ	g̀
+Є	Ê
+є	ê
+Ѕ	Ẑ
+ѕ	ẑ
+Ј	J̌
+ј	ǰ
+І	Ì
+і	ì
+Ї	Ï
+ї	ï
+Ќ	Ḱ
+ќ	ḱ
+Љ	L̂
+љ	l̂
+Њ	N̂
+њ	n̂
+Ў	Ǔ
+ў	ǔ
+Џ	D̂
+џ	d̂
+Ѣ	Ě
+ѣ	ě
+Ѫ	Ǎ
+ѫ	ǎ
+Ѳ	F̀
+ѳ	f̀
+Ѵ	Ỳ
+ѵ	ỳ

@@ -1,0 +1,441 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+;
+
+.TYPESET Garmin
+
+; The Language ID for Azerbaijani defined by Microsoft
+;
+.LANGID 0x42c
+
+; The Code Page ID for Turkish defined by Microsoft
+;
+.CODEPAGE 1254
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN	Unknown type
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	Böyük şəhər, 10 mil. çox
+0x0200	Böyük şəhər, 5 – 10 mil.
+0x0300	Böyük şəhər, 2 – 5 mil.
+0x0400	Böyük şəhər, 1 – 2 mil.
+0x0500	Şəhər, 0,5 – 1 mil.
+0x0600	Şəhər, 200 – 500 min 
+0x0700	Şəhər, 100 – 200 min
+0x0800	Kiçik şəhər, 50 – 100 min
+0x0900	Kiçik şəhər, 20 – 50 min
+0x0a00	Kiçik şəhər/rayon, 10 – 20 min
+0x0b00	Kiçik şəhər/rayon, 5 – 10 min
+0x0c00	Rayon, 2 – 5 min
+0x0d00	Rayon, 1 – 2 min
+0x0e00	Rayon, 500 – 1 min
+0x0f00	Rayon, 200 – 500
+0x1000	Rayon, 100 – 200
+0x1100	Rayon, 100-dən az
+
+; Labels without icons
+0x1400	Böyük ölkənin adı
+0x1500	Kiçik ölkənin adı
+0x1e00	Ölkənin/vilayətin/regionun adı
+0x1f00	Rayonun/qəsəbənin adı
+0x2800	İşarələr
+
+; Marine features
+0x1200	Şəxsi liman
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Naviqasiya işarəsi
+0x1601	Duman sirenası
+0x1602	Radiomayak
+0x1603	Radar
+0x1604	Naviqasiya işarəsi,qırmızı üçbucaq
+0x1605	Naviqasiya işarəsi, yaşıl düzbuzaq
+0x1606	Naviqasiya işarəsi, ağ romb
+0x1607	İşıqlandırılmayan, ağ naviqasiya işarəsi
+0x1608	İşıqlandırılmayan, qırmızı naviqasiya işarəsi
+0x1609	İşıqlandırılmayan, yaşıl naviqasiya işarəsi
+0x160a	İşıqlandırılmayan, qara naviqasiya işarəsi
+0x160b	İşıqlandırılmayan, sarı/kəhraba naviqasiya işarəsi
+0x160c	İşıqlandırılmayan, narıncı naviqasiya işarəsi
+0x160d	İşıqlandırılmayan, rəngbərəng naviqasiya işarəsi
+0x160e	Naməlum naviqasiya işarəsi 
+0x160f	Ağ naviqasiya işarəsi
+0x1610	Qırmızı naviqasiya işarəsi 
+0x1611	Yaşıl naviqasiya işarəsi 
+0x1612	Sarı/kəhraba naviqasiya işarəsi
+0x1613	Narıncı naviqasiya işarəsi 
+0x1614	Bənövşəyi naviqasiya işarəsi 
+0x1615	Mavi naviqasiya işarəsi 
+0x1616	Rəngbərəng naviqasiya işarəsi 
+
+0x1c00	Maneə
+0x1c01	Tullantı
+0x1c02	Batmış tullantı, təhlükəli
+0x1c03	Batmış tullantı, təhlükəsiz
+0x1c04	Qoşqu kəndiri ilə təmizlənmiş tullantı
+0x1c05	Hündür su səviyyəsində görsənən maneə
+0x1c06	Suyun səviyyəsində olan maneə
+0x1c07	Batmış maneə
+0x1c08	Qoşqu kabeli vasitəsilə təmizlənmiş maneə.
+0x1c09	Suyun altındakı qaya
+0x1c0a	Aşağı səviyyəli suyun altındakı qaya
+0x1c0b	Dayaz yerdə ilişmə riski
+
+; Tide table prediction used in marine maps
+0x1d00	Suyun səviyyəsinin qalxma/enmə proqnozu
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	Magistral yoldan çıxış
+0x2100	Obyektləri olan magistraldan çıxış
+0x210f	Magistral yoldan çıxış (xidmətlər)
+0x2200	Magistral yoldan çıxış (tualetlər)
+0x2300	Magistral yoldan çıxış (istehlak malları dükanı)
+0x2400	Magistral yoldan çıxış (çəkinin yoxlanması)
+0x2500	Magistral yoldan çıxış (rüsum postu)
+0x2600	Magistral yoldan çıxış (informasiya) 
+0x2700	Magistral yoldan çıxış
+
+0x2900	Digər kommersiya fəaliyyəti
+
+0x2a00	Restoran
+0x2a01	Restoran (amerikan/avropa)
+0x2a02	Restoran (asiya mətbəxi)
+0x2a03	Restoran (kabab)
+0x2a04	Restoran (ev yeməkləri)
+0x2a05	Delikateslər, çörək/bulka
+0x2a06	Restoran (beynəlxalq)
+0x2a07	Fast food (dönər)
+0x2a08	Restoran (italyan)
+0x2a09	Restoran (meksika)
+0x2a0a	Restoran (pizza)
+0x2a0b	Restoran (balıq)
+0x2a0c	Restoran (steyk/grill)
+0x2a0d	Şirniyyat (qoğal/paxlava)
+0x2a0e	Restoran (kafe/yeməkxana)
+0x2a0f	Restoran (avropa)
+0x2a10	Restoran (ərəb)
+0x2a11	Restoran (türk)
+0x2a12	Xüsusi ərzaqlar
+
+0x2b00	Kirayə evlərdə gecələmək
+0x2b01	Hotel/motel
+0x2b02	Yataqxana
+0x2b03	Kemping/Düşərgə
+0x2b04	Resort
+
+0x2c00	Maraqlı yerlər
+0x2c01	Əyləncə parkı
+0x2c02	Muzey/Tarixi abidələr
+0x2c03	Kitabxana
+0x2c04	Orientasiya nöqtəsi
+0x2c05	Məltəb
+0x2c06	Park/Bağça
+0x2c07	Zoopark/Akvarium
+0x2c08	Arena/Motodrom
+0x2c09	Zal/Auditoriya
+0x2c0a	Şərabçılıq
+0x2c0b	Ziyarət yeri
+
+0x2d00	Əyləncə
+0x2d01	Canlı teatr
+0x2d02	Gecə klubu
+0x2d03	Kino
+0x2d04	Kazino
+0x2d05	Golf meydançası
+0x2d06	Xizəksürmə mərkəzi
+0x2d07	Bowling
+;0x2d08	
+0x2d09	Üzgüçülük hovuzu
+0x2d0a	İdman klubu/Fitness
+0x2d0b	İdman aeroportu
+
+0x2e00	Alış-veriş
+0x2e01	Supermarket
+0x2e02	Qarışıq mallar dükanı
+0x2e03	Ticarət şirkəti
+0x2e04	Alış-veriş mərkəzi
+0x2e05	Aptek
+0x2e06	Market
+0x2e07	Moda
+0x2e08	Ev və bağça
+0x2e09	Ev ləvazimatları
+0x2e0a	İxtisaslaşdırılmış mağaza
+0x2e0b	Kompüter/Software
+
+0x2f00	Əhaliyə xidmət
+0x2f01	Yanacaqdoldurma məntəqəsi
+0x2f02	Avtomobil icarəsi
+0x2f03	Avtoservis
+0x2f04	Hava nəqliyyatı
+0x2f05	Poçt
+0x2f06	Bank/bankomat
+0x2f07	Avtosalon/Ehtiyat hissələri 
+0x2f08	Yol nəqliyyatı
+0x2f09	Şəxsi liman/gəmilərin təmiri
+0x2f0a	Evakuator xidməti 
+0x2f0b	Dayanacaq 
+0x2f0c	Dayanacaqlar/Turist məlumatları
+0x2f0d	Avtoklub
+0x2f0e	Avtoyuyucu
+0x2f0f	Garmin distributoru
+0x2f10	Şəxsi xidmətlər
+0x2f11	Şirkət üçün xidmətlər
+0x2f12	Komunikasiya xidmətləri
+0x2f13	Təmir xidməti
+0x2f14	Sosial xidmətlər
+0x2f15	Komunal xidmətlər 
+0x2f16	Yük maşınları üçün dincəlmək yeri
+0x2f17	Kuryer xidmətləri
+
+0x3000	Təcili yardım/Hökümət binaları
+0x3001	Polis idarəsi
+0x3002	Xəstəxana
+0x3003	İcra Hakimiyyəti
+0x3004	Məhkəmə 
+0x3005	İcma mərkəzi
+0x3006	Sərhəd keçidi
+0x3007	Nazirlik
+0x3008	Yanğınsöndürənlər
+
+0x4000	Golf
+0x4100	Balıq ovu
+0x4200	Tullantı
+0x4300	Şəxsi liman
+0x4400	Yanacaqdoldurma məntəqəsi
+0x4500	Restoran
+0x4600	Bar
+0x4700	Qayıqlar üçün rampa
+0x4800	Kemping
+0x4900	Park
+0x4a00	Piknik üçün yer
+0x4b00	Təcili yardım mərkəzi
+0x4c00	Məlumatlar
+0x4d00	Dayanacaq 
+0x4e00	Ayaqyolu
+0x4f00	Duş
+0x5000	İçməli su
+0x5100	Telefon
+0x5200	Təbiət gözəlliyi
+0x5300	Xizəksürmə
+0x5400	Çimərlik
+0x5500	Su bəndi
+
+; Aviation
+0x5600	Qoruq zonası
+0x5700	Təhlükəli zona
+0x5800	Girişi məhdudiyyətli zona
+0x5900	Hava limanı
+0x5901	Böyük hava limanı
+0x5902	Orta böyüklükdə hava limanı
+0x5903	Kiçik hava limanı
+0x5904	Vertolyot üçün enmə zolağı
+0x5905	Hava limanı
+
+0x5a00	Məsafə ölçən
+0x5b00	Zəng
+0x5c00	Dalğıclar üçün ərazi
+0x5d00	İşarə, yaşıl düzbucaqlı
+0x5e00	İşarə, qırmızı üçbucaq 
+0x6000	Sirena
+0x6100	Ev
+
+0x6200	Dərinlik göstəricisi
+0x6300	Hündürlük göstəricisi
+
+; Man-made features
+0x6400	İnsanın düzəltdiyi məkan
+0x6401	Körpü
+0x6402	Bina
+0x6403	Qəbirsanlıq
+0x6404	Məscid, kilsə və s.
+;0x6405	
+0x6406	Keçid
+0x6407	Su bəndi
+0x6408	Xəstəxana
+0x6409	Bənd
+0x640a	Yerli 
+0x640b	Hərbi hissə
+0x640c	Mədən 
+0x640d	Neft sahəsi
+0x640e	Park
+0x640f	Poçt
+0x6410	Məltəb
+0x6411	Qüllə
+0x6412	Yolun başlanğıcı
+0x6413	Tunel
+0x6414	Quyu
+0x6415	Tarixi şəhər (tarixi məkan)
+0x6416	Yaşayış binaları
+
+; Water features
+0x6500	Su
+0x6501	Quru çay yatağı
+0x6502	Qumlu sahil 
+0x6503	Körfəz
+0x6504	Əyrim
+0x6505	Su kanalı
+0x6506	Kanal
+0x6507	Körfəz
+0x6508	Şəlalə	 	 
+0x6509	Fontan
+0x650a	Buzlaq
+0x650b	Liman
+0x650c	Ada
+0x650d	Göl
+0x650e	Astana
+0x650f	Su hövzəsi
+0x6510	Dəniz 
+0x6511	Bulaq
+0x6512	Çay
+0x6513	Bataqlıq
+
+; Land features
+0x6600	Quru
+0x6601	Arka
+0x6602	Ərazi
+0x6603	Dərə 
+0x6604	Çimərlik
+0x6605	Karxana
+0x6606	Burun
+0x6607	Qayalıq
+0x6608	Krater
+0x6609	Düzənlik
+0x660a	Meşə
+0x660b	Boşluq
+0x660c	Boğaz
+0x660d	Dar boğaz
+0x660e	Lava
+0x660f	Sütun
+0x6610	Düz 
+0x6611	Dağlar
+0x6612	Qoruq
+0x6613	Dağ silsiləsi
+0x6614	Qaya
+0x6615	Dağ ətəyi
+0x6616	Zirvə
+0x6617	Dərə 
+0x6618	Meşə zolağı
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Şosse
+
+; Three levels of highways
+0x01	Vacib magistral
+0x02	Əsas magistral
+0x03	Avtoban 
+
+; Most important kind of street
+0x04	Əsas şosse
+; Medium important kind of street
+0x05	Qovşaq yollar
+; Ordinary street (80%)
+0x06	Yaşayış məntəqəsindəki yol
+; Smallest kind of street
+0x07	Küçə/fərdi şəxsə aid yol
+
+0x08	Yol qovşağı, aşağı sürətli
+0x09	Yol qovşağı, yuxarı sürətli
+0x0a	Torpaq yol
+0x0b	Avtobana çıxan yollar
+0x0c	Yol dairəsi
+0x16	Turist səkisi
+0x14	Dəmiryolu
+0x1a	Su və ya dəmiyolu bərəsi
+0x1b	Su və ya dəmiyolu bərəsi
+
+0x19	Vaxt zonası
+0x1e	Dövlət sərhədi
+0x1c	Ölkənin/regionun sərhədi
+0x1d	Rayonun/qəsəbənin sərhədi
+
+0x15	Bulvar
+0x18	Çay
+0x1f	Çay
+0x26	Aralıq / xəndək
+
+0x20	Kiçik torpaq sahəsi
+0x21	Orta torpaq sahəsi
+0x22	Əsas torpaq sahəsi
+0x23	Kiçik izobat
+0x24	Ota izobat
+0x25	Əsas izobat
+
+0x27	Uçuş-enmə zolağının mərkəzi oxu
+0x28	Neft borusu və ya su borusu
+0x29	Elektrik xətti
+
+0x2a	Dəniz sərhəddi
+0x2b	Dənizdə təhlükə
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Böyük şəhər ərazisi
+0x02	Kiçik şəhər ərazisi
+0x03	Kənd yaşayış sahəsi 
+
+0x04	Hərbi baza
+0x05	Dayanacaq 
+0x06	Qaraj
+0x07	Hava limanı
+0x08	Alış-veriş mərkəzi
+0x09	Şəxsi liman
+0x0a	Universitt/Ali məktəb
+0x0b	Xəstəxana
+0x0c	Sənaye kompleksi
+0x0d	Qoruq
+0x0e	Uçuş zolağı
+0x13	Antropogen ərazi 
+0x18	Golf meydançası
+0x19	İdman arealı
+0x1a	Qəbirsanlıq
+
+0x14	Milli park 
+0x15	Milli park 
+0x16	Milli park 
+0x17	Şəhər parkı
+0x1e	Dövlət parkı
+0x1f	Dövlət parkı
+0x20	Dövlət parkı
+
+0x28	Dəniz/Okean
+0x32	Dəniz 
+0x3c	Böyük göl, 250 – 600 km2
+0x3d	Böyük göl, 77 – 250 km2
+0x3e	Böyük göl, 25 – 77 km2
+0x3f	Orta göl, 11 – 25 km2
+0x40	Kiçik göl, 0,25 – 11 km2
+0x41	Kiçik göl, 0,25 km2 -dan az
+0x42	Əhəmiyyətli göl, 3,3 min km2 -dən çox 
+0x43	Əhəmiyyətli göl, 1,1 – 3,3 min km2
+0x44	Böyük göl, 0,6 – 1,1 tis. km2
+0x46	Əhəmiyyətli çay
+0x47	Böyük çay
+0x48	Orta çay
+0x49	Kiçik çay
+0x4c	Mövsümi çay
+
+;0x4a	
+;0x4b	
+
+0x4d	Buzlaq
+0x4e	Bağ/plantasiya	 	 
+0x4f	Səhralıq
+0x50	Meşə
+0x51	Çayırlıq/bataqlıq
+0x52	Tundra
+0x53	Qumlu/bataqlıq/palçıqlı yer

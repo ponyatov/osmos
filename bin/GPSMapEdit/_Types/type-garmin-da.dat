@@ -1,0 +1,437 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+;
+
+.TYPESET Garmin
+
+; The Language ID for Danish defined by Microsoft
+;
+.LANGID 0x406
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN	Ukendt
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	By stor (>10M)
+0x0200	By stor (5-10M)
+0x0300	By stor (2-5M)
+0x0400	By stor (1-2M)
+0x0500	By mellem (0.5-1M)
+0x0600	By mellem (200-500K)
+0x0700	By mellem (100-200K)
+0x0800	By lille (50-100K)
+0x0900	By lille (20-50K)
+0x0a00	By lille (10-20K)
+0x0b00	By lille (5-10K)
+0x0c00	Afregning (2-5K)
+0x0d00	Afregning (1-2K)
+0x0e00	Afregning (500-1K)
+0x0f00	Afregning (200-500)
+0x1000	Afregning (100-200)
+0x1100	Afregning (<100)
+
+; Labels without icons
+0x1400	Større land navn
+0x1500	Mindre land navn
+0x1e00	Provins/region navn
+0x1f00	Amt/sogn navn
+0x2800	Label
+
+; Marine features
+0x1200	Lystbådehavn med faciliteter
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Navigationspunkt
+0x1601	Horn
+0x1602	Radiofyr
+0x1603	Racon
+0x1604	Dagssignal (red triangle)
+0x1605	Dagssignal (green square)
+0x1606	Dagssignal (white diamond)
+0x1607	Uoplyst navigationspunkt, hvidt
+0x1608	Uoplyst navigationspunkt, rødt
+0x1609	Uoplyst navigationspunkt, grønt
+0x160a	Uoplyst navigationspunkt, sort
+0x160b	Uoplyst navigationspunkt, gult
+0x160c	Uoplyst navigationspunkt, orange
+0x160d	Uoplyst navigationspunkt (multi colored)
+0x160e	Navigationspunkt (unknown)
+0x160f	Navigationspunkt, hvidt
+0x1610	Navigationspunkt, rødt
+0x1611	Navigationspunkt, grønt
+0x1612	Navigationspunkt, gult
+0x1613	Navigationspunkt, orange
+0x1614	Navigationspunkt, violet
+0x1615	Navigationspunkt, blåt
+0x1616	Navigationspunkt (multi colored)
+
+0x1c00	Uklassificeret forhindring
+0x1c01	Synligt vrag
+0x1c02	Nedsænket vrag, farlig for sejlads
+0x1c03	Nedsænket vrag
+0x1c04	Vrag, fjernet ved strygning
+0x1c05	Forhindring, synlig ved højvande
+0x1c06	Forhindring, i vandoverfladen
+0x1c07	Forhindring, nedsænket
+0x1c08	Forhindring, fjernet
+0x1c09	Klippe, i overfladen
+;0x1c0a	
+;0x1c0b	
+
+; Tide table prediction used in marine maps
+0x1d00	Pejlestation for tidevand/havstrøm
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	Exit 
+0x2100	Exit  (facilities)
+0x210f	Exit  (service)
+0x2200	Exit  (restroom)
+0x2300	Kiosk
+0x2400	Lastbilvægt
+0x2500	Betalingsanlæg
+0x2600	Exit  (information)
+0x2700	Exit 
+
+0x2900	Andet
+
+0x2a00	Mad og drikke
+0x2a01	Amerikansk
+0x2a02	Asiatisk
+0x2a03	Barbecue
+0x2a04	Kinesisk
+0x2a05	Delikatesse/bageri
+0x2a06	Internatonalt
+0x2a07	Fastfood
+0x2a08	Italiensk
+0x2a09	Mexicansk
+0x2a0a	Pizzeria
+0x2a0b	Fisk
+0x2a0c	Bøf/grill
+;0x2a0d	
+;0x2a0e	
+0x2a0f	Fransk
+0x2a10	Tysk
+0x2a11	Britiske øer
+0x2a12	Fødevarespecialiteter
+
+0x2b00	Overnatning
+0x2b01	Hotel/motel
+;0x2b02	
+0x2b03	Camping/RV-parkering
+;0x2b04	
+
+0x2c00	Attraktioner
+0x2c01	Forlystelsespark
+0x2c02	Museum
+0x2c03	Bibliotek
+0x2c04	Landemærke
+0x2c05	Skole
+0x2c06	Park/have
+0x2c07	Zoo
+0x2c08	Arena/bane
+0x2c09	Hal/auditorium
+0x2c0a	Vingård
+0x2c0b	Kirke
+
+0x2d00	Underholdning
+0x2d01	Teater
+0x2d02	Bar/natklub
+0x2d03	Biograf
+0x2d04	Casino
+0x2d05	Golfbane
+0x2d06	Skicenter/feriested
+0x2d07	Bowlingcenter
+0x2d08	Skøjtebane
+0x2d09	Svømmepøl
+0x2d0a	Sports/fitnesscenter
+0x2d0b	Offentlig flyveplads
+
+0x2e00	Shopping
+0x2e01	Varehus
+0x2e02	Købmand
+0x2e03	Detailhandel
+0x2e04	Indkøbscenter
+0x2e05	Apotek
+0x2e06	Dagligvarer
+0x2e07	Beklædning
+0x2e08	Hus og have
+0x2e09	Boligudstyr
+0x2e0a	Specialforretning
+0x2e0b	Computer/software
+
+;0x2f00	
+0x2f01	Autobrændstof
+0x2f02	Biludlejning
+0x2f03	Bilreparation
+0x2f04	Lufttransport
+0x2f05	Posthus
+0x2f06	Bank/pengeautomat
+0x2f07	Forhandler/autoreservedele
+0x2f08	Landtransport
+0x2f09	Marina/bådreparation
+0x2f0a	Bjærgningsservice
+0x2f0b	Parkering
+0x2f0c	Hvileområde/turistinformationer
+0x2f0d	Automobilforening
+0x2f0e	Bilvask
+0x2f0f	GARMIN-forhandler
+0x2f10	Personlig service
+0x2f11	Forretningsservice
+0x2f12	Kommunikation
+0x2f13	Reparation
+0x2f14	Socialservice
+0x2f15	Offentligt værk
+0x2f16	Truckstop
+0x2f17	Transitservice
+
+;0x3000	
+0x3001	Politistation
+0x3002	Hospital
+0x3003	Rådhus
+0x3004	Domhus
+0x3005	Kulturcenter
+0x3006	Grænseovergang
+0x3007	Minesterialkontor
+0x3008	Brandstation
+
+0x4000	Golfbane
+0x4100	Fiskeområde
+0x4200	Vrag
+0x4300	Lystbådehavn
+0x4400	Tankstation
+0x4500	Restaurant
+0x4600	Bar
+0x4700	Slæbested
+0x4800	Camping
+0x4900	Park
+0x4a00	Picnicområde
+0x4b00	Lægehus
+0x4c00	Information
+0x4d00	Parkeringsplads
+0x4e00	Toilet
+0x4f00	Bruser
+0x5000	Drikkevand
+0x5100	Telefon
+0x5200	Malerisk område
+0x5300	Skiområde
+0x5400	Bade område
+0x5500	Dæmning
+
+; Aviation
+0x5600	Kontrolleret område
+0x5700	Fareområde
+0x5800	Militært område
+0x5900	Lufthavn
+0x5901	Lufthavn (stor)
+0x5902	Lufthavn (mellem)
+0x5903	Lufthavn (lille)
+0x5904	Helikopterlandingsplads
+0x5905	Lufthavn
+
+0x5a00	Milepæl
+0x5b00	Klokke
+;0x5c00	
+;0x5d00	
+;0x5e00	
+0x6000	Horn
+;0x6100	
+
+0x6200	Spot dybde
+0x6300	Spot højde
+
+; Man-made features
+0x6400	Menneskeskabt seværdighed
+0x6401	Bro
+0x6402	Bygning
+0x6403	Kirkegård
+0x6404	Kirke
+0x6405	Civil
+0x6406	Overskæring
+0x6407	Dæmning
+0x6408	Hospital
+0x6409	Anløbsbro
+;0x640a	
+0x640b	Militært
+0x640c	Mine
+0x640d	Oliefelt
+0x640e	Park
+0x640f	Posthus
+0x6410	Skole
+0x6411	Tårn
+0x6412	Udgangspunkt for sti
+0x6413	Tunnel
+0x6414	Brønd
+0x6415	Spøgelsesby
+;0x6416	
+
+; Water features
+0x6500	Vandseværdighed
+;0x6501	
+;0x6502	
+;0x6503	
+;0x6504	
+;0x6505	
+;0x6506	
+;0x6507	
+;0x6508	
+;0x6509	
+0x650a	Gletcher
+;0x650b	
+;0x650c	
+0x650d	Sø
+;0x650e	
+;0x650f	
+0x6510	Hav
+;0x6511	
+0x6512	Vandløb
+0x6513	Vådområde
+
+; Land features
+0x6600	Landseværdighed
+;0x6601	
+;0x6602	
+;0x6603	
+0x6604	Strand
+;0x6605	
+;0x6606	
+;0x6607	
+;0x6608	
+0x6609	Slette
+0x660a	Skov
+;0x660b	
+;0x660c	
+;0x660d	
+;0x660e	
+;0x660f	
+;0x6610	
+;0x6611	
+;0x6612	
+;0x6613	
+0x6614	Klippe
+;0x6615	
+0x6616	Højdepunkt
+;0x6617	
+0x6618	Skov
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Vej
+
+; Three levels of highways
+0x01	Major motorvej
+0x02	Principal motorvej
+0x03	Andre motorvej
+
+; Most important kind of street
+0x04	Arteriel vej
+; Medium important kind of street
+0x05	Collector vej
+; Ordinary street (80%)
+0x06	Villavej
+; Smallest kind of street
+0x07	Gyde
+
+0x08	Rampe (low-speed)
+0x09	Rampe (high-speed)
+0x0a	Grusvej
+0x0b	Major motorvej stik
+0x0c	Rundkørsel
+0x16	Sti
+0x14	Jernbane
+0x1a	Færge
+0x1b	Færge
+
+0x19	Tidszone
+0x1e	Intl. Grænse
+0x1c	Delst./egn Grænse
+0x1d	Amtsgrænse
+
+0x15	Kystlinje
+0x18	Vandløb
+0x1f	Flod
+0x26	Tilbagevendende vandløb
+
+0x20	Konturlinjer (1/10)
+0x21	Konturlinjer (1/2)
+0x22	Konturlinjer (1/1)
+0x23	Dybdekontur (1/10)
+0x24	Dybdekontur (1/2)
+0x25	Dybdekontur (1/1)
+
+;0x27	
+0x28	Rørledning
+0x29	Strømledning
+
+0x2a	International sømilegrænse
+0x2b	Fare
+
+;========================================================================================
+
+.POLYGON
+
+0x01	By boligområdet (>200K)
+0x02	By boligområdet (<200K)
+0x03	Landdistrikter boligområdet
+
+0x04	Militærbase
+0x05	parkeringsplads
+0x06	Parkeringsanlæg
+0x07	Lufthavn
+0x08	Indkøbscenter
+0x09	Lystbådehavn
+0x0a	Universitet
+0x0b	Hospital
+0x0c	Industriområde
+0x0d	Reservat
+0x0e	Landingsbane
+0x13	Bygning
+0x18	Golfbane
+0x19	Sportsområde
+0x1a	Kirkegård
+
+0x14	Nationalpark
+0x15	Nationalpark
+0x16	Nationalpark
+0x17	Bypark
+0x1e	Statspark
+0x1f	Statspark
+0x20	Statspark
+
+0x28	Ocean
+0x32	Hav
+0x3c	Sø (250-600 km²)
+0x3d	Sø (77-250 km²)
+0x3e	Sø (25-77 km²)
+0x3f	Sø (11-25 km²)
+0x40	Sø (0.25-11 km²)
+0x41	Sø (<0.25 km²)
+0x42	Sø (>3300 km²)
+0x43	Sø (1100-3300 km²)
+0x44	Sø (600-1100 km²)
+0x46	Flod (>1 km)
+0x47	Flod (200 m-1 km)
+0x48	Flod (40-200 m)
+0x49	Flod (<40 m)
+0x4c	Tilbagevendende vand
+
+0x4a	Et område med kort udvælgelse
+0x4b	Område med kortdækning
+
+0x4d	Gletcher
+0x4e	Plantage
+0x4f	Krat
+0x50	Skov
+0x51	Vådområde
+0x52	Tundra
+0x53	Slette

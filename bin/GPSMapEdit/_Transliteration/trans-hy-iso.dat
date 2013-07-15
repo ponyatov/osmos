@@ -1,0 +1,149 @@
+﻿.TRANSLITERATION
+
+; This file is used by GPSMapEdit to provide translitertion table for Armenian.
+; Based on ISO-9985, http://en.wikipedia.org/wiki/Romanization_of_Armenian.
+;
+; NOTE: if you want to translate this file to another language,
+; please keep the first line (".TRANSLITERATION") as is.
+;
+
+; Display name for data
+.NAME Armenian->Ext.Latin (ISO-9985)
+
+; Language ID for Armenian defined by Microsoft
+.LANGID 1067
+
+;
+; Tests
+;
+
+.TEST Երևան Erewan
+
+;
+; The substitutions
+;
+
+.DATA
+Ա	A
+ա	a
+Բ	B
+բ	b
+Գ	G
+գ	g
+Դ	D
+դ	d
+Ե	E
+ե	e
+Զ	Z
+զ	z
+Է	Ē
+է	ē
+Ը	Ë
+ը	ë
+Թ	T’
+թ	t’
+Ժ	Ž
+ժ	ž
+Ի	I
+ի	i
+Լ	L
+լ	l
+Խ	X
+խ	x
+Ծ	Ç
+ծ	ç
+Կ	K
+կ	k
+Հ	H
+հ	h
+Ձ	J
+ձ	j
+Ղ	Ġ
+ղ	ġ
+Ճ	Č̣
+ճ	č̣
+Մ	M
+մ	m
+Յ	Y
+յ	y
+Ն	N
+ն	n
+Շ	Š
+շ	š
+Ո	O
+ո	o
+Չ	Č
+չ	č
+Պ	P
+պ	p
+Ջ	J̌
+ջ	ǰ
+Ռ	Ṙ
+ռ	ṙ
+Ս	S
+ս	s
+Վ	V
+վ	v
+Տ	T
+տ	t
+Ր	R
+ր	r
+Ց	C’
+ց	c’
+Ւ	W
+ւ	w
+Փ	P’
+փ	p’
+Ք	K’
+ք	k’
+Օ	Ò
+օ	ò
+Ֆ	F
+ֆ	f
+ՈՒ	ow
+ու	ow
+և	ew
+
+
+;
+; http://www.translator.am/en/dictionary.html
+; http://diict.com/hy
+;
+-րդ	-th
+-ին	-st
+
+փողոց	street
+փողոցի	street
+փողոցների	street
+փող.	str.
+փող	str.
+պողոտայի	avenue
+պողոտա	avenue
+նրբանցք	lane
+նրբանացք	lane
+նրբացք	lane
+նրբանց	lane
+նրբ.	lane
+նրբ	lane
+փակուղի	deadend
+Փակուղի	deadend
+փակ	deadend
+խճուղի	highway
+մայրուղի	motorway
+հրապարակ	square
+Նրբանցք	Alley
+թաղամասի	district
+թաղամաս	district
+խաչմերուկ	crossroads
+խարմերուկ	crossroads
+եղբայրների	Brothers
+ճանապարհ	road
+Մայրուղի	Arterial road
+Դաշտային	field road
+Ասֆալտապատված	Asphalt
+Գրունտային	Ground
+Մայթ	Sidewalk
+Անանուն	Anonymous
+անանուն	anonymous
+Առանց	without 
+եզրագծի	contour

@@ -1,0 +1,197 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+;
+
+.TYPESET Navitel
+
+; The Language ID for Latvian defined by Microsoft
+;
+.LANGID 0x426
+
+;========================================================================================
+
+.POINT
+
+0xf001	Autobusa stacija
+0xf002	Autobusa pietura
+0xf003	Tramvaja pietura
+0xf004	Trolejbusa pietura
+0xf005	Metro stacija
+0xf006	Dzelzceļa stacija
+0xf007	Dzelzceļa terminālis
+0xf008	Viensliežu stacija
+0xf009	Trošu vagoniņa pietura
+0xf00a	Osta
+0xf00b	Kuģu piestātne
+0xf00c	Prāmju terminālis
+
+0xf101	Pareizticīgo baznīca
+0xf102	Katoļu baznīca
+0xf103	Protestantu baznīca
+0xf104	Mošeja
+0xf105	Sinagoga
+0xf106	Pagoda
+
+0xf201	Luksofors
+0xf202	Ceļu policijas postenis
+0xf203	Dzelceļa pārbrauktuve (ar barjeru)
+0xf204	Nelīdzens ceļš
+0xf205	Radars
+0xf206	Augstuma ierobežojums
+0xf207	Nav atļauti tranzītpārvadājumi
+0xf208	GUS
+0xf209	Riepu montāža
+0xf20a	Riteņu ģeometrijas regulēšana
+0xf20b	Dzelzceļa pārbrauktuve (bez barjeras)
+0xf20c	Apvedceļš
+
+0xf301	Piemineklis
+0xf302	Strūklaka
+0xf303	Ūdenstornis
+0xf304	TV/radio tornis
+0xf305	Ģeodēziskais punkts
+0xf306	Kalnu pāreja
+0xf307	Brasls
+0xf308	Bedre
+0xf309	Kapkalns
+0xf30a	Akmeņi
+0xf30b	Kūdrājs
+0xf30c	Gājēju tilts
+0xf30d	Alas ieeja
+
+0xf401	Lapu koku mežs
+0xf402	Skuju koku mežs
+0xf403	Jauktu koku mežs
+0xf404	Atsevišķs koks
+0xf405	Atsevišķš krūms
+0xf406	Koku puduris
+
+0xf501	Pirmsskolas izglītības iestāde
+0xf502	Pamatskola
+0xf503	Arodskola
+0xf504	Universitāte/koledža
+0xf505	Specializēta skola
+
+0xf601	Bankomāts
+0xf602	Frizētava
+0xf603	Sauna
+0xf604	Veļas mazgātava
+0xf605	Fotogrāfa studija
+0xf606	Šuvēja ateljē
+0xf607	Elektroierīču remonts
+0xf608	Datoru remonts
+0xf609	Apģērbu remonts
+0xf60a	Apavu remonts
+0xf60b	Mēbeļu remonts
+0xf60c	Juristu birojs
+0xf60d	Notāra birojs
+0xf60e	Apdrošināšana
+0xf60f	Nekustamā īpašuma aģentūra
+0xf610	Informācijas pakalpojumi
+0xf611	Redakcija
+0xf612	Izdevniecība
+0xf613	Ceļojumu aģentūra
+0xf614	Gaisa/sliežu transporta biļešu kase
+0xf615	Bezmaksas Wi-Fi piekļuves punkts
+0xf616	Interneta kafejnīca
+
+0xf701	Tirgus
+0xf702	Apavu veikals
+0xf703	Rūpniecības preču veikals
+0xf704	Mājsaimniecības ķīmisko izstrādājumu veikals
+0xf705	Elektropreces
+0xf706	Mobilās ierīces
+0xf707	Sporta un tūrisma preces
+0xf708	Ieroču veikals
+0xf709	Dāvanu veikals
+0xf70a	Ziedu veikals
+0xf70b	Juvelierizstrādājumu veikals
+0xf70c	Zooveikals
+
+0xf801	Zobārstniecība
+0xf802	Veterinārā klīnika
+
+0xf901	Cirks
+
+;========================================================================================
+
+.POLYLINE
+
+;0x3d	
+;0x3e	
+
+0x3f	Tramvaja līnija
+0x40	Viensliežu līnija
+0x41	Trošu vagoniņa līnija
+
+0x42	Zemesceļš vai grantēts ceļš
+0x43	Tunelis
+0x44	Upe
+
+0x45	Pilsētas rajona robeža
+0x46	Žogs
+
+0x47	Plānots maršruts
+0x48	Meža ugunsdrošības josla
+0x49	Braukšanas josla
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Lielceļš
+0x69	Automaģistrāle
+0x6a	Laukums
+0x6b	Ceļš
+
+; Buildings
+0x6c	Dzīvojamā ēka
+0x6d	Biroju ēka
+0x6e	Sabiedriska ēka
+0x6f	Rūpnieciskās ražošanas ēka
+
+;0x70	
+;0x71	
+;0x72	
+;0x73	
+;0x74	
+;0x75	
+;0x76	
+;0x77	
+;0x78	
+;0x79	
+;0x7a	
+;0x7b	
+;0x7c	
+;0x7d	
+;0x7e	
+;0x7f	
+;0x80	
+
+0x81	Dumbrājs
+0x82	Pundurmežs
+0x83	Retmežs
+0x84	Izdedzis/nedzīvs mežs
+0x85	Izcirtums
+0x86	Vīnogu audzētava
+0x87	Rīsa lauks
+0x88	Pļava
+0x89	Smiltis
+0x8a	Akmeņaina platība
+0x8b	Sāls zeme/solončaks
+0x8c	Niedres
+0x8d	Ūdenszāles
+0x8e	Ērkšķaini krūmi
+0x8f	Vētras lauzti koki
+0x90	Zvilnājs
+0x91	Saksauls
+0x92	Bambuss
+0x93	Palmu mežs
+0x94	Mangroves
+0x95	Augsta zāle
+0x96	Sūnas
+0x97	Ķērpji
+0x98	Zāliens

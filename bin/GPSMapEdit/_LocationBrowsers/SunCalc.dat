@@ -1,0 +1,25 @@
+.location_browser 1
+
+.name             "SunCalc.net"
+.submenu1         @r8813
+.class            suncalc
+
+.include_script   StdLevel.js
+.script           JScript
+////////////////////////////////////////////
+
+// Sample:
+//   http://www.suncalc.net/#/53.5403,21.4453,2/2013.03.12/09:11
+//
+function Browse (_x, _y, _scale) {
+	var nLevel = GetStdLevel (_y, _scale) + 1;
+	if (nLevel > 19)
+		nLevel = 19;
+	if (nLevel < 0)
+		nLevel = 0;
+
+	var d = new Date ();
+
+	var WshShell = new ActiveXObject ("WScript.Shell");
+	WshShell.Run ("http://www.suncalc.net/#/" + _y.toFixed (4) + "," + _x.toFixed (4) + "," + nLevel + "/" + d.getFullYear () + "." + d.getMonth () + "." + d.getDate () + "/" + d.getHours () + ":" + d.getMinutes ());
+}

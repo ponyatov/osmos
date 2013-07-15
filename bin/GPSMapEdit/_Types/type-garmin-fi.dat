@@ -1,0 +1,437 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+;
+
+.TYPESET Garmin
+
+; The Language ID for Finnish defined by Microsoft
+;
+.LANGID 0x40b
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN	Tuntematon
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	Suuri kaupunki, yli 10 milj.
+0x0200	Suuri kaupunki, 5-10 milj.
+0x0300	Suuri kaupunki, 2-5 milj.
+0x0400	Suuri kaupunki, 1-2 milj.
+0x0500	Keskikokoinen kaupunki, 0,5-1 milj.
+0x0600	Keskikokoinen kaupunki, 200-500 tuhatta
+0x0700	Keskikokoinen kaupunki, 100-200 tuhatta
+0x0800	Pieni kaupunki, 50-100 tuhatta
+0x0900	Pieni kaupunki, 20-50 tuhatta
+0x0a00	Pieni kaupunki/kunta, 10-20 tuhatta
+0x0b00	Pieni kaupunki/kunta, 5-10 tuhatta
+0x0c00	Asutus, 2-5 tuhatta
+0x0d00	Asutus, 1-2 tuhatta
+0x0e00	Asutus, 500-1000
+0x0f00	Asutus, 200-500
+0x1000	Asutus, 100-200
+0x1100	Asutus, alle 100
+
+; Labels without icons
+0x1400	Suuri maan nimi
+0x1500	Pieni maan nimi
+0x1e00	Osavaltion/maakunnan/alueen nimi
+0x1f00	Kunnan/pitäjän nimi
+0x2800	Nimike
+
+; Marine features
+0x1200	Venesatama palveluilla
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Merimerkki
+0x1601	Sumutorvi
+0x1602	Radiomajakka
+0x1603	Tutkamajakka
+0x1604	Reimari, punainen kolmio
+0x1605	Reimari, vihreä neliö
+0x1606	Reimari, valkoinen vinoneliö
+0x1607	Valaisematon merimerkki, valkoinen
+0x1608	Valaisematon merimerkki, punainen
+0x1609	Valaisematon merimerkki, vihreä
+0x160a	Valaisematon merimerkki, musta
+0x160b	Valaisematon merimerkki, keltainen/kultainen
+0x160c	Valaisematon merimerkki, oranssi
+0x160d	Valaisematon merimerkki, monivärinen
+0x160e	Merimerkki, tuntematon
+0x160f	Merimerkki, valkoinen
+0x1610	Merimerkki, punainen
+0x1611	Merimerkki, vihreä
+0x1612	Merimerkki, keltainen/kultainen
+0x1613	Merimerkki, oranssi
+0x1614	Merimerkki, violetti
+0x1615	Merimerkki, sininen
+0x1616	Merimerkki, monivärinen
+
+0x1c00	Este
+0x1c01	Hylky
+0x1c02	Vedenalainen hylky, vaarallinen
+0x1c03	Vedenalainen hylky, vaaraton
+0x1c04	Hylky, poistettu naaraamalla
+0x1c05	Este, näkyvissä veden pinnalla
+0x1c06	Este, vesirajassa
+0x1c07	Este, veden alla
+0x1c08	Este, poistettu naaraamalla
+0x1c09	Kivi, vesirajassa
+0x1c0a	Kivi, matalan veden alla
+0x1c0b	Karilleajon mahdollisuus
+
+; Tide table prediction used in marine maps
+0x1d00	Vuorovesiennustus
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	Moottoritieliittymä
+0x2100	Valtatieliittymä palveluilla
+0x210f	Valtatieliittymä (palvelu)
+0x2200	Valtatieliittymä (WC-tilat)
+0x2300	Valtatieliittymä (kauppa)
+0x2400	Valtatieliittymä (punnitusasema)
+0x2500	Valtatieliittymä (tietulli)
+0x2600	Valtatieliittymä (neuvonta)
+0x2700	Moottoritieliittymä
+
+0x2900	Luokittelemattomat yritykset
+
+0x2a00	Ruokailu
+0x2a01	Ruokailu (amerikkalainen)
+0x2a02	Ruokailu (itämainen)
+0x2a03	Ruokailu (grilli)
+0x2a04	Ruokailu (kiinalainen)
+0x2a05	Ruokailu (kahvio/leipomo)
+0x2a06	Ruokailu (kansainvälinen)
+0x2a07	Pikaruokala
+0x2a08	Ruokailu (italialainen)
+0x2a09	Ruokailu (meksikolainen)
+0x2a0a	Ruokailu (pizza)
+0x2a0b	Ruokailu (meren antimet)
+0x2a0c	Ruokailu (pihvi/grilli)
+0x2a0d	Ruokailu (rinkeli/donitsi)
+0x2a0e	Ruokailu (kahvila/ruokala)
+0x2a0f	Ruokailu (ranskalainen)
+0x2a10	Ruokailu (saksalainen)
+0x2a11	Ruokailu (brittiläinen)
+0x2a12	Erityisruokatarvikkeet
+
+0x2b00	Majoitus
+0x2b01	Hotelli/motelli
+0x2b02	Aamiaismajoitus
+0x2b03	Leirintäalue/matkailuautoalue
+0x2b04	Lomakohde
+
+0x2c00	Nähtävyys
+0x2c01	Huvi-/teemapuisto
+0x2c02	Museo/historiallinen kohde
+0x2c03	Kirjasto
+0x2c04	Maamerkki
+0x2c05	Koulu
+0x2c06	Puisto/puutarha
+0x2c07	Eläintarha/akvaario
+0x2c08	Areena/rata
+0x2c09	Sali/auditorio
+0x2c0a	Viinitila
+0x2c0b	Kirkko
+
+0x2d00	Viihde
+0x2d01	Teatteri
+0x2d02	Baari/yökerho
+0x2d03	Elokuvateatteri
+0x2d04	Kasino
+0x2d05	Golf-kenttä
+0x2d06	Hiihtokeskus/-kohde
+0x2d07	Keilahalli
+0x2d08	Luistinrata
+0x2d09	Uimahalli
+0x2d0a	Urheilu-/kuntoilukeskus
+0x2d0b	Julkinen urheilulentokenttä
+
+0x2e00	Ostoskeskus
+0x2e01	Tavaratalo
+0x2e02	Ruokakauppa
+0x2e03	Kauppayhtiö
+0x2e04	Ostoskeskus
+0x2e05	Apteekki
+0x2e06	Kioski
+0x2e07	Vaateliike
+0x2e08	Talo ja puutarha
+0x2e09	Kodin sisustus
+0x2e0a	Erikoismyymälä
+0x2e0b	Tietokone/ohjelma
+
+0x2f00	Yleiset palvelut
+0x2f01	Huoltoasema
+0x2f02	Autovuokraus
+0x2f03	Autokorjaamo
+0x2f04	Ilmaliikenne
+0x2f05	Posti
+0x2f06	Pankki/pankkiautomaatti
+0x2f07	Auto-/varaosamyyjä
+0x2f08	Maaliikenne
+0x2f09	Venesatama/venekorjaus
+0x2f0a	Hinauspalvelu
+0x2f0b	Pysäköinti
+0x2f0c	Taukopaikka/matkailuinfo
+0x2f0d	Autokerho
+0x2f0e	Autopesula
+0x2f0f	Garmin-myyjä
+0x2f10	Henkilökohtaiset palvelut
+0x2f11	Yrityspalvelu
+0x2f12	Viestintäpalvelu
+0x2f13	Korjauspalvelu
+0x2f14	Sosiaalipalvelut
+0x2f15	Julkiset palvelut
+0x2f16	Rekkapysäkki
+0x2f17	Julkisliikenne
+
+0x3000	Hätäpalvelu/virasto
+0x3001	Poliisilaitos
+0x3002	Sairaala
+0x3003	Kaupungintalo
+0x3004	Oikeustalo
+0x3005	Monitoimitalo
+0x3006	Rajanylityspaikka
+0x3007	Hallintorakennus
+0x3008	Palolaitos
+
+0x4000	Golf-kenttä
+0x4100	Kalastuspaikka
+0x4200	Hylky
+0x4300	Venesatama
+0x4400	Huoltoasema
+0x4500	Ravintola
+0x4600	Baari
+0x4700	Veneenlaskupaikka
+0x4800	Leirintäalue
+0x4900	Puisto
+0x4a00	Piknik-alue
+0x4b00	Ensiapu
+0x4c00	Tiedot
+0x4d00	Pysäköinti
+0x4e00	WC
+0x4f00	Suihku
+0x5000	Juomavesi
+0x5100	Puhelin
+0x5200	Maisemanäkymät
+0x5300	Hiihto
+0x5400	Uima-alue
+0x5500	Pato
+
+; Aviation
+0x5600	Valvottu alue
+0x5700	Vaara-alue
+0x5800	Rajoitettu alue
+0x5900	Lentoasema
+0x5901	Suuri lentoasema
+0x5902	Keskikoinen lentoasema
+0x5903	Pieni lentoasema
+0x5904	Helikopterikenttä
+0x5905	Lentoasema
+
+0x5a00	Mailimerkintä
+0x5b00	Kello
+0x5c00	Sukelluspaikka
+0x5d00	Tunnusmajakka, vihreä neliö
+0x5e00	Tunnusmajakka, punainen neliö
+0x6000	Torvi
+0x6100	Talo
+
+0x6200	Syvyyspaikka
+0x6300	Elevaatiopiste
+
+; Man-made features
+0x6400	Keinotekoinen paikka
+0x6401	Silta
+0x6402	Rakennus
+0x6403	Hautausmaa
+0x6404	Kirkko/moskeija/ym.
+0x6405	Hallintorakennus
+0x6406	Risteys
+0x6407	Pato
+0x6408	Sairaala
+0x6409	Tulvapato
+0x640a	Kieli
+0x640b	Asevoimat
+0x640c	Kaivos
+0x640d	Öljykenttä
+0x640e	Puisto
+0x640f	Posti
+0x6410	Koulu
+0x6411	Torni
+0x6412	Metsäpolku
+0x6413	Tunneli
+0x6414	Kaivo
+0x6415	Historiallinen (autio-)kaupunki
+0x6416	Asuinalue
+
+; Water features
+0x6500	Vesielementti
+0x6501	Puro
+0x6502	Hiekkasärkkä
+0x6503	Lahti
+0x6504	Mutka
+0x6505	Kanaali
+0x6506	Kanava
+0x6507	Sola
+0x6508	Putoukset
+0x6509	Geysir
+0x650a	Jäätikkö
+0x650b	Satama
+0x650c	Saari
+0x650d	Järvi
+0x650e	Koski
+0x650f	Tekojärvi
+0x6510	Meri
+0x6511	Lähde
+0x6512	Puro
+0x6513	Kosteikko
+
+; Land features
+0x6600	Maanmuodostuma
+0x6601	Kaari
+0x6602	Alue
+0x6603	Syvänne
+0x6604	Ranta
+0x6605	Penkki
+0x6606	Niemi
+0x6607	Jyrkänne
+0x6608	Kraatteri
+0x6609	Tasainen
+0x660a	Metsä
+0x660b	Sola
+0x660c	Oja
+0x660d	Kannas
+0x660e	Laava
+0x660f	Pilari
+0x6610	Tasanko
+0x6611	Alue
+0x6612	Suojelualue
+0x6613	Harjanne
+0x6614	Kallio
+0x6615	Rinne
+0x6616	Huippu
+0x6617	Laakso
+0x6618	Metsäinen alue
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Tie
+
+; Three levels of highways
+0x01	Suuri valtatie
+0x02	Päävaltatie
+0x03	Muu valtatie
+
+; Most important kind of street
+0x04	Päätie
+; Medium important kind of street
+0x05	Kokoojatie
+; Ordinary street (80%)
+0x06	Tonttikatu
+; Smallest kind of street
+0x07	Kuja/yksityinen ajotie
+
+0x08	Valtatieramppi, hidas nopeus
+0x09	Valtatieramppi, nopea nopeus
+0x0a	Päällystämätön tie
+0x0b	Suuri valtatien liittymätie
+0x0c	Kiertoliittymä
+0x16	Kävelytie/-polku
+0x14	Rautatie
+0x1a	Vesi- tai junalautta
+0x1b	Vesi- tai junalautta
+
+0x19	Aikavyöhyke
+0x1e	Kansainvälinen raja
+0x1c	Osavaltion/maakunnan raja
+0x1d	Kunnan/pitäjän raja
+
+0x15	Vesialueen rantaviiva
+0x18	Puro
+0x1f	Joki
+0x26	Katkonainen puro/oja
+
+0x20	Pieni korkeuskäyrä
+0x21	Keskisuuri korkeuskäyrä
+0x22	Suuri korkeuskäyrä
+0x23	Pieni syvyyskäyrä
+0x24	Keskisuuri syvyyskäyrä
+0x25	Suuri syvyyskäyrä
+
+0x27	Lentokentän keskuskiitorata
+0x28	Öljy- tai vesiputki
+0x29	Voimajohto
+
+0x2a	Merellinen raja
+0x2b	Merellinen uhka
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Suuri taajama-alue (>200 tuhatta)
+0x02	Pieni taajama-alue (<200 tuhatta)
+0x03	Maasedun asuinalue
+
+0x04	Sotilastukikohta
+0x05	Pysäköinti
+0x06	Pysäköintihalli
+0x07	Lentoasema
+0x08	Ostoskeskus
+0x09	Venesatama
+0x0a	Yliopisto/oppilaitos
+0x0b	Sairaala
+0x0c	Teollisuusalue
+0x0d	Reservaatti
+0x0e	Kiitorata
+0x13	Keinotekoinen alue
+0x18	Golf-kenttä
+0x19	Urheilukeskus
+0x1a	Hautausmaa
+
+0x14	Kansallispuisto
+0x15	Kansallispuisto
+0x16	Kansallispuisto
+0x17	Kaupunginpuisto
+0x1e	Luonnonpuisto
+0x1f	Luonnonpuisto
+0x20	Luonnonpuisto
+
+0x28	Meri/valtameri
+0x32	Meri
+0x3c	Suurehko järvi, 250-600 km²
+0x3d	Suurehko järvi, 77-250 km²
+0x3e	Keskikokoinen järvi, 25-77 km²
+0x3f	Keskikokoinen järvi, 11-25 km²
+0x40	Pieni järvi, 0,25-11 km²
+0x41	Pieni järvi, alle 0,25 km²
+0x42	Suuri järvi, yli 3,3 t.km²
+0x43	Suuri järvi, 1,1-3,3 t.km²
+0x44	Suurehko järvi, 0,6-1,1 t.km²
+0x46	Suuri joki, >1 km
+0x47	Suuri joki, 200 m-1 km
+0x48	Keskikokoinen joki, 40-200 m
+0x49	Pieni joki, <40 m
+0x4c	Katkonainen vesialue
+
+0x4a	Alueen kartta valinta
+0x4b	Alueen kartan kattavuus
+
+0x4d	Jäätikkö
+0x4e	Puutarha/viljelmä
+0x4f	Pensaikko
+0x50	Metsä
+0x51	Kosteikko/suo
+0x52	Tundra
+0x53	Hiekka/vuorovesimaa/muta

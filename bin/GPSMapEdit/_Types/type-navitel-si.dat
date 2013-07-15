@@ -1,0 +1,198 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Navitel type set.
+; (c) Translated to Sinhalese by Shyamal D.L.R., 2012
+;
+
+.TYPESET Navitel
+
+; The Language ID for Sinhalese defined by Microsoft
+;
+.LANGID 0x45b
+
+;========================================================================================
+
+.POINT
+
+0xf001	Bus station
+0xf002	බස් නැවතුම්පොල
+0xf003	Tram stop
+0xf004	Trolley bus stop
+0xf005	Underground/Subway/Metro station
+0xf006	Railway stop
+0xf007	දුම්රිය ස්ථාන
+0xf008	Monorail stop/station
+0xf009	Funicular/Cable car stop
+0xf00a	වරාය
+0xf00b	Wharf
+0xf00c	Ferry terminal
+
+0xf101	බෞද්ධ විහාරස්ථාන
+0xf102	Catholic church
+0xf103	Protestant church
+0xf104	ක්‍රිස්තියානි දේවස්ථාන
+0xf105	හින්දු කෝවිල්
+0xf106	මුස්ලිම් පල්ලි
+
+0xf201	Traffic light
+0xf202	Traffic police
+0xf203	Railway crossing (with barrier)
+0xf204	Uneven road
+0xf205	Radar/Speed camera
+0xf206	Height limit
+0xf207	No transit traffic
+0xf208	Gas fuel for automobile
+0xf209	ටයර් සේවා
+0xf20a	වීල් එලයින්මන්ට්
+0xf20b	Railway crossing (without barrier)
+0xf20c	Traffic roundabout
+
+0xf301	පිළිම
+0xf302	වතුර මල
+0xf303	Water tower
+0xf304	TV/radio tower/mast
+0xf305	Geodetic point
+0xf306	Mountain pass
+0xf307	Ford
+0xf308	Pit
+0xf309	Barrow/Hurst
+0xf30a	Stones
+0xf30b	Peat quarry
+0xf30c	Foot-bridge
+0xf30d	Cavern entry
+
+0xf401	Deciduous forest
+0xf402	Coniferous forest
+0xf403	Mixed forest
+0xf404	Single tree
+0xf405	Isolated bush
+0xf406	Grove
+
+0xf501	මොන්ටිසෝරි
+0xf502	පාසැල්
+0xf503	අභ්‍යාස විද්‍යාලය
+0xf504	උසස් අධ්‍යාපන ආයතන
+0xf505	විශේෂිත අධ්‍යාපන ආයතන
+
+0xf601	ස්වයංක්‍රීය ටෙලර්
+0xf602	කොණ්ඩා සැකසීම
+0xf603	Sauna
+0xf604	ලොන්ඩරි
+0xf605	ඡායාරූපාගාරය
+0xf606	ඇඳුම් මැසීම
+0xf607	Repair for electric appliances
+0xf608	Repair for computers
+0xf609	Repair for clothes
+0xf60a	Repair for shoes
+0xf60b	Repair for furniture
+0xf60c	නීතිඥ කාර්යාල
+0xf60d	නොතාරිස්
+0xf60e	රක්ෂණ ආයතන
+0xf60f	Realty agency
+0xf610	විමසීම්
+0xf611	Publisher/Editor's office
+0xf612	Printing office
+0xf613	Travel agency
+0xf614	Booking office for airways/railroad
+0xf615	Free Wi-Fi hotspot
+0xf616	අන්තර්ජාල පහසුකම්
+
+0xf701	වෙළෙඳාම්පළ
+0xf702	පාවහන්
+0xf703	නිමි භාණ්ඩ
+0xf704	Household chemical goods
+0xf705	ඉලෙක්ට්‍රොනික භාණ්ඩ
+0xf706	ජංගම උපකරණ
+0xf707	ක්‍රීඩා භාණ්ඩ
+0xf708	Weapon shop
+0xf709	තෑගිබෝග සාප්පු
+0xf70a	මල් වෙළඳසැල්
+0xf70b	ස්වර්ණාභරණ
+0xf70c	සුරතල් සතුන්
+
+0xf801	දන්ත වෛද්‍ය
+0xf802	පශු වෛද්‍ය
+
+0xf901	Circus
+
+;========================================================================================
+
+.POLYLINE
+
+0x3d	Directed text, small
+0x3e	Directed text
+
+0x3f	Tram line
+0x40	Monorail line
+0x41	Funicular/Cable car line
+
+0x42	Earth or gravel road
+0x43	Tunnel
+0x44	River, thick
+
+0x45	City district boundary
+0x46	Fence
+
+0x47	Planned route
+0x48	Forest firebreak glade
+0x49	Traffic lane
+
+;========================================================================================
+
+.POLYGON
+
+; Roads
+0x68	Collector road
+0x69	Arterial road
+0x6a	Square
+0x6b	Road, street
+
+; Buildings
+0x6c	Residential building
+0x6d	Office building
+0x6e	Common building
+0x6f	Industrial building
+
+0x70	Black area
+0x71	Dark red area
+0x72	Dark green area
+0x73	Dark yellow area
+0x74	Dark blue area
+0x75	Dark magenta area
+0x76	Dark cyan area
+0x77	Light gray area
+0x78	Dark gray area
+0x79	Red area
+0x7a	Green area
+0x7b	Yellow area
+0x7c	Blue area
+0x7d	Magenta area
+0x7e	Cyan area
+0x7f	White area
+0x80	Text area
+
+0x81	Swamp forest
+0x82	Undersized forest
+0x83	Sparse forest
+0x84	Burnt/dead forest
+0x85	Stumped forest
+0x86	Vineyard
+0x87	Rice field
+0x88	Meadow
+0x89	Sand
+0x8a	Stony land
+0x8b	Saline land/Salt-marsh
+0x8c	Reed
+0x8d	Algae
+0x8e	Thornbush
+0x8f	Wind-fallen trees
+0x90	Elfin wood/Krummholz
+0x91	Saxaul
+0x92	Bamboo
+0x93	Palm forest
+0x94	Mangroves
+0x95	High grass
+0x96	Mosses
+0x97	Lichens
+0x98	Grass-plot/Lawn

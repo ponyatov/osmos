@@ -1,0 +1,444 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+; (c) Translated to German by Joern Weber, 2006
+; (c) Parts translated by Jorg Strachotta, 2006
+; (c) Minor fixes by Michael Schlenstedt, 2009
+;
+
+.TYPESET Garmin
+
+; The Language ID for German(Germany) defined by Microsoft
+;
+.LANGID 0x407
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN  Unbekannt
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	Megapole (über 10 Mio. Einwohner)
+0x0200	Megapole (5 bis 10 Mio. Einwohner)
+0x0300	Metropole (2 bis 5 Mio. Einwohner)
+0x0400	Metropole (1 bis 2 Mio. Einwohner)
+0x0500	Großstadt (0.5 bis 1 Mio. Einwohner)
+0x0600	Großstadt (200000  bis 500000 Einwohner)
+0x0700	Großstadt (100000 bis 200000 Einwohner)
+0x0800	Stadt (50000 bis 100000 Einwohner)
+0x0900	Stadt (20000 bis 50000 Einwohner)
+0x0a00	Kleinstadt (10000 bis 200000 Einwohner)
+0x0b00	Kleinstadt (5000 bis 10000 Einwohner)
+0x0c00	Ort (2000 bis 5000 Einwohner)
+0x0d00	Ort (1000 bis 2000 Einwohner)
+0x0e00	Dorf (500 bis 1000 Einwohner)
+0x0f00	Dorf (200 bis 500 Einwohner)
+0x1000	Dorf (100 bis 200 Einwohner)
+0x1100	Dorf (unter 100 Einwohner)
+
+; Labels without icons
+0x1400	Grosser Landesname
+0x1500	Kleiner Landesname
+0x1e00	Bundeslandes/Provinze/Region Name
+0x1f00	Landkreis/Gemeinde Name
+0x2800	Name (allgemein)
+
+; Marine features
+0x1200	Jachthafen mit Service
+0x1300	Marine (unbekannt)
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Seezeichen, Navigationshilfe
+0x1601	Nebelhorn
+0x1602	Funkbake
+0x1603	Radarantwortbake
+0x1604	Tagbake, rotes Dreieck
+0x1605	Tagbake, grünes Quadrat
+0x1606	Tagbake, weißer Diamant
+0x1607	Unbefeuertes Seezeichen, weiß
+0x1608	Unbefeuertes Seezeichen, rot
+0x1609	Unbefeuertes Seezeichen, grün
+0x160a	Unbefeuertes Seezeichen, schwarz
+0x160b	Unbefeuertes Seezeichen, gelb-amber
+0x160c	Unbefeuertes Seezeichen, orange
+0x160d	Unbefeuertes Seezeichen mehrfarbig
+0x160e	Befeuertes Seezeichen, unbekannt
+0x160f	Befeuertes Seezeichen, weiß
+0x1610	Befeuertes Seezeichen, rot
+0x1611	Befeuertes Seezeichen, grün
+0x1612	Befeuertes Seezeichen, gelb-amber
+0x1613	Befeuertes Seezeichen, orange
+0x1614	Befeuertes Seezeichen, violett
+0x1615	Befeuertes Seezeichen, blau
+0x1616	Befeuertes Seezeichen, mehrfarbig
+
+0x1c00	Nicht klassifiziertes Hindernis
+0x1c01	Sichtbares Wrack
+0x1c02	Unterwasserwrack, efährlich für die Schifffahrt
+0x1c03	Unterwasserwrack, ungefährlich
+0x1c04	Wrack, gereinigt bei Raumgärat
+0x1c05	Hindernis, sichbar bei Hochwasser
+0x1c06	Hindernis, überflutet
+0x1c07	Hindernis, unter Wasser
+0x1c08	Hindernis, gereinigt bei Raumgärat
+0x1c09	Fels, überflutet
+0x1c0a	Fels, bei Niedrigwasser bedeckt
+0x1c0b	Risiko von gestrandeten
+
+; Tide table prediction used in marine maps
+0x1d00	Gezeiten-/Strömungsvorhersagestation
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	Autobahnausfahrt
+0x2100	Autobahnausfahrt mit Einrichtungen
+0x210F	Autobahnausfahrt (bewitschaftet)
+0x2200	Autobahnausfahrt (Toilette)
+0x2300	Autobahnausfahrt (Bedarfsartikel)
+0x2400	Autobahnausfahrt (Wiegestation)
+0x2500	Autobahnausfahrt (Mautstelle)
+0x2600	Autobahnausfahrt (Information)
+0x2700	Autobahnausfahrt
+
+0x2900	Sonstige/Unklassifiziertes Geschäft 
+
+0x2a00	Essen & Trinken
+0x2a01	Essen (amerikanisch)
+0x2a02	Essen (asiatisch)
+0x2a03	Essen (Barbecue)
+0x2a04	Essen (Chinesisch)
+0x2a05	Essen (Feinkostladen/Bäckerei)
+0x2a06	Essen (international)
+0x2a07	Schnellimbiss
+0x2a08	Essen (Italienisch)
+0x2a09	Essen (Mexikanisch)
+0x2a0a	Pizzeria
+0x2a0b	Essen (Meeresfrüchte)
+0x2a0c	Steakhaus
+0x2a0d	Essen (Bagel/Donut)
+0x2a0e	Cafe
+0x2a0f	Essen (Französisch)
+0x2a10	Essen (Deutsch)
+0x2a11	Essen (Englisch)
+0x2a12	Spezielle Lebensmittel
+
+0x2b00	Unterkunft
+0x2b01	Hotel/Motel
+0x2b02	Bett und Frühstück
+0x2b03	Campingplatz/Wohnmobil-Park
+0x2b04	Resort Hotel
+
+0x2c00	Attraktionen
+0x2c01	Vergnügungspark/Themenpark
+0x2c02	Museum/Historische Sehenswürdigkeit
+0x2c03	Bibliothek
+0x2c04	Aussichtspunkt
+0x2c05	Schule
+0x2c06	Park/Garten
+0x2c07	Zoo/Aquarium
+0x2c08	Arena/Rennbahn
+0x2c09	Saal/Auditorium
+0x2c0a	Weingut
+0x2c0b	Andachtsort
+
+0x2d00	Unterhaltung
+0x2d01	Theater
+0x2d02	Bar/Nachtclub
+0x2d03	Kino
+0x2d04	Casino
+0x2d05	Golfplatz
+0x2d06	Skizentrum/Skiort
+0x2d07	Bowling-Bahn
+0x2d08	Schlittschuhbahn
+0x2d09	Badeanstallt
+0x2d0a	Fitness Studio
+0x2d0b	Öffentlicher Sportflugplatz
+
+0x2e00	Einkaufsmöglichkeiten
+0x2e01	Kaufhaus
+0x2e02	Lebensmittelgeschäft
+0x2e03	Großhändler
+0x2e04	Einkaufszentrum
+0x2e05	Apotheke/Drogerie
+0x2e06	Supermarkt/Bedarfsartikel
+0x2e07	Bekleidung
+0x2e08	Baumarkt/Haus und Garten
+0x2e09	Raumausstatter/Möbelhaus/Einrichtungsgegenstände
+0x2e0a	Spezialitäteneinzelhandel
+0x2e0b	Computergeschäft
+
+0x2f00	Service
+0x2f01	Autokraftstoff
+0x2f02	Autovermietung
+0x2f03	Autowerkstatt
+0x2f04	Luftverkehr
+0x2f05	Postamt
+0x2f06	Bank/Geldautomat
+0x2f07	Händler/Autoteile
+0x2f08	Landverkehr
+0x2f09	Yachthafen/Boot reparieren und Lagerung
+0x2f0a	Abschleppdienst/Bergungsdienst
+0x2f0b	Parkplatz
+0x2f0c	Rastplatz/Besucherinformation
+0x2f0d	Automobilclub
+0x2f0e	Autowäsche
+0x2f0f	GARMIN Händler
+0x2f10	Personaldienstleister
+0x2f11	Dienstleistungen für Unternehmen
+0x2f12	Kommunikationsdienstleister
+0x2f13	Werkstatt
+0x2f14	Sozialeinrichtungen
+0x2f15	Versorgungsbetrieb
+0x2f16	Autohof/Truckstop
+0x2f17	Transitservice
+
+0x3000	Notfall/Behörden
+0x3001	Polizeistation
+0x3002	Krankenhaus
+0x3003	Rathaus
+0x3004	Gericht
+0x3005	Gemeindezentrum
+0x3006	Grenzübergang
+0x3007	Regierungsstelle
+0x3008	Feuerwehr
+
+0x4000	Golfplatz
+0x4100	Fischereigebiet
+0x4200	Wrack
+0x4300	Marina
+0x4400	Tankstelle
+0x4500	Restaurant
+0x4600	Bar/Kneipe
+0x4700	Bootsrampe
+0x4800	Campingplatz
+0x4900	Park
+0x4a00	Picknickzone
+0x4b00	Medizinische Einrichtung
+0x4c00	Information
+0x4d00	Parkplatz
+0x4e00	Toilette
+0x4f00	Dusche
+0x5000	Trinkwasser
+0x5100	Telefon
+0x5200	Aussichtspunkt/Schöne Landschaft
+0x5300	Skistation
+0x5400	Badestelle
+0x5500	Staudamm
+
+; Aviation
+0x5600	Kontrollzone
+0x5700	Gefahrengebiet
+0x5800	Gebiet mit Schifffahrtsbeschränkungen
+0x5900	Flughafen
+0x5901	Großer Flughafen
+0x5902	Mittelgroßer Flughafen
+0x5903	Kleiner Flughafen
+0x5904	Hubschrauberlandeplatz
+0x5905	Flughafen
+
+0x5a00	Kilometerstein
+0x5b00	Glocke
+0x5c00	Taucherbereich
+0x5d00	Seezeichen (grün, rechteckig)
+0x5e00	Seezeichen (rot, dreieckig)
+0x6000	Horn
+0x6100	Gebäude
+
+0x6200	Tiefenpunkt
+0x6300	Höhenpunkt
+
+; Man-made features
+0x6400	Bauwerk
+0x6401	Brücke
+0x6402	Gebäude
+0x6403	Friedhof
+0x6404	Kirche/Mosche
+0x6405	Zivil
+0x6406	Überquerung
+0x6407	Damm
+0x6408	Krankenhaus
+0x6409	Deich
+;0x640a	
+0x640b	Militärgelände
+0x640c	Bergwerk
+0x640d	Ölfeld
+0x640e	Park
+0x640f	Postamt
+0x6410	Schule
+0x6411	Turm
+0x6412	Weganfang
+0x6413	Tunnel
+0x6414	Brunnen
+0x6415	Geisterstadt
+;0x6416
+
+; Water features
+0x6500	Gewässerart
+0x6501	Arroyo
+0x6502	Sandbank
+0x6503	Küste
+;0x6504	
+0x6505	Kanal
+0x6506	Wasserstraße
+0x6507	Bucht
+0x6508	Wasserfall
+0x6509	Geysier
+0x650a	Gletscher
+0x650b	Hafen
+0x650c	Insel
+0x650d	See
+0x650e	Stromschnelle
+0x650f	Wasserspeicher
+0x6510	See
+0x6511	Quelle
+0x6512	Strom
+0x6513	Moor
+
+; Land features
+0x6600	Landmerkmal
+;0x6601	
+0x6602	Gebiet
+;0x6603	
+0x6604	Strand
+;0x6605	
+0x6606	Kap
+0x6607	Klippe
+0x6608	Krater
+0x6609	Ebene
+0x660a	Wald
+0x660b	Schlucht
+0x660c	Gut
+0x660d	Landenge
+0x660e	Lava
+0x660f	Säule
+0x6610	Flachland
+0x6611	Range
+0x6612	Reservat
+0x6613	Grat
+0x6614	Felsen
+0x6615	Hang
+0x6616	Gipfel
+0x6617	Tal
+0x6618	Waldgebiet
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Straße
+
+; Three levels of highways
+0x01	Autobahn
+0x02	Autostraße
+0x03	Schnellstraße
+
+; Most important kind of street
+0x04	Ausfallstraße
+; Medium important kind of street
+0x05	Hauptstraße
+; Ordinary street (80%)
+0x06	Anliegerstraße
+; Smallest kind of street
+0x07	Gasse/Privatstraße
+
+0x08	Autobahn Rampe (langsam)
+0x09	Autobahn Rampe (schnell)
+0x0a	Unbefestigte Straße
+0x0b	Autobahn-Anschluss
+0x0c	Kreisverkehr
+0x16	Pfad/Wanderweg
+0x14	Eisenbahnstrecke
+0x1a	Fähre
+0x1b	Fähre
+
+0x19	Zeitzonengrenze
+0x1e	Internationale Grenze
+0x1c	Bundeslandes-/Provinzegrenze
+0x1d	Landkreis/Gemeinde Grenze
+
+0x15	Küstenlinie
+0x18	Bach
+0x1f	Fluss
+0x26	Intermittierende Bach/Graben
+
+0x20	Höhenlinie, dünn (1/10)
+0x21	Höhenlinie, mittel (1/2)
+0x22	Höhenlinie, dick (1/1)
+0x23	Tiefenlinie, dünn (1/10)
+0x24	Tiefenlinie, mittel (1/2)
+0x25	Tiefenlinie, dick (1/1)
+
+0x27	Mittelinie Flughafenstartbahn
+0x28	Öl- oder Wasserleitung
+0x29	Energielinie
+
+0x2a	Maritime Seegrenze
+0x2b	Maritime Gefahrenzone
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Bebautes Gebiet (>200000 Einwohner)
+0x02	Bebautes Gebiet (<200000 Einwohner)
+0x03	Ländliche Wohngebiet
+
+0x04	Militärgelände
+0x05	Parkplatz
+0x06	Parkhaus
+0x07	Flugplatz
+0x08	Einkaufszentrum
+0x09	Yachthafen
+0x0a	Universität/Hochschule
+0x0b	Krankenhaus
+0x0c	Gewerbegebiet
+0x0d	Reservat
+0x0e	Flughafenstartbahn
+0x13	Gebäude
+0x18	Golfplatz
+0x19	Sportkomplex
+0x1a	Friedhof
+
+0x14	Nationalpark
+0x15	Nationalpark
+0x16	Nationalpark
+0x17	Stadtpark
+0x1e	Landespark
+0x1f	Landespark
+0x20	Landespark
+
+0x28	Meer/Ozean
+0x29	Wasser
+0x32	Meer
+0x3b	Wasser
+0x3c	großer See (250-600 qkm)
+0x3d	großer See (77-250 qkm)
+0x3e	mittlerer See (25-77 qkm)
+0x3f	mittlerer See (11-25 qkm)
+0x40	kleiner See (0.25-11 qkm)
+0x41	kleiner See (<0.25 qkm)
+0x42	Sehr großer See (>3.300 qkm)
+0x43	Sehr großer See (1.100-3.300 qkm)
+0x44	großer See (600-1.100 qkm)
+0x45	Wasser
+0x46	breiten Fluss (>1 km)
+0x47	Großer Fluss (200 m-1 km)
+0x48	mittlerer Fluss (40-200 m)
+0x49	kleiner Fluss (<40 m)
+0x4c	Intermittierende Wasser
+
+0x4a	Raum der Karte Auswahl
+0x4b	Raum der Kartenabdeckung
+
+0x4d	Gletscher
+0x4e	Obstgarten/Plantage
+0x4f	Gestrüpp
+0x50	Wald
+0x51	Sumpf/Marschland
+0x52	Tundra
+0x53	Sandbank/Gezeiten/Wattenmeer

@@ -1,0 +1,26 @@
+.web_map         1
+
+.name            @r8810 " - Orthophoto"
+.submenu1        @r8812
+.submenu2        @c:UKR
+.image           ua.ico
+.class           ua-cadastral-ortophoto
+.cache_subfolder UkrainianCadastralSat
+;.hotkey          
+
+.def_version     ""
+.tile_referer    http://map.dazru.gov.ua/tile2/orto_10000/
+.tile_size       256
+.tile_ext        .jpg
+
+.include_script  ProjGoogle.js
+.script          JScript
+////////////////////////////////////////////
+
+function GetMaxLevel () {return 16;}
+function GetMinLevel () {return 5;}
+
+function MakeTileURL (_x, _y, _level, _version) {
+	var y = (1 << _level) - _y - 1;
+	return "http://map.dazru.gov.ua/tile2/orto_10000/" + _level + "/" + _x + "/" + y + ".jpg";
+}

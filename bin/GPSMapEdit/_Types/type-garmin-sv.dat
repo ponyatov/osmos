@@ -1,0 +1,437 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+;
+
+.TYPESET Garmin
+
+; The Language ID for Swedish defined by Microsoft
+;
+.LANGID 0x41d
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN	Okänt
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	Stad stor (>10M)
+0x0200	Stad stor (5-10M)
+0x0300	Stad stor (2-5M)
+0x0400	Stad stor (1-2M)
+0x0500	Stad medelstor (0.5-1M)
+0x0600	Stad medelstor (200-500K)
+0x0700	Stad medelstor (100-200K)
+0x0800	Stad liten (50-100K)
+0x0900	Stad liten (20-50K)
+0x0a00	Stad liten (10-20K)
+0x0b00	Stad liten (5-10K)
+0x0c00	Avveckling (2-5K)
+0x0d00	Avveckling (1-2K)
+0x0e00	Avveckling (500-1K)
+0x0f00	Avveckling (200-500)
+0x1000	Avveckling (100-200)
+0x1100	Avveckling (<100)
+
+; Labels without icons
+0x1400	Större landets namn
+0x1500	Mindre landets namn
+0x1e00	Provins/region namn
+0x1f00	Län/församling namn
+0x2800	Etikett
+
+; Marine features
+0x1200	Marina med anläggningar
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Navaid
+0x1601	Signalhorn
+0x1602	Radiofyr
+0x1603	Radarfyr
+0x1604	Dagfyr (red triangle)
+0x1605	Dagfyr (green square)
+0x1606	Dagfyr (white diamond)
+0x1607	Navaid - släckt, vit
+0x1608	Navaid - släckt, röd
+0x1609	Navaid - släckt, grön
+0x160a	Navaid - släckt, svart
+0x160b	Navaid - släckt, gulorange
+0x160c	Navaid - släckt, orange
+0x160d	Navaid - släckt (multi colored)
+0x160e	Navaid (unknown)
+0x160f	Navaid, vit
+0x1610	Navaid, röd
+0x1611	Navaid, grön
+0x1612	Navaid, gulorange
+0x1613	Navaid, orange
+0x1614	Navaid, lila
+0x1615	Navaid, blå
+0x1616	Navaid (multi colored)
+
+0x1c00	Oklassificerat hinder
+0x1c01	Vrak, synligt
+0x1c02	Vrak, farligt för ytnavigering
+0x1c03	Vrak
+0x1c04	Vrak, svept
+0x1c05	Synligt hinder vid högvatten
+0x1c06	Bränning
+0x1c07	Undervattenshinder
+0x1c08	Hinder, djupare än 18 m
+0x1c09	Sten i vattenytan
+;0x1c0a	
+;0x1c0b	
+
+; Tide table prediction used in marine maps
+0x1d00	Tidvattens-/strömberäkningsstation
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	Avfart 
+0x2100	Avfart  (facilities)
+0x210f	Avfart  (service)
+0x2200	Avfart  (restroom)
+0x2300	Butik
+0x2400	Vågar
+0x2500	Avgiftsplats
+0x2600	Avfart  (information)
+0x2700	Avfart 
+
+0x2900	Övrigt
+
+0x2a00	Mat och dryck
+0x2a01	Amerikanskt
+0x2a02	Asiatiskt
+0x2a03	Grillat
+0x2a04	Kinesiskt
+0x2a05	Delikatessaffär/konditori
+0x2a06	Internationellt
+0x2a07	Snabbmat
+0x2a08	Italienskt
+0x2a09	Mexikanskt
+0x2a0a	Pizzeria
+0x2a0b	Fisk och skaldjur
+0x2a0c	Stekt/grillat
+;0x2a0d	
+;0x2a0e	
+0x2a0f	Franskt
+0x2a10	Tyskt
+0x2a11	Brittiska öarna
+0x2a12	Särskilda matprodukter
+
+0x2b00	Logi
+0x2b01	Hotell/motell
+;0x2b02	
+0x2b03	Campingplats/husbilsparkering
+;0x2b04	
+
+0x2c00	Sevärdheter
+0x2c01	Nöjespark
+0x2c02	Museum/historiskt
+0x2c03	Bibliotek
+0x2c04	Landkännetecken
+0x2c05	Skola
+0x2c06	Park/trädgård
+0x2c07	Zoo
+0x2c08	Arena/stadium
+0x2c09	Hall/föreläsningssal
+0x2c0a	Vingård
+0x2c0b	Religiös plats
+
+0x2d00	Underhållning
+0x2d01	Teater
+0x2d02	Bar/nattklubb
+0x2d03	Bio
+0x2d04	Kasino
+0x2d05	Golfbana
+0x2d06	Skidanläggning/skidort
+0x2d07	Bowlinganläggning
+0x2d08	Skridskoåkning
+0x2d09	Pool
+0x2d0a	Sportcenter/gym
+0x2d0b	Allmän sportflygplats
+
+0x2e00	Shopping
+0x2e01	Varuhus
+0x2e02	Livsmedel
+0x2e03	Dagligvaruhandel
+0x2e04	Stormarknad
+0x2e05	Apotek
+0x2e06	Butik
+0x2e07	Kläder
+0x2e08	Hus och trädgård
+0x2e09	Heminredning
+0x2e0a	Specialbutik
+0x2e0b	Datorer/program
+
+;0x2f00	
+0x2f01	Bilbensin
+0x2f02	Biluthyrning
+0x2f03	Bilverkstad
+0x2f04	Flygtransport
+0x2f05	Postkontor
+0x2f06	Bank/bankomat
+0x2f07	Bilförsäljare/bilreservdelar
+0x2f08	Marktransport
+0x2f09	Marint/verkstad och förvaring
+0x2f0a	Skrot
+0x2f0b	Parkering
+0x2f0c	Rastplats/turistinformation
+0x2f0d	Bilklubb
+0x2f0e	Biltvätt
+0x2f0f	GARMIN-återförsäljare
+0x2f10	Personlig tjänst
+0x2f11	Affärstjänst
+0x2f12	Kommunikationer
+0x2f13	Reparationsverkstad
+0x2f14	Social tjänst
+0x2f15	Samhällstjänst
+0x2f16	Lastbilsstopp
+0x2f17	Transittjänst
+
+;0x3000	
+0x3001	Polisstation
+0x3002	Sjukhus
+0x3003	Stadhus
+0x3004	Rådhus
+0x3005	Folkets hus
+0x3006	Gränsövergång
+0x3007	Regeringskansli
+0x3008	Brandkår
+
+0x4000	Golfbana
+0x4100	Fiskeområde
+0x4200	Vrak
+0x4300	Hamn
+0x4400	Bensinstation
+0x4500	Restaurang
+0x4600	Bar
+0x4700	Båtramp
+0x4800	Campingplats
+0x4900	Park
+0x4a00	Picknickområde
+0x4b00	Vårdinrättning
+0x4c00	Information
+0x4d00	Parkeringsplats
+0x4e00	Toalett
+0x4f00	Dusch
+0x5000	Dricksvatten
+0x5100	Telefon
+0x5200	Naturområde
+0x5300	Skidanläggning
+0x5400	Badplats
+0x5500	Damm
+
+; Aviation
+0x5600	Övervakat område
+0x5700	Farozon
+0x5800	Skyddsområde
+0x5900	Flygplats
+0x5901	Flygplats (stor)
+0x5902	Flygplats (medelstor)
+0x5903	Flygplats (liten)
+0x5904	Helikopterplats
+0x5905	Flygplats
+
+0x5a00	Avståndsmarkör
+0x5b00	Klocka
+;0x5c00	
+;0x5d00	
+;0x5e00	
+0x6000	Signalhorn
+;0x6100	
+
+0x6200	Loddjup
+0x6300	Lodhöjd
+
+; Man-made features
+0x6400	Tillverkat kännetecken
+0x6401	Bro
+0x6402	Byggnad
+0x6403	Gravplats
+0x6404	Kyrka
+0x6405	Civil
+0x6406	Korsning
+0x6407	Damm
+0x6408	Sjukhus
+0x6409	Skyddsvall
+;0x640a	
+0x640b	Militär
+0x640c	Gruva
+0x640d	Oljefält
+0x640e	Park
+0x640f	Postkontor
+0x6410	Skola
+0x6411	Torn
+0x6412	Start på vandringsled
+0x6413	Tunnel
+0x6414	Brunn
+0x6415	Övergiven stad
+;0x6416	
+
+; Water features
+0x6500	Vattenkännetecken
+;0x6501	
+;0x6502	
+;0x6503	
+;0x6504	
+;0x6505	
+;0x6506	
+;0x6507	
+;0x6508	
+;0x6509	
+0x650a	Glaciär
+;0x650b	
+;0x650c	
+0x650d	Sjö
+;0x650e	
+;0x650f	
+0x6510	Hav
+;0x6511	
+0x6512	Vattendrag
+0x6513	Våtmark
+
+; Land features
+0x6600	Landkännetecken
+;0x6601	
+;0x6602	
+;0x6603	
+0x6604	Strand
+;0x6605	
+;0x6606	
+;0x6607	
+;0x6608	
+0x6609	Slätt
+0x660a	Skog
+;0x660b	
+;0x660c	
+;0x660d	
+;0x660e	
+;0x660f	
+;0x6610	
+;0x6611	
+;0x6612	
+;0x6613	
+0x6614	Klippa
+;0x6615	
+0x6616	Topp
+;0x6617	
+0x6618	Skog
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Väg
+
+; Three levels of highways
+0x01	Stor motorväg
+0x02	Huvudsaklig motorväg
+0x03	Andra Landsvägsgatan
+
+; Most important kind of street
+0x04	Trafikpulsåder
+; Medium important kind of street
+0x05	Collector väg
+; Ordinary street (80%)
+0x06	Bostadsgata
+; Smallest kind of street
+0x07	Gränd
+
+0x08	Avfart (low-speed)
+0x09	Avfart (high-speed)
+0x0a	Grusväg
+0x0b	Stora landsvägen kontakten
+0x0c	Rondell
+0x16	Led
+0x14	Järnväg
+0x1a	Färja
+0x1b	Färja
+
+0x19	Tidszon
+0x1e	Riksgräns
+0x1c	Privat gräns
+0x1d	Kommungräns
+
+0x15	Kustlinje
+0x18	Vattendrag
+0x1f	Bäck
+0x26	Tillfälligt vattendrag
+
+0x20	Höjdkurva (1/10)
+0x21	Höjdkurva (1/2)
+0x22	Höjdkurva (1/1)
+0x23	Djupkurva (1/10)
+0x24	Djupkurva (1/2)
+0x25	Djupkurva (1/1)
+
+;0x27	
+0x28	Rörledning
+0x29	Kraftledning
+
+0x2a	Marin gränslinje
+0x2b	Sjöfartshinder
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Stor stadsområde (>200K)
+0x02	Liten tätort (<200K)
+0x03	Landsbygdens bostadsområde
+
+0x04	Militärbas
+0x05	Parkeringsplats
+0x06	Parkeringsgarage
+0x07	Flygplats
+0x08	Stormarknad
+0x09	Hamn
+0x0a	Universitet/högskola
+0x0b	Sjukhus
+0x0c	Industriområde
+0x0d	Reservat
+0x0e	Landningsbana
+0x13	Byggnad
+0x18	Golfbana
+0x19	Sportanläggning
+0x1a	Gravplats
+
+0x14	Nationalpark
+0x15	Nationalpark
+0x16	Nationalpark
+0x17	Stadspark
+0x1e	Friluftsområde
+0x1f	Friluftsområde
+0x20	Friluftsområde
+
+0x28	Ocean
+0x32	Hav
+0x3c	Sjö (250-600 km²)
+0x3d	Sjö (77-250 km²)
+0x3e	Sjö (25-77 km²)
+0x3f	Sjö (11-25 km²)
+0x40	Sjö (0.25-11 km²)
+0x41	Sjö (<0.25 km²)
+0x42	Sjö (>3300 km²)
+0x43	Sjö (1100-3300 km²)
+0x44	Sjö (600-1100 km²)
+0x46	Bäck (>1 km)
+0x47	Bäck (200 m-1 km)
+0x48	Bäck (40-200 m)
+0x49	Bäck (<40 m)
+0x4c	Tillfälligt vattendrag
+
+0x4a	Område med karta urval
+0x4b	Område med karttäckning
+
+0x4d	Glaciär
+0x4e	Trädgård
+0x4f	Buskage
+0x50	Skog
+0x51	Våtmark
+0x52	Tundra
+0x53	Slätt

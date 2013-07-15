@@ -1,0 +1,437 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+;
+
+.TYPESET Garmin
+
+; The Language ID for Latvian defined by Microsoft
+;
+.LANGID 0x426
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN	Nezināms tips
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	Liela pilsēta, vairāk nekā 10 milj.
+0x0200	Liela pilsēta, 5-10 milj.
+0x0300	Liela pilsēta, 2-5 milj.
+0x0400	Liela pilsēta, 1-2 milj.
+0x0500	Vidēja pilsēta, 0,5-1 milj.
+0x0600	Vidēja pilsēta, 200-500 tūkst.
+0x0700	Vidēja pilsēta, 100-200 tūkst.
+0x0800	Maza pilsēta, 50-100 tūkst.
+0x0900	Maza pilsēta, 20-50 tūkst
+0x0a00	Maza pilsēta/ciemats, 10-20 tūkst
+0x0b00	Maza pilsēta/ciemats, 5-10 tūkst.
+0x0c00	Apdzīvota vieta, 2-5 tūkst.
+0x0d00	Apdzīvota vieta, 1-2 tūkst.
+0x0e00	Apdzīvota vieta, 500-1000
+0x0f00	Apdzīvota vieta, 200-500
+0x1000	Apdzīvota vieta, 100-200
+0x1100	Apdzīvota vieta, mazāk par 100
+
+; Labels without icons
+0x1400	Lielas saimniecības nosaukums
+0x1500	Mazas saimniecības nosaukums
+0x1e00	Štata/provinces/reģiona nosaukums
+0x1f00	Pavalsts/pagasta nosaukums
+0x2800	Birka
+
+; Marine features
+0x1200	Jahtu piestātne ar infrastruktūru
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Bāka
+0x1601	Miglas taure
+0x1602	Radiobāka
+0x1603	Radiolokācijas bāka
+0x1604	Dienas bāka, sarkans trīsstūris
+0x1605	Dienas bāka, zaļš kvadrāts
+0x1606	Dienas bāka, balts rombs
+0x1607	Neapgaismota bāka, balta
+0x1608	Neapgaismota bāka, sarkana
+0x1609	Neapgaismota bāka, zaļa
+0x160a	Neapgaismota bāka, melna
+0x160b	Neapgaismota bāka, dzeltena/dzintarkrāsas
+0x160c	Neapgaismota bāka, oranža
+0x160d	Neapgaismota bāka, dažādās krāsās
+0x160e	Bāka, nezināma
+0x160f	Bāka, balta
+0x1610	Bāka, sarkana
+0x1611	Bāka, zaļa
+0x1612	Bāka, dzeltena/dzintarkrāsas
+0x1613	Bāka, oranža
+0x1614	Bāka, violeta
+0x1615	Bāka, zila
+0x1616	Bāka, dažādās krāsās
+
+0x1c00	Šķērslis
+0x1c01	Vraks
+0x1c02	Nogrimis vraks, bīstams
+0x1c03	Nogrimis vraks, nav bīstams
+0x1c04	Vraks, nostiprināts ar trosēm
+0x1c05	Šķērslis, redzams augstā ūdens līmenī
+0x1c06	Šķērslis, ūdens līmenī
+0x1c07	Šķērslis, iegrimis
+0x1c08	Šļērslis, nostiprināts ar tauvām
+0x1c09	Rifs, ūdens līmenī
+0x1c0a	Rifs, iegrimis zem ūdens
+0x1c0b	Sēklis
+
+; Tide table prediction used in marine maps
+0x1d00	Paisumu prognoze
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	Šosejas nobrauktuve
+0x2100	Šosejas nobrauktuve ar infrastruktūru
+0x210f	Šosejas nobrauktuve (uz servisu)
+0x2200	Šosejas nobrauktuve (uz labierīcībām)
+0x2300	Šosejas nobrauktuve (uz veikalu)
+0x2400	Šosejas nobrauktuve (uz svēršanas punktu)
+0x2500	Šosejas nobrauktuve (uz kasi)
+0x2600	Šosejas nobrauktuve (uz informācijas punktu)
+0x2700	Šosejas nobrauktuve
+
+0x2900	Cita uzņēmējdarbība
+
+0x2a00	Ēdināšana
+0x2a01	Ēdināšana (amerikāņu)
+0x2a02	Ēdināšana (Āzijas)
+0x2a03	Ēdināšana (grilēti ēdieni)
+0x2a04	Ēdināšana (ķīniešu)
+0x2a05	Ēdināšana (delikatese/ceptuve)
+0x2a06	Ēdināšana (starptautiska)
+0x2a07	Ātrās uzkodas
+0x2a08	Ēdināšana (itāļu)
+0x2a09	Ēdināšana (meksikāņu)
+0x2a0a	Ēdināšana (pica)
+0x2a0b	Ēdināšana (jūras veltes)
+0x2a0c	Ēdināšana (steiks/grils)
+0x2a0d	Ēdināšana (konditorejas izstrādājumi)
+0x2a0e	Ēdināšana (kafejnīca/bufete)
+0x2a0f	Ēdināšana (franču)
+0x2a10	Ēdināšana (vāciešu)
+0x2a11	Ēdināšana (britu)
+0x2a12	Īpaši pārtikas izstrādājumi
+
+0x2b00	Naktsmītnes
+0x2b01	Viesnīca/motelis
+0x2b02	Brokastu viesnīca
+0x2b03	Kempings/treileru parks
+0x2b04	Kūrorts
+
+0x2c00	Tūrisma objekts
+0x2c01	Izklaides/tematiskais parks
+0x2c02	Muzejs/vēsture
+0x2c03	Bibliotēka
+0x2c04	Vēstures piemineklis
+0x2c05	Skola
+0x2c06	Parks/dārzs
+0x2c07	Zoodārzs/akvārijs
+0x2c08	Arēna/stadions
+0x2c09	Zāle/skatītāju zāle
+0x2c0a	Vīna darītava
+0x2c0b	Dievnams
+
+0x2d00	Izklaide
+0x2d01	Teātris
+0x2d02	Bārs/naktsklubs
+0x2d03	Kino
+0x2d04	Kazino
+0x2d05	Golfa laukums
+0x2d06	Slēpošanas centrs/kūrorts
+0x2d07	Boulinga centrs
+0x2d08	Slidošana
+0x2d09	Peldbaseins
+0x2d0a	Sporta/fitnesa centrs
+0x2d0b	Publiskā sporta lidosta
+
+0x2e00	Iepirkšanās
+0x2e01	Universālveikals
+0x2e02	Pārtikas veikals
+0x2e03	Tirdzniecības uzņēmums
+0x2e04	Tirdzniecības centrs
+0x2e05	Aptieka
+0x2e06	Ērtības veikals
+0x2e07	Apģērbs
+0x2e08	Māja un dārzs
+0x2e09	Mājas mēbeles
+0x2e0a	Specializēta mazumtirdzniecība
+0x2e0b	Dators/programmatūra
+
+0x2f00	Pakalpojumi
+0x2f01	Auto degviela
+0x2f02	Auto noma
+0x2f03	Auto remonts
+0x2f04	Gaisa transports
+0x2f05	Pasta nodaļa
+0x2f06	Banka/bankomāts
+0x2f07	Tirgotājs/auto daļas
+0x2f08	Sauszemes transports
+0x2f09	Jahtu piestātne/laivu remonts
+0x2f0a	Avārijas dienests
+0x2f0b	Autostāvvieta
+0x2f0c	Atpūtas vieta/informācija tūristiem
+0x2f0d	Autoklubs
+0x2f0e	Automazgātava
+0x2f0f	Garmin tirgotājs
+0x2f10	Sadzīves pakalpojumi
+0x2f11	Uzņēmējdarbības pakalpojumi
+0x2f12	Komunikāciju pakalpojumi
+0x2f13	Remonta pakalpojumi
+0x2f14	Sociālie pakalpojumi
+0x2f15	Komunālie pakalpojumi
+0x2f16	Kravas automobiļu stāvvieta
+0x2f17	Tranzīta pakalpojumi
+
+0x3000	Neatliekamā palīdzība/valsts iestādes
+0x3001	Policijas iecirknis
+0x3002	Slimnīca
+0x3003	Rātsnams
+0x3004	Tiesas ēka
+0x3005	Sabiedriskais centrs
+0x3006	Robežpunkts
+0x3007	Valsts iestāde
+0x3008	Ugunsdzēsēju depo
+
+0x4000	Golfs
+0x4100	Zvejas vieta
+0x4200	Vraks
+0x4300	Jahtu piestātne
+0x4400	Degvielas uzpildes stacija
+0x4500	Restorāns
+0x4600	Bārs
+0x4700	Laivu piestātne
+0x4800	Kempings
+0x4900	Parks
+0x4a00	Piknika vieta
+0x4b00	Pirmās palīdzības stacija
+0x4c00	Informācija
+0x4d00	Autostāvvieta
+0x4e00	Labierīcības
+0x4f00	Duša
+0x5000	Dzeramais ūdens
+0x5100	Tālrunis
+0x5200	Skaista ainava
+0x5300	Slēpošana
+0x5400	Peldvieta
+0x5500	Dambis
+
+; Aviation
+0x5600	Apsargāta teritorija
+0x5700	Bīstama teritorija
+0x5800	Norobežota teritorija
+0x5900	Lidosta
+0x5901	Liela lidosta
+0x5902	Vidēja lidosta
+0x5903	Maza lidosta
+0x5904	Helikopteru lidlauks
+0x5905	Lidosta
+
+0x5a00	Attāluma ceļazīme
+0x5b00	Zvans
+0x5c00	Niršanas vieta
+0x5d00	Dienas zīme, zaļš kvadrāts
+0x5e00	Dienas zīme, sarkans trīsstūris
+0x6000	Sirēna
+0x6100	Ēka
+
+0x6200	Dziļuma atzīme
+0x6300	Augstuma atzīme
+
+; Man-made features
+0x6400	Mākslīgi radīta vieta
+0x6401	Tilts
+0x6402	Ēka
+0x6403	Kapsēta
+0x6404	Baznīca/mošeja/utt.
+;0x6405	
+0x6406	Pāreja
+0x6407	Dambis
+0x6408	Slimnīca
+0x6409	Aizsprosts
+0x640a	Rādītājs
+0x640b	Militārs objekts
+0x640c	Raktuve
+0x640d	Naftas atradnes
+0x640e	Parks
+0x640f	Pasta nodaļa
+0x6410	Skola
+0x6411	Tornis
+0x6412	Takas sākums
+0x6413	Tunelis
+0x6414	Aka
+0x6415	Vēsturiska (pamesta) pilsēta
+0x6416	Piebūve
+
+; Water features
+0x6500	Ūdens objekts
+0x6501	Strauta gultne
+0x6502	Smilšu sēklis
+0x6503	Līcis
+0x6504	Līkums
+0x6505	Kanāls
+0x6506	Jūras šaurums
+0x6507	Neliels līcis
+0x6508	Ūdenskritums
+0x6509	Geizers
+0x650a	Šļūdonis
+0x650b	Osta
+0x650c	Sala
+0x650d	Ezers
+0x650e	Krāces
+0x650f	Rezervuārs
+0x6510	Jūra
+0x6511	Avots
+0x6512	Strauts
+0x6513	Purvs
+
+; Land features
+0x6600	Sauszemes objekts
+0x6601	Arka
+0x6602	Apgabals
+0x6603	Baseins
+0x6604	Pludmale
+0x6605	Zemes strēle
+0x6606	Zemesrags
+0x6607	Klints
+0x6608	Krāteris
+0x6609	Plato
+0x660a	Mežs
+0x660b	Aiza
+0x660c	Šaura eja
+0x660d	Zemesšaurums
+0x660e	Lava
+0x660f	Stabs
+0x6610	Līdzenums
+0x6611	Grēda
+0x6612	Rezervāts
+0x6613	Kore
+0x6614	Klints
+0x6615	Nogāze
+0x6616	Virsotne
+0x6617	Ieleja
+0x6618	Meža platība
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Ceļš
+
+; Three levels of highways
+0x01	Liela šoseja
+0x02	Galvenā šoseja
+0x03	Citi lielceļi
+
+; Most important kind of street
+0x04	Automaģistrāle
+; Medium important kind of street
+0x05	Lielceļš
+; Ordinary street (80%)
+0x06	Maza ieliņa
+; Smallest kind of street
+0x07	Šaura ieliņa/privāta brauktuve
+
+0x08	Slīpa nobrauktuve, mazs ātrums
+0x09	Slīpa nobrauktuve, liels ātrums
+0x0a	Nebruģēts ceļš
+0x0b	Liels šosejas savienotājposms
+0x0c	Apvedceļš
+0x16	Gājēju ceļš/taka
+0x14	Dzelzceļš
+0x1a	Ūdens vai dzelzceļa prāmis
+0x1b	Ūdens vai dzelzceļa prāmis
+
+0x19	Laika joslas robeža
+0x1e	Starptautiskā robeža
+0x1c	Štata/provinces robeža
+0x1d	Pavalsts/pagasta robeža
+
+0x15	Ūdens tilpnes krasta līnja
+0x18	Strauts
+0x1f	Upe
+0x26	Sezonāla ūdenskrātuve
+
+0x20	Smalka sauszemes kontūra
+0x21	Vidēja sauszemes kontūra
+0x22	Bieza sauszemes kontūra
+0x23	Smalka dziļuma kontūra
+0x24	Vidēja dziļuma kontūra
+0x25	Bieza dziļuma kontūra
+
+0x27	Lidostas skrejceļa centrālā līnija
+0x28	Naftas vai ūdens cauruļvads
+0x29	Elektrolīnija
+
+0x2a	Jūras robeža
+0x2b	Jūras briesmas
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Liela pilsētas teritorija
+0x02	Maza pilsētas teritorija
+0x03	Lauku dzīvojamā teritorija
+
+0x04	Militārā bāze
+0x05	Autostāvvieta
+0x06	Garāža
+0x07	Lidosta
+0x08	Tirdzniecības centrs
+0x09	Jahtu piestātne
+0x0a	Universitāte/koledža
+0x0b	Slimnīca
+0x0c	Industriālais komplekss
+0x0d	Rezervāts
+0x0e	Lidostas skrejceļš
+0x13	Mākslīgi radīta teritorija
+0x18	Golfa laukums
+0x19	Sporta komplekss
+0x1a	Kapsēta
+
+0x14	Nacionālais parks
+0x15	Nacionālais parks
+0x16	Nacionālais parks
+0x17	Pilsētas parki
+0x1e	Valsts parks
+0x1f	Valsts parks
+0x20	Valsts parks
+
+0x28	Jūra/okeāns
+0x32	Jūra
+0x3c	Liels ezers, 250-600 km²
+0x3d	Liels ezers, 77-250 km²
+0x3e	Vidējs ezers, 25-77 km²
+0x3f	Vidējs ezers, 11-25 km²
+0x40	Mazs ezers, 0,25-11 km²
+0x41	Mazs ezers, mazāk nekā 0,25 km²
+0x42	Ļoti liels ezers, vairāk nekā 3,3 t. km²
+0x43	Ļoti liels ezers, 1,1-3,3 t. km²
+0x44	Liels ezers, 0,6-1,1 t. km²
+0x46	Ļoti liela upe
+0x47	Liela upe
+0x48	Vidēja upe
+0x49	Maza upe
+0x4c	Sezonāla ūdenskrātuve
+
+;0x4a	
+0x4b	Platība kartes pārklājums
+
+0x4d	Šļūdonis
+0x4e	Augļu dārzs/plantācija
+0x4f	Krūmājs
+0x50	Mežs
+0x51	Mitrzeme/purvs
+0x52	Tundra
+0x53	Smilšājs/sēre/purvājs

@@ -1,0 +1,437 @@
+﻿.IMGTYPES
+
+;
+; This file is used by GPSMapEdit to provide localized names for Garmin type set.
+;
+
+.TYPESET Garmin
+
+; The Language ID for Hungarian defined by Microsoft
+;
+.LANGID 0x40e
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN	Ismeretlen típus
+
+;========================================================================================
+
+.POINT
+
+; Cities arranged by population
+0x0100	Nagy város, 10M felett
+0x0200	Nagy város, 5-10M
+0x0300	Nagy város, 2-5M
+0x0400	Nagy város, 1-2M
+0x0500	Közepes város, 0.5-1M
+0x0600	Közepes város, 200-500K
+0x0700	Közepes város, 100-200K
+0x0800	Kis város, 50-100K
+0x0900	Kis város, 20-50K
+0x0a00	Kis város, 10-20K
+0x0b00	Kis város, 5-10K
+0x0c00	Falu, 2-5K
+0x0d00	Falu, 1-2K
+0x0e00	Falu, 500-1K
+0x0f00	Falu, 200-500
+0x1000	Falu, 100-200
+0x1100	Falu, 100-nál kevesebb
+
+; Labels without icons
+0x1400	Nagy országnév
+0x1500	Kis országnév
+0x1e00	Tartomány név
+0x1f00	Megye/régió név
+0x2800	Cimke
+
+; Marine features
+0x1200	Kikötő szolgáltatásokkal
+
+; NOTE: the marine navigation POIs listed below are automaticaly duplicated to point codes 0x16xx-0x1bxx
+0x1600	Navigációs segédeszköz
+0x1601	Ködkürt
+0x1602	Rádiós irányjeladó
+0x1603	Racon
+0x1604	Nappali irányjeladó, vörös háromszög
+0x1605	Nappali irányjeladó, zöld négyzet
+0x1606	Nappali irányjeladó, fehér gyémánt
+0x1607	Nem világító navigációs segédeszköz, fehér
+0x1608	Nem világító navigációs segédeszköz, vörös
+0x1609	Nem világító navigációs segédeszköz, zöld
+0x160a	Nem világító navigációs segédeszköz, fekete
+0x160b	Nem világító navigációs segédeszköz, sárga/borostyán
+0x160c	Nem világító navigációs segédeszköz, narancssárga
+0x160d	Nem világító navigációs segédeszköz, több színű
+0x160e	Navigációs segédeszköz, ismeretlen
+0x160f	Navigációs segédeszköz, fehér
+0x1610	Navigációs segédeszköz, vörös
+0x1611	Navigációs segédeszköz, zöld
+0x1612	Navigációs segédeszköz, sárga/borostyán
+0x1613	Navigációs segédeszköz, narancssárga
+0x1614	Navigációs segédeszköz, lila
+0x1615	Navigációs segédeszköz, kék
+0x1616	Navigációs segédeszköz, több színű
+
+0x1c00	Egyéb akadály
+0x1c01	Látható roncs
+0x1c02	Elsüllyedt hajóroncs, veszélyes
+0x1c03	Elsüllyedt hajóroncs, nem veszélyes
+0x1c04	Hajóroncs, drótkötéllel akadálymentesítve
+0x1c05	Akadály, magas víznél látható
+0x1c06	Akadály, vízzel elárasztott
+0x1c07	Akadály, elsüllyedt
+0x1c08	Akadály, drótkötéllel akadálymentesítve
+0x1c09	Szikla, vízzel elárasztott
+0x1c0a	Szikla, elmerült alacsony vízben
+0x1c0b	Zátonyra futás lehetséges
+
+; Tide table prediction used in marine maps
+0x1d00	Árapályjelző állomás
+
+; NOTE: "HW Exit" is highway infrastructure complex object (gas station + car wash + motel + WC + dining + etc)
+0x2000	Autópálya kijáró
+0x2100	Autópálya kijáró szolgáltatásokkal
+0x210f	Autópálya kijáró (szolgáltatás)
+0x2200	Autópálya kijáró (WC)
+0x2300	Autópálya kijáró (vegyesbolt)
+0x2400	Autópálya kijáró (súly állomás)
+0x2500	Autópálya kijáró (fizető kapu)
+0x2600	Autópálya kijáró (információ)
+0x2700	Autópálya kijáró
+
+0x2900	Egyéb / Nem kategorizált üzlet
+
+0x2a00	Étel
+0x2a01	Étel (Amerikai)
+0x2a02	Étel (Ázsiai)
+0x2a03	Étel (barbecue)
+0x2a04	Étel (Kinai)
+0x2a05	Étel (Pékárú)
+0x2a06	Étel (Nemzetközi)
+0x2a07	Gyorsétterem
+0x2a08	Étel (Olasz)
+0x2a09	Étel (Mexikói)
+0x2a0a	Pizza
+0x2a0b	Étel (tengeri étel)
+0x2a0c	Étel (steak/grill)
+0x2a0d	Étel (bagett/fánk)
+0x2a0e	Étel (kávé/vacsora)
+0x2a0f	Étel (Francia)
+0x2a10	Étel (Német)
+0x2a11	Étel (Brit szigetek)
+0x2a12	Speciális ételek
+
+0x2b00	Szállás
+0x2b01	Hotel/Motel
+0x2b02	Szállás és reggeli csárda
+0x2b03	Kemping/Lakókocsi parkoló
+0x2b04	Üdülőszálló
+
+0x2c00	Látványosságok
+0x2c01	Vidámpark
+0x2c02	Múzeum/történelmi emlékhely
+0x2c03	Könyvtár
+0x2c04	Határkő
+0x2c05	Iskola
+0x2c06	Park/Kert
+0x2c07	Állatkert/Akvárium
+0x2c08	Küzdőtér/versenypálya
+0x2c09	Csarnok/Előadóterem
+0x2c0a	Borászat
+0x2c0b	Imahely
+
+0x2d00	Szórakozás
+0x2d01	Színház
+0x2d02	Bár/éjszakai mulató
+0x2d03	Mozi
+0x2d04	Kaszinó
+0x2d05	Golfpálya
+0x2d06	Síközpont/menedékhely
+0x2d07	Bowling központ
+0x2d08	Jégpálya
+0x2d09	Uszoda
+0x2d0a	Sport- és fitneszközpont
+0x2d0b	Nyilvános sportrepülőtér
+
+0x2e00	Vásárlás
+0x2e01	Áruház
+0x2e02	Élelmiszerbolt
+0x2e03	Általános kereskedelem
+0x2e04	Bevásárló központ
+0x2e05	Gyógyszertár
+0x2e06	Háztartási cikkek
+0x2e07	Ruházat
+0x2e08	Ház és kert
+0x2e09	Lakberendezés/Bútor
+0x2e0a	Különleges kiskereskedés
+0x2e0b	Számítógép/Szoftver
+
+0x2f00	Általános szolgáltatás
+0x2f01	Benzinkút
+0x2f02	Autókölcsönző
+0x2f03	Autójavító műhely
+0x2f04	Légi szállítás
+0x2f05	Posta
+0x2f06	Bank/ATM
+0x2f07	Autókereskedés/alkatrészüzlet
+0x2f08	Földi közlekedés
+0x2f09	Kikötő/Hajó szervíz
+0x2f0a	Hajóroncsmentő
+0x2f0b	Parkoló
+0x2f0c	Pihenőhely/Turista információ
+0x2f0d	Autóklub
+0x2f0e	Autómosó
+0x2f0f	GARMIN kereskedő
+0x2f10	Személyi szolgáltatások
+0x2f11	Üzleti szolgáltatás
+0x2f12	Kommunikációs szolgáltatás
+0x2f13	Javító szolgáltatás
+0x2f14	Szociális szolgáltatás
+0x2f15	Közszolgálat
+0x2f16	Kamion parkoló
+0x2f17	Tranzit szolgáltatás
+
+0x3000	Elsősegély/Kormányzat
+0x3001	Rendőrség
+0x3002	Kórház
+0x3003	Városháza
+0x3004	Bíróság
+0x3005	Közösségi központ
+0x3006	Határátkelő
+0x3007	Kormányzati iroda
+0x3008	Tűzoltóság
+
+0x4000	Golfpálya
+0x4100	Horgászterület
+0x4200	Hajóroncs
+0x4300	Kikötő
+0x4400	Benzinkút
+0x4500	Étterem
+0x4600	Bár
+0x4700	Hajó kikötő
+0x4800	Kemping
+0x4900	Park
+0x4a00	Pihenőhely
+0x4b00	Elsősegély állomás
+0x4c00	Információ
+0x4d00	Parkoló
+0x4e00	WC
+0x4f00	Zuhanyozó
+0x5000	Ivóvíz
+0x5100	Telefon
+0x5200	Kilátóhely
+0x5300	Síterület
+0x5400	Uszó terület
+0x5500	Vízlépcső
+
+; Aviation
+0x5600	Ellenőrzött terület
+0x5700	Veszélyes terület
+0x5800	Korlátozott terület
+0x5900	Repülőtér
+0x5901	Nagy repülőtér
+0x5902	Közepes repülőtér
+0x5903	Kis repülőtér
+0x5904	Helikopter leszállóhely
+0x5905	Repülőtér
+
+0x5a00	Mérföldkő
+0x5b00	Harang
+0x5c00	Búvár terület
+0x5d00	Tenger jelzés, Zöld négyzet
+0x5e00	Tenger jelzés, Vörös háromszög
+0x6000	Kürt
+0x6100	Ház
+
+0x6200	Különleges mélységi pont
+0x6300	Különleges magassági pont
+
+; Man-made features
+0x6400	Ember alkotta tereptárgy
+0x6401	Híd
+0x6402	Épület
+0x6403	Temető
+0x6404	Templom
+0x6405	Polgári
+0x6406	Kereszteződés
+0x6407	Vízlépcső
+0x6408	Kórház
+0x6409	Gát
+;0x640a	
+0x640b	Katonai
+0x640c	Bánya
+0x640d	Olajmező
+0x640e	Park
+0x640f	Posta
+0x6410	Iskola
+0x6411	Torony
+0x6412	Ösvény kezdete
+0x6413	Alagút
+0x6414	Forrás
+0x6415	Történelmi (szellem) város
+;0x6416	
+
+; Water features
+0x6500	Víz jellemzői
+;0x6501	
+0x6502	Homokpad
+0x6503	Öböl
+0x6504	Hajlat/kanyar
+;0x6505
+;0x6506
+0x6507	Kis öböl
+0x6508	Vízesés
+0x6509	Gejzír
+0x650a	Gleccser
+0x650b	Kikötő
+0x650c	Sziget
+0x650d	Tó
+0x650e	Zúgó
+0x650f	Víztározó
+0x6510	Tenger
+0x6511	Forrás
+0x6512	Patak
+0x6513	Mocsár
+
+; Land features
+0x6600	Szárazföld jellemzői
+;0x6601	
+;0x6602	
+;0x6603	
+0x6604	Tengerpart
+;0x6605	
+0x6606	Partfok
+;0x6607
+0x6608	Kráter
+0x6609	Sík
+0x660a	Erdő
+;0x660b	
+;0x660c	
+0x660d	Földnyelv
+0x660e	Láva
+0x660f	Oszlop
+0x6610	Síkság
+;0x6611	
+0x6612	Rezervátum
+;0x6613	
+0x6614	Szikla
+0x6615	Lejtő
+0x6616	Hegycsúcs
+0x6617	Völgy
+0x6618	Fás terület
+
+;========================================================================================
+
+.POLYLINE
+
+0x00	Út
+
+; Three levels of highways
+0x01	Autópálya
+0x02	Fő autóút
+0x03	Más autóút
+
+; Most important kind of street
+0x04	Főút
+; Medium important kind of street
+0x05	Kollektor út
+; Ordinary street (80%)
+0x06	Utca
+; Smallest kind of street
+0x07	Bekötőút/magánút
+
+0x08	Autópálya rámpa, lassú
+0x09	Autópálya rámpa, gyors
+0x0a	Burkolatlan út
+0x0b	Nagyobb autópálya összekötő
+0x0c	Körforgalom
+0x16	Gyalogút/ösvény
+0x14	Vasút
+0x1a	Komp
+0x1b	Komp
+
+0x19	Időzóna
+0x1e	Nemzetközi határ
+0x1c	Régió/tartomány határ
+0x1d	Megye határ
+
+0x15	Partvonal
+0x18	Patak/Vízfolyás
+0x1f	Folyó
+0x26	Időszakos folyó/csatorna
+
+0x20	Kis szintvonal (1/10)
+0x21	Közepes szintvonal (1/2)
+0x22	Nagy szintvonal (1/1)
+0x23	Kis mélységvonal (1/10)
+0x24	Közepes mélységvonal (1/2)
+0x25	Nagy mélységvonal (1/1)
+
+0x27	Kifutópálya középvonal
+0x28	Olaj vagy víz vezeték
+0x29	Távvezeték
+
+0x2a	Tengeri határ
+0x2b	Tengeri veszély
+
+;========================================================================================
+
+.POLYGON
+
+0x01	Nagy lakott terület (>200K)
+0x02	Kis lakott terület (<200K)
+0x03	Vidéki ház a területen
+
+0x04	Katonai támaszpont
+0x05	Parkoló
+0x06	Parkoló garázs
+0x07	Repülőtér
+0x08	Bevásárló központ
+0x09	Kikötő
+0x0a	Egyetem/Főiskola
+0x0b	Kórház
+0x0c	Ipari komplexum
+0x0d	Természetvédelmi terület
+0x0e	Repülőtéri kifutópálya
+0x13	Épület
+0x18	Golfpálya
+0x19	Sportkomplexum
+0x1a	Temető
+
+0x14	Nemzeti park
+0x15	Nemzeti park
+0x16	Nemzeti park
+0x17	Városi park
+0x1e	Állami park
+0x1f	Állami park
+0x20	Állami park
+
+0x28	Tenger/Óceán
+0x32	Tenger
+0x3c	Nagy tó, 250-600 km²
+0x3d	Nagy tó, 77-250 km²
+0x3e	Közepes tó, 25-77 km²
+0x3f	Közepes tó, 11-25 km²
+0x40	Kis tó, 0.25-11 km²
+0x41	Kis tó, kisebb mint 0.25 km²
+0x42	Beltenger, nagyobb mint 3300 km²
+0x43	Beltenger, 1100-3300 km²
+0x44	Hatalmas tó, 600-1100 km²
+0x46	Széles folyó, >1 km
+0x47	Nagy folyó, 200 m-1 km
+0x48	Közepes folyó, 40-200 m
+0x49	Kis folyó, <40 m
+0x4c	Időszakos vízfelület
+
+0x4a	Terület A térkép kiválasztása
+0x4b	Terület A térkép lefedettség
+
+0x4d	Gleccser
+0x4e	Gyümölcsös/ültetvény
+0x4f	Bokrok
+0x50	Erdő
+0x51	Mocsár
+0x52	Tundra
+0x53	Föveny/árapály-/sáros terület

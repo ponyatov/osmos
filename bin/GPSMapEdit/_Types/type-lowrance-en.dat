@@ -1,0 +1,198 @@
+﻿.IMGTYPES
+
+;
+; This file is just base template for localizations used by GPSMapEdit to provide localized names
+; for Lowrance type set. This file is ignored by GPSMapEdit!
+;
+; NOTE 1: if you want to translate the file into another language,
+; please keep the first line (".IMGTYPES") as is.
+;
+; NOTE 2: the hex codes below are just references to some hard-coded tables.
+; To add some missed type you need to modify the source file 'LowranceTypes.cpp' of GPSMapEdit.
+;
+
+.TYPESET Lowrance
+
+; The Language ID for English (U.S.) defined by Microsoft
+;
+.LANGID 0x409
+
+;========================================================================================
+
+; Placeholder for unknown type
+;
+.UNKNOWN  Unknown type
+
+;========================================================================================
+
+.POINT
+
+0x0100	Huge city
+0x0200	Large city
+0x0300	Medium city
+0x0400	Medium city
+0x0500	Small city
+0x0600	Small city
+
+0x1000	Water Label
+0x1010	Stream Label
+
+0x1601	Light (navaid)
+0x1603	White/unidentified lighted buoy
+0x1605	Green lighted buoy
+0x1607	Red lighted buoy
+
+0x1609	Radiobeacon
+
+0x160b	Daybeacon, red triangle
+0x160d	Daybeacon, green square
+0x160f	Daybeacon, white square
+
+0x1611	Green unlighted buoy
+0x1613	White/unidentified unlighted buoy
+0x1615	Red unlighted buoy
+
+0x1617	Nautical chart note
+
+0x1621	Obstruction
+0x1623	Rock, submerged at low water
+0x1625	Obstr., visible at high water
+0x1627	Submerged wreck, dangerous
+0x1629	Wreck
+0x162b	Submerged wreck, non-dangerous
+
+0x2401	Post Office
+0x2501	Church
+0x2601	Convenience Store
+0x2701	Fish Hatchery
+0x2801	Auto Repair
+0x2901	Restaurant
+0x2a01	Grocery Store
+0x2b01	Police
+0x2c01	Financial Services
+0x2d01	Car Wash
+0x2e01	Hardware Store
+0x2f01	Department Store
+0x3001	Pharmacy
+0x3101	Pizza
+0x3201	University
+0x3301	Bus Line
+0x3401	Airport
+0x3501	Auto Parts
+0x3601	Gas Station
+0x3701	Medical Service
+0x3801	Hospital
+0x3901	Night Club
+0x3a01	Amusement
+0x3b01	Movie Theater
+0x3c01	Fast Food
+0x3d01	Asian Food
+0x3e01	Sandwiches
+0x3f01	Steak House
+0x4001	Bowling Center
+0x4101	Skating Rink
+0x4201	Museum
+0x4301	Auto Rental
+0x4401	Taxi
+0x4501	Motel
+0x4601	Wrecker Service
+0x4701	Barbeque
+0x4801	Fishing Tackle
+0x4901	Deli
+0x4a01	Mexican Food
+0x4b01	Golf
+0x4c01	General Merchandise
+0x4d01	Swimming Pool
+0x4e01	Hunting Supply
+0x4f01	Marina
+0x5001	Historical Site
+0x5101	Campground
+0x5201	Ice Cream Parlor
+0x5301	Park
+0x5401	Bed & Breakfast
+0x5501	Resort
+0x5601	Truck Stop
+0x5701	Boat Repair
+0x5801	Retail Sports
+0x5901	Sea Food
+0x5a01	Boat Dealer
+0x5b01	Shopping Center
+0x5c01	Italian Food
+0x5d01	Banquet Room
+0x5e01	Transportation (Other)
+0x5f01	Coffee Shop
+0x6001	Bait Shop
+0x6101	Tourist
+0x6201	Hunting Preserve
+0x6301	Synagogue
+0x6401	Theatre
+0x6501	Rec Center
+0x6601	RailRoad
+0x6701	Boat Rental
+0x6801	Archery
+0x6901	Marine (Other)
+0x6a01	RV Repair
+0x6b01	Zoo
+0x6c01	GeoCache
+0x7001	Trail - Hiking
+0x7201	Trail - Biking
+
+;========================================================================================
+
+.POLYLINE
+
+0x0001	Highway - Interstate
+0x0003	Highway - US
+0x0005	Highway - State
+0x0010	Road - Rural
+0x0015	Street - Major City
+0x0017	Street - Minor City
+
+0x0030	Stream - Intermittent
+0x0032	Stream
+0x0040	Trail - Hiking
+0x0042	Trail - Bike
+
+0x0050	Contour - 0
+0x0051	Contour - 0
+0x0052	Contour - 0
+0x0053	Contour - 0
+0x0054	Contour - 0
+0x0055	Contour - 1
+0x0056	Contour - 1
+0x0057	Contour - 1
+0x0058	Contour - 1
+0x0059	Contour - 1
+0x005a	Contour - 2
+0x005b	Contour - 2
+0x005c	Contour - 2
+0x005d	Contour - 2
+0x005e	Contour - 2
+
+0x0060	Elevation - 0
+0x0062	Elevation - 1
+0x0064	Elevation - 2
+0x0066	Elevation - 3
+
+0x0070	Railroad
+
+0x0078	County/parish boundary
+0x007a	State/province boundary
+0x007c	International boundary
+
+;========================================================================================
+
+.POLYGON
+
+0x0001	Urban Area
+
+0x0010	Lake/River
+0x0012	Swamp
+0x0015	Ocean
+
+0x0020	National Forest
+0x0025	National Park
+0x002a	State Park
+0x002f	City Park
+0x0034	Golf course
+0x0039	Cemetery

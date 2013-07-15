@@ -1,0 +1,131 @@
+﻿.TRANSLITERATION
+
+; This file is used by GPSMapEdit to provide translitertion table for Modern Greek.
+; Based on ISO 843, http://en.wikipedia.org/wiki/Romanization_of_Greek
+;
+; NOTE: if you want to translate this file to another language,
+; please keep the first line (".TRANSLITERATION") as is.
+;
+
+; Display name for data
+.NAME Greek->Ext.Latin (ISO 843)
+
+; Language ID for Russian defined by Microsoft
+.LANGID 1032
+
+;
+; Tests
+;
+
+.TEST ελληνικά ellīnika
+
+;
+; The substitutions
+;
+
+.DATA
+Α	A
+α	a
+ά	a
+Β	V
+β	v
+Γ	G
+γ	g
+Δ	D
+δ	d
+Ε	E
+ε	e
+Ζ	Z
+ζ	z
+Η	Ī
+η	ī
+Θ	Th
+θ	th
+Ι	I
+ι	i
+Κ	K
+κ	k
+Λ	L
+λ	l
+Μ	M
+μ	m
+Ν	N
+ν	n
+Ξ	X
+ξ	x
+Ο	O
+ο	o
+Π	P
+π	p
+Ρ	R
+ρ	r
+Σ	S
+σ	s
+Τ	T
+τ	t
+Υ	Y
+υ	y
+Φ	F
+φ	f
+Χ	Ch
+χ	ch
+Ψ	Ps
+ψ	ps
+Ω	Ō
+ω	ō
+
+ΑΙ	AI
+Αι	Ai
+αι	ai
+
+ΑΥ	AU
+Αυ	Au
+αυ	au
+
+ΕΙ	EI
+Ει	Ei
+ει	ei
+
+ΕΥ	EU
+Ευ	Eu
+ευ	eu
+
+ΗΥ	ĪY
+Ηυ	Īy
+ηυ	īy
+
+ΟΙ	OI
+Οι	Oi
+οι	oi
+
+ΟΥ	OU
+Ου	Ou
+ου	ou
+
+ΥΙ	YI
+Υι	Yi
+υι	yi
+
+ΓΓ	GG
+Γγ	Gg
+γγ	gg
+
+ΓΞ	GX
+Γξ	Gx
+γξ	gx
+
+ΓΚ	GK
+Γκ	Gk
+γκ	gk
+
+ΓΧ	GCH
+Γχ	Gch
+γχ	gch
+
+ΜΠ	MP
+Μπ	Mp
+μπ	mp
+
+ΝΤ	NT
+Ντ	Nt
+ντ	nt

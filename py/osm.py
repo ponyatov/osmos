@@ -1,7 +1,14 @@
-import os,sys
+import os,sys,re
 import cfg
 import lxml.etree
 from idlelib.IOBinding import encoding
+
+def xapi(req):
+    S='%s%s'%(cfg.xapi,req)
+    print S
+#     S=re.sub(r'\[',r'%5B',S)
+#     S=re.sub(r'\]',r'%5D',S)
+    return lxml.etree.parse(S) 
 
 def api(type,id):
     F='../tmp/%s.%s.osm'%(type,id) # cache file

@@ -6,7 +6,7 @@ NOW='%.2i%.2i%.2i%.2i'%(yy%100,mm,dd,hh)
   
 import cfg,osm,cgmp,lxml
  
-SAMARA_OBL = osm.relation(id=72194)
+SAMARA_OBL = osm.relation(id=72194)#osm.xapi('relation[id=72194]')#osm.relation(id=72194)
 
 def lxm(xxx):
     return lxml.etree.tostring(xxx)

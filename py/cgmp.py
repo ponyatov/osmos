@@ -31,14 +31,20 @@ VersionSub=%s
 Copyright=%s
 Datum=W84
 Elevation=m
-Levels=1
-Level0=26
+Levels=2
+Level0=24
+Level1=23
 PointView=%s
 MainTown=%s
-[END-IMG ID]
+[END]
 '''%(self.ID,self.Name,self.LocalName,VV,VS,self.Copyright,self.PointView,self.MainTown)
 
 class mpobj:
+    def label2mp(self):
+        if self.name:
+            return 'Label=%s'%self.name
+        else:
+            return ''
     def __init__(self,id,lat,lon,name):
         self.id=id
         self.lat=lat ; self.lon=lon
@@ -55,36 +61,6 @@ Label=%s
 Type=0x%.4X
 [END]
 '''%(self.__class__,self.id,self.lat,self.lon,self.name,self.type)
-#     def __init__(self,id,type,lat,lon,label=''):
-#         self.id=id
-#         self.type=type
-#         self.lat=lat
-#         self.lon=lon
-#         self.label=label
-#     def __str__(self):
-#         return '''
-# [POI] ; id:%s
-# Data0=(%s,%s)
-# Type=0x%x
-# Label=%s
-# [END]
-# '''%(self.id,self.lat,self.lon,self.type,self.label)
-# 
-# class PLINE:
-#     def __init__(self,id,type,coords,label=''):
-#         self.id=id
-#         self.type=type
-#         self.coords=coords
-#         self.label=label
-#     def __str__(self):
-#         return '''
-# ; id:%s
-# [POLYGON] 
-# Data0=%s
-# Type=0x%x
-# Label=%s
-# [END]
-# '''%(self.id,nosp(str(self.coords)[1:-1]),self.type,self.label)
 
 class AdminCenter(POI):
     type=0x1500
@@ -92,7 +68,34 @@ class AdminCenter(POI):
 class MainCity(POI):
     type=0x0100
 # 'City=Y
-# CityName=Самара    
+# CityName=Самара
+
+class PolyLine(mpobj):
+    type=0x0000
+    def __init__(self,id,poly,name):
+        self.poly=poly
+        A,O=poly[0]
+        mpobj.__init__(self, id, A, O, name)
+    def poly2mp(self):
+        S=''
+        for i in self.poly:
+            S+='(%s,%s),'%(i[0],i[1])
+        return S[:-1]
+    def __str__(self):
+        return '''
+; %s osm_id:%s
+[POLYLINE]
+Data0=%s
+%s
+Type=0x%.4X
+[END]
+'''%(self.__class__,self.id,self.poly2mp(),self.label2mp(),self.type)
+
+class RegionOutline(PolyLine):
+    type=0x001C
+    def __init__(self,id,poly,name):
+        PolyLine.__init__(self, id, poly, name)
+        self.name=''
  
 class MP:
     dat=[]

@@ -32,7 +32,7 @@ class osm:
         self.xml=api(TP,ID)
         self.lat =self.xml.xpath('//*[@lat]')[0].attrib['lat']
         self.lon =self.xml.xpath('//*[@lon]')[0].attrib['lon']
-        print '//tag[@id="%s"][@k="name"]'%self.id
+#         print '//tag[@id="%s"][@k="name"]'%self.id
         try:
             self.name=self.xml.xpath('//tag[@k="name"]')[0].attrib['v']
         except:
@@ -47,3 +47,14 @@ class relation(osm):
 
 class node(osm):
     pass 
+
+class way(osm):
+    def __init__(self,id):
+        osm.__init__(self,id)
+        self.nodes={}
+        for i in self.xpath('/osm/node'):
+            A=i.attrib
+            self.nodes[A['id']]=(A['lat'],A['lon'])
+        self.poly=[]
+        for i in self.xpath('/osm/way/nd'):
+            self.poly+=[self.nodes[i.attrib['ref']]]

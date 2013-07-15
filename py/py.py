@@ -33,9 +33,16 @@ print C.id,C.lat,C.lon,C.name
 MP.IMGID.MainTown=C.name
 MP.add(cgmp.MainCity(C.id,C.lat,C.lon,C.name))
 
+print SAMARA_OBL.name,'outline:',
+for i in SAMARA_OBL.xpath('//relation[@id=72194]/member[@type="way"][@role="outer"]'):
+    W=osm.way(i.attrib['ref']) ; print W.id,
+    MP.add(cgmp.RegionOutline(W.id,W.poly,W.name))
+print
+
 X=open('../tmp/xml.xml','w')
 # # for i in SAMARA_OBL.xpath('/osm/relation/member[@role="label"]'):
-for i in SAMARA_OBL.xpath('//relation[@id=72194]'):
+# for i in SAMARA_OBL.xpath('//relation[@id=72194]'):
+for i in SAMARA_OBL.xpath('//relation[@id=72194]/member[@type="way"][@role="outer"]')[:5]:
     print >>X,lxml.etree.tostring(i)
 X.close()
 

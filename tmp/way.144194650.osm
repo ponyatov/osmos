@@ -1,0 +1,30 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="883639654" version="2" changeset="9333173" lat="53.2131583" lon="50.1892492" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:13:58Z">
+    <tag k="name" v="Дом Печати"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="152236621" version="6" changeset="390535" lat="53.2132511" lon="50.1892451" user="AkMeR" uid="11049" visible="true" timestamp="2008-07-04T11:27:30Z"/>
+  <node id="234608569" version="3" changeset="609040" lat="53.213549" lon="50.1891745" user="woodpeck" uid="5164" visible="true" timestamp="2008-09-11T23:27:27Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="152236623" version="6" changeset="390535" lat="53.2136496" lon="50.1891254" user="AkMeR" uid="11049" visible="true" timestamp="2008-07-04T11:27:29Z"/>
+  <node id="234608576" version="3" changeset="609040" lat="53.2139049" lon="50.1889302" user="woodpeck" uid="5164" visible="true" timestamp="2008-09-11T23:27:27Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="152236625" version="5" changeset="390535" lat="53.214032" lon="50.1888128" user="AkMeR" uid="11049" visible="true" timestamp="2008-07-04T11:27:21Z"/>
+  <way id="144194650" visible="true" timestamp="2012-05-19T10:44:35Z" version="4" changeset="11641288" user="gentoid" uid="492771">
+    <nd ref="883639654"/>
+    <nd ref="152236621"/>
+    <nd ref="234608569"/>
+    <nd ref="152236623"/>
+    <nd ref="234608576"/>
+    <nd ref="152236625"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Авроры"/>
+  </way>
+</osm>

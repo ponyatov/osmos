@@ -1,0 +1,29 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="150982489" version="9" changeset="16905539" lat="53.2105693" lon="50.1893427" user="gentoid" uid="492771" visible="true" timestamp="2013-07-10T20:58:55Z">
+    <tag k="merkator_shift:bing" v="-4.35; -0.64"/>
+  </node>
+  <node id="1436482583" version="2" changeset="9431072" lat="53.2107206" lon="50.1893778" user="gentoid" uid="492771" visible="true" timestamp="2011-09-29T21:25:39Z"/>
+  <node id="1449137253" version="1" changeset="9431072" lat="53.2108489" lon="50.1894134" user="gentoid" uid="492771" visible="true" timestamp="2011-09-29T21:25:17Z"/>
+  <node id="1449137254" version="1" changeset="9431072" lat="53.2109573" lon="50.1894838" user="gentoid" uid="492771" visible="true" timestamp="2011-09-29T21:25:17Z"/>
+  <node id="150982964" version="5" changeset="9431072" lat="53.2110266" lon="50.1895536" user="gentoid" uid="492771" visible="true" timestamp="2011-09-29T21:25:40Z"/>
+  <node id="1449137255" version="1" changeset="9431072" lat="53.2111064" lon="50.1896472" user="gentoid" uid="492771" visible="true" timestamp="2011-09-29T21:25:17Z"/>
+  <node id="150982965" version="7" changeset="9431072" lat="53.2111758" lon="50.1897303" user="gentoid" uid="492771" visible="true" timestamp="2011-09-29T21:25:40Z"/>
+  <node id="152337036" version="6" changeset="16905539" lat="53.2113136" lon="50.1899821" user="gentoid" uid="492771" visible="true" timestamp="2013-07-10T20:58:55Z">
+    <tag k="merkator_shift:bing" v="-4.35; -0.64"/>
+  </node>
+  <way id="15240348" visible="true" timestamp="2012-05-11T18:00:56Z" version="16" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="150982489"/>
+    <nd ref="1436482583"/>
+    <nd ref="1449137253"/>
+    <nd ref="1449137254"/>
+    <nd ref="150982964"/>
+    <nd ref="1449137255"/>
+    <nd ref="150982965"/>
+    <nd ref="152337036"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Авроры"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</osm>

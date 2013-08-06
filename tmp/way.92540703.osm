@@ -1,0 +1,34 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1074189472" version="3" changeset="11748640" lat="53.1790667" lon="50.1920225" user="NickF" uid="467146" visible="true" timestamp="2012-05-30T13:21:41Z"/>
+  <node id="1388999608" version="2" changeset="11748640" lat="53.179168" lon="50.1920163" user="NickF" uid="467146" visible="true" timestamp="2012-05-30T13:21:41Z"/>
+  <node id="1770447355" version="1" changeset="11748640" lat="53.1792759" lon="50.1920167" user="NickF" uid="467146" visible="true" timestamp="2012-05-30T13:21:40Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1388999609" version="2" changeset="11748640" lat="53.1793619" lon="50.192017" user="NickF" uid="467146" visible="true" timestamp="2012-05-30T13:21:41Z"/>
+  <node id="1773514571" version="1" changeset="11776505" lat="53.1794348" lon="50.192014" user="gentoid" uid="492771" visible="true" timestamp="2012-06-02T12:15:24Z">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+  </node>
+  <node id="1770447352" version="1" changeset="11748640" lat="53.1796295" lon="50.1920061" user="NickF" uid="467146" visible="true" timestamp="2012-05-30T13:21:40Z"/>
+  <node id="1770447349" version="1" changeset="11748640" lat="53.1797002" lon="50.1920009" user="NickF" uid="467146" visible="true" timestamp="2012-05-30T13:21:40Z"/>
+  <node id="1770447373" version="1" changeset="11748640" lat="53.1803175" lon="50.1919552" user="NickF" uid="467146" visible="true" timestamp="2012-05-30T13:21:41Z"/>
+  <node id="1770447358" version="1" changeset="11748640" lat="53.1804418" lon="50.191901" user="NickF" uid="467146" visible="true" timestamp="2012-05-30T13:21:40Z"/>
+  <node id="150982504" version="7" changeset="11748640" lat="53.180517" lon="50.191853" user="NickF" uid="467146" visible="true" timestamp="2012-05-30T13:21:41Z"/>
+  <way id="92540703" visible="true" timestamp="2012-09-12T11:56:00Z" version="11" changeset="13081615" user="Monitor" uid="222237">
+    <nd ref="1074189472"/>
+    <nd ref="1388999608"/>
+    <nd ref="1770447355"/>
+    <nd ref="1388999609"/>
+    <nd ref="1773514571"/>
+    <nd ref="1770447352"/>
+    <nd ref="1770447349"/>
+    <nd ref="1770447373"/>
+    <nd ref="1770447358"/>
+    <nd ref="150982504"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Авроры"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</osm>

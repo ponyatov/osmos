@@ -1,0 +1,19 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="220260809" version="2" changeset="2810159" lat="53.184898" lon="50.191486" user="serikst" uid="144744" visible="true" timestamp="2009-10-11T06:40:12Z"/>
+  <node id="2383491967" version="1" changeset="16939484" lat="53.1849679" lon="50.1914812" user="grafflinz" uid="1628808" visible="true" timestamp="2013-07-13T17:31:57Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2383482413" version="1" changeset="16939343" lat="53.1864129" lon="50.1913824" user="grafflinz" uid="1628808" visible="true" timestamp="2013-07-13T17:20:24Z"/>
+  <node id="176720493" version="7" changeset="8942593" lat="53.1874223" lon="50.1913134" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:04Z"/>
+  <way id="110698686" visible="true" timestamp="2013-07-13T17:31:57Z" version="6" changeset="16939484" user="grafflinz" uid="1628808">
+    <nd ref="220260809"/>
+    <nd ref="2383491967"/>
+    <nd ref="2383482413"/>
+    <nd ref="176720493"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Авроры"/>
+  </way>
+</osm>

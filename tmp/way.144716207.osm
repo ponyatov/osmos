@@ -1,0 +1,20 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1582390550" version="1" changeset="10330002" lat="53.2150434" lon="50.1875463" user="gentoid" uid="492771" visible="true" timestamp="2012-01-08T11:10:57Z">
+    <tag k="name" v="Автовокзал &quot;Центральный&quot;"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="883639667" version="4" changeset="9443416" lat="53.2151515" lon="50.1874101" user="gentoid" uid="492771" visible="true" timestamp="2011-10-01T15:39:48Z"/>
+  <node id="152236627" version="6" changeset="280172" lat="53.215275" lon="50.1872524" user="AkMeR" uid="11049" visible="true" timestamp="2008-08-16T09:52:42Z"/>
+  <way id="144716207" visible="true" timestamp="2012-05-19T10:44:32Z" version="3" changeset="11641288" user="gentoid" uid="492771">
+    <nd ref="1582390550"/>
+    <nd ref="883639667"/>
+    <nd ref="152236627"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Авроры"/>
+  </way>
+</osm>

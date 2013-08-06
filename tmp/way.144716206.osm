@@ -1,0 +1,24 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1582390558" version="1" changeset="10330002" lat="53.2130836" lon="50.1892476" user="gentoid" uid="492771" visible="true" timestamp="2012-01-08T11:10:58Z">
+    <tag k="name" v="Дом Печати"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="883639654" version="2" changeset="9333173" lat="53.2131583" lon="50.1892492" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:13:58Z">
+    <tag k="name" v="Дом Печати"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <way id="144716206" visible="true" timestamp="2012-05-19T10:44:30Z" version="3" changeset="11641288" user="gentoid" uid="492771">
+    <nd ref="1582390558"/>
+    <nd ref="883639654"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Авроры"/>
+  </way>
+</osm>

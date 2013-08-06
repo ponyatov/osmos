@@ -1,0 +1,23 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="152236620" version="11" changeset="16905539" lat="53.2125691" lon="50.1892362" user="gentoid" uid="492771" visible="true" timestamp="2013-07-10T20:58:55Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="-4.35; -0.64"/>
+  </node>
+  <node id="2380607349" version="1" changeset="16905539" lat="53.2126197" lon="50.1892373" user="gentoid" uid="492771" visible="true" timestamp="2013-07-10T20:58:38Z"/>
+  <node id="1582390558" version="1" changeset="10330002" lat="53.2130836" lon="50.1892476" user="gentoid" uid="492771" visible="true" timestamp="2012-01-08T11:10:58Z">
+    <tag k="name" v="Дом Печати"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <way id="17323318" visible="true" timestamp="2013-07-10T20:58:50Z" version="17" changeset="16905539" user="gentoid" uid="492771">
+    <nd ref="152236620"/>
+    <nd ref="2380607349"/>
+    <nd ref="1582390558"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Авроры"/>
+  </way>
+</osm>

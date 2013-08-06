@@ -1,0 +1,32 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="150982499" version="10" changeset="16933223" lat="53.1916523" lon="50.1909127" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T05:49:29Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="-2.90; 1.37"/>
+  </node>
+  <node id="1119491688" version="3" changeset="16933223" lat="53.1918136" lon="50.1908996" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T05:49:29Z">
+    <tag k="bicycle" v="yes"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2083014237" version="1" changeset="14409802" lat="53.1951448" lon="50.1906589" user="Serĉjo" uid="639542" visible="true" timestamp="2012-12-26T09:42:39Z"/>
+  <node id="2083014235" version="1" changeset="14409802" lat="53.1957233" lon="50.190613" user="Serĉjo" uid="639542" visible="true" timestamp="2012-12-26T09:42:39Z"/>
+  <node id="1027838304" version="1" changeset="6582920" lat="53.1960997" lon="50.1905832" user="F_W" uid="380302" visible="true" timestamp="2010-12-08T09:15:45Z"/>
+  <node id="1577788334" version="1" changeset="10298422" lat="53.1963088" lon="50.190559" user="gentoid" uid="492771" visible="true" timestamp="2012-01-05T08:48:01Z">
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <way id="17323364" visible="true" timestamp="2012-12-26T09:42:40Z" version="25" changeset="14409802" user="Serĉjo" uid="639542">
+    <nd ref="150982499"/>
+    <nd ref="1119491688"/>
+    <nd ref="2083014237"/>
+    <nd ref="2083014235"/>
+    <nd ref="1027838304"/>
+    <nd ref="1577788334"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Авроры"/>
+  </way>
+</osm>

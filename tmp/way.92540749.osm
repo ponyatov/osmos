@@ -1,0 +1,17 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="154618066" version="8" changeset="8942593" lat="53.177122" lon="50.1931944" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:00Z"/>
+  <node id="220135324" version="4" changeset="8942593" lat="53.1776069" lon="50.1929641" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:06Z"/>
+  <node id="1388999607" version="1" changeset="8942593" lat="53.1780174" lon="50.1927391" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:40Z"/>
+  <node id="154618062" version="9" changeset="8942593" lat="53.1783941" lon="50.1924755" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:00Z"/>
+  <node id="1074189472" version="3" changeset="11748640" lat="53.1790667" lon="50.1920225" user="NickF" uid="467146" visible="true" timestamp="2012-05-30T13:21:41Z"/>
+  <way id="92540749" visible="true" timestamp="2012-09-12T11:56:01Z" version="6" changeset="13081615" user="Monitor" uid="222237">
+    <nd ref="154618066"/>
+    <nd ref="220135324"/>
+    <nd ref="1388999607"/>
+    <nd ref="154618062"/>
+    <nd ref="1074189472"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Авроры"/>
+  </way>
+</osm>

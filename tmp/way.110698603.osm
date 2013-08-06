@@ -1,0 +1,20 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="226307687" version="1" changeset="634544" lat="53.1995895" lon="50.1902788" user="AkMeR" uid="11049" visible="true" timestamp="2008-01-14T14:05:39Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="1577788284" version="1" changeset="10298422" lat="53.200111" lon="50.1902302" user="gentoid" uid="492771" visible="true" timestamp="2012-01-05T08:48:00Z">
+    <tag k="name" v="Улица Гагарина"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <way id="110698603" visible="true" timestamp="2012-05-11T18:00:46Z" version="5" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="226307687"/>
+    <nd ref="1577788284"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Авроры"/>
+  </way>
+</osm>

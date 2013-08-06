@@ -1,0 +1,16 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="150982500" version="5" changeset="614576" lat="53.1905442" lon="50.19107" user="AkMeR" uid="11049" visible="true" timestamp="2008-01-12T08:07:54Z"/>
+  <node id="150982499" version="10" changeset="16933223" lat="53.1916523" lon="50.1909127" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T05:49:29Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="-2.90; 1.37"/>
+  </node>
+  <way id="20538345" visible="true" timestamp="2012-05-19T10:44:31Z" version="15" changeset="11641288" user="gentoid" uid="492771">
+    <nd ref="150982500"/>
+    <nd ref="150982499"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Авроры"/>
+  </way>
+</osm>

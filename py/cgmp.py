@@ -51,7 +51,7 @@ Copyright=%s
 Datum=W84
 Elevation=m
 TypeSet=NG
-Routing=N
+Routing=Y
 Levels=2
 Level0=24
 Level1=1
@@ -121,6 +121,18 @@ EndLevel=1
 [END]
 '''%(self.__class__,self.id,self.poly2mp(),self.name,self.type)
 
+class Polygon(PolyLine):
+    def __str__(self):
+        return '''
+; %s osm_id:%s
+[POLYGON]
+Data0=%s
+Label=%s
+Type=0x%x
+EndLevel=1
+[END]
+'''%(self.__class__,self.id,self.poly2mp(),self.name,self.type)
+
 class StateBoundary(PolyLine):
     type=0x1C
     def __init__(self,id,poly,name):
@@ -133,7 +145,7 @@ class InternationalBoundary(PolyLine):
         PolyLine.__init__(self, id, poly, name)
         self.name=''
 
-class MapCoverage(PolyLine):
+class MapCoverage(Polygon):
     type=0x4b
     def __init__(self,id,poly,name):
         PolyLine.__init__(self, id, poly, name)

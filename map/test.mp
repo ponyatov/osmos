@@ -1,9 +1,32 @@
 [IMG ID]
-ID=13080617
-Levels=2
+ID=88888888
+Name=OSM-based map
+Copyright=Data from OpenStreetMap project under ODbL|Converted with osm2mp 1.03-765 at 2013-08-06 17:48:05
+
+LblCoding=9
+CodePage=65001
+
+Levels=6
 Level0=24
-Level1=1
-[END]
+Level1=22
+Level2=20
+Level3=18
+Level4=16
+Level5=15
+
+
+Preprocess=F
+POIIndex=Y
+TreSize=3000
+MG=Y
+Elevation=M
+Routing=Y
+POINumberFirst=N
+
+
+
+
+[END-IMG ID]
 
 ; WayID = r72194
 ; admin_level = 4
@@ -15,9 +38,9 @@ EndLevel=1
 [END]
 
 ; cgmp.MapCoverage osm_id:non-osm data
-;[POLYLINE]
-;Data0=(51.6726547,47.8367985),(51.6726547,52.668276),(54.7771616,52.668276),(54.7771616,47.8367985)
+[POLYGON]
+Data0=(51.6726547,47.8367985),(51.6726547,52.668276),(54.7771616,52.668276),(54.7771616,47.8367985)
 ;;,(51.6726547,47.8367985)
-;Type=0x4b
-;EndLevel=1
-;[END]
+Type=0x4b
+EndLevel=1
+[END]

@@ -1,0 +1,16 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="339839381" version="1" changeset="28443" lat="53.2685905" lon="50.2216272" user="AkMeR" uid="11049" visible="true" timestamp="2009-02-01T19:59:04Z"/>
+  <node id="154553892" version="7" changeset="9094880" lat="53.2676069" lon="50.2208651" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-08-22T14:50:19Z"/>
+  <way id="30727489" visible="true" timestamp="2013-01-21T19:41:27Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="339839381"/>
+    <nd ref="154553892"/>
+    <tag k="cladr:code" v="63000001000085300"/>
+    <tag k="cladr:name" v="Демократическая"/>
+    <tag k="cladr:suffix" v="Улица"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Демократическая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="К-918"/>
+  </way>
+</osm>

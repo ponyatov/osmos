@@ -1,0 +1,32 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="152654755" version="11" changeset="16927460" lat="53.2064342" lon="50.2136942" user="gentoid" uid="492771" visible="true" timestamp="2013-07-12T15:54:39Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="-5.43; -1.81"/>
+  </node>
+  <node id="2382492075" version="1" changeset="16927460" lat="53.2065757" lon="50.2136823" user="gentoid" uid="492771" visible="true" timestamp="2013-07-12T15:54:29Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2382492106" version="1" changeset="16927460" lat="53.2077031" lon="50.213587" user="gentoid" uid="492771" visible="true" timestamp="2013-07-12T15:54:30Z"/>
+  <node id="2382492129" version="1" changeset="16927460" lat="53.2087924" lon="50.213495" user="gentoid" uid="492771" visible="true" timestamp="2013-07-12T15:54:30Z"/>
+  <node id="226142744" version="4" changeset="8596540" lat="53.2092699" lon="50.2134547" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-07-01T07:18:53Z"/>
+  <node id="1345543055" version="1" changeset="8596540" lat="53.2102196" lon="50.2133661" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-07-01T07:18:36Z"/>
+  <node id="2382492155" version="1" changeset="16927460" lat="53.2107819" lon="50.2133234" user="gentoid" uid="492771" visible="true" timestamp="2013-07-12T15:54:31Z"/>
+  <node id="559694657" version="2" changeset="7082230" lat="53.2110107" lon="50.213306" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-01-25T10:39:56Z"/>
+  <way id="119889507" visible="true" timestamp="2013-07-12T15:54:38Z" version="4" changeset="16927460" user="gentoid" uid="492771">
+    <nd ref="152654755"/>
+    <nd ref="2382492075"/>
+    <nd ref="2382492106"/>
+    <nd ref="2382492129"/>
+    <nd ref="226142744"/>
+    <nd ref="1345543055"/>
+    <nd ref="2382492155"/>
+    <nd ref="559694657"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Советской Армии"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</osm>

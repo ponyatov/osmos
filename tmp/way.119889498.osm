@@ -1,0 +1,10 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="228887014" version="5" changeset="16927460" lat="53.1929623" lon="50.2194815" user="gentoid" uid="492771" visible="true" timestamp="2013-07-12T15:54:40Z"/>
+  <node id="228887285" version="3" changeset="16927460" lat="53.1920879" lon="50.2205929" user="gentoid" uid="492771" visible="true" timestamp="2013-07-12T15:54:40Z"/>
+  <way id="119889498" visible="true" timestamp="2011-07-01T07:18:40Z" version="1" changeset="8596540" user="AKhranovskiy" uid="231156">
+    <nd ref="228887014"/>
+    <nd ref="228887285"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="улица Советской Армии"/>
+  </way>
+</osm>

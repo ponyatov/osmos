@@ -1,0 +1,42 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="143980363" version="9" changeset="11316502" lat="53.2284464" lon="50.1938227" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T21:52:42Z"/>
+  <node id="946233612" version="3" changeset="11313395" lat="53.2285212" lon="50.1937207" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T17:34:23Z"/>
+  <node id="946265823" version="3" changeset="8596540" lat="53.2294614" lon="50.1923936" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-07-01T07:18:54Z"/>
+  <node id="236880383" version="6" changeset="8596540" lat="53.2302845" lon="50.1913787" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-07-01T07:18:53Z"/>
+  <node id="946252867" version="2" changeset="8596540" lat="53.2312004" lon="50.1902155" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-07-01T07:18:54Z"/>
+  <node id="946252845" version="2" changeset="8596540" lat="53.2320725" lon="50.1891107" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-07-01T07:18:54Z"/>
+  <node id="946252893" version="2" changeset="8596540" lat="53.2325341" lon="50.1884995" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-07-01T07:18:54Z"/>
+  <node id="560730363" version="3" changeset="8596540" lat="53.2325963" lon="50.1884027" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-07-01T07:18:54Z"/>
+  <node id="143980370" version="6" changeset="8596540" lat="53.233119" lon="50.1876664" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-07-01T07:18:51Z"/>
+  <node id="1292874991" version="2" changeset="9411980" lat="53.23387" lon="50.1867345" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-27T16:13:30Z">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+  </node>
+  <node id="143980371" version="9" changeset="8942593" lat="53.2339077" lon="50.1866922" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:57Z"/>
+  <node id="1436483384" version="1" changeset="9333173" lat="53.2340441" lon="50.1865162" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:12:41Z"/>
+  <node id="143980372" version="10" changeset="8942593" lat="53.2342325" lon="50.1862732" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:57Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <way id="119889477" visible="true" timestamp="2013-02-21T07:54:01Z" version="7" changeset="15108682" user="NickF" uid="467146">
+    <nd ref="143980363"/>
+    <nd ref="946233612"/>
+    <nd ref="946265823"/>
+    <nd ref="236880383"/>
+    <nd ref="946252867"/>
+    <nd ref="946252845"/>
+    <nd ref="946252893"/>
+    <nd ref="560730363"/>
+    <nd ref="143980370"/>
+    <nd ref="1292874991"/>
+    <nd ref="143980371"/>
+    <nd ref="1436483384"/>
+    <nd ref="143980372"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Советской Армии"/>
+    <tag k="oneway" v="no"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</osm>

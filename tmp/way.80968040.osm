@@ -1,0 +1,19 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="143980388" version="5" changeset="4399062" lat="53.2440409" lon="50.1731643" user="evgenius13" uid="263679" visible="true" timestamp="2010-04-11T20:59:55Z"/>
+  <node id="143980389" version="7" changeset="4399062" lat="53.244189" lon="50.1732039" user="evgenius13" uid="263679" visible="true" timestamp="2010-04-11T20:59:55Z"/>
+  <node id="143980391" version="6" changeset="4399062" lat="53.2448" lon="50.1734772" user="evgenius13" uid="263679" visible="true" timestamp="2010-04-11T20:59:55Z"/>
+  <node id="528738904" version="2" changeset="4399062" lat="53.245052" lon="50.1735597" user="evgenius13" uid="263679" visible="true" timestamp="2010-04-11T20:59:55Z"/>
+  <node id="2204601761" version="1" changeset="15384026" lat="53.2457303" lon="50.1737743" user="sunsay" uid="1051497" visible="true" timestamp="2013-03-16T13:43:09Z"/>
+  <node id="249656013" version="4" changeset="4399062" lat="53.2457772" lon="50.1737891" user="evgenius13" uid="263679" visible="true" timestamp="2010-04-11T20:59:56Z"/>
+  <way id="80968040" visible="true" timestamp="2013-03-16T13:43:11Z" version="6" changeset="15384026" user="sunsay" uid="1051497">
+    <nd ref="143980388"/>
+    <nd ref="143980389"/>
+    <nd ref="143980391"/>
+    <nd ref="528738904"/>
+    <nd ref="2204601761"/>
+    <nd ref="249656013"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Советской Армии"/>
+  </way>
+</osm>

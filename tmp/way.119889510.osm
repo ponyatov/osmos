@@ -1,0 +1,20 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1299505226" version="2" changeset="13547829" lat="53.197513" lon="50.2142049" user="NickF" uid="467146" visible="true" timestamp="2012-10-18T18:13:27Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1299505218" version="2" changeset="8596540" lat="53.1972579" lon="50.2142347" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-07-01T07:18:51Z"/>
+  <node id="1345543054" version="1" changeset="8596540" lat="53.1970431" lon="50.2143758" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-07-01T07:18:36Z"/>
+  <node id="226375379" version="2" changeset="1979029" lat="53.1968575" lon="50.2145566" user="serikst" uid="144744" visible="true" timestamp="2009-07-29T20:33:04Z"/>
+  <way id="119889510" visible="true" timestamp="2012-05-19T10:44:52Z" version="3" changeset="11641288" user="gentoid" uid="492771">
+    <nd ref="1299505226"/>
+    <nd ref="1299505218"/>
+    <nd ref="1345543054"/>
+    <nd ref="226375379"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="no"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Советской Армии"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</osm>

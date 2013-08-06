@@ -1,0 +1,34 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="152653875" version="11" changeset="16927460" lat="53.2014457" lon="50.2139031" user="gentoid" uid="492771" visible="true" timestamp="2013-07-12T15:54:39Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="-1.63; 0.00"/>
+  </node>
+  <node id="1499921043" version="2" changeset="16927460" lat="53.2014402" lon="50.2137465" user="gentoid" uid="492771" visible="true" timestamp="2013-07-12T15:54:39Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="1499921041" version="2" changeset="16927460" lat="53.2014211" lon="50.2132071" user="gentoid" uid="492771" visible="true" timestamp="2013-07-12T15:54:39Z"/>
+  <node id="1499921031" version="1" changeset="9804260" lat="53.2012713" lon="50.2090923" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T13:15:55Z">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+  </node>
+  <node id="1499921013" version="1" changeset="9804260" lat="53.201172" lon="50.2056676" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T13:15:55Z"/>
+  <node id="1499921009" version="1" changeset="9804260" lat="53.2011205" lon="50.2038913" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T13:15:54Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="225606596" version="5" changeset="8942593" lat="53.2011134" lon="50.203646" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:07Z"/>
+  <way id="107681901" visible="true" timestamp="2012-05-11T18:01:22Z" version="4" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="152653875"/>
+    <nd ref="1499921043"/>
+    <nd ref="1499921041"/>
+    <nd ref="1499921031"/>
+    <nd ref="1499921013"/>
+    <nd ref="1499921009"/>
+    <nd ref="225606596"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Гагарина"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</osm>

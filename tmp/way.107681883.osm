@@ -1,0 +1,31 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="176563880" version="5" changeset="8913934" lat="53.2025497" lon="50.1606418" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:09Z"/>
+  <node id="218134037" version="4" changeset="648805" lat="53.2003801" lon="50.1633769" user="AkMeR" uid="11049" visible="true" timestamp="2009-02-24T08:42:00Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="218134043" version="6" changeset="8913934" lat="53.2002605" lon="50.1635192" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:14Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="crossing" v="traffic_signals"/>
+  </node>
+  <node id="1448905243" version="1" changeset="9428281" lat="53.2002243" lon="50.1635467" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-29T15:39:49Z">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+  </node>
+  <node id="984955713" version="2" changeset="8913934" lat="53.2001624" lon="50.1635937" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:24Z"/>
+  <node id="152678263" version="8" changeset="8913934" lat="53.2000921" lon="50.1636004" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:05Z"/>
+  <way id="107681883" visible="true" timestamp="2012-05-11T18:01:21Z" version="6" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="176563880"/>
+    <nd ref="218134037"/>
+    <nd ref="218134043"/>
+    <nd ref="1448905243"/>
+    <nd ref="984955713"/>
+    <nd ref="152678263"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Гагарина"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</osm>

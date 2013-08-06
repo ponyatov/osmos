@@ -1,0 +1,40 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="229082997" version="3" changeset="6815508" lat="53.2017906" lon="50.2316829" user="AKhranovskiy" uid="231156" visible="true" timestamp="2010-12-31T00:06:42Z"/>
+  <node id="152668877" version="10" changeset="15238397" lat="53.2019103" lon="50.2350334" user="gentoid" uid="492771" visible="true" timestamp="2013-03-03T19:40:28Z"/>
+  <node id="2184378624" version="1" changeset="15238397" lat="53.2019252" lon="50.2352022" user="gentoid" uid="492771" visible="true" timestamp="2013-03-03T19:40:22Z"/>
+  <node id="152668876" version="12" changeset="15238397" lat="53.2019422" lon="50.2353586" user="gentoid" uid="492771" visible="true" timestamp="2013-03-03T19:40:28Z"/>
+  <node id="2184378625" version="1" changeset="15238397" lat="53.2019711" lon="50.2355019" user="gentoid" uid="492771" visible="true" timestamp="2013-03-03T19:40:22Z"/>
+  <node id="2184378628" version="1" changeset="15238397" lat="53.2020081" lon="50.2356138" user="gentoid" uid="492771" visible="true" timestamp="2013-03-03T19:40:22Z"/>
+  <node id="152668874" version="12" changeset="15238397" lat="53.2020637" lon="50.2357634" user="gentoid" uid="492771" visible="true" timestamp="2013-03-03T19:40:28Z"/>
+  <node id="152668873" version="12" changeset="15238397" lat="53.2022287" lon="50.2360871" user="gentoid" uid="492771" visible="true" timestamp="2013-03-03T19:40:28Z"/>
+  <node id="1499921083" version="2" changeset="15238397" lat="53.2027259" lon="50.2372178" user="gentoid" uid="492771" visible="true" timestamp="2013-03-03T19:40:27Z"/>
+  <node id="1479085153" version="2" changeset="15238397" lat="53.2031272" lon="50.2381305" user="gentoid" uid="492771" visible="true" timestamp="2013-03-03T19:40:27Z"/>
+  <node id="152672544" version="7" changeset="15238397" lat="53.2032511" lon="50.2384222" user="gentoid" uid="492771" visible="true" timestamp="2013-03-03T19:40:28Z"/>
+  <node id="1499921090" version="2" changeset="15238397" lat="53.203269" lon="50.2384725" user="gentoid" uid="492771" visible="true" timestamp="2013-03-03T19:40:27Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="152672542" version="9" changeset="15238397" lat="53.2032849" lon="50.2386333" user="gentoid" uid="492771" visible="true" timestamp="2013-03-03T19:40:28Z"/>
+  <node id="152541594" version="12" changeset="15238397" lat="53.2032862" lon="50.2387623" user="gentoid" uid="492771" visible="true" timestamp="2013-03-03T19:40:27Z"/>
+  <way id="107681888" visible="true" timestamp="2013-03-03T19:40:26Z" version="5" changeset="15238397" user="gentoid" uid="492771">
+    <nd ref="229082997"/>
+    <nd ref="152668877"/>
+    <nd ref="2184378624"/>
+    <nd ref="152668876"/>
+    <nd ref="2184378625"/>
+    <nd ref="2184378628"/>
+    <nd ref="152668874"/>
+    <nd ref="152668873"/>
+    <nd ref="1499921083"/>
+    <nd ref="1479085153"/>
+    <nd ref="152672544"/>
+    <nd ref="1499921090"/>
+    <nd ref="152672542"/>
+    <nd ref="152541594"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Гагарина"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</osm>

@@ -1,0 +1,28 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="152271922" version="7" changeset="17092270" lat="53.2019122" lon="50.224384" user="ulyanovsk" uid="1548102" visible="true" timestamp="2013-07-25T18:32:16Z"/>
+  <node id="2396535075" version="1" changeset="17092270" lat="53.2018314" lon="50.2240823" user="ulyanovsk" uid="1548102" visible="true" timestamp="2013-07-25T18:32:12Z"/>
+  <node id="2396535074" version="1" changeset="17092270" lat="53.2017899" lon="50.2238859" user="ulyanovsk" uid="1548102" visible="true" timestamp="2013-07-25T18:32:12Z"/>
+  <node id="152271923" version="7" changeset="17092270" lat="53.2017545" lon="50.2236714" user="ulyanovsk" uid="1548102" visible="true" timestamp="2013-07-25T18:32:16Z"/>
+  <node id="152271925" version="7" changeset="17092270" lat="53.2017261" lon="50.2234576" user="ulyanovsk" uid="1548102" visible="true" timestamp="2013-07-25T18:32:16Z"/>
+  <node id="1499921067" version="2" changeset="17092270" lat="53.2016981" lon="50.2231962" user="ulyanovsk" uid="1548102" visible="true" timestamp="2013-07-25T18:32:16Z"/>
+  <node id="2396535073" version="1" changeset="17092270" lat="53.2016675" lon="50.222621" user="ulyanovsk" uid="1548102" visible="true" timestamp="2013-07-25T18:32:12Z"/>
+  <node id="229025815" version="3" changeset="13547767" lat="53.2016328" lon="50.2213191" user="NickF" uid="467146" visible="true" timestamp="2012-10-18T18:08:58Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <way id="15371090" visible="true" timestamp="2013-07-25T18:32:15Z" version="32" changeset="17092270" user="ulyanovsk" uid="1548102">
+    <nd ref="152271922"/>
+    <nd ref="2396535075"/>
+    <nd ref="2396535074"/>
+    <nd ref="152271923"/>
+    <nd ref="152271925"/>
+    <nd ref="1499921067"/>
+    <nd ref="2396535073"/>
+    <nd ref="229025815"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Гагарина"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</osm>

@@ -1,0 +1,33 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="176718824" version="8" changeset="13876867" lat="53.2001906" lon="50.1708907" user="pneumonoultramicroscopicsilicovolcanokoniosis" uid="370751" visible="true" timestamp="2012-11-14T21:14:14Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1499920959" version="2" changeset="11063887" lat="53.2001815" lon="50.1706461" user="pneumonoultramicroscopicsilicovolcanokoniosis" uid="370751" visible="true" timestamp="2012-03-22T15:18:16Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="1681851239" version="3" changeset="13363607" lat="53.2001345" lon="50.1689338" user="pneumonoultramicroscopicsilicovolcanokoniosis" uid="370751" visible="true" timestamp="2012-10-04T17:22:33Z"/>
+  <node id="1499920956" version="2" changeset="13363607" lat="53.2000723" lon="50.1669438" user="pneumonoultramicroscopicsilicovolcanokoniosis" uid="370751" visible="true" timestamp="2012-10-04T17:22:33Z">
+    <tag k="supervised" v="yes"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="220393138" version="7" changeset="13363607" lat="53.2000688" lon="50.1667741" user="pneumonoultramicroscopicsilicovolcanokoniosis" uid="370751" visible="true" timestamp="2012-10-04T17:22:34Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+  </node>
+  <way id="107681908" visible="true" timestamp="2012-05-11T18:01:20Z" version="6" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="176718824"/>
+    <nd ref="1499920959"/>
+    <nd ref="1681851239"/>
+    <nd ref="1499920956"/>
+    <nd ref="220393138"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Гагарина"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</osm>

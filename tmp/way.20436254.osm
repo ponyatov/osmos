@@ -1,0 +1,37 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="152678252" version="6" changeset="8913934" lat="53.2002047" lon="50.1640622" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:04Z"/>
+  <node id="218134001" version="4" changeset="648805" lat="53.2002754" lon="50.163924" user="AkMeR" uid="11049" visible="true" timestamp="2009-02-24T08:42:02Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="984955719" version="1" changeset="6341083" lat="53.2003208" lon="50.1638392" user="atgnclk" uid="164645" visible="true" timestamp="2010-11-11T03:11:33Z"/>
+  <node id="1448905244" version="1" changeset="9428281" lat="53.2003404" lon="50.1638068" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-29T15:39:49Z">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+  </node>
+  <node id="984955721" version="2" changeset="8913934" lat="53.2003681" lon="50.1637612" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:24Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="crossing" v="traffic_signals"/>
+  </node>
+  <node id="218134017" version="4" changeset="8913934" lat="53.2004772" lon="50.163601" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:14Z"/>
+  <node id="1450126049" version="1" changeset="9439073" lat="53.2009086" lon="50.1630325" user="gentoid" uid="492771" visible="true" timestamp="2011-09-30T21:34:24Z"/>
+  <node id="1450126051" version="1" changeset="9439073" lat="53.2015896" lon="50.162135" user="gentoid" uid="492771" visible="true" timestamp="2011-09-30T21:34:24Z"/>
+  <node id="218134032" version="3" changeset="8913934" lat="53.2023598" lon="50.16112" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:14Z"/>
+  <way id="20436254" visible="true" timestamp="2012-05-11T18:01:22Z" version="13" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="152678252"/>
+    <nd ref="218134001"/>
+    <nd ref="984955719"/>
+    <nd ref="1448905244"/>
+    <nd ref="984955721"/>
+    <nd ref="218134017"/>
+    <nd ref="1450126049"/>
+    <nd ref="1450126051"/>
+    <nd ref="218134032"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Гагарина"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</osm>

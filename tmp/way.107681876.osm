@@ -1,0 +1,23 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="176553206" version="8" changeset="16927460" lat="53.2013018" lon="50.2141056" user="gentoid" uid="492771" visible="true" timestamp="2013-07-12T15:54:40Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="-1.63; 0.00"/>
+  </node>
+  <node id="1499921037" version="2" changeset="16927460" lat="53.2013056" lon="50.2142486" user="gentoid" uid="492771" visible="true" timestamp="2013-07-12T15:54:39Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2382492056" version="1" changeset="16927460" lat="53.2013149" lon="50.2151451" user="gentoid" uid="492771" visible="true" timestamp="2013-07-12T15:54:29Z"/>
+  <node id="228979556" version="3" changeset="8942593" lat="53.2014443" lon="50.2189623" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:09Z"/>
+  <way id="107681876" visible="true" timestamp="2013-07-12T15:54:36Z" version="6" changeset="16927460" user="gentoid" uid="492771">
+    <nd ref="176553206"/>
+    <nd ref="1499921037"/>
+    <nd ref="2382492056"/>
+    <nd ref="228979556"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Гагарина"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</osm>

@@ -1,0 +1,30 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="152333198" version="7" changeset="8942593" lat="53.2002669" lon="50.1782976" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:00Z">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+  </node>
+  <node id="178193567" version="8" changeset="11577558" lat="53.2000155" lon="50.1782666" user="gentoid" uid="492771" visible="true" timestamp="2012-05-12T15:22:44Z"/>
+  <node id="1140643187" version="2" changeset="8942593" lat="53.1997945" lon="50.1782394" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:55Z"/>
+  <node id="1263054609" version="3" changeset="11577558" lat="53.198966" lon="50.1783017" user="gentoid" uid="492771" visible="true" timestamp="2012-05-12T15:22:43Z"/>
+  <node id="504489379" version="3" changeset="11577558" lat="53.198392" lon="50.1783449" user="gentoid" uid="492771" visible="true" timestamp="2012-05-12T15:22:44Z"/>
+  <node id="1263054604" version="2" changeset="11577558" lat="53.1983637" lon="50.1783471" user="gentoid" uid="492771" visible="true" timestamp="2012-05-12T15:22:43Z"/>
+  <node id="1263054610" version="3" changeset="11577558" lat="53.1976455" lon="50.1784011" user="gentoid" uid="492771" visible="true" timestamp="2012-05-12T15:22:43Z"/>
+  <node id="178193569" version="10" changeset="11577558" lat="53.1966804" lon="50.1784737" user="gentoid" uid="492771" visible="true" timestamp="2012-05-12T15:22:44Z">
+    <tag k="merkator_shift:bing" v="19.67; 3.99"/>
+  </node>
+  <way id="109374613" visible="true" timestamp="2012-05-11T17:59:31Z" version="5" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="152333198"/>
+    <nd ref="178193567"/>
+    <nd ref="1140643187"/>
+    <nd ref="1263054609"/>
+    <nd ref="504489379"/>
+    <nd ref="1263054604"/>
+    <nd ref="1263054610"/>
+    <nd ref="178193569"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Революционная улица"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</osm>

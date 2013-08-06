@@ -1,0 +1,12 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="217628413" version="2" changeset="600863" lat="53.217296" lon="50.163002" user="AkMeR" uid="11049" visible="true" timestamp="2008-01-11T08:51:25Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="523548134" version="1" changeset="2766775" lat="53.2165879" lon="50.1638923" user="atgnclk" uid="164645" visible="true" timestamp="2009-10-07T00:39:06Z"/>
+  <way id="16861164" visible="true" timestamp="2011-04-20T10:40:24Z" version="12" changeset="7914929" user="AKhranovskiy" uid="231156">
+    <nd ref="217628413"/>
+    <nd ref="523548134"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Революционная улица"/>
+  </way>
+</osm>

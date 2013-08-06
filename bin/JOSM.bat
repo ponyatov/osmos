@@ -1,1 +1,2 @@
-java -jar JOSM.jar ..\tmp\rel_72194.osm
+java -jar JOSM.jar 
+rem ..\tmp\rel_72194.osm

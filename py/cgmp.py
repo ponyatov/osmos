@@ -147,6 +147,9 @@ class Street(PolyLine):
     type=0x0
     def __init__(self,id,poly,name):
         PolyLine.__init__(self, id, poly, name)
+        
+class ArterialRoad(Street):
+    type=0x4        
 
 class MapCoverage(Polygon):
     type=0x4b

@@ -57,7 +57,7 @@ for hwid in HIGHWAYS:
     HW=osm.relation(id=hwid) ; print hwid,HIGHWAYS[hwid]
     for xx in HW.xpath('//member[@type="way"][@role="street"]'):
         W=osm.way(xx.attrib['ref'])
-        MP.add(cgmp.Street(W.id,W.poly,W.name)) ; print W.id,
+        MP.add(cgmp.ArterialRoad(W.id,W.poly,W.name)) ; print W.id,
     print
 print '-'*40
 

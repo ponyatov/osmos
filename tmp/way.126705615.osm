@@ -1,0 +1,13 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1403884751" version="1" changeset="9059929" lat="52.66866" lon="51.5245435" user="gentoid" uid="492771" visible="true" timestamp="2011-08-18T19:35:41Z"/>
+  <node id="790665561" version="3" changeset="6170500" lat="52.6767634" lon="51.5232279" user="serikst" uid="144744" visible="true" timestamp="2010-10-25T13:04:10Z"/>
+  <node id="964824665" version="1" changeset="6170500" lat="52.679247" lon="51.56097" user="serikst" uid="144744" visible="true" timestamp="2010-10-25T12:47:31Z"/>
+  <way id="126705615" visible="true" timestamp="2012-02-26T14:28:40Z" version="3" changeset="10798847" user="DeKaN" uid="471972">
+    <nd ref="1403884751"/>
+    <nd ref="790665561"/>
+    <nd ref="964824665"/>
+    <tag k="gis-lab:status" v="subj"/>
+    <tag k="source" v="Закон об установлении границ муниципального района Алексеевский Самарской области"/>
+    <tag k="source:url" v="http://www.adm.samara.ru/documents/zakon/9508/"/>
+  </way>
+</osm>

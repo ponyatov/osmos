@@ -1,0 +1,17 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="790667589" version="1" changeset="5077887" lat="53.8915289" lon="52.3864582" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:34Z"/>
+  <node id="790666546" version="1" changeset="5077887" lat="53.8927265" lon="52.394784" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:00Z"/>
+  <node id="790667202" version="1" changeset="5077887" lat="53.8930118" lon="52.408185" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:22Z"/>
+  <node id="790666173" version="1" changeset="5077887" lat="53.9002542" lon="52.4121766" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:49Z"/>
+  <node id="1119977845" version="4" changeset="8841453" lat="53.923052" lon="52.41359" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:36Z"/>
+  <way id="90723902" visible="true" timestamp="2012-02-26T14:29:08Z" version="7" changeset="10798847" user="DeKaN" uid="471972">
+    <nd ref="790667589"/>
+    <nd ref="790666546"/>
+    <nd ref="790667202"/>
+    <nd ref="790666173"/>
+    <nd ref="1119977845"/>
+    <tag k="gis-lab:status" v="subj"/>
+    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
+  </way>
+</osm>

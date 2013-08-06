@@ -1,0 +1,56 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="501599635" version="1" changeset="2531871" lat="53.3219986" lon="52.1880057" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T10:00:38Z"/>
+  <node id="345234536" version="2" changeset="2531871" lat="53.3245834" lon="52.1761138" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T10:00:57Z"/>
+  <node id="345234537" version="2" changeset="2531871" lat="53.3808471" lon="52.2118624" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T10:00:57Z"/>
+  <node id="501599637" version="2" changeset="8841453" lat="53.3904347" lon="52.1629683" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:42Z"/>
+  <node id="1375402342" version="1" changeset="8841453" lat="53.3851032" lon="52.160639" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:19Z"/>
+  <node id="1375402343" version="1" changeset="8841453" lat="53.3867858" lon="52.1529814" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:19Z"/>
+  <node id="501599638" version="2" changeset="8841453" lat="53.3925347" lon="52.1544092" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:42Z"/>
+  <node id="501599640" version="1" changeset="2531871" lat="53.3963335" lon="52.1530745" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T10:00:38Z"/>
+  <node id="501599642" version="2" changeset="8841453" lat="53.3989728" lon="52.1488198" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:42Z"/>
+  <node id="501599643" version="2" changeset="8841453" lat="53.4032507" lon="52.1444282" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:42Z"/>
+  <node id="501599652" version="2" changeset="8841453" lat="53.4102995" lon="52.14312" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:43Z"/>
+  <node id="501599645" version="2" changeset="8841453" lat="53.4155154" lon="52.145715" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:42Z"/>
+  <node id="345234539" version="3" changeset="8841453" lat="53.4157169" lon="52.1478342" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:42Z"/>
+  <node id="501599647" version="2" changeset="8841453" lat="53.4167248" lon="52.1515086" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:42Z"/>
+  <node id="501599648" version="2" changeset="8841453" lat="53.4226945" lon="52.1507973" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:43Z"/>
+  <node id="501599649" version="2" changeset="8841453" lat="53.4279754" lon="52.1559454" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:43Z"/>
+  <node id="345234541" version="3" changeset="8841453" lat="53.4291097" lon="52.1594314" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:42Z"/>
+  <node id="501599650" version="2" changeset="8841453" lat="53.4311053" lon="52.154147" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:43Z"/>
+  <node id="501599651" version="2" changeset="8841453" lat="53.4386035" lon="52.1522517" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:43Z"/>
+  <node id="501599657" version="2" changeset="8841453" lat="53.4446578" lon="52.1450929" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:43Z"/>
+  <node id="501599653" version="2" changeset="8841453" lat="53.4433291" lon="52.1366071" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:43Z"/>
+  <node id="501599655" version="2" changeset="8841453" lat="53.4415556" lon="52.1276439" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:43Z"/>
+  <node id="501599656" version="2" changeset="8841453" lat="53.4411693" lon="52.1227571" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:43Z"/>
+  <node id="501599660" version="2" changeset="8841453" lat="53.4509306" lon="52.1292024" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:43Z"/>
+  <node id="501599659" version="2" changeset="8841453" lat="53.4563456" lon="52.1168193" user="gentoid" uid="492771" visible="true" timestamp="2011-07-27T03:20:43Z"/>
+  <way id="96845733" visible="true" timestamp="2012-02-26T14:29:30Z" version="5" changeset="10798847" user="DeKaN" uid="471972">
+    <nd ref="501599635"/>
+    <nd ref="345234536"/>
+    <nd ref="345234537"/>
+    <nd ref="501599637"/>
+    <nd ref="1375402342"/>
+    <nd ref="1375402343"/>
+    <nd ref="501599638"/>
+    <nd ref="501599640"/>
+    <nd ref="501599642"/>
+    <nd ref="501599643"/>
+    <nd ref="501599652"/>
+    <nd ref="501599645"/>
+    <nd ref="345234539"/>
+    <nd ref="501599647"/>
+    <nd ref="501599648"/>
+    <nd ref="501599649"/>
+    <nd ref="345234541"/>
+    <nd ref="501599650"/>
+    <nd ref="501599651"/>
+    <nd ref="501599657"/>
+    <nd ref="501599653"/>
+    <nd ref="501599655"/>
+    <nd ref="501599656"/>
+    <nd ref="501599660"/>
+    <nd ref="501599659"/>
+    <tag k="border_type" v="region"/>
+    <tag k="source" v="based on NGA GNS"/>
+  </way>
+</osm>

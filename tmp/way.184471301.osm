@@ -1,0 +1,19 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="596658085" version="2" changeset="4821974" lat="54.5650035" lon="51.6336446" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:33:14Z"/>
+  <node id="750828313" version="1" changeset="4821974" lat="54.5666703" lon="51.6462552" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:31:38Z"/>
+  <node id="750828345" version="1" changeset="4821974" lat="54.5678704" lon="51.6551956" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:31:39Z"/>
+  <node id="750827737" version="1" changeset="4821974" lat="54.5683789" lon="51.6581249" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:31:21Z"/>
+  <node id="750824055" version="1" changeset="4821974" lat="54.5690983" lon="51.6632095" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:29:40Z"/>
+  <node id="347666505" version="5" changeset="10035116" lat="54.5677508" lon="51.6659472" user="zetx16" uid="345493" visible="true" timestamp="2011-12-04T16:55:45Z"/>
+  <way id="184471301" visible="true" timestamp="2012-11-15T00:54:12Z" version="2" changeset="13878562" user="misha yakin" uid="384109">
+    <nd ref="596658085"/>
+    <nd ref="750828313"/>
+    <nd ref="750828345"/>
+    <nd ref="750827737"/>
+    <nd ref="750824055"/>
+    <nd ref="347666505"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="border_type" v="region"/>
+    <tag k="boundary" v="administrative"/>
+  </way>
+</osm>

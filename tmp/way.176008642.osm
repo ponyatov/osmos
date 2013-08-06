@@ -1,0 +1,84 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1865683544" version="1" changeset="12726713" lat="53.0881004" lon="52.1418608" user="KOMSOMOLSKIY" uid="720764" visible="true" timestamp="2012-08-14T13:09:36Z"/>
+  <node id="584154225" version="2" changeset="3631329" lat="53.0877586" lon="52.1622667" user="AkMeR" uid="11049" visible="true" timestamp="2010-01-16T13:15:20Z"/>
+  <node id="614625664" version="1" changeset="3631329" lat="53.1200748" lon="52.1651997" user="AkMeR" uid="11049" visible="true" timestamp="2010-01-16T13:15:11Z"/>
+  <node id="1412617512" version="1" changeset="9125220" lat="53.1239765" lon="52.1616371" user="gentoid" uid="492771" visible="true" timestamp="2011-08-25T21:28:40Z"/>
+  <node id="584154228" version="3" changeset="9125220" lat="53.1254951" lon="52.1577839" user="gentoid" uid="492771" visible="true" timestamp="2011-08-25T21:28:49Z"/>
+  <node id="1412617514" version="1" changeset="9125220" lat="53.1246891" lon="52.1524519" user="gentoid" uid="492771" visible="true" timestamp="2011-08-25T21:28:40Z"/>
+  <node id="584154231" version="2" changeset="3631329" lat="53.125225" lon="52.1451204" user="AkMeR" uid="11049" visible="true" timestamp="2010-01-16T13:15:20Z"/>
+  <node id="614625479" version="1" changeset="3631329" lat="53.1230639" lon="52.0852325" user="AkMeR" uid="11049" visible="true" timestamp="2010-01-16T13:15:02Z"/>
+  <node id="584154188" version="2" changeset="3631329" lat="53.1230566" lon="52.0801452" user="AkMeR" uid="11049" visible="true" timestamp="2010-01-16T13:15:19Z"/>
+  <node id="584154191" version="1" changeset="3337227" lat="53.1251363" lon="52.0790621" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:58Z"/>
+  <node id="584154183" version="1" changeset="3337227" lat="53.125704" lon="52.0691952" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:58Z"/>
+  <node id="584154186" version="1" changeset="3337227" lat="53.1293537" lon="52.0662892" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:58Z"/>
+  <node id="584154194" version="1" changeset="3337227" lat="53.1398142" lon="52.0679111" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:58Z"/>
+  <node id="584154197" version="1" changeset="3337227" lat="53.1408277" lon="52.0706144" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:58Z"/>
+  <node id="584154200" version="1" changeset="3337227" lat="53.1434221" lon="52.0710875" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:58Z"/>
+  <node id="584154203" version="1" changeset="3337227" lat="53.146219" lon="52.0681139" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:58Z"/>
+  <node id="584154206" version="1" changeset="3337227" lat="53.1523797" lon="52.0686545" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:58Z"/>
+  <node id="584154209" version="1" changeset="3337227" lat="53.1584179" lon="52.0819005" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:58Z"/>
+  <node id="1865930437" version="1" changeset="12728725" lat="53.1598627" lon="52.0846889" user="KOMSOMOLSKIY" uid="720764" visible="true" timestamp="2012-08-14T16:15:02Z"/>
+  <node id="1865930443" version="1" changeset="12728725" lat="53.1606866" lon="52.0862403" user="KOMSOMOLSKIY" uid="720764" visible="true" timestamp="2012-08-14T16:15:02Z"/>
+  <node id="1865930445" version="1" changeset="12728725" lat="53.1612087" lon="52.086918" user="KOMSOMOLSKIY" uid="720764" visible="true" timestamp="2012-08-14T16:15:02Z"/>
+  <node id="1864923871" version="1" changeset="12719931" lat="53.1623623" lon="52.0892985" user="KOMSOMOLSKIY" uid="720764" visible="true" timestamp="2012-08-13T21:16:36Z"/>
+  <node id="584154213" version="1" changeset="3337227" lat="53.1639286" lon="52.0936597" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:58Z"/>
+  <node id="584154216" version="1" changeset="3337227" lat="53.1671698" lon="52.1028508" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:58Z"/>
+  <node id="1827704806" version="1" changeset="12248058" lat="53.1674344" lon="52.10391" user="KOMSOMOLSKIY" uid="720764" visible="true" timestamp="2012-07-16T16:53:45Z"/>
+  <node id="584154219" version="1" changeset="3337227" lat="53.1681827" lon="52.1069057" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:58Z"/>
+  <node id="584154222" version="1" changeset="3337227" lat="53.1657518" lon="52.110893" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:58Z"/>
+  <node id="345234531" version="2" changeset="3337227" lat="53.1648435" lon="52.1210702" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:59Z"/>
+  <node id="584154234" version="1" changeset="3337227" lat="53.1661165" lon="52.1366416" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:59Z"/>
+  <node id="584154237" version="1" changeset="3337227" lat="53.1837773" lon="52.1339383" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:59Z"/>
+  <node id="584154240" version="1" changeset="3337227" lat="53.1847088" lon="52.1301538" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:59Z"/>
+  <node id="584154244" version="2" changeset="9151240" lat="53.1902556" lon="52.1263323" user="gentoid" uid="492771" visible="true" timestamp="2011-08-28T19:58:19Z"/>
+  <node id="1416584226" version="1" changeset="9151240" lat="53.1952473" lon="52.1265249" user="gentoid" uid="492771" visible="true" timestamp="2011-08-28T19:56:29Z"/>
+  <node id="345234532" version="3" changeset="9151240" lat="53.1968243" lon="52.1273625" user="gentoid" uid="492771" visible="true" timestamp="2011-08-28T19:58:19Z"/>
+  <node id="1416584241" version="1" changeset="9151240" lat="53.196819" lon="52.1286486" user="gentoid" uid="492771" visible="true" timestamp="2011-08-28T19:56:30Z"/>
+  <node id="1416584238" version="1" changeset="9151240" lat="53.1963849" lon="52.129723" user="gentoid" uid="492771" visible="true" timestamp="2011-08-28T19:56:30Z"/>
+  <node id="1416584236" version="1" changeset="9151240" lat="53.1955916" lon="52.1308723" user="gentoid" uid="492771" visible="true" timestamp="2011-08-28T19:56:30Z"/>
+  <node id="584154247" version="1" changeset="3337227" lat="53.19852" lon="52.1317516" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-09T22:55:59Z"/>
+  <node id="1416584577" version="1" changeset="9151240" lat="53.2332007" lon="52.1269179" user="gentoid" uid="492771" visible="true" timestamp="2011-08-28T19:56:37Z"/>
+  <way id="176008642" visible="true" timestamp="2012-08-14T16:16:22Z" version="2" changeset="12728725" user="KOMSOMOLSKIY" uid="720764">
+    <nd ref="1865683544"/>
+    <nd ref="584154225"/>
+    <nd ref="614625664"/>
+    <nd ref="1412617512"/>
+    <nd ref="584154228"/>
+    <nd ref="1412617514"/>
+    <nd ref="584154231"/>
+    <nd ref="614625479"/>
+    <nd ref="584154188"/>
+    <nd ref="584154191"/>
+    <nd ref="584154183"/>
+    <nd ref="584154186"/>
+    <nd ref="584154194"/>
+    <nd ref="584154197"/>
+    <nd ref="584154200"/>
+    <nd ref="584154203"/>
+    <nd ref="584154206"/>
+    <nd ref="584154209"/>
+    <nd ref="1865930437"/>
+    <nd ref="1865930443"/>
+    <nd ref="1865930445"/>
+    <nd ref="1864923871"/>
+    <nd ref="584154213"/>
+    <nd ref="584154216"/>
+    <nd ref="1827704806"/>
+    <nd ref="584154219"/>
+    <nd ref="584154222"/>
+    <nd ref="345234531"/>
+    <nd ref="584154234"/>
+    <nd ref="584154237"/>
+    <nd ref="584154240"/>
+    <nd ref="584154244"/>
+    <nd ref="1416584226"/>
+    <nd ref="345234532"/>
+    <nd ref="1416584241"/>
+    <nd ref="1416584238"/>
+    <nd ref="1416584236"/>
+    <nd ref="584154247"/>
+    <nd ref="1416584577"/>
+    <tag k="border_type" v="region"/>
+    <tag k="source" v="based on NGA GNS"/>
+  </way>
+</osm>

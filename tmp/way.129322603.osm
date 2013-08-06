@@ -1,0 +1,87 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="790666537" version="2" changeset="6266046" lat="52.4075703" lon="48.8821213" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:30:18Z"/>
+  <node id="790665500" version="1" changeset="5077887" lat="52.4311271" lon="48.8772202" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:22Z"/>
+  <node id="974443662" version="1" changeset="6266046" lat="52.4701087" lon="48.8622107" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:30:10Z"/>
+  <node id="974447772" version="1" changeset="6266046" lat="52.4851649" lon="48.8558253" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:41:31Z"/>
+  <node id="974447837" version="1" changeset="6266046" lat="52.4967327" lon="48.8515825" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:41:34Z"/>
+  <node id="790666164" version="2" changeset="6266046" lat="52.5121948" lon="48.8456763" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:41:37Z"/>
+  <node id="974447812" version="1" changeset="6266046" lat="52.5171372" lon="48.843873" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:41:33Z"/>
+  <node id="974447734" version="1" changeset="6266046" lat="52.5258299" lon="48.8402275" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:41:29Z"/>
+  <node id="790667580" version="2" changeset="6266046" lat="52.5327621" lon="48.8374846" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:41:40Z"/>
+  <node id="790665235" version="2" changeset="6266046" lat="52.541915" lon="48.8346146" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:41:40Z"/>
+  <node id="974447775" version="1" changeset="6266046" lat="52.5474643" lon="48.8345623" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:41:31Z"/>
+  <node id="974447710" version="1" changeset="6266046" lat="52.544167" lon="48.818029" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:41:28Z"/>
+  <node id="790666648" version="2" changeset="6266046" lat="52.5429103" lon="48.7987819" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:41:39Z"/>
+  <node id="974447841" version="1" changeset="6266046" lat="52.54215" lon="48.7749757" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:41:35Z"/>
+  <node id="790667302" version="3" changeset="6266046" lat="52.5426211" lon="48.7271996" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:37Z"/>
+  <node id="790666275" version="2" changeset="6266046" lat="52.5609755" lon="48.7194078" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:37Z"/>
+  <node id="974452366" version="1" changeset="6266046" lat="52.5663095" lon="48.7171129" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:22Z"/>
+  <node id="974452548" version="1" changeset="6266046" lat="52.5698485" lon="48.7157868" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:32Z"/>
+  <node id="974452436" version="1" changeset="6266046" lat="52.5800471" lon="48.7124424" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:26Z"/>
+  <node id="974452305" version="1" changeset="6266046" lat="52.5907335" lon="48.7093093" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:19Z"/>
+  <node id="974452419" version="1" changeset="6266046" lat="52.6054441" lon="48.7045378" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:25Z"/>
+  <node id="974452502" version="1" changeset="6266046" lat="52.6240558" lon="48.698465" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:30Z"/>
+  <node id="790666928" version="2" changeset="6266046" lat="52.6391415" lon="48.6932135" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:40Z"/>
+  <node id="974452487" version="1" changeset="6266046" lat="52.6403461" lon="48.6530106" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:29Z"/>
+  <node id="790665902" version="2" changeset="6266046" lat="52.6407378" lon="48.6355523" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:36Z"/>
+  <node id="790666559" version="1" changeset="5077887" lat="52.6328978" lon="48.6354954" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:01Z"/>
+  <node id="790665522" version="2" changeset="6266046" lat="52.6306642" lon="48.6352256" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:37Z"/>
+  <node id="790665699" version="2" changeset="6266046" lat="52.6263244" lon="48.5882122" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:42Z"/>
+  <node id="790666361" version="2" changeset="6266046" lat="52.6273274" lon="48.5743951" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:43Z"/>
+  <node id="974452381" version="1" changeset="6266046" lat="52.6282553" lon="48.5736401" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:23Z"/>
+  <node id="790665320" version="4" changeset="6266046" lat="52.6545637" lon="48.5624561" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:37Z"/>
+  <node id="974452428" version="1" changeset="6266046" lat="52.6550271" lon="48.5620233" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:26Z"/>
+  <node id="974452317" version="1" changeset="6266046" lat="52.6545911" lon="48.5605345" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:20Z"/>
+  <node id="974452495" version="1" changeset="6266046" lat="52.6544977" lon="48.5596875" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:30Z"/>
+  <node id="966614008" version="3" changeset="6266046" lat="52.6548771" lon="48.5588136" user="serikst" uid="144744" visible="true" timestamp="2010-11-02T10:59:43Z"/>
+  <node id="970683426" version="1" changeset="6230911" lat="52.6546804" lon="48.5578858" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:54:15Z"/>
+  <node id="970683420" version="1" changeset="6230911" lat="52.6548541" lon="48.5570983" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:54:14Z"/>
+  <node id="966613994" version="2" changeset="6230911" lat="52.6552982" lon="48.556513" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:54:17Z"/>
+  <node id="966614006" version="2" changeset="6230911" lat="52.6554899" lon="48.5559255" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:54:30Z"/>
+  <way id="129322603" visible="true" timestamp="2012-02-26T14:28:43Z" version="5" changeset="10798847" user="DeKaN" uid="471972">
+    <nd ref="790666537"/>
+    <nd ref="790665500"/>
+    <nd ref="974443662"/>
+    <nd ref="974447772"/>
+    <nd ref="974447837"/>
+    <nd ref="790666164"/>
+    <nd ref="974447812"/>
+    <nd ref="974447734"/>
+    <nd ref="790667580"/>
+    <nd ref="790665235"/>
+    <nd ref="974447775"/>
+    <nd ref="974447710"/>
+    <nd ref="790666648"/>
+    <nd ref="974447841"/>
+    <nd ref="790667302"/>
+    <nd ref="790666275"/>
+    <nd ref="974452366"/>
+    <nd ref="974452548"/>
+    <nd ref="974452436"/>
+    <nd ref="974452305"/>
+    <nd ref="974452419"/>
+    <nd ref="974452502"/>
+    <nd ref="790666928"/>
+    <nd ref="974452487"/>
+    <nd ref="790665902"/>
+    <nd ref="790666559"/>
+    <nd ref="790665522"/>
+    <nd ref="790665699"/>
+    <nd ref="790666361"/>
+    <nd ref="974452381"/>
+    <nd ref="790665320"/>
+    <nd ref="974452428"/>
+    <nd ref="974452317"/>
+    <nd ref="974452495"/>
+    <nd ref="966614008"/>
+    <nd ref="970683426"/>
+    <nd ref="970683420"/>
+    <nd ref="966613994"/>
+    <nd ref="966614006"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="4"/>
+    <tag k="gis-lab:status" v="subj"/>
+    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
+  </way>
+</osm>

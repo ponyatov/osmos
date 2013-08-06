@@ -1,0 +1,45 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="790666771" version="3" changeset="6230894" lat="52.6837106" lon="48.3097439" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:53Z"/>
+  <node id="966682721" version="2" changeset="6230894" lat="52.6903371" lon="48.320413" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:00Z"/>
+  <node id="790667429" version="3" changeset="6230894" lat="52.6955401" lon="48.3358837" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:00Z"/>
+  <node id="966682701" version="2" changeset="6230894" lat="52.6985132" lon="48.3411431" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:00Z"/>
+  <node id="790666400" version="3" changeset="6230894" lat="52.7013995" lon="48.344646" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:12Z"/>
+  <node id="966682690" version="2" changeset="6230894" lat="52.7056855" lon="48.3495426" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:00Z"/>
+  <node id="790666510" version="3" changeset="6230894" lat="52.7105463" lon="48.3537263" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:57Z"/>
+  <node id="790665471" version="3" changeset="6230894" lat="52.7168318" lon="48.3577649" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:58Z"/>
+  <node id="790666136" version="2" changeset="6230894" lat="52.7204415" lon="48.3592117" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:56Z"/>
+  <node id="790667550" version="3" changeset="6230894" lat="52.7275084" lon="48.3629173" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:13Z"/>
+  <node id="790665761" version="3" changeset="6230894" lat="52.7387006" lon="48.3623533" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:54Z"/>
+  <node id="790667165" version="3" changeset="6230894" lat="52.7491372" lon="48.3655703" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:13Z"/>
+  <node id="966682693" version="2" changeset="6230894" lat="52.7681616" lon="48.3755747" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:59Z"/>
+  <node id="790665187" version="3" changeset="6230894" lat="52.7817002" lon="48.3903486" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:55Z"/>
+  <node id="790666600" version="2" changeset="6230894" lat="52.7879289" lon="48.3969812" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:53Z"/>
+  <node id="966682723" version="2" changeset="6230894" lat="52.794806" lon="48.4038353" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:13Z"/>
+  <node id="790667253" version="3" changeset="6230894" lat="52.8034454" lon="48.4144807" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:54Z"/>
+  <node id="790665853" version="3" changeset="6230894" lat="52.8144069" lon="48.4286324" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:58Z"/>
+  <way id="129322514" visible="true" timestamp="2012-02-24T20:54:33Z" version="2" changeset="10782372" user="Dan Wood" uid="609760">
+    <nd ref="790666771"/>
+    <nd ref="966682721"/>
+    <nd ref="790667429"/>
+    <nd ref="966682701"/>
+    <nd ref="790666400"/>
+    <nd ref="966682690"/>
+    <nd ref="790666510"/>
+    <nd ref="790665471"/>
+    <nd ref="790666136"/>
+    <nd ref="790667550"/>
+    <nd ref="790665761"/>
+    <nd ref="790667165"/>
+    <nd ref="966682693"/>
+    <nd ref="790665187"/>
+    <nd ref="790666600"/>
+    <nd ref="966682723"/>
+    <nd ref="790667253"/>
+    <nd ref="790665853"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="gis-lab:status" v="subj"/>
+    <tag k="source" v="Закон об установлении границ муниципального района Приволжский Самарской области"/>
+    <tag k="source:url" v="http://www.adm.samara.ru/documents/zakon/9611/"/>
+  </way>
+</osm>

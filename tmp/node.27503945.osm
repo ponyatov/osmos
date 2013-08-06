@@ -1,0 +1,34 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="27503945" version="33" changeset="16118635" lat="53.1984756" lon="50.1142415" user="Runis" uid="1241595" visible="true" timestamp="2013-05-13T23:47:34Z">
+    <tag k="addr:country" v="RU"/>
+    <tag k="addr:region" v="Самарская область"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="alt_name:sk" v="Kujbyšev"/>
+    <tag k="alt_name:sl" v="Kujbišev"/>
+    <tag k="capital" v="yes"/>
+    <tag k="cladr:code" v="6300000100000"/>
+    <tag k="cladr:name" v="Самара"/>
+    <tag k="cladr:suffix" v="Город"/>
+    <tag k="int_name" v="Samara"/>
+    <tag k="is_in" v="Russia"/>
+    <tag k="name" v="Самара"/>
+    <tag k="name:ba" v="Һамар"/>
+    <tag k="name:be" v="Самара"/>
+    <tag k="name:da" v="Samara"/>
+    <tag k="name:de" v="Samara"/>
+    <tag k="name:en" v="Samara"/>
+    <tag k="name:es" v="Samara"/>
+    <tag k="name:fr" v="Samara"/>
+    <tag k="name:hr" v="Samara"/>
+    <tag k="name:lt" v="Samara"/>
+    <tag k="name:pl" v="Samara"/>
+    <tag k="name:ru" v="Самара"/>
+    <tag k="name:sk" v="Samara"/>
+    <tag k="name:sl" v="Samara"/>
+    <tag k="old_name" v="Куйбышев"/>
+    <tag k="old_name:de" v="Kuibyschew"/>
+    <tag k="place" v="city"/>
+    <tag k="population" v="1169284"/>
+    <tag k="wikipedia" v="en:Samara, Russia"/>
+  </node>
+</osm>

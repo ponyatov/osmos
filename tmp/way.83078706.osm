@@ -1,0 +1,71 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="790667017" version="5" changeset="6230894" lat="52.6743515" lon="48.5289248" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:14Z"/>
+  <node id="790667126" version="3" changeset="6230894" lat="52.6733543" lon="48.5271338" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:54Z"/>
+  <node id="790666097" version="3" changeset="6230894" lat="52.6720114" lon="48.5267127" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:00Z"/>
+  <node id="790666755" version="3" changeset="6230894" lat="52.6681164" lon="48.5276612" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:55Z"/>
+  <node id="790665722" version="3" changeset="6230894" lat="52.6659048" lon="48.528204" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:54Z"/>
+  <node id="966614016" version="2" changeset="6230894" lat="52.6641899" lon="48.5263471" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:54Z"/>
+  <node id="790666384" version="2" changeset="6230894" lat="52.6640426" lon="48.5241303" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:53Z"/>
+  <node id="966614007" version="2" changeset="6230894" lat="52.6644733" lon="48.5226813" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:58Z"/>
+  <node id="790665343" version="3" changeset="6230894" lat="52.6653869" lon="48.522155" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:14Z"/>
+  <node id="790666009" version="3" changeset="6230894" lat="52.667119" lon="48.5218746" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:57Z"/>
+  <node id="790667412" version="3" changeset="6230894" lat="52.6694607" lon="48.5216022" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:56Z"/>
+  <node id="790666186" version="2" changeset="6230894" lat="52.6732428" lon="48.5199585" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:58Z"/>
+  <node id="966613996" version="2" changeset="6230894" lat="52.675627" lon="48.5194338" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:13Z"/>
+  <node id="790667603" version="3" changeset="6230894" lat="52.6781835" lon="48.5201109" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:59Z"/>
+  <node id="790665814" version="3" changeset="6230894" lat="52.67827" lon="48.5159139" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:57Z"/>
+  <node id="790667216" version="2" changeset="6230894" lat="52.6771856" lon="48.5111011" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:57Z"/>
+  <node id="790665432" version="2" changeset="6230894" lat="52.6759283" lon="48.5031581" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:59Z"/>
+  <node id="790666843" version="3" changeset="6230894" lat="52.6755873" lon="48.4976192" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:13Z"/>
+  <node id="790667506" version="3" changeset="6230894" lat="52.6747746" lon="48.4962535" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:56Z"/>
+  <node id="790666471" version="3" changeset="6230894" lat="52.6724509" lon="48.4876566" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:53Z"/>
+  <node id="966613998" version="2" changeset="6230894" lat="52.6705135" lon="48.4802832" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:54Z"/>
+  <node id="790666026" version="3" changeset="6230894" lat="52.6805457" lon="48.4639582" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:12Z"/>
+  <node id="790665651" version="3" changeset="6230894" lat="52.6672996" lon="48.4342379" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:14Z"/>
+  <node id="790666314" version="3" changeset="6230894" lat="52.6660049" lon="48.4205219" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:12Z"/>
+  <node id="966682691" version="2" changeset="6230894" lat="52.6641897" lon="48.4017414" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:56Z"/>
+  <node id="790665273" version="3" changeset="6230894" lat="52.66398" lon="48.3944143" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:57Z"/>
+  <node id="790667341" version="3" changeset="6230894" lat="52.6629926" lon="48.3494607" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:57Z"/>
+  <node id="790666115" version="3" changeset="6230894" lat="52.6688397" lon="48.3493221" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:55Z"/>
+  <node id="790667528" version="3" changeset="6230894" lat="52.6708261" lon="48.347696" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:56Z"/>
+  <node id="790665740" version="3" changeset="6230894" lat="52.6733112" lon="48.3483175" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:59Z"/>
+  <node id="790666771" version="3" changeset="6230894" lat="52.6837106" lon="48.3097439" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:52:53Z"/>
+  <way id="83078706" visible="true" timestamp="2012-02-24T21:28:08Z" version="6" changeset="10782743" user="Dan Wood" uid="609760">
+    <nd ref="790667017"/>
+    <nd ref="790667126"/>
+    <nd ref="790666097"/>
+    <nd ref="790666755"/>
+    <nd ref="790665722"/>
+    <nd ref="966614016"/>
+    <nd ref="790666384"/>
+    <nd ref="966614007"/>
+    <nd ref="790665343"/>
+    <nd ref="790666009"/>
+    <nd ref="790667412"/>
+    <nd ref="790666186"/>
+    <nd ref="966613996"/>
+    <nd ref="790667603"/>
+    <nd ref="790665814"/>
+    <nd ref="790667216"/>
+    <nd ref="790665432"/>
+    <nd ref="790666843"/>
+    <nd ref="790667506"/>
+    <nd ref="790666471"/>
+    <nd ref="966613998"/>
+    <nd ref="790666026"/>
+    <nd ref="790665651"/>
+    <nd ref="790666314"/>
+    <nd ref="966682691"/>
+    <nd ref="790665273"/>
+    <nd ref="790667341"/>
+    <nd ref="790666115"/>
+    <nd ref="790667528"/>
+    <nd ref="790665740"/>
+    <nd ref="790666771"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="gis-lab:status" v="subj"/>
+    <tag k="source" v="Закон об установлении границ муниципального района Приволжский Самарской области"/>
+    <tag k="source:url" v="http://www.adm.samara.ru/documents/zakon/9611/"/>
+  </way>
+</osm>

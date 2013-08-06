@@ -1,0 +1,27 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="790666909" version="2" changeset="16274077" lat="53.8907605" lon="49.0846873" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:10Z"/>
+  <node id="790667019" version="3" changeset="16274077" lat="53.8905105" lon="49.0864999" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:10Z"/>
+  <node id="790665989" version="3" changeset="16274077" lat="53.8896923" lon="49.0866542" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:10Z"/>
+  <node id="2319143013" version="1" changeset="16274077" lat="53.8890786" lon="49.08596" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:01Z"/>
+  <node id="2319143012" version="1" changeset="16274077" lat="53.8887604" lon="49.0851115" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:01Z"/>
+  <node id="790666650" version="3" changeset="16274077" lat="53.8877603" lon="49.0844945" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:10Z"/>
+  <node id="790665614" version="2" changeset="16274077" lat="53.8839643" lon="49.0823348" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:10Z"/>
+  <node id="790666277" version="2" changeset="16274077" lat="53.8786903" lon="49.0804065" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:10Z"/>
+  <node id="2319143009" version="1" changeset="16274077" lat="53.8763713" lon="49.0788639" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:01Z"/>
+  <node id="304743075" version="2" changeset="16274077" lat="53.8716364" lon="49.0780925" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:09Z"/>
+  <way id="130785794" visible="true" timestamp="2013-05-25T04:42:06Z" version="7" changeset="16274077" user="Monitor" uid="222237">
+    <nd ref="790666909"/>
+    <nd ref="790667019"/>
+    <nd ref="790665989"/>
+    <nd ref="2319143013"/>
+    <nd ref="2319143012"/>
+    <nd ref="790666650"/>
+    <nd ref="790665614"/>
+    <nd ref="790666277"/>
+    <nd ref="2319143009"/>
+    <nd ref="304743075"/>
+    <tag k="gis-lab:status" v="subj"/>
+    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
+  </way>
+</osm>

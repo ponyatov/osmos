@@ -1,0 +1,15 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="750826736" version="1" changeset="4821974" lat="54.3757166" lon="50.7780955" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:30:46Z"/>
+  <node id="750824393" version="1" changeset="4821974" lat="54.3743536" lon="50.7828552" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:29:49Z"/>
+  <node id="750826739" version="1" changeset="4821974" lat="54.3723649" lon="50.7906357" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:30:46Z"/>
+  <node id="750826087" version="1" changeset="4821974" lat="54.3705741" lon="50.7966013" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:30:21Z"/>
+  <way id="60355874" visible="true" timestamp="2012-11-15T00:54:21Z" version="7" changeset="13878562" user="misha yakin" uid="384109">
+    <nd ref="750826736"/>
+    <nd ref="750824393"/>
+    <nd ref="750826739"/>
+    <nd ref="750826087"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="border_type" v="region"/>
+    <tag k="boundary" v="administrative"/>
+  </way>
+</osm>

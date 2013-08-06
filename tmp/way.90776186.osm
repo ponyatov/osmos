@@ -1,0 +1,16 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="501599629" version="3" changeset="9151240" lat="53.2829333" lon="52.1600076" user="gentoid" uid="492771" visible="true" timestamp="2011-08-28T19:58:19Z"/>
+  <node id="501599632" version="2" changeset="3290622" lat="53.3014495" lon="52.1424778" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-04T19:23:23Z"/>
+  <node id="581123910" version="1" changeset="3290622" lat="53.2993039" lon="52.1631195" user="AkMeR" uid="11049" visible="true" timestamp="2009-12-04T19:23:19Z"/>
+  <node id="501599634" version="1" changeset="2531871" lat="53.2973835" lon="52.173312" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T10:00:38Z"/>
+  <node id="501599635" version="1" changeset="2531871" lat="53.3219986" lon="52.1880057" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T10:00:38Z"/>
+  <way id="90776186" visible="true" timestamp="2012-02-26T14:29:08Z" version="5" changeset="10798847" user="DeKaN" uid="471972">
+    <nd ref="501599629"/>
+    <nd ref="501599632"/>
+    <nd ref="581123910"/>
+    <nd ref="501599634"/>
+    <nd ref="501599635"/>
+    <tag k="border_type" v="region"/>
+    <tag k="source" v="based on NGA GNS"/>
+  </way>
+</osm>

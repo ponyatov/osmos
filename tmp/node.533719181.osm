@@ -1,0 +1,22 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="533719181" version="16" changeset="16130772" lat="53.2852213" lon="50.4785577" user="Runis" uid="1241595" visible="true" timestamp="2013-05-14T20:25:18Z">
+    <tag k="int_name" v="Samara Oblast"/>
+    <tag k="is_in" v="Россия"/>
+    <tag k="name" v="Самарская область"/>
+    <tag k="name:be" v="Самарская вобласць"/>
+    <tag k="name:de" v="Oblast Samara"/>
+    <tag k="name:en" v="Samara Oblast"/>
+    <tag k="name:es" v="Óblast de Samara"/>
+    <tag k="name:fr" v="Oblast de Samara"/>
+    <tag k="name:hr" v="Samarska oblast"/>
+    <tag k="name:lt" v="Samaros sritis"/>
+    <tag k="name:pl" v="Obwód samarski"/>
+    <tag k="name:ru" v="Самарская область"/>
+    <tag k="name:sk" v="Samarská oblasť"/>
+    <tag k="name:tt" v="Самара өлкәсе"/>
+    <tag k="place" v="state"/>
+    <tag k="ref" v="САМ"/>
+    <tag k="ref:en" v="SAM"/>
+    <tag k="wikipedia" v="en:Samara Oblast"/>
+  </node>
+</osm>

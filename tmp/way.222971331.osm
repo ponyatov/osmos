@@ -1,0 +1,31 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="304743100" version="2" changeset="16274077" lat="53.8725339" lon="49.0737899" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:09Z"/>
+  <node id="2319143007" version="1" changeset="16274077" lat="53.8758029" lon="49.0751615" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:00Z"/>
+  <node id="790665593" version="2" changeset="16274077" lat="53.8773944" lon="49.0765499" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:10Z"/>
+  <node id="790666256" version="2" changeset="16274077" lat="53.8795314" lon="49.0785939" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:10Z"/>
+  <node id="2319143010" version="1" changeset="16274077" lat="53.8807591" lon="49.0791724" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:01Z"/>
+  <node id="790665216" version="2" changeset="16274077" lat="53.8823276" lon="49.0794809" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:09Z"/>
+  <node id="2319143011" version="1" changeset="16274077" lat="53.8836916" lon="49.0791724" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:01Z"/>
+  <node id="790665883" version="2" changeset="16274077" lat="53.8853055" lon="49.0791338" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:10Z"/>
+  <node id="790667283" version="2" changeset="16274077" lat="53.8874194" lon="49.0792881" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:10Z"/>
+  <node id="2319143014" version="1" changeset="16274077" lat="53.8894196" lon="49.0805222" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:01Z"/>
+  <node id="790665502" version="2" changeset="16274077" lat="53.8903741" lon="49.0821805" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:09Z"/>
+  <node id="790666909" version="2" changeset="16274077" lat="53.8907605" lon="49.0846873" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:10Z"/>
+  <way id="222971331" visible="true" timestamp="2013-05-25T04:42:01Z" version="1" changeset="16274077" user="Monitor" uid="222237">
+    <nd ref="304743100"/>
+    <nd ref="2319143007"/>
+    <nd ref="790665593"/>
+    <nd ref="790666256"/>
+    <nd ref="2319143010"/>
+    <nd ref="790665216"/>
+    <nd ref="2319143011"/>
+    <nd ref="790665883"/>
+    <nd ref="790667283"/>
+    <nd ref="2319143014"/>
+    <nd ref="790665502"/>
+    <nd ref="790666909"/>
+    <tag k="gis-lab:status" v="subj"/>
+    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
+  </way>
+</osm>

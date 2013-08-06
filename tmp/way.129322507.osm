@@ -1,0 +1,45 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="790666122" version="1" changeset="5077887" lat="52.172336" lon="49.7981562" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:47Z"/>
+  <node id="790667536" version="1" changeset="5077887" lat="52.2216505" lon="49.7626111" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:32Z"/>
+  <node id="790665747" version="1" changeset="5077887" lat="52.2390219" lon="49.7502675" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:35Z"/>
+  <node id="790667151" version="1" changeset="5077887" lat="52.2489077" lon="49.7423242" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:20Z"/>
+  <node id="790665365" version="1" changeset="5077887" lat="52.2505077" lon="49.7396384" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:16Z"/>
+  <node id="790666778" version="1" changeset="5077887" lat="52.2503362" lon="49.7368955" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:08Z"/>
+  <node id="790666887" version="1" changeset="5077887" lat="52.2519362" lon="49.7344383" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:12Z"/>
+  <node id="790665860" version="1" changeset="5077887" lat="52.2537076" lon="49.7351239" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:38Z"/>
+  <node id="790666517" version="1" changeset="5077887" lat="52.2563363" lon="49.738781" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:59Z"/>
+  <node id="790665478" version="1" changeset="5077887" lat="52.2592507" lon="49.741181" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:22Z"/>
+  <node id="790666143" version="1" changeset="5077887" lat="52.2606792" lon="49.7405523" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:47Z"/>
+  <node id="790667557" version="1" changeset="5077887" lat="52.2627935" lon="49.7367808" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:33Z"/>
+  <node id="790665768" version="1" changeset="5077887" lat="52.2686221" lon="49.7325519" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:35Z"/>
+  <node id="790667172" version="1" changeset="5077887" lat="52.2692507" lon="49.7338091" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:21Z"/>
+  <node id="790665948" version="1" changeset="5077887" lat="52.2671936" lon="49.7373521" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:41Z"/>
+  <node id="790667348" version="1" changeset="5077887" lat="52.2669079" lon="49.7407235" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:26Z"/>
+  <node id="790665570" version="1" changeset="5077887" lat="52.2671936" lon="49.7438664" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:29Z"/>
+  <node id="790666975" version="2" changeset="13745055" lat="52.2700378" lon="49.7464671" user="Felis Pimeja" uid="260756" visible="true" timestamp="2012-11-04T12:07:50Z"/>
+  <way id="129322507" visible="true" timestamp="2012-11-04T12:07:50Z" version="3" changeset="13745055" user="Felis Pimeja" uid="260756">
+    <nd ref="790666122"/>
+    <nd ref="790667536"/>
+    <nd ref="790665747"/>
+    <nd ref="790667151"/>
+    <nd ref="790665365"/>
+    <nd ref="790666778"/>
+    <nd ref="790666887"/>
+    <nd ref="790665860"/>
+    <nd ref="790666517"/>
+    <nd ref="790665478"/>
+    <nd ref="790666143"/>
+    <nd ref="790667557"/>
+    <nd ref="790665768"/>
+    <nd ref="790667172"/>
+    <nd ref="790665948"/>
+    <nd ref="790667348"/>
+    <nd ref="790665570"/>
+    <nd ref="790666975"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="gis-lab:status" v="subj"/>
+    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
+  </way>
+</osm>

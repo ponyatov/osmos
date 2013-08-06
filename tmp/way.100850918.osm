@@ -1,0 +1,41 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1165461820" version="1" changeset="7356312" lat="51.8330279" lon="50.8660575" user="Zverik" uid="290271" visible="true" timestamp="2011-02-21T18:00:44Z"/>
+  <node id="790665584" version="1" changeset="5077887" lat="51.8421746" lon="50.8808753" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:30Z"/>
+  <node id="790666989" version="1" changeset="5077887" lat="51.8606513" lon="50.9099579" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:15Z"/>
+  <node id="790665208" version="1" changeset="5077887" lat="51.8746232" lon="50.948678" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:06Z"/>
+  <node id="790666621" version="1" changeset="5077887" lat="51.8912183" lon="50.9996585" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:03Z"/>
+  <node id="790667275" version="1" changeset="5077887" lat="51.8942978" lon="51.0049048" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:24Z"/>
+  <node id="790666248" version="1" changeset="5077887" lat="51.9135727" lon="51.0229814" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:50Z"/>
+  <node id="790667449" version="1" changeset="5077887" lat="51.9234953" lon="51.0334738" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:30Z"/>
+  <node id="790666420" version="1" changeset="5077887" lat="51.9329623" lon="51.0885034" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:56Z"/>
+  <node id="790667074" version="1" changeset="5077887" lat="51.9261197" lon="51.1268821" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:18Z"/>
+  <node id="790666045" version="1" changeset="5077887" lat="51.9563437" lon="51.1533981" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:44Z"/>
+  <node id="790666704" version="1" changeset="5077887" lat="51.988392" lon="51.1437596" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:23:06Z"/>
+  <node id="790665670" version="1" changeset="5077887" lat="51.986511" lon="51.2054046" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:32Z"/>
+  <node id="790666335" version="1" changeset="5077887" lat="51.9879367" lon="51.2100237" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:53Z"/>
+  <node id="790665293" version="1" changeset="5077887" lat="52.0025926" lon="51.2314079" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:13Z"/>
+  <node id="790665402" version="2" changeset="7356312" lat="52.0190035" lon="51.2622591" user="Zverik" uid="290271" visible="true" timestamp="2011-02-21T18:01:31Z"/>
+  <node id="1165461791" version="1" changeset="7356312" lat="52.0209779" lon="51.2680348" user="Zverik" uid="290271" visible="true" timestamp="2011-02-21T18:00:43Z"/>
+  <way id="100850918" visible="true" timestamp="2012-02-26T14:28:39Z" version="4" changeset="10798847" user="DeKaN" uid="471972">
+    <nd ref="1165461820"/>
+    <nd ref="790665584"/>
+    <nd ref="790666989"/>
+    <nd ref="790665208"/>
+    <nd ref="790666621"/>
+    <nd ref="790667275"/>
+    <nd ref="790666248"/>
+    <nd ref="790667449"/>
+    <nd ref="790666420"/>
+    <nd ref="790667074"/>
+    <nd ref="790666045"/>
+    <nd ref="790666704"/>
+    <nd ref="790665670"/>
+    <nd ref="790666335"/>
+    <nd ref="790665293"/>
+    <nd ref="790665402"/>
+    <nd ref="1165461791"/>
+    <tag k="gis-lab:status" v="subj"/>
+    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
+  </way>
+</osm>

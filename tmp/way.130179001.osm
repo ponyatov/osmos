@@ -1,0 +1,42 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="966614006" version="2" changeset="6230911" lat="52.6554899" lon="48.5559255" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:54:30Z"/>
+  <node id="790665987" version="3" changeset="6230911" lat="52.6557994" lon="48.5526367" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:54:17Z"/>
+  <node id="966614002" version="2" changeset="6230911" lat="52.6567162" lon="48.5510737" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:54:16Z"/>
+  <node id="970723580" version="1" changeset="6231144" lat="52.657746" lon="48.5513735" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T17:16:32Z"/>
+  <node id="966614015" version="3" changeset="6231144" lat="52.6584357" lon="48.5520387" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T17:17:26Z"/>
+  <node id="970726112" version="1" changeset="6231144" lat="52.6592183" lon="48.5529624" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T17:17:09Z"/>
+  <node id="966614010" version="2" changeset="6230911" lat="52.6602314" lon="48.5528258" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:54:16Z"/>
+  <node id="966613989" version="2" changeset="6230911" lat="52.6625747" lon="48.5502202" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:54:16Z"/>
+  <node id="790667388" version="3" changeset="6230911" lat="52.6662753" lon="48.5477048" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:54:15Z"/>
+  <node id="966614005" version="2" changeset="6230911" lat="52.6675877" lon="48.5474349" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:54:16Z"/>
+  <node id="966614014" version="2" changeset="6230911" lat="52.6687592" lon="48.5463567" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:54:15Z"/>
+  <node id="966614018" version="2" changeset="6230911" lat="52.6721303" lon="48.5378128" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:54:16Z"/>
+  <node id="790665612" version="3" changeset="6231144" lat="52.6741241" lon="48.5347887" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T17:17:26Z"/>
+  <node id="970724512" version="1" changeset="6231144" lat="52.6747366" lon="48.5334751" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T17:16:43Z"/>
+  <node id="966614004" version="3" changeset="6231144" lat="52.6748908" lon="48.5310298" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T17:17:26Z"/>
+  <node id="790667017" version="5" changeset="6230894" lat="52.6743515" lon="48.5289248" user="serikst" uid="144744" visible="true" timestamp="2010-10-30T16:53:14Z"/>
+  <way id="130179001" visible="true" timestamp="2012-03-25T11:09:30Z" version="4" changeset="11093822" user="lurlrlrl" uid="534149">
+    <nd ref="966614006"/>
+    <nd ref="790665987"/>
+    <nd ref="966614002"/>
+    <nd ref="970723580"/>
+    <nd ref="966614015"/>
+    <nd ref="970726112"/>
+    <nd ref="966614010"/>
+    <nd ref="966613989"/>
+    <nd ref="790667388"/>
+    <nd ref="966614005"/>
+    <nd ref="966614014"/>
+    <nd ref="966614018"/>
+    <nd ref="790665612"/>
+    <nd ref="970724512"/>
+    <nd ref="966614004"/>
+    <nd ref="790667017"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Чагра"/>
+    <tag k="name:ru" v="Чагра"/>
+    <tag k="waterway" v="river"/>
+    <tag k="wikipedia" v="ru:Чагра"/>
+  </way>
+</osm>

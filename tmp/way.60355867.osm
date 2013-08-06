@@ -1,0 +1,25 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="750826195" version="1" changeset="4821974" lat="54.4333478" lon="51.9120454" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:30:24Z"/>
+  <node id="596657994" version="2" changeset="4821974" lat="54.4330111" lon="51.9117978" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:33:16Z"/>
+  <node id="750827893" version="1" changeset="4821974" lat="54.4315637" lon="51.9133866" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:31:26Z"/>
+  <node id="750827932" version="1" changeset="4821974" lat="54.4306317" lon="51.913302" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:31:27Z"/>
+  <node id="596657993" version="2" changeset="4821974" lat="54.4300409" lon="51.9156867" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:32:46Z"/>
+  <node id="750828204" version="1" changeset="4821974" lat="54.4285756" lon="51.9148567" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:31:36Z"/>
+  <node id="750825505" version="1" changeset="4821974" lat="54.4268426" lon="51.9143006" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:30:10Z"/>
+  <node id="750823913" version="1" changeset="4821974" lat="54.427081" lon="51.9134823" user="ikz" uid="174420" visible="true" timestamp="2010-05-27T13:29:36Z"/>
+  <node id="1058101200" version="1" changeset="6741827" lat="54.4245794" lon="51.9131963" user="atgnclk" uid="164645" visible="true" timestamp="2010-12-23T01:59:30Z"/>
+  <way id="60355867" visible="true" timestamp="2012-11-15T00:54:21Z" version="7" changeset="13878562" user="misha yakin" uid="384109">
+    <nd ref="750826195"/>
+    <nd ref="596657994"/>
+    <nd ref="750827893"/>
+    <nd ref="750827932"/>
+    <nd ref="596657993"/>
+    <nd ref="750828204"/>
+    <nd ref="750825505"/>
+    <nd ref="750823913"/>
+    <nd ref="1058101200"/>
+    <tag k="admin_level" v="4"/>
+    <tag k="border_type" v="region"/>
+    <tag k="boundary" v="administrative"/>
+  </way>
+</osm>

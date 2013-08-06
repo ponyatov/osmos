@@ -1,0 +1,13 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="790666450" version="1" changeset="5077887" lat="53.706596" lon="48.9948077" user="Aleksandr Dezhin" uid="12494" visible="true" timestamp="2010-06-26T01:22:57Z"/>
+  <node id="2319143003" version="1" changeset="16274077" lat="53.8719579" lon="48.9980427" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:00Z"/>
+  <node id="790665410" version="3" changeset="16274077" lat="53.8725644" lon="49.0723689" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:09Z"/>
+  <way id="91428364" visible="true" timestamp="2013-05-25T04:42:09Z" version="6" changeset="16274077" user="Monitor" uid="222237">
+    <nd ref="790666450"/>
+    <nd ref="2319143003"/>
+    <nd ref="790665410"/>
+    <tag k="gis-lab:status" v="subj"/>
+    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
+  </way>
+</osm>

@@ -1,0 +1,24 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="345234529" version="4" changeset="3631329" lat="53.0905673" lon="52.0500116" user="AkMeR" uid="11049" visible="true" timestamp="2010-01-16T13:15:18Z"/>
+  <node id="614931571" version="1" changeset="3635152" lat="53.0903496" lon="52.0577934" user="AkMeR" uid="11049" visible="true" timestamp="2010-01-16T20:07:54Z"/>
+  <node id="614931573" version="1" changeset="3635152" lat="53.0903115" lon="52.0590538" user="AkMeR" uid="11049" visible="true" timestamp="2010-01-16T20:07:54Z"/>
+  <node id="614625307" version="1" changeset="3631329" lat="53.090093" lon="52.0662922" user="AkMeR" uid="11049" visible="true" timestamp="2010-01-16T13:14:53Z"/>
+  <node id="614625337" version="1" changeset="3631329" lat="53.0896191" lon="52.0823579" user="AkMeR" uid="11049" visible="true" timestamp="2010-01-16T13:14:55Z"/>
+  <node id="614625451" version="1" changeset="3631329" lat="53.0891489" lon="52.0982989" user="AkMeR" uid="11049" visible="true" timestamp="2010-01-16T13:15:00Z"/>
+  <node id="614625452" version="1" changeset="3631329" lat="53.0886883" lon="52.1139483" user="AkMeR" uid="11049" visible="true" timestamp="2010-01-16T13:15:00Z"/>
+  <node id="614625555" version="1" changeset="3631329" lat="53.0882286" lon="52.1297987" user="AkMeR" uid="11049" visible="true" timestamp="2010-01-16T13:15:06Z"/>
+  <node id="1865683542" version="1" changeset="12726713" lat="53.088007" lon="52.1381041" user="KOMSOMOLSKIY" uid="720764" visible="true" timestamp="2012-08-14T13:09:36Z"/>
+  <way id="127791692" visible="true" timestamp="2012-08-14T13:09:43Z" version="8" changeset="12726713" user="KOMSOMOLSKIY" uid="720764">
+    <nd ref="345234529"/>
+    <nd ref="614931571"/>
+    <nd ref="614931573"/>
+    <nd ref="614625307"/>
+    <nd ref="614625337"/>
+    <nd ref="614625451"/>
+    <nd ref="614625452"/>
+    <nd ref="614625555"/>
+    <nd ref="1865683542"/>
+    <tag k="border_type" v="region"/>
+    <tag k="source" v="based on NGA GNS"/>
+  </way>
+</osm>

@@ -1,0 +1,30 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="339209979" version="2" changeset="2537816" lat="53.8897568" lon="49.8165933" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T19:52:24Z"/>
+  <node id="502327888" version="1" changeset="2537816" lat="53.8649452" lon="49.8339476" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T19:52:17Z"/>
+  <node id="502327904" version="1" changeset="2537816" lat="53.8614359" lon="49.8375819" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T19:52:17Z"/>
+  <node id="502327892" version="1" changeset="2537816" lat="53.8545407" lon="49.832855" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T19:52:17Z"/>
+  <node id="502327894" version="1" changeset="2537816" lat="53.8485968" lon="49.8288153" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T19:52:17Z"/>
+  <node id="502327898" version="1" changeset="2537816" lat="53.8438955" lon="49.8290682" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T19:52:17Z"/>
+  <node id="502327902" version="1" changeset="2537816" lat="53.8409841" lon="49.8284133" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T19:52:17Z"/>
+  <node id="502327907" version="1" changeset="2537816" lat="53.8389755" lon="49.8323946" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T19:52:17Z"/>
+  <node id="502327912" version="1" changeset="2537816" lat="53.8347513" lon="49.8433918" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T19:52:17Z"/>
+  <node id="502327915" version="1" changeset="2537816" lat="53.8319962" lon="49.8504465" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T19:52:17Z"/>
+  <node id="502327919" version="1" changeset="2537816" lat="53.8265773" lon="49.920683" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T19:52:17Z"/>
+  <node id="502327959" version="1" changeset="2537816" lat="53.8209439" lon="49.9900684" user="AkMeR" uid="11049" visible="true" timestamp="2009-09-19T19:52:18Z"/>
+  <way id="64143020" visible="true" timestamp="2012-03-02T21:04:54Z" version="5" changeset="10852395" user="DeKaN" uid="471972">
+    <nd ref="339209979"/>
+    <nd ref="502327888"/>
+    <nd ref="502327904"/>
+    <nd ref="502327892"/>
+    <nd ref="502327894"/>
+    <nd ref="502327898"/>
+    <nd ref="502327902"/>
+    <nd ref="502327907"/>
+    <nd ref="502327912"/>
+    <nd ref="502327915"/>
+    <nd ref="502327919"/>
+    <nd ref="502327959"/>
+    <tag k="border_type" v="region"/>
+    <tag k="source" v="based on NGA GNS"/>
+  </way>
+</osm>

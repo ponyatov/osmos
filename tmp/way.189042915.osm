@@ -1,0 +1,428 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="790666975" version="2" changeset="13745055" lat="52.2700378" lon="49.7464671" user="Felis Pimeja" uid="260756" visible="true" timestamp="2012-11-04T12:07:50Z"/>
+  <node id="1029598171" version="1" changeset="6595382" lat="52.2705368" lon="49.7443643" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:56Z"/>
+  <node id="1029598170" version="1" changeset="6595382" lat="52.271167" lon="49.7416606" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:56Z"/>
+  <node id="1029598168" version="1" changeset="6595382" lat="52.2716922" lon="49.7400298" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:56Z"/>
+  <node id="1029598167" version="1" changeset="6595382" lat="52.2719549" lon="49.7381415" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:56Z"/>
+  <node id="1029598166" version="1" changeset="6595382" lat="52.272375" lon="49.7359529" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:56Z"/>
+  <node id="1029598164" version="1" changeset="6595382" lat="52.2730315" lon="49.7344508" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:56Z"/>
+  <node id="1029598161" version="1" changeset="6595382" lat="52.2733204" lon="49.7329917" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:56Z"/>
+  <node id="1029598160" version="1" changeset="6595382" lat="52.2733729" lon="49.7316184" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:56Z"/>
+  <node id="1029598159" version="1" changeset="6595382" lat="52.2731103" lon="49.7302451" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:56Z"/>
+  <node id="1029598158" version="1" changeset="6595382" lat="52.2726376" lon="49.7296014" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:56Z"/>
+  <node id="1029598157" version="1" changeset="6595382" lat="52.2719286" lon="49.7294297" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:56Z"/>
+  <node id="1029598156" version="1" changeset="6595382" lat="52.2712196" lon="49.7293868" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:56Z"/>
+  <node id="1029598155" version="1" changeset="6595382" lat="52.270563" lon="49.7283998" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598154" version="1" changeset="6595382" lat="52.2701954" lon="49.7273698" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598152" version="1" changeset="6595382" lat="52.2699065" lon="49.7260394" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598151" version="1" changeset="6595382" lat="52.2696964" lon="49.7256532" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598149" version="1" changeset="6595382" lat="52.2690398" lon="49.7253099" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598148" version="1" changeset="6595382" lat="52.2683833" lon="49.7254386" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598146" version="1" changeset="6595382" lat="52.2679631" lon="49.7252669" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598145" version="1" changeset="6595382" lat="52.267359" lon="49.7250524" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598143" version="1" changeset="6595382" lat="52.2661772" lon="49.7239795" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598141" version="1" changeset="6595382" lat="52.2655994" lon="49.7235074" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598140" version="1" changeset="6595382" lat="52.2648902" lon="49.7228637" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598138" version="1" changeset="6595382" lat="52.2641548" lon="49.7224774" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598136" version="1" changeset="6595382" lat="52.263577" lon="49.7223058" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598135" version="1" changeset="6595382" lat="52.2630254" lon="49.7216191" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598133" version="1" changeset="6595382" lat="52.2629466" lon="49.7208467" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598132" version="1" changeset="6595382" lat="52.2629991" lon="49.7202029" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598130" version="1" changeset="6595382" lat="52.2632092" lon="49.7195592" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598129" version="1" changeset="6595382" lat="52.2637871" lon="49.71913" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:55Z"/>
+  <node id="1029598128" version="1" changeset="6595382" lat="52.2643649" lon="49.7189155" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:54Z"/>
+  <node id="1029598127" version="1" changeset="6595382" lat="52.2648114" lon="49.7184863" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:54Z"/>
+  <node id="1029598126" version="1" changeset="6595382" lat="52.2653367" lon="49.7180142" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:54Z"/>
+  <node id="1029598125" version="1" changeset="6595382" lat="52.2659408" lon="49.7174993" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:54Z"/>
+  <node id="1029598124" version="1" changeset="6595382" lat="52.2666762" lon="49.7171989" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:54Z"/>
+  <node id="1029598123" version="1" changeset="6595382" lat="52.2670964" lon="49.7175422" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:54Z"/>
+  <node id="1029598122" version="1" changeset="6595382" lat="52.2676742" lon="49.7183576" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:54Z"/>
+  <node id="1029598121" version="1" changeset="6595382" lat="52.2681469" lon="49.7187438" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:54Z"/>
+  <node id="1029598120" version="1" changeset="6595382" lat="52.2685934" lon="49.7190013" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:54Z"/>
+  <node id="1029598118" version="1" changeset="6595382" lat="52.2694075" lon="49.7195592" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:54Z"/>
+  <node id="1029598116" version="1" changeset="6595382" lat="52.269854" lon="49.7199884" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:54Z"/>
+  <node id="1029598115" version="1" changeset="6595382" lat="52.2702741" lon="49.7205892" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:54Z"/>
+  <node id="1029598112" version="1" changeset="6595382" lat="52.2705368" lon="49.7214475" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:53Z"/>
+  <node id="1029598110" version="1" changeset="6595382" lat="52.2709044" lon="49.7224345" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:53Z"/>
+  <node id="1029598107" version="1" changeset="6595382" lat="52.2713246" lon="49.7230783" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:53Z"/>
+  <node id="1029598105" version="1" changeset="6595382" lat="52.2715609" lon="49.7232499" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:53Z"/>
+  <node id="1029598103" version="1" changeset="6595382" lat="52.2719286" lon="49.7231212" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:53Z"/>
+  <node id="1029598102" version="1" changeset="6595382" lat="52.2721912" lon="49.7226062" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:53Z"/>
+  <node id="1029598101" version="1" changeset="6595382" lat="52.2725588" lon="49.7218766" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:53Z"/>
+  <node id="1029598100" version="1" changeset="6595382" lat="52.2734254" lon="49.7207608" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:53Z"/>
+  <node id="1029598098" version="1" changeset="6595382" lat="52.2737668" lon="49.7202888" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:53Z"/>
+  <node id="1029598097" version="1" changeset="6595382" lat="52.2738456" lon="49.7195592" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:53Z"/>
+  <node id="1029598095" version="1" changeset="6595382" lat="52.2743708" lon="49.7187438" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:53Z"/>
+  <node id="1029598094" version="1" changeset="6595382" lat="52.2748434" lon="49.718143" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:52Z"/>
+  <node id="1029598093" version="1" changeset="6595382" lat="52.2754211" lon="49.717628" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:52Z"/>
+  <node id="1029598092" version="1" changeset="6595382" lat="52.2758675" lon="49.7172418" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:52Z"/>
+  <node id="1029598086" version="1" changeset="6595382" lat="52.2762089" lon="49.7165122" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:52Z"/>
+  <node id="1029598084" version="1" changeset="6595382" lat="52.2760776" lon="49.7155252" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:52Z"/>
+  <node id="1029598083" version="1" changeset="6595382" lat="52.2756574" lon="49.7147527" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598081" version="1" changeset="6595382" lat="52.2750797" lon="49.7145381" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598080" version="1" changeset="6595382" lat="52.2747121" lon="49.7142806" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598079" version="1" changeset="6595382" lat="52.2740031" lon="49.7142377" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598078" version="1" changeset="6595382" lat="52.2732416" lon="49.7146239" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598077" version="1" changeset="6595382" lat="52.2726114" lon="49.714581" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598075" version="1" changeset="6595382" lat="52.272375" lon="49.7138515" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598074" version="1" changeset="6595382" lat="52.2721387" lon="49.7129932" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598073" version="1" changeset="6595382" lat="52.271666" lon="49.7115769" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598072" version="1" changeset="6595382" lat="52.2713509" lon="49.711062" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598071" version="1" changeset="6595382" lat="52.2707994" lon="49.7103753" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598070" version="1" changeset="6595382" lat="52.2705105" lon="49.7096028" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598069" version="1" changeset="6595382" lat="52.2698802" lon="49.7088733" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598067" version="1" changeset="6595382" lat="52.2688823" lon="49.7078004" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598066" version="1" changeset="6595382" lat="52.2681469" lon="49.70647" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598065" version="1" changeset="6595382" lat="52.2676217" lon="49.7055688" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598064" version="1" changeset="6595382" lat="52.2675429" lon="49.704968" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598063" version="1" changeset="6595382" lat="52.2672014" lon="49.7043243" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598062" version="1" changeset="6595382" lat="52.2667812" lon="49.7031655" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598061" version="1" changeset="6595382" lat="52.2664135" lon="49.7021356" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598060" version="1" changeset="6595382" lat="52.2657832" lon="49.7014918" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598058" version="1" changeset="6595382" lat="52.2651003" lon="49.7013631" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:51Z"/>
+  <node id="1029598053" version="1" changeset="6595382" lat="52.2646013" lon="49.7020927" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598051" version="1" changeset="6595382" lat="52.2642599" lon="49.7026935" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598049" version="1" changeset="6595382" lat="52.2637608" lon="49.7035947" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598048" version="1" changeset="6595382" lat="52.2630516" lon="49.703938" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598046" version="1" changeset="6595382" lat="52.2622111" lon="49.7040668" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598044" version="1" changeset="6595382" lat="52.2615019" lon="49.7042384" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598042" version="1" changeset="6595382" lat="52.2606614" lon="49.7046247" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598040" version="1" changeset="6595382" lat="52.2598734" lon="49.7047534" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598039" version="1" changeset="6595382" lat="52.2591116" lon="49.7047963" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598037" version="1" changeset="6595382" lat="52.2584286" lon="49.7052684" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598035" version="1" changeset="6595382" lat="52.2579033" lon="49.7058692" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598034" version="1" changeset="6595382" lat="52.2577456" lon="49.7066417" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598032" version="1" changeset="6595382" lat="52.2579033" lon="49.7070279" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598031" version="1" changeset="6595382" lat="52.2581922" lon="49.708015" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598030" version="1" changeset="6595382" lat="52.2586913" lon="49.7082725" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598028" version="1" changeset="6595382" lat="52.258954" lon="49.7087874" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598027" version="1" changeset="6595382" lat="52.2587438" lon="49.7097316" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:50Z"/>
+  <node id="1029598026" version="1" changeset="6595382" lat="52.2582973" lon="49.7097745" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:49Z"/>
+  <node id="1029598025" version="1" changeset="6595382" lat="52.2579033" lon="49.7092595" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:49Z"/>
+  <node id="1029598024" version="1" changeset="6595382" lat="52.2573779" lon="49.7091737" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:49Z"/>
+  <node id="1029598023" version="1" changeset="6595382" lat="52.2562483" lon="49.7091737" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:49Z"/>
+  <node id="1029598022" version="1" changeset="6595382" lat="52.2554076" lon="49.7094741" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:49Z"/>
+  <node id="1029598021" version="1" changeset="6595382" lat="52.2547246" lon="49.709002" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:49Z"/>
+  <node id="1029598019" version="1" changeset="6595382" lat="52.2542517" lon="49.7076287" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:49Z"/>
+  <node id="1029598018" version="1" changeset="6595382" lat="52.2542517" lon="49.7063413" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:49Z"/>
+  <node id="1029598015" version="1" changeset="6595382" lat="52.2544882" lon="49.7055259" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:49Z"/>
+  <node id="1029598014" version="1" changeset="6595382" lat="52.2548297" lon="49.7050109" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:49Z"/>
+  <node id="1029598011" version="1" changeset="6595382" lat="52.2551449" lon="49.7046676" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:49Z"/>
+  <node id="1029598010" version="1" changeset="6595382" lat="52.2553551" lon="49.7038951" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:49Z"/>
+  <node id="1029598007" version="1" changeset="6595382" lat="52.25525" lon="49.7030797" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:49Z"/>
+  <node id="1029598006" version="1" changeset="6595382" lat="52.25525" lon="49.7024789" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:49Z"/>
+  <node id="1029598005" version="1" changeset="6595382" lat="52.2553551" lon="49.7015348" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:49Z"/>
+  <node id="1029598003" version="1" changeset="6595382" lat="52.2550924" lon="49.7002902" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:49Z"/>
+  <node id="1029598001" version="1" changeset="6595382" lat="52.2548034" lon="49.6996465" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029598000" version="1" changeset="6595382" lat="52.2543305" lon="49.699389" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597998" version="1" changeset="6595382" lat="52.2532272" lon="49.6996036" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597997" version="1" changeset="6595382" lat="52.2526229" lon="49.6996894" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597995" version="1" changeset="6595382" lat="52.2518085" lon="49.699389" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597994" version="1" changeset="6595382" lat="52.2511254" lon="49.6994319" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597993" version="1" changeset="6595382" lat="52.2504423" lon="49.6997752" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597992" version="1" changeset="6595382" lat="52.2498117" lon="49.6997752" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597991" version="1" changeset="6595382" lat="52.2488396" lon="49.700376" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597990" version="1" changeset="6595382" lat="52.2479988" lon="49.7014918" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597989" version="1" changeset="6595382" lat="52.2477098" lon="49.7023072" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597988" version="1" changeset="6595382" lat="52.2475784" lon="49.7032514" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597987" version="1" changeset="6595382" lat="52.247158" lon="49.7038951" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597986" version="1" changeset="6595382" lat="52.246396" lon="49.7039809" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597985" version="1" changeset="6595382" lat="52.2460282" lon="49.7033372" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597984" version="1" changeset="6595382" lat="52.2459756" lon="49.7026935" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597982" version="1" changeset="6595382" lat="52.2465011" lon="49.7020497" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597981" version="1" changeset="6595382" lat="52.2465799" lon="49.701406" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:48Z"/>
+  <node id="1029597980" version="1" changeset="6595382" lat="52.2465537" lon="49.7005477" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597978" version="1" changeset="6595382" lat="52.2462909" lon="49.7001185" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597976" version="1" changeset="6595382" lat="52.2462384" lon="49.6994319" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597975" version="1" changeset="6595382" lat="52.2459756" lon="49.6984019" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597973" version="1" changeset="6595382" lat="52.2458442" lon="49.696857" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597972" version="1" changeset="6595382" lat="52.2460807" lon="49.695827" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597970" version="1" changeset="6595382" lat="52.2462646" lon="49.6955266" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597969" version="1" changeset="6595382" lat="52.2475259" lon="49.6948829" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597967" version="1" changeset="6595382" lat="52.2481302" lon="49.6945825" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597966" version="1" changeset="6595382" lat="52.2487608" lon="49.6936383" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597965" version="1" changeset="6595382" lat="52.2491811" lon="49.6929946" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597963" version="1" changeset="6595382" lat="52.2495227" lon="49.69278" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597961" version="1" changeset="6595382" lat="52.2498643" lon="49.6920505" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597958" version="1" changeset="6595382" lat="52.2501007" lon="49.6911492" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597957" version="1" changeset="6595382" lat="52.2504423" lon="49.6904626" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597955" version="1" changeset="6595382" lat="52.2510203" lon="49.6887889" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597954" version="1" changeset="6595382" lat="52.2515983" lon="49.6869435" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597952" version="1" changeset="6595382" lat="52.2520186" lon="49.6847549" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597951" version="1" changeset="6595382" lat="52.2520712" lon="49.6828237" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:47Z"/>
+  <node id="1029597950" version="1" changeset="6595382" lat="52.2519924" lon="49.681107" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597948" version="1" changeset="6595382" lat="52.2518347" lon="49.6799054" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597947" version="1" changeset="6595382" lat="52.2514406" lon="49.6792188" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597946" version="1" changeset="6595382" lat="52.2506525" lon="49.6789613" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597945" version="1" changeset="6595382" lat="52.2501795" lon="49.6789613" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597944" version="1" changeset="6595382" lat="52.2497592" lon="49.6798196" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597943" version="1" changeset="6595382" lat="52.2496278" lon="49.6805921" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597942" version="1" changeset="6595382" lat="52.24926" lon="49.6808925" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597940" version="1" changeset="6595382" lat="52.2486031" lon="49.6803775" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597939" version="1" changeset="6595382" lat="52.2484192" lon="49.6792617" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597938" version="1" changeset="6595382" lat="52.2484192" lon="49.678575" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597937" version="1" changeset="6595382" lat="52.2483141" lon="49.677073" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597935" version="1" changeset="6595382" lat="52.2481039" lon="49.6760001" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597934" version="1" changeset="6595382" lat="52.2478149" lon="49.6753993" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597933" version="1" changeset="6595382" lat="52.2478149" lon="49.6742406" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597932" version="1" changeset="6595382" lat="52.2477098" lon="49.6735539" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597930" version="1" changeset="6595382" lat="52.2472894" lon="49.6721377" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:46Z"/>
+  <node id="1029597929" version="1" changeset="6595382" lat="52.2467113" lon="49.6711078" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:45Z"/>
+  <node id="1029597928" version="1" changeset="6595382" lat="52.2461595" lon="49.6699491" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:45Z"/>
+  <node id="1029597925" version="1" changeset="6595382" lat="52.2455552" lon="49.6694341" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:45Z"/>
+  <node id="1029597924" version="1" changeset="6595382" lat="52.2446618" lon="49.6692195" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:45Z"/>
+  <node id="1029597922" version="1" changeset="6595382" lat="52.24411" lon="49.6692624" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:45Z"/>
+  <node id="1029597921" version="1" changeset="6595382" lat="52.2436895" lon="49.6695199" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:45Z"/>
+  <node id="1029597920" version="1" changeset="6595382" lat="52.2432691" lon="49.6696487" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:45Z"/>
+  <node id="1029597918" version="1" changeset="6595382" lat="52.2426384" lon="49.6694341" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:45Z"/>
+  <node id="1029597917" version="1" changeset="6595382" lat="52.2417975" lon="49.6698203" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:45Z"/>
+  <node id="1029597915" version="1" changeset="6595382" lat="52.2413771" lon="49.6696916" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:45Z"/>
+  <node id="1029597914" version="1" changeset="6595382" lat="52.2405887" lon="49.6702066" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:45Z"/>
+  <node id="1029597912" version="1" changeset="6595382" lat="52.2404836" lon="49.6715369" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:45Z"/>
+  <node id="1029597911" version="1" changeset="6595382" lat="52.2407201" lon="49.6723523" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:45Z"/>
+  <node id="1029597910" version="1" changeset="6595382" lat="52.2413245" lon="49.6730819" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597909" version="1" changeset="6595382" lat="52.241561" lon="49.6737685" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597908" version="1" changeset="6595382" lat="52.2416399" lon="49.6744981" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597906" version="1" changeset="6595382" lat="52.2416661" lon="49.6753993" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597905" version="1" changeset="6595382" lat="52.2418501" lon="49.6758285" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597903" version="1" changeset="6595382" lat="52.2417187" lon="49.6764293" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597901" version="1" changeset="6595382" lat="52.2409303" lon="49.6771159" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597900" version="1" changeset="6595382" lat="52.2398529" lon="49.6777167" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597898" version="1" changeset="6595382" lat="52.2385915" lon="49.6783605" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597896" version="1" changeset="6595382" lat="52.2372511" lon="49.67909" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597894" version="1" changeset="6595382" lat="52.2357531" lon="49.6796479" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597892" version="1" changeset="6595382" lat="52.2346492" lon="49.6797767" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597890" version="1" changeset="6595382" lat="52.2329408" lon="49.6796479" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597889" version="1" changeset="6595382" lat="52.2319683" lon="49.6794334" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597888" version="1" changeset="6595382" lat="52.2311009" lon="49.6790042" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597887" version="1" changeset="6595382" lat="52.2306541" lon="49.6778026" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597886" version="1" changeset="6595382" lat="52.2297078" lon="49.6768584" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597885" version="1" changeset="6595382" lat="52.2289193" lon="49.6757426" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597884" version="1" changeset="6595382" lat="52.2288141" lon="49.6741548" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597883" version="1" changeset="6595382" lat="52.228893" lon="49.6729531" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597882" version="1" changeset="6595382" lat="52.229261" lon="49.672009" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:44Z"/>
+  <node id="1029597881" version="1" changeset="6595382" lat="52.2299444" lon="49.6717086" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:43Z"/>
+  <node id="1029597880" version="1" changeset="6595382" lat="52.2308644" lon="49.671494" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:43Z"/>
+  <node id="1029597878" version="1" changeset="6595382" lat="52.2316792" lon="49.6708074" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:43Z"/>
+  <node id="1029597877" version="1" changeset="6595382" lat="52.2320209" lon="49.6696487" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:43Z"/>
+  <node id="1029597876" version="1" changeset="6595382" lat="52.2319683" lon="49.6676316" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:43Z"/>
+  <node id="1029597875" version="1" changeset="6595382" lat="52.2322575" lon="49.6658292" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:43Z"/>
+  <node id="1029597873" version="1" changeset="6595382" lat="52.2322575" lon="49.6642413" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:43Z"/>
+  <node id="1029597872" version="1" changeset="6595382" lat="52.2316792" lon="49.6619239" user="ildar" uid="154471" visible="true" timestamp="2010-12-09T13:59:43Z"/>
+  <node id="790665217" version="2" changeset="13745055" lat="52.2310221" lon="49.6600785" user="Felis Pimeja" uid="260756" visible="true" timestamp="2012-11-04T12:07:50Z"/>
+  <way id="189042915" visible="true" timestamp="2012-11-04T12:07:46Z" version="1" changeset="13745055" user="Felis Pimeja" uid="260756">
+    <nd ref="790666975"/>
+    <nd ref="1029598171"/>
+    <nd ref="1029598170"/>
+    <nd ref="1029598168"/>
+    <nd ref="1029598167"/>
+    <nd ref="1029598166"/>
+    <nd ref="1029598164"/>
+    <nd ref="1029598161"/>
+    <nd ref="1029598160"/>
+    <nd ref="1029598159"/>
+    <nd ref="1029598158"/>
+    <nd ref="1029598157"/>
+    <nd ref="1029598156"/>
+    <nd ref="1029598155"/>
+    <nd ref="1029598154"/>
+    <nd ref="1029598152"/>
+    <nd ref="1029598151"/>
+    <nd ref="1029598149"/>
+    <nd ref="1029598148"/>
+    <nd ref="1029598146"/>
+    <nd ref="1029598145"/>
+    <nd ref="1029598143"/>
+    <nd ref="1029598141"/>
+    <nd ref="1029598140"/>
+    <nd ref="1029598138"/>
+    <nd ref="1029598136"/>
+    <nd ref="1029598135"/>
+    <nd ref="1029598133"/>
+    <nd ref="1029598132"/>
+    <nd ref="1029598130"/>
+    <nd ref="1029598129"/>
+    <nd ref="1029598128"/>
+    <nd ref="1029598127"/>
+    <nd ref="1029598126"/>
+    <nd ref="1029598125"/>
+    <nd ref="1029598124"/>
+    <nd ref="1029598123"/>
+    <nd ref="1029598122"/>
+    <nd ref="1029598121"/>
+    <nd ref="1029598120"/>
+    <nd ref="1029598118"/>
+    <nd ref="1029598116"/>
+    <nd ref="1029598115"/>
+    <nd ref="1029598112"/>
+    <nd ref="1029598110"/>
+    <nd ref="1029598107"/>
+    <nd ref="1029598105"/>
+    <nd ref="1029598103"/>
+    <nd ref="1029598102"/>
+    <nd ref="1029598101"/>
+    <nd ref="1029598100"/>
+    <nd ref="1029598098"/>
+    <nd ref="1029598097"/>
+    <nd ref="1029598095"/>
+    <nd ref="1029598094"/>
+    <nd ref="1029598093"/>
+    <nd ref="1029598092"/>
+    <nd ref="1029598086"/>
+    <nd ref="1029598084"/>
+    <nd ref="1029598083"/>
+    <nd ref="1029598081"/>
+    <nd ref="1029598080"/>
+    <nd ref="1029598079"/>
+    <nd ref="1029598078"/>
+    <nd ref="1029598077"/>
+    <nd ref="1029598075"/>
+    <nd ref="1029598074"/>
+    <nd ref="1029598073"/>
+    <nd ref="1029598072"/>
+    <nd ref="1029598071"/>
+    <nd ref="1029598070"/>
+    <nd ref="1029598069"/>
+    <nd ref="1029598067"/>
+    <nd ref="1029598066"/>
+    <nd ref="1029598065"/>
+    <nd ref="1029598064"/>
+    <nd ref="1029598063"/>
+    <nd ref="1029598062"/>
+    <nd ref="1029598061"/>
+    <nd ref="1029598060"/>
+    <nd ref="1029598058"/>
+    <nd ref="1029598053"/>
+    <nd ref="1029598051"/>
+    <nd ref="1029598049"/>
+    <nd ref="1029598048"/>
+    <nd ref="1029598046"/>
+    <nd ref="1029598044"/>
+    <nd ref="1029598042"/>
+    <nd ref="1029598040"/>
+    <nd ref="1029598039"/>
+    <nd ref="1029598037"/>
+    <nd ref="1029598035"/>
+    <nd ref="1029598034"/>
+    <nd ref="1029598032"/>
+    <nd ref="1029598031"/>
+    <nd ref="1029598030"/>
+    <nd ref="1029598028"/>
+    <nd ref="1029598027"/>
+    <nd ref="1029598026"/>
+    <nd ref="1029598025"/>
+    <nd ref="1029598024"/>
+    <nd ref="1029598023"/>
+    <nd ref="1029598022"/>
+    <nd ref="1029598021"/>
+    <nd ref="1029598019"/>
+    <nd ref="1029598018"/>
+    <nd ref="1029598015"/>
+    <nd ref="1029598014"/>
+    <nd ref="1029598011"/>
+    <nd ref="1029598010"/>
+    <nd ref="1029598007"/>
+    <nd ref="1029598006"/>
+    <nd ref="1029598005"/>
+    <nd ref="1029598003"/>
+    <nd ref="1029598001"/>
+    <nd ref="1029598000"/>
+    <nd ref="1029597998"/>
+    <nd ref="1029597997"/>
+    <nd ref="1029597995"/>
+    <nd ref="1029597994"/>
+    <nd ref="1029597993"/>
+    <nd ref="1029597992"/>
+    <nd ref="1029597991"/>
+    <nd ref="1029597990"/>
+    <nd ref="1029597989"/>
+    <nd ref="1029597988"/>
+    <nd ref="1029597987"/>
+    <nd ref="1029597986"/>
+    <nd ref="1029597985"/>
+    <nd ref="1029597984"/>
+    <nd ref="1029597982"/>
+    <nd ref="1029597981"/>
+    <nd ref="1029597980"/>
+    <nd ref="1029597978"/>
+    <nd ref="1029597976"/>
+    <nd ref="1029597975"/>
+    <nd ref="1029597973"/>
+    <nd ref="1029597972"/>
+    <nd ref="1029597970"/>
+    <nd ref="1029597969"/>
+    <nd ref="1029597967"/>
+    <nd ref="1029597966"/>
+    <nd ref="1029597965"/>
+    <nd ref="1029597963"/>
+    <nd ref="1029597961"/>
+    <nd ref="1029597958"/>
+    <nd ref="1029597957"/>
+    <nd ref="1029597955"/>
+    <nd ref="1029597954"/>
+    <nd ref="1029597952"/>
+    <nd ref="1029597951"/>
+    <nd ref="1029597950"/>
+    <nd ref="1029597948"/>
+    <nd ref="1029597947"/>
+    <nd ref="1029597946"/>
+    <nd ref="1029597945"/>
+    <nd ref="1029597944"/>
+    <nd ref="1029597943"/>
+    <nd ref="1029597942"/>
+    <nd ref="1029597940"/>
+    <nd ref="1029597939"/>
+    <nd ref="1029597938"/>
+    <nd ref="1029597937"/>
+    <nd ref="1029597935"/>
+    <nd ref="1029597934"/>
+    <nd ref="1029597933"/>
+    <nd ref="1029597932"/>
+    <nd ref="1029597930"/>
+    <nd ref="1029597929"/>
+    <nd ref="1029597928"/>
+    <nd ref="1029597925"/>
+    <nd ref="1029597924"/>
+    <nd ref="1029597922"/>
+    <nd ref="1029597921"/>
+    <nd ref="1029597920"/>
+    <nd ref="1029597918"/>
+    <nd ref="1029597917"/>
+    <nd ref="1029597915"/>
+    <nd ref="1029597914"/>
+    <nd ref="1029597912"/>
+    <nd ref="1029597911"/>
+    <nd ref="1029597910"/>
+    <nd ref="1029597909"/>
+    <nd ref="1029597908"/>
+    <nd ref="1029597906"/>
+    <nd ref="1029597905"/>
+    <nd ref="1029597903"/>
+    <nd ref="1029597901"/>
+    <nd ref="1029597900"/>
+    <nd ref="1029597898"/>
+    <nd ref="1029597896"/>
+    <nd ref="1029597894"/>
+    <nd ref="1029597892"/>
+    <nd ref="1029597890"/>
+    <nd ref="1029597889"/>
+    <nd ref="1029597888"/>
+    <nd ref="1029597887"/>
+    <nd ref="1029597886"/>
+    <nd ref="1029597885"/>
+    <nd ref="1029597884"/>
+    <nd ref="1029597883"/>
+    <nd ref="1029597882"/>
+    <nd ref="1029597881"/>
+    <nd ref="1029597880"/>
+    <nd ref="1029597878"/>
+    <nd ref="1029597877"/>
+    <nd ref="1029597876"/>
+    <nd ref="1029597875"/>
+    <nd ref="1029597873"/>
+    <nd ref="1029597872"/>
+    <nd ref="790665217"/>
+    <tag k="name" v="Большой Иргиз"/>
+    <tag k="waterway" v="river"/>
+  </way>
+</osm>

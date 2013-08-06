@@ -1,0 +1,12 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1416584577" version="1" changeset="9151240" lat="53.2332007" lon="52.1269179" user="gentoid" uid="492771" visible="true" timestamp="2011-08-28T19:56:37Z"/>
+  <node id="1416584592" version="1" changeset="9151240" lat="53.2352454" lon="52.1668779" user="gentoid" uid="492771" visible="true" timestamp="2011-08-28T19:56:38Z"/>
+  <node id="501599629" version="3" changeset="9151240" lat="53.2829333" lon="52.1600076" user="gentoid" uid="492771" visible="true" timestamp="2011-08-28T19:58:19Z"/>
+  <way id="128126502" visible="true" timestamp="2012-02-26T14:28:43Z" version="3" changeset="10798847" user="DeKaN" uid="471972">
+    <nd ref="1416584577"/>
+    <nd ref="1416584592"/>
+    <nd ref="501599629"/>
+    <tag k="border_type" v="region"/>
+    <tag k="source" v="Кадастр"/>
+  </way>
+</osm>

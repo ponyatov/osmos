@@ -1,0 +1,23 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="2183122379" version="2" changeset="16274077" lat="53.8718261" lon="49.1464817" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:09Z"/>
+  <node id="2319143004" version="1" changeset="16274077" lat="53.8729894" lon="49.1460309" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:00Z"/>
+  <node id="2319143005" version="1" changeset="16274077" lat="53.8738107" lon="49.1461809" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:00Z"/>
+  <node id="2319143006" version="1" changeset="16274077" lat="53.8745941" lon="49.1472954" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:00Z"/>
+  <node id="2319143008" version="1" changeset="16274077" lat="53.8762999" lon="49.1509817" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:01Z"/>
+  <node id="2186653544" version="1" changeset="15254534" lat="53.8779458" lon="49.1538891" user="Kostik" uid="384084" visible="true" timestamp="2013-03-05T05:16:53Z"/>
+  <node id="2183122381" version="1" changeset="15230379" lat="53.8779363" lon="49.1548925" user="Kostik" uid="384084" visible="true" timestamp="2013-03-03T07:58:41Z"/>
+  <node id="2183122380" version="2" changeset="16274077" lat="53.871859" lon="49.1539239" user="Monitor" uid="222237" visible="true" timestamp="2013-05-25T04:42:09Z"/>
+  <way id="222971334" visible="true" timestamp="2013-05-25T04:42:01Z" version="1" changeset="16274077" user="Monitor" uid="222237">
+    <nd ref="2183122379"/>
+    <nd ref="2319143004"/>
+    <nd ref="2319143005"/>
+    <nd ref="2319143006"/>
+    <nd ref="2319143008"/>
+    <nd ref="2186653544"/>
+    <nd ref="2183122381"/>
+    <nd ref="2183122380"/>
+    <tag k="gis-lab:status" v="subj"/>
+    <tag k="source" v="Росреестр,gis-lab.info"/>
+    <tag k="source:url" v="http://gis-lab.info/qa/rusbounds-rosreestr.html"/>
+  </way>
+</osm>

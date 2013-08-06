@@ -1,0 +1,35 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1577788306" version="1" changeset="10298422" lat="53.2070559" lon="50.1472363" user="gentoid" uid="492771" visible="true" timestamp="2012-01-05T08:48:00Z">
+    <tag k="name" v="Улица Челюскинцев / &quot;Экспо-Волга&quot;"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="2110811565" version="1" changeset="14649539" lat="53.207796" lon="50.1487533" user="gentoid" uid="492771" visible="true" timestamp="2013-01-14T15:37:42Z"/>
+  <node id="656076258" version="2" changeset="14649539" lat="53.2079421" lon="50.1490509" user="gentoid" uid="492771" visible="true" timestamp="2013-01-14T15:37:45Z"/>
+  <node id="656076276" version="2" changeset="14649539" lat="53.208285" lon="50.1497498" user="gentoid" uid="492771" visible="true" timestamp="2013-01-14T15:37:46Z"/>
+  <node id="2120999415" version="1" changeset="14719911" lat="53.2090554" lon="50.1513198" user="gentoid" uid="492771" visible="true" timestamp="2013-01-20T13:19:30Z"/>
+  <node id="1385169481" version="1" changeset="8913934" lat="53.209179" lon="50.1515717" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:11:39Z"/>
+  <node id="2137111776" version="1" changeset="14869203" lat="53.2092234" lon="50.1516773" user="NickF" uid="467146" visible="true" timestamp="2013-02-01T10:33:19Z"/>
+  <node id="1686306078" version="1" changeset="11066841" lat="53.2092552" lon="50.1517527" user="gentoid" uid="492771" visible="true" timestamp="2012-03-22T21:08:37Z"/>
+  <node id="176563677" version="5" changeset="8913934" lat="53.2093066" lon="50.1518748" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:09Z"/>
+  <node id="316223191" version="2" changeset="8913934" lat="53.209501" lon="50.152389" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:17Z"/>
+  <way id="144194654" visible="true" timestamp="2013-02-01T10:33:19Z" version="6" changeset="14869203" user="NickF" uid="467146">
+    <nd ref="1577788306"/>
+    <nd ref="2110811565"/>
+    <nd ref="656076258"/>
+    <nd ref="656076276"/>
+    <nd ref="2120999415"/>
+    <nd ref="1385169481"/>
+    <nd ref="2137111776"/>
+    <nd ref="1686306078"/>
+    <nd ref="176563677"/>
+    <nd ref="316223191"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Мичурина"/>
+  </way>
+</osm>

@@ -1,0 +1,41 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="174765261" version="9" changeset="15375505" lat="53.2110234" lon="50.1558968" user="gentoid" uid="492771" visible="true" timestamp="2013-03-15T17:00:14Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="-5.38; -0.80"/>
+  </node>
+  <node id="1500972435" version="2" changeset="11707516" lat="53.2110365" lon="50.1561397" user="gentoid" uid="492771" visible="true" timestamp="2012-05-26T15:21:48Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="217560546" version="3" changeset="9810979" lat="53.21104" lon="50.156206" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:10Z"/>
+  <node id="2117809202" version="1" changeset="14697263" lat="53.2114164" lon="50.1570117" user="gentoid" uid="492771" visible="true" timestamp="2013-01-18T15:00:30Z"/>
+  <node id="2117809222" version="1" changeset="14697263" lat="53.2118586" lon="50.1579583" user="gentoid" uid="492771" visible="true" timestamp="2013-01-18T15:00:31Z"/>
+  <node id="2117809236" version="1" changeset="14697263" lat="53.2119024" lon="50.158052" user="gentoid" uid="492771" visible="true" timestamp="2013-01-18T15:00:31Z"/>
+  <node id="217560566" version="4" changeset="14697263" lat="53.2119415" lon="50.1581357" user="gentoid" uid="492771" visible="true" timestamp="2013-01-18T15:00:33Z"/>
+  <node id="217560557" version="3" changeset="11225356" lat="53.212207" lon="50.1587156" user="gentoid" uid="492771" visible="true" timestamp="2012-04-08T13:32:25Z"/>
+  <node id="1707082275" version="2" changeset="14703992" lat="53.2123326" lon="50.1588184" user="gentoid" uid="492771" visible="true" timestamp="2013-01-19T06:26:40Z">
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="217539487" version="6" changeset="11225356" lat="53.2123823" lon="50.1588516" user="gentoid" uid="492771" visible="true" timestamp="2012-04-08T13:32:25Z">
+    <tag k="merkator_shift:bing" v="12.56; 3.04"/>
+  </node>
+  <way id="20406520" visible="true" timestamp="2013-01-18T15:00:32Z" version="10" changeset="14697263" user="gentoid" uid="492771">
+    <nd ref="174765261"/>
+    <nd ref="1500972435"/>
+    <nd ref="217560546"/>
+    <nd ref="2117809202"/>
+    <nd ref="2117809222"/>
+    <nd ref="2117809236"/>
+    <nd ref="217560566"/>
+    <nd ref="217560557"/>
+    <nd ref="1707082275"/>
+    <nd ref="217539487"/>
+    <tag k="highway" v="residential"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Мичурина"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</osm>

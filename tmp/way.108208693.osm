@@ -1,0 +1,36 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="174765261" version="9" changeset="15375505" lat="53.2110234" lon="50.1558968" user="gentoid" uid="492771" visible="true" timestamp="2013-03-15T17:00:14Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="-5.38; -0.80"/>
+  </node>
+  <node id="1750440244" version="2" changeset="11707516" lat="53.2108804" lon="50.156078" user="gentoid" uid="492771" visible="true" timestamp="2012-05-26T15:24:00Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2118817052" version="1" changeset="14703992" lat="53.2103851" lon="50.1567055" user="gentoid" uid="492771" visible="true" timestamp="2013-01-19T06:26:35Z"/>
+  <node id="1380444066" version="4" changeset="14697263" lat="53.210337" lon="50.1567665" user="gentoid" uid="492771" visible="true" timestamp="2013-01-18T15:00:33Z"/>
+  <node id="1501375031" version="1" changeset="9813962" lat="53.209889" lon="50.1573341" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T13:33:05Z"/>
+  <node id="1380444050" version="4" changeset="14697263" lat="53.2094558" lon="50.1578833" user="gentoid" uid="492771" visible="true" timestamp="2013-01-18T15:00:33Z"/>
+  <node id="1948817065" version="1" changeset="13382438" lat="53.2089391" lon="50.1585385" user="gentoid" uid="492771" visible="true" timestamp="2012-10-06T09:26:23Z">
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="176666943" version="10" changeset="11225356" lat="53.2088662" lon="50.158631" user="gentoid" uid="492771" visible="true" timestamp="2012-04-08T13:32:25Z">
+    <tag k="merkator_shift:bing" v="11.37; 4.94"/>
+  </node>
+  <way id="108208693" visible="true" timestamp="2013-01-19T06:26:38Z" version="9" changeset="14703992" user="gentoid" uid="492771">
+    <nd ref="174765261"/>
+    <nd ref="1750440244"/>
+    <nd ref="2118817052"/>
+    <nd ref="1380444066"/>
+    <nd ref="1501375031"/>
+    <nd ref="1380444050"/>
+    <nd ref="1948817065"/>
+    <nd ref="176666943"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="проспект Масленникова"/>
+  </way>
+</osm>

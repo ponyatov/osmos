@@ -1,0 +1,28 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="316223191" version="2" changeset="8913934" lat="53.209501" lon="50.152389" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:17Z"/>
+  <node id="1789051173" version="1" changeset="11908671" lat="53.2097049" lon="50.152928" user="gentoid" uid="492771" visible="true" timestamp="2012-06-15T20:34:36Z"/>
+  <node id="1385169485" version="1" changeset="8913934" lat="53.2097288" lon="50.1529913" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:11:39Z"/>
+  <node id="1448218565" version="1" changeset="9420854" lat="53.2099121" lon="50.1534276" user="NickF" uid="467146" visible="true" timestamp="2011-09-28T16:25:06Z"/>
+  <node id="176563667" version="6" changeset="8913934" lat="53.2100347" lon="50.1537196" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:09Z"/>
+  <node id="2118817048" version="1" changeset="14703992" lat="53.2100916" lon="50.1538449" user="gentoid" uid="492771" visible="true" timestamp="2013-01-19T06:26:35Z"/>
+  <node id="1580771895" version="1" changeset="10320102" lat="53.210619" lon="50.1550064" user="gentoid" uid="492771" visible="true" timestamp="2012-01-07T11:28:30Z">
+    <tag k="name" v="проспект Масленникова"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <way id="135702839" visible="true" timestamp="2013-01-19T06:26:39Z" version="7" changeset="14703992" user="gentoid" uid="492771">
+    <nd ref="316223191"/>
+    <nd ref="1789051173"/>
+    <nd ref="1385169485"/>
+    <nd ref="1448218565"/>
+    <nd ref="176563667"/>
+    <nd ref="2118817048"/>
+    <nd ref="1580771895"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Мичурина"/>
+  </way>
+</osm>

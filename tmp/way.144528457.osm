@@ -1,0 +1,28 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1580771895" version="1" changeset="10320102" lat="53.210619" lon="50.1550064" user="gentoid" uid="492771" visible="true" timestamp="2012-01-07T11:28:30Z">
+    <tag k="name" v="проспект Масленникова"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="2118817055" version="1" changeset="14703992" lat="53.2106895" lon="50.1551617" user="gentoid" uid="492771" visible="true" timestamp="2013-01-19T06:26:36Z"/>
+  <node id="1448218549" version="1" changeset="9420854" lat="53.2107118" lon="50.1552107" user="NickF" uid="467146" visible="true" timestamp="2011-09-28T16:25:05Z"/>
+  <node id="1577788322" version="2" changeset="10330801" lat="53.210822" lon="50.1554535" user="gentoid" uid="492771" visible="true" timestamp="2012-01-08T12:38:40Z">
+    <tag k="name" v="Улица Мичурина"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <way id="144528457" visible="true" timestamp="2013-01-19T06:26:38Z" version="4" changeset="14703992" user="gentoid" uid="492771">
+    <nd ref="1580771895"/>
+    <nd ref="2118817055"/>
+    <nd ref="1448218549"/>
+    <nd ref="1577788322"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Мичурина"/>
+  </way>
+</osm>

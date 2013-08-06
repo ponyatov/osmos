@@ -1,0 +1,15 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="152690690" version="9" changeset="11097081" lat="53.1998637" lon="50.1316415" user="gentoid" uid="492771" visible="true" timestamp="2012-03-25T16:49:11Z"/>
+  <node id="1429240009" version="2" changeset="11097081" lat="53.1999615" lon="50.1318685" user="gentoid" uid="492771" visible="true" timestamp="2012-03-25T16:49:08Z"/>
+  <node id="176663972" version="4" changeset="2915688" lat="53.2000764" lon="50.1321411" user="serikst" uid="144744" visible="true" timestamp="2009-10-21T19:56:07Z"/>
+  <way id="107252917" visible="true" timestamp="2012-05-11T06:46:05Z" version="4" changeset="11565071" user="gentoid" uid="492771">
+    <nd ref="152690690"/>
+    <nd ref="1429240009"/>
+    <nd ref="176663972"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Мичурина"/>
+    <tag k="railway" v="tram"/>
+  </way>
+</osm>

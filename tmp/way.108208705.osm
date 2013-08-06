@@ -1,0 +1,52 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="174766834" version="10" changeset="9810979" lat="53.2128883" lon="50.153554" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:10Z">
+    <tag k="merkator_shift:bing" v="15.99; -0.94"/>
+  </node>
+  <node id="1771599425" version="1" changeset="11759917" lat="53.2128091" lon="50.1536535" user="gentoid" uid="492771" visible="true" timestamp="2012-05-31T16:35:02Z">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="uncontrolled"/>
+  </node>
+  <node id="1448204460" version="2" changeset="9810979" lat="53.2120524" lon="50.1546041" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:09Z"/>
+  <node id="1448218572" version="2" changeset="9810979" lat="53.2117886" lon="50.1549355" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:09Z"/>
+  <node id="1448218545" version="2" changeset="9810979" lat="53.2117167" lon="50.1550258" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:09Z"/>
+  <node id="1448204462" version="2" changeset="9810979" lat="53.2116674" lon="50.1550878" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:09Z"/>
+  <node id="1582467642" version="1" changeset="10330801" lat="53.2115069" lon="50.1552894" user="gentoid" uid="492771" visible="true" timestamp="2012-01-08T12:37:43Z">
+    <tag k="name" v="Улица Мичурина"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="1582467597" version="1" changeset="10330801" lat="53.2113778" lon="50.1554516" user="gentoid" uid="492771" visible="true" timestamp="2012-01-08T12:37:42Z">
+    <tag k="name" v="Улица Мичурина"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="1750440249" version="2" changeset="11707516" lat="53.211126" lon="50.1557679" user="gentoid" uid="492771" visible="true" timestamp="2012-05-26T15:24:01Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="174765261" version="9" changeset="15375505" lat="53.2110234" lon="50.1558968" user="gentoid" uid="492771" visible="true" timestamp="2013-03-15T17:00:14Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="-5.38; -0.80"/>
+  </node>
+  <way id="108208705" visible="true" timestamp="2012-05-31T16:35:07Z" version="9" changeset="11759917" user="gentoid" uid="492771">
+    <nd ref="174766834"/>
+    <nd ref="1771599425"/>
+    <nd ref="1448204460"/>
+    <nd ref="1448218572"/>
+    <nd ref="1448218545"/>
+    <nd ref="1448204462"/>
+    <nd ref="1582467642"/>
+    <nd ref="1582467597"/>
+    <nd ref="1750440249"/>
+    <nd ref="174765261"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="проспект Масленникова"/>
+  </way>
+</osm>

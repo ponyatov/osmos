@@ -1,0 +1,34 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="143973002" version="8" changeset="11108526" lat="53.1978495" lon="50.1272463" user="gentoid" uid="492771" visible="true" timestamp="2012-03-26T17:40:19Z">
+    <tag k="merkator_shift:bing" v="12.50; 0.22"/>
+  </node>
+  <node id="1692204714" version="1" changeset="11108924" lat="53.1981125" lon="50.1278145" user="gentoid" uid="492771" visible="true" timestamp="2012-03-26T18:22:28Z"/>
+  <node id="2045659215" version="1" changeset="14120233" lat="53.1989049" lon="50.1295268" user="NickF" uid="467146" visible="true" timestamp="2012-12-02T05:05:07Z"/>
+  <node id="1361530120" version="3" changeset="9333173" lat="53.1993362" lon="50.1304588" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:22Z">
+    <tag k="name" v="сквер им. Мичурина / Полевая улица"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="1449137192" version="1" changeset="9431072" lat="53.1993867" lon="50.1305678" user="gentoid" uid="492771" visible="true" timestamp="2011-09-29T21:25:14Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="143972998" version="14" changeset="11097081" lat="53.199472" lon="50.1307522" user="gentoid" uid="492771" visible="true" timestamp="2012-03-25T16:49:09Z">
+    <tag k="merkator_shift:bing" v="11.29; -2.03"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <way id="38146605" visible="true" timestamp="2012-12-02T05:05:07Z" version="10" changeset="14120233" user="NickF" uid="467146">
+    <nd ref="143973002"/>
+    <nd ref="1692204714"/>
+    <nd ref="2045659215"/>
+    <nd ref="1361530120"/>
+    <nd ref="1449137192"/>
+    <nd ref="143972998"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Мичурина"/>
+  </way>
+</osm>

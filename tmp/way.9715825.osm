@@ -1,0 +1,18 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="143971516" version="14" changeset="11097081" lat="53.2030305" lon="50.1385215" user="gentoid" uid="492771" visible="true" timestamp="2012-03-25T16:49:08Z">
+    <tag k="crossing" v="no"/>
+    <tag k="merkator_shift:bing" v="15.09; 1.98"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1426509106" version="2" changeset="11097081" lat="53.2031918" lon="50.1388892" user="gentoid" uid="492771" visible="true" timestamp="2012-03-25T16:49:07Z">
+    <tag k="merkator_shift:bing" v="15.09; 1.98"/>
+  </node>
+  <way id="9715825" visible="true" timestamp="2012-05-11T06:46:03Z" version="33" changeset="11565071" user="gentoid" uid="492771">
+    <nd ref="143971516"/>
+    <nd ref="1426509106"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Мичурина"/>
+  </way>
+</osm>

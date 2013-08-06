@@ -1,0 +1,229 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="174810370" version="10" changeset="9487593" lat="53.2046263" lon="50.1640018" user="gentoid" uid="492771" visible="true" timestamp="2011-10-06T17:56:27Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="14.38; 1.62"/>
+  </node>
+  <node id="1448218545" version="2" changeset="9810979" lat="53.2117167" lon="50.1550258" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:09Z"/>
+  <node id="1448218572" version="2" changeset="9810979" lat="53.2117886" lon="50.1549355" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:09Z"/>
+  <node id="174765261" version="9" changeset="15375505" lat="53.2110234" lon="50.1558968" user="gentoid" uid="492771" visible="true" timestamp="2013-03-15T17:00:14Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="-5.38; -0.80"/>
+  </node>
+  <node id="76727068" version="8" changeset="9811256" lat="53.2071745" lon="50.1607734" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T08:32:10Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1455934481" version="2" changeset="9811256" lat="53.2047895" lon="50.163795" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T08:32:10Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="1500972466" version="2" changeset="11759917" lat="53.212967" lon="50.1534551" user="gentoid" uid="492771" visible="true" timestamp="2012-05-31T16:35:09Z">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="uncontrolled"/>
+  </node>
+  <node id="1500972489" version="1" changeset="9810979" lat="53.2159438" lon="50.1497152" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:00Z"/>
+  <node id="1500972507" version="1" changeset="9810979" lat="53.2162372" lon="50.1493466" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:00Z"/>
+  <node id="1448204460" version="2" changeset="9810979" lat="53.2120524" lon="50.1546041" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:09Z"/>
+  <node id="1448204462" version="2" changeset="9810979" lat="53.2116674" lon="50.1550878" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:09Z"/>
+  <node id="174766834" version="10" changeset="9810979" lat="53.2128883" lon="50.153554" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:10Z">
+    <tag k="merkator_shift:bing" v="15.99; -0.94"/>
+  </node>
+  <node id="174801274" version="9" changeset="9810979" lat="53.2137763" lon="50.1524384" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:10Z">
+    <tag k="merkator_shift:bing" v="12.52; 2.17"/>
+  </node>
+  <node id="217197018" version="4" changeset="9810979" lat="53.216414" lon="50.1491244" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:10Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="76726271" version="11" changeset="9810979" lat="53.2166455" lon="50.1488336" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:15Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="18.00; 1.02"/>
+  </node>
+  <node id="1379320162" version="4" changeset="9811256" lat="53.2056737" lon="50.1626748" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T08:32:10Z"/>
+  <node id="1379320169" version="3" changeset="9811256" lat="53.2077096" lon="50.1600954" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T08:32:10Z"/>
+  <node id="174811131" version="10" changeset="9811256" lat="53.205307" lon="50.1631395" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T08:32:10Z">
+    <tag k="merkator_shift:bing" v="13.30; 5.13"/>
+  </node>
+  <node id="1501375026" version="1" changeset="9813962" lat="53.2061081" lon="50.1621245" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T13:33:05Z"/>
+  <node id="1501375028" version="1" changeset="9813962" lat="53.2084031" lon="50.1592168" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T13:33:05Z"/>
+  <node id="1501375031" version="1" changeset="9813962" lat="53.209889" lon="50.1573341" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T13:33:05Z"/>
+  <node id="1577788316" version="1" changeset="10298422" lat="53.2049659" lon="50.1635715" user="gentoid" uid="492771" visible="true" timestamp="2012-01-05T08:48:00Z">
+    <tag k="name" v="клиники Медуниверситета / Московское шоссе"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="1582467597" version="1" changeset="10330801" lat="53.2113778" lon="50.1554516" user="gentoid" uid="492771" visible="true" timestamp="2012-01-08T12:37:42Z">
+    <tag k="name" v="Улица Мичурина"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="1582467642" version="1" changeset="10330801" lat="53.2115069" lon="50.1552894" user="gentoid" uid="492771" visible="true" timestamp="2012-01-08T12:37:43Z">
+    <tag k="name" v="Улица Мичурина"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="176666943" version="10" changeset="11225356" lat="53.2088662" lon="50.158631" user="gentoid" uid="492771" visible="true" timestamp="2012-04-08T13:32:25Z">
+    <tag k="merkator_shift:bing" v="11.37; 4.94"/>
+  </node>
+  <node id="1750440244" version="2" changeset="11707516" lat="53.2108804" lon="50.156078" user="gentoid" uid="492771" visible="true" timestamp="2012-05-26T15:24:00Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="1750440249" version="2" changeset="11707516" lat="53.211126" lon="50.1557679" user="gentoid" uid="492771" visible="true" timestamp="2012-05-26T15:24:01Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="1770755621" version="1" changeset="11752025" lat="53.2071039" lon="50.1608628" user="gentoid" uid="492771" visible="true" timestamp="2012-05-30T20:20:41Z"/>
+  <node id="1770755629" version="1" changeset="11752025" lat="53.2072516" lon="50.1606757" user="gentoid" uid="492771" visible="true" timestamp="2012-05-30T20:20:41Z"/>
+  <node id="1771599425" version="1" changeset="11759917" lat="53.2128091" lon="50.1536535" user="gentoid" uid="492771" visible="true" timestamp="2012-05-31T16:35:02Z">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="uncontrolled"/>
+  </node>
+  <node id="1948817065" version="1" changeset="13382438" lat="53.2089391" lon="50.1585385" user="gentoid" uid="492771" visible="true" timestamp="2012-10-06T09:26:23Z">
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="1707082264" version="2" changeset="13382438" lat="53.2087942" lon="50.1587221" user="gentoid" uid="492771" visible="true" timestamp="2012-10-06T09:26:32Z">
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2101735312" version="1" changeset="14576554" lat="53.2083179" lon="50.1593248" user="gentoid" uid="492771" visible="true" timestamp="2013-01-08T16:27:52Z"/>
+  <node id="1380444050" version="4" changeset="14697263" lat="53.2094558" lon="50.1578833" user="gentoid" uid="492771" visible="true" timestamp="2013-01-18T15:00:33Z"/>
+  <node id="1380444066" version="4" changeset="14697263" lat="53.210337" lon="50.1567665" user="gentoid" uid="492771" visible="true" timestamp="2013-01-18T15:00:33Z"/>
+  <node id="2118817052" version="1" changeset="14703992" lat="53.2103851" lon="50.1567055" user="gentoid" uid="492771" visible="true" timestamp="2013-01-19T06:26:35Z"/>
+  <node id="1436483378" version="3" changeset="16939200" lat="53.2165533" lon="50.1489462" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:06:59Z"/>
+  <way id="144194637" visible="true" timestamp="2012-05-11T06:45:49Z" version="2" changeset="11565071" user="gentoid" uid="492771">
+    <nd ref="1577788316"/>
+    <nd ref="1455934481"/>
+    <nd ref="174810370"/>
+    <tag k="lit" v="yes"/>
+    <tag k="lanes" v="4"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="name" v="проспект Масленникова"/>
+    <tag k="maxspeed" v="60"/>
+  </way>
+  <way id="144724220" visible="true" timestamp="2012-05-11T06:45:48Z" version="2" changeset="11565071" user="gentoid" uid="492771">
+    <nd ref="1500972507"/>
+    <nd ref="1500972489"/>
+    <tag k="lit" v="yes"/>
+    <tag k="lanes" v="4"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="name" v="проспект Масленникова"/>
+    <tag k="maxspeed" v="60"/>
+  </way>
+  <way id="108208695" visible="true" timestamp="2012-05-11T06:45:48Z" version="7" changeset="11565071" user="gentoid" uid="492771">
+    <nd ref="174811131"/>
+    <nd ref="1577788316"/>
+    <tag k="lit" v="yes"/>
+    <tag k="lanes" v="4"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="name" v="проспект Масленникова"/>
+    <tag k="maxspeed" v="60"/>
+  </way>
+  <way id="144724221" visible="true" timestamp="2012-05-11T06:45:48Z" version="2" changeset="11565071" user="gentoid" uid="492771">
+    <nd ref="1500972489"/>
+    <nd ref="174801274"/>
+    <tag k="lit" v="yes"/>
+    <tag k="lanes" v="4"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="name" v="проспект Масленникова"/>
+    <tag k="maxspeed" v="60"/>
+  </way>
+  <way id="108208708" visible="true" timestamp="2012-05-11T06:45:49Z" version="4" changeset="11565071" user="gentoid" uid="492771">
+    <nd ref="174801274"/>
+    <nd ref="1500972466"/>
+    <nd ref="174766834"/>
+    <tag k="lit" v="yes"/>
+    <tag k="lanes" v="4"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="name" v="проспект Масленникова"/>
+    <tag k="maxspeed" v="60"/>
+  </way>
+  <way id="9715836" visible="true" timestamp="2012-05-11T06:45:49Z" version="20" changeset="11565071" user="gentoid" uid="492771">
+    <nd ref="76726271"/>
+    <nd ref="1436483378"/>
+    <nd ref="217197018"/>
+    <nd ref="1500972507"/>
+    <tag k="lit" v="yes"/>
+    <tag k="lanes" v="4"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="name" v="проспект Масленникова"/>
+    <tag k="maxspeed" v="60"/>
+  </way>
+  <way id="108208710" visible="true" timestamp="2013-01-08T16:27:53Z" version="10" changeset="14576554" user="gentoid" uid="492771">
+    <nd ref="176666943"/>
+    <nd ref="1707082264"/>
+    <nd ref="1501375028"/>
+    <nd ref="2101735312"/>
+    <nd ref="1379320169"/>
+    <nd ref="1770755629"/>
+    <nd ref="76727068"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="maxspeed:backward" v="40"/>
+    <tag k="name" v="проспект Масленникова"/>
+  </way>
+  <way id="108208693" visible="true" timestamp="2013-01-19T06:26:38Z" version="9" changeset="14703992" user="gentoid" uid="492771">
+    <nd ref="174765261"/>
+    <nd ref="1750440244"/>
+    <nd ref="2118817052"/>
+    <nd ref="1380444066"/>
+    <nd ref="1501375031"/>
+    <nd ref="1380444050"/>
+    <nd ref="1948817065"/>
+    <nd ref="176666943"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="проспект Масленникова"/>
+  </way>
+  <way id="108208700" visible="true" timestamp="2012-05-30T20:20:44Z" version="9" changeset="11752025" user="gentoid" uid="492771">
+    <nd ref="76727068"/>
+    <nd ref="1770755621"/>
+    <nd ref="1501375026"/>
+    <nd ref="1379320162"/>
+    <nd ref="174811131"/>
+    <tag k="name" v="проспект Масленникова"/>
+    <tag k="lit" v="yes"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="maxspeed" v="60"/>
+  </way>
+  <way id="108208705" visible="true" timestamp="2012-05-31T16:35:07Z" version="9" changeset="11759917" user="gentoid" uid="492771">
+    <nd ref="174766834"/>
+    <nd ref="1771599425"/>
+    <nd ref="1448204460"/>
+    <nd ref="1448218572"/>
+    <nd ref="1448218545"/>
+    <nd ref="1448204462"/>
+    <nd ref="1582467642"/>
+    <nd ref="1582467597"/>
+    <nd ref="1750440249"/>
+    <nd ref="174765261"/>
+    <tag k="lit" v="yes"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lanes" v="4"/>
+    <tag k="name" v="проспект Масленникова"/>
+  </way>
+  <relation id="1537639" visible="true" timestamp="2012-01-08T12:38:02Z" version="3" changeset="10330801" user="gentoid" uid="492771">
+    <member type="way" ref="9715836" role="street"/>
+    <member type="way" ref="144724220" role="street"/>
+    <member type="way" ref="144724221" role="street"/>
+    <member type="way" ref="108208708" role="street"/>
+    <member type="way" ref="108208705" role="street"/>
+    <member type="way" ref="108208693" role="street"/>
+    <member type="way" ref="108208710" role="street"/>
+    <member type="way" ref="108208700" role="street"/>
+    <member type="way" ref="108208695" role="street"/>
+    <member type="way" ref="144194637" role="street"/>
+    <tag k="name" v="проспект Масленникова"/>
+    <tag k="type" v="street"/>
+  </relation>
+</osm>

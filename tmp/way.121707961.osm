@@ -1,0 +1,25 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1361530107" version="3" changeset="11097081" lat="53.2019997" lon="50.1362841" user="gentoid" uid="492771" visible="true" timestamp="2012-03-25T16:49:01Z">
+    <tag k="trolleybus" v="yes"/>
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="Монумент Памяти и Славы / ТТЦ &quot;Аквариум&quot;"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="1361530108" version="3" changeset="11097081" lat="53.2023905" lon="50.1371322" user="gentoid" uid="492771" visible="true" timestamp="2012-03-25T16:49:02Z">
+    <tag k="trolleybus" v="yes"/>
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="Монумент Памяти и Славы / ТТЦ &quot;Аквариум&quot;"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="public_transport" v="stop_position"/>
+  </node>
+  <way id="121707961" visible="true" timestamp="2012-05-11T06:46:03Z" version="4" changeset="11565071" user="gentoid" uid="492771">
+    <nd ref="1361530107"/>
+    <nd ref="1361530108"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Мичурина"/>
+  </way>
+</osm>

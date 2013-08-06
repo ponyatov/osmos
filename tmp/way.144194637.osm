@@ -1,0 +1,26 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1577788316" version="1" changeset="10298422" lat="53.2049659" lon="50.1635715" user="gentoid" uid="492771" visible="true" timestamp="2012-01-05T08:48:00Z">
+    <tag k="name" v="клиники Медуниверситета / Московское шоссе"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="1455934481" version="2" changeset="9811256" lat="53.2047895" lon="50.163795" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T08:32:10Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="174810370" version="10" changeset="9487593" lat="53.2046263" lon="50.1640018" user="gentoid" uid="492771" visible="true" timestamp="2011-10-06T17:56:27Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="14.38; 1.62"/>
+  </node>
+  <way id="144194637" visible="true" timestamp="2012-05-11T06:45:49Z" version="2" changeset="11565071" user="gentoid" uid="492771">
+    <nd ref="1577788316"/>
+    <nd ref="1455934481"/>
+    <nd ref="174810370"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="проспект Масленникова"/>
+  </way>
+</osm>

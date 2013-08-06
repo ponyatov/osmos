@@ -1,0 +1,31 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="176666943" version="10" changeset="11225356" lat="53.2088662" lon="50.158631" user="gentoid" uid="492771" visible="true" timestamp="2012-04-08T13:32:25Z">
+    <tag k="merkator_shift:bing" v="11.37; 4.94"/>
+  </node>
+  <node id="1707082264" version="2" changeset="13382438" lat="53.2087942" lon="50.1587221" user="gentoid" uid="492771" visible="true" timestamp="2012-10-06T09:26:32Z">
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="1501375028" version="1" changeset="9813962" lat="53.2084031" lon="50.1592168" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T13:33:05Z"/>
+  <node id="2101735312" version="1" changeset="14576554" lat="53.2083179" lon="50.1593248" user="gentoid" uid="492771" visible="true" timestamp="2013-01-08T16:27:52Z"/>
+  <node id="1379320169" version="3" changeset="9811256" lat="53.2077096" lon="50.1600954" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T08:32:10Z"/>
+  <node id="1770755629" version="1" changeset="11752025" lat="53.2072516" lon="50.1606757" user="gentoid" uid="492771" visible="true" timestamp="2012-05-30T20:20:41Z"/>
+  <node id="76727068" version="8" changeset="9811256" lat="53.2071745" lon="50.1607734" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T08:32:10Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <way id="108208710" visible="true" timestamp="2013-01-08T16:27:53Z" version="10" changeset="14576554" user="gentoid" uid="492771">
+    <nd ref="176666943"/>
+    <nd ref="1707082264"/>
+    <nd ref="1501375028"/>
+    <nd ref="2101735312"/>
+    <nd ref="1379320169"/>
+    <nd ref="1770755629"/>
+    <nd ref="76727068"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="maxspeed:backward" v="40"/>
+    <tag k="name" v="проспект Масленникова"/>
+  </way>
+</osm>

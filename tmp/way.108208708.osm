@@ -1,0 +1,22 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="174801274" version="9" changeset="9810979" lat="53.2137763" lon="50.1524384" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:10Z">
+    <tag k="merkator_shift:bing" v="12.52; 2.17"/>
+  </node>
+  <node id="1500972466" version="2" changeset="11759917" lat="53.212967" lon="50.1534551" user="gentoid" uid="492771" visible="true" timestamp="2012-05-31T16:35:09Z">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="uncontrolled"/>
+  </node>
+  <node id="174766834" version="10" changeset="9810979" lat="53.2128883" lon="50.153554" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:10Z">
+    <tag k="merkator_shift:bing" v="15.99; -0.94"/>
+  </node>
+  <way id="108208708" visible="true" timestamp="2012-05-11T06:45:49Z" version="4" changeset="11565071" user="gentoid" uid="492771">
+    <nd ref="174801274"/>
+    <nd ref="1500972466"/>
+    <nd ref="174766834"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="проспект Масленникова"/>
+  </way>
+</osm>

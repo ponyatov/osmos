@@ -1,0 +1,12 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="217628471" version="4" changeset="14662841" lat="53.2162009" lon="50.166913" user="NickF" uid="467146" visible="true" timestamp="2013-01-15T16:28:27Z"/>
+  <node id="452950941" version="1" changeset="2001355" lat="53.2164955" lon="50.1678386" user="serikst" uid="144744" visible="true" timestamp="2009-08-01T09:36:33Z"/>
+  <node id="217878389" version="2" changeset="2001355" lat="53.2167531" lon="50.1689151" user="serikst" uid="144744" visible="true" timestamp="2009-08-01T09:36:36Z"/>
+  <way id="20419765" visible="true" timestamp="2011-04-04T21:48:57Z" version="8" changeset="7770091" user="AKhranovskiy" uid="231156">
+    <nd ref="217628471"/>
+    <nd ref="452950941"/>
+    <nd ref="217878389"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="улица Мичурина"/>
+  </way>
+</osm>

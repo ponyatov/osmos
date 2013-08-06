@@ -1,0 +1,22 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="76726271" version="11" changeset="9810979" lat="53.2166455" lon="50.1488336" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:15Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="18.00; 1.02"/>
+  </node>
+  <node id="1436483378" version="3" changeset="16939200" lat="53.2165533" lon="50.1489462" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:06:59Z"/>
+  <node id="217197018" version="4" changeset="9810979" lat="53.216414" lon="50.1491244" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:10Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1500972507" version="1" changeset="9810979" lat="53.2162372" lon="50.1493466" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:00Z"/>
+  <way id="9715836" visible="true" timestamp="2012-05-11T06:45:49Z" version="20" changeset="11565071" user="gentoid" uid="492771">
+    <nd ref="76726271"/>
+    <nd ref="1436483378"/>
+    <nd ref="217197018"/>
+    <nd ref="1500972507"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="проспект Масленникова"/>
+  </way>
+</osm>

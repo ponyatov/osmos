@@ -1,0 +1,27 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1577788322" version="2" changeset="10330801" lat="53.210822" lon="50.1554535" user="gentoid" uid="492771" visible="true" timestamp="2012-01-08T12:38:40Z">
+    <tag k="name" v="Улица Мичурина"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="1500997460" version="2" changeset="11707516" lat="53.2109663" lon="50.1557711" user="gentoid" uid="492771" visible="true" timestamp="2012-05-26T15:24:00Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="174765261" version="9" changeset="15375505" lat="53.2110234" lon="50.1558968" user="gentoid" uid="492771" visible="true" timestamp="2013-03-15T17:00:14Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="-5.38; -0.80"/>
+  </node>
+  <way id="144194653" visible="true" timestamp="2012-05-11T06:46:04Z" version="2" changeset="11565071" user="gentoid" uid="492771">
+    <nd ref="1577788322"/>
+    <nd ref="1500997460"/>
+    <nd ref="174765261"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Мичурина"/>
+  </way>
+</osm>

@@ -1,0 +1,26 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="76726725" version="12" changeset="11705895" lat="53.2039989" lon="50.1406581" user="gentoid" uid="492771" visible="true" timestamp="2012-05-26T12:01:50Z">
+    <tag k="merkator_shift:bing" v="15.38; 4.74"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="315288037" version="1" changeset="804799" lat="53.2044805" lon="50.141707" user="AkMeR" uid="11049" visible="true" timestamp="2008-11-28T15:19:46Z"/>
+  <node id="315288053" version="2" changeset="8912238" lat="53.2057871" lon="50.1445739" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T17:27:34Z"/>
+  <node id="1577788303" version="2" changeset="10320102" lat="53.206359" lon="50.1457945" user="gentoid" uid="492771" visible="true" timestamp="2012-01-07T11:30:03Z">
+    <tag k="name" v="Выставочный центр &quot;Экспо-Волга&quot; / улица Челюскинцев"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <way id="107252920" visible="true" timestamp="2012-05-11T06:46:06Z" version="5" changeset="11565071" user="gentoid" uid="492771">
+    <nd ref="76726725"/>
+    <nd ref="315288037"/>
+    <nd ref="315288053"/>
+    <nd ref="1577788303"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Мичурина"/>
+  </way>
+</osm>

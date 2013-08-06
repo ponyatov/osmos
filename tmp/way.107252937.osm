@@ -1,0 +1,27 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="176563694" version="8" changeset="11081204" lat="53.2065347" lon="50.1461544" user="gentoid" uid="492771" visible="true" timestamp="2012-03-24T07:11:54Z">
+    <tag k="merkator_shift:bing" v="14.81; 4.65"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1688109566" version="1" changeset="11081204" lat="53.2066031" lon="50.1462964" user="gentoid" uid="492771" visible="true" timestamp="2012-03-24T07:11:43Z">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+  </node>
+  <node id="1577788306" version="1" changeset="10298422" lat="53.2070559" lon="50.1472363" user="gentoid" uid="492771" visible="true" timestamp="2012-01-05T08:48:00Z">
+    <tag k="name" v="Улица Челюскинцев / &quot;Экспо-Волга&quot;"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <way id="107252937" visible="true" timestamp="2012-05-11T06:46:05Z" version="9" changeset="11565071" user="gentoid" uid="492771">
+    <nd ref="176563694"/>
+    <nd ref="1688109566"/>
+    <nd ref="1577788306"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="улица Мичурина"/>
+  </way>
+</osm>

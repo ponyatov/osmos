@@ -19,7 +19,7 @@ MP=cgmp.MP('../map/mp.mp')
 MP.IMGID.Name='Samara globe (c) osm.org'
 MP.IMGID.LocalName='глобус Самары (c) osm.org'
 MP.IMGID.Version=OSM.attrib['version']
-MP.IMGID.Copyright=OSM.attrib['copyright']
+MP.IMGID.Copyright='(c) osm.org & dponyatov@gmail.com'#OSM.attrib['copyright']
  
 R=SAMARA_OBL.xpath('/osm/relation[@id=72194]/member[@type="node"][@role="label"]')[0].attrib['ref']
 C=SAMARA_OBL_CENTER=osm.node(R)
@@ -36,7 +36,7 @@ MP.add(cgmp.MainCity(C.id,C.lat,C.lon,C.name))
 print SAMARA_OBL.name,'outline:',
 for i in SAMARA_OBL.xpath('//relation[@id=72194]/member[@type="way"][@role="outer"]'):
     W=osm.way(i.attrib['ref']) ; print W.id,
-    MP.add(cgmp.RegionOutline(W.id,W.poly,W.name))
+    MP.add(cgmp.InternationalBoundary(W.id,W.poly,W.name))
 print
 
 X=open('../tmp/xml.xml','w')
@@ -47,4 +47,4 @@ for i in SAMARA_OBL.xpath('//relation[@id=72194]/member[@type="way"][@role="oute
 X.close()
 
 MP.dump()
-                      
+os.system(r'..\bin\mp2cgmap\MP2CGMap.exe mp:..\map\mp.mp')

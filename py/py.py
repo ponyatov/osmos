@@ -39,6 +39,10 @@ for i in SAMARA_OBL.xpath('//relation[@id=72194]/member[@type="way"][@role="oute
     MP.add(cgmp.StateBoundary(W.id,W.poly,W.name))
 print
 
+# highways
+
+HW_MOSCOW = osm.relation(id=1531821) ; print HW_MOSCOW
+
 X=open('../tmp/xml.xml','w')
 # # for i in SAMARA_OBL.xpath('/osm/relation/member[@role="label"]'):
 # for i in SAMARA_OBL.xpath('//relation[@id=72194]'):

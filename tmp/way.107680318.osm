@@ -1,0 +1,24 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="154524644" version="6" changeset="11292988" lat="53.2580034" lon="50.2339602" user="gentoid" uid="492771" visible="true" timestamp="2012-04-13T21:50:08Z"/>
+  <node id="945425889" version="2" changeset="11292988" lat="53.2586614" lon="50.235049" user="gentoid" uid="492771" visible="true" timestamp="2012-04-13T21:50:16Z"/>
+  <node id="952143724" version="3" changeset="14662841" lat="53.2596502" lon="50.2366854" user="NickF" uid="467146" visible="true" timestamp="2013-01-15T16:28:27Z"/>
+  <node id="1361530491" version="5" changeset="11292988" lat="53.2604105" lon="50.2379436" user="gentoid" uid="492771" visible="true" timestamp="2012-04-13T21:50:03Z">
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ташкентская улица"/>
+    <tag k="bus" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+  </node>
+  <way id="107680318" visible="true" timestamp="2013-02-26T18:06:11Z" version="7" changeset="15176413" user="NickF" uid="467146">
+    <nd ref="154524644"/>
+    <nd ref="945425889"/>
+    <nd ref="952143724"/>
+    <nd ref="1361530491"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="7"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="36К-887"/>
+  </way>
+</osm>

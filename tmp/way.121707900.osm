@@ -1,0 +1,41 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1361530127" version="3" changeset="11313395" lat="53.2181077" lon="50.1876129" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T17:34:20Z">
+    <tag k="name" v="Центральный Автовокзал"/>
+    <tag k="bus" v="yes"/>
+    <tag k="trolleybus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="291158066" version="3" changeset="11313395" lat="53.2187488" lon="50.1880363" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T17:34:22Z"/>
+  <node id="236880568" version="5" changeset="11313395" lat="53.2189062" lon="50.1881403" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T17:34:21Z"/>
+  <node id="237185902" version="4" changeset="11313395" lat="53.2193081" lon="50.1884058" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T17:34:22Z"/>
+  <node id="291158075" version="3" changeset="11313395" lat="53.2194381" lon="50.1884916" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T17:34:23Z"/>
+  <node id="236880577" version="3" changeset="11313395" lat="53.2199145" lon="50.1888063" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T17:34:21Z"/>
+  <node id="291152583" version="3" changeset="11313395" lat="53.2206262" lon="50.1892764" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T17:34:22Z"/>
+  <node id="237210792" version="4" changeset="11313395" lat="53.2213951" lon="50.1897843" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T17:34:22Z"/>
+  <node id="1361530486" version="3" changeset="11313395" lat="53.2216484" lon="50.1899516" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T17:34:20Z">
+    <tag k="name" v="улица Потапова"/>
+    <tag k="bus" v="yes"/>
+    <tag k="trolleybus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <way id="121707900" visible="true" timestamp="2013-02-26T18:14:09Z" version="6" changeset="15176495" user="NickF" uid="467146">
+    <nd ref="1361530127"/>
+    <nd ref="291158066"/>
+    <nd ref="236880568"/>
+    <nd ref="237185902"/>
+    <nd ref="291158075"/>
+    <nd ref="236880577"/>
+    <nd ref="291152583"/>
+    <nd ref="237210792"/>
+    <nd ref="1361530486"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="7"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="36К-887"/>
+    <tag k="trolley_wire" v="yes"/>
+  </way>
+</osm>

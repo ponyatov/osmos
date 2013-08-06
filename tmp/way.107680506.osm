@@ -1,0 +1,29 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="314203612" version="2" changeset="95296" lat="53.3225026" lon="50.2981877" user="AkMeR" uid="11049" visible="true" timestamp="2008-12-04T07:39:40Z"/>
+  <node id="179565257" version="10" changeset="95296" lat="53.3216911" lon="50.2978756" user="AkMeR" uid="11049" visible="true" timestamp="2008-12-04T07:39:39Z"/>
+  <node id="179565259" version="6" changeset="95296" lat="53.3209532" lon="50.2975554" user="AkMeR" uid="11049" visible="true" timestamp="2008-12-04T07:39:39Z"/>
+  <node id="190054169" version="6" changeset="8286004" lat="53.3199466" lon="50.2970228" user="AkMeR" uid="11049" visible="true" timestamp="2011-05-29T22:21:08Z"/>
+  <node id="76723796" version="10" changeset="8286004" lat="53.3189641" lon="50.2964566" user="AkMeR" uid="11049" visible="true" timestamp="2011-05-29T22:21:06Z"/>
+  <node id="314290382" version="1" changeset="788287" lat="53.3184748" lon="50.2961689" user="AkMeR" uid="11049" visible="true" timestamp="2008-11-24T14:21:19Z"/>
+  <node id="190054192" version="3" changeset="788287" lat="53.3178321" lon="50.2957249" user="AkMeR" uid="11049" visible="true" timestamp="2008-11-24T14:21:25Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="1130995493" version="2" changeset="7158003" lat="53.3173361" lon="50.2954113" user="atgnclk" uid="164645" visible="true" timestamp="2011-02-01T19:26:58Z"/>
+  <way id="107680506" visible="true" timestamp="2013-01-21T19:55:04Z" version="6" changeset="14737691" user="NickF" uid="467146">
+    <nd ref="314203612"/>
+    <nd ref="179565257"/>
+    <nd ref="179565259"/>
+    <nd ref="190054169"/>
+    <nd ref="76723796"/>
+    <nd ref="314290382"/>
+    <nd ref="190054192"/>
+    <nd ref="1130995493"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="М5"/>
+  </way>
+</osm>

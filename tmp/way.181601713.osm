@@ -1,0 +1,27 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="249655303" version="7" changeset="13364648" lat="53.2483319" lon="50.2180126" user="gentoid" uid="492771" visible="true" timestamp="2012-10-04T18:44:29Z"/>
+  <node id="946151835" version="2" changeset="13364648" lat="53.2486903" lon="50.218598" user="gentoid" uid="492771" visible="true" timestamp="2012-10-04T18:44:30Z"/>
+  <node id="946151920" version="2" changeset="13364648" lat="53.2491464" lon="50.2193432" user="gentoid" uid="492771" visible="true" timestamp="2012-10-04T18:44:30Z"/>
+  <node id="339811104" version="4" changeset="13364648" lat="53.2497162" lon="50.2202739" user="gentoid" uid="492771" visible="true" timestamp="2012-10-04T18:44:29Z"/>
+  <node id="650836665" version="5" changeset="13364648" lat="53.2501512" lon="50.2209846" user="gentoid" uid="492771" visible="true" timestamp="2012-10-04T18:44:29Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="76729791" version="16" changeset="13364648" lat="53.2501914" lon="50.2210504" user="gentoid" uid="492771" visible="true" timestamp="2012-10-04T18:44:30Z">
+    <tag k="merkator_shift:bing" v="13.32; 0.83"/>
+  </node>
+  <way id="181601713" visible="true" timestamp="2013-01-24T04:16:34Z" version="3" changeset="14764525" user="NickF" uid="467146">
+    <nd ref="249655303"/>
+    <nd ref="946151835"/>
+    <nd ref="946151920"/>
+    <nd ref="339811104"/>
+    <nd ref="650836665"/>
+    <nd ref="76729791"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="7"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="36К-887"/>
+    <tag k="trolley_wire" v="yes"/>
+  </way>
+</osm>

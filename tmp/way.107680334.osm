@@ -1,0 +1,24 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="190053558" version="9" changeset="11316671" lat="53.243201" lon="50.2101249" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T22:16:22Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="12.46; 0.31"/>
+  </node>
+  <node id="301145209" version="6" changeset="10320102" lat="53.2437573" lon="50.2108137" user="gentoid" uid="492771" visible="true" timestamp="2012-01-07T11:30:05Z">
+    <tag k="name" v="улица Ново-Вокзальная"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <way id="107680334" visible="true" timestamp="2013-02-26T18:17:08Z" version="7" changeset="15176529" user="NickF" uid="467146">
+    <nd ref="190053558"/>
+    <nd ref="301145209"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="7"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="36К-887"/>
+    <tag k="trolley_wire" v="yes"/>
+  </way>
+</osm>

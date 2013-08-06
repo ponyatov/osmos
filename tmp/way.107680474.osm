@@ -1,0 +1,30 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="174720494" version="6" changeset="10320813" lat="53.233158" lon="50.1976632" user="gentoid" uid="492771" visible="true" timestamp="2012-01-07T13:05:35Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="12.46; 0.31"/>
+  </node>
+  <node id="76729787" version="10" changeset="6042307" lat="53.2337233" lon="50.1982879" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-14T20:10:06Z"/>
+  <node id="249655184" version="5" changeset="6042307" lat="53.2342237" lon="50.1988974" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-14T20:10:06Z"/>
+  <node id="364018276" version="2" changeset="6042307" lat="53.2364323" lon="50.2016781" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-14T20:09:42Z"/>
+  <node id="1361530088" version="2" changeset="9333173" lat="53.2367551" lon="50.2020822" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:00Z">
+    <tag k="name" v="Завод им. Тарасова"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <way id="107680474" visible="true" timestamp="2013-02-26T18:17:08Z" version="7" changeset="15176529" user="NickF" uid="467146">
+    <nd ref="174720494"/>
+    <nd ref="76729787"/>
+    <nd ref="249655184"/>
+    <nd ref="364018276"/>
+    <nd ref="1361530088"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="7"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="36К-887"/>
+    <tag k="trolley_wire" v="yes"/>
+  </way>
+</osm>

@@ -1,0 +1,19 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1361530481" version="3" changeset="9333173" lat="53.2715267" lon="50.2582953" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:13:53Z">
+    <tag k="name" v="Алма-Атинская улица"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="249536001" version="4" changeset="7573064" lat="53.2723624" lon="50.2598342" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-03-16T07:49:53Z"/>
+  <way id="121707877" visible="true" timestamp="2013-01-21T19:35:23Z" version="5" changeset="14737439" user="NickF" uid="467146">
+    <nd ref="1361530481"/>
+    <nd ref="249536001"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="К-887"/>
+  </way>
+</osm>

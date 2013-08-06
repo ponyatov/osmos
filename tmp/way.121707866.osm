@@ -1,0 +1,19 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1361530102" version="2" changeset="9333173" lat="53.2834932" lon="50.2816036" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:04Z">
+    <tag k="name" v="Крутой овраг"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="179565269" version="5" changeset="7108482" lat="53.2836087" lon="50.2817171" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-01-27T22:35:13Z"/>
+  <way id="121707866" visible="true" timestamp="2013-02-26T17:59:36Z" version="6" changeset="15176341" user="NickF" uid="467146">
+    <nd ref="1361530102"/>
+    <nd ref="179565269"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="36К-887"/>
+  </way>
+</osm>

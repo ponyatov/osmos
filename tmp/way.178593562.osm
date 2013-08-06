@@ -1,0 +1,25 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="218133725" version="3" changeset="804799" lat="53.2036464" lon="50.1576585" user="AkMeR" uid="11049" visible="true" timestamp="2008-11-28T14:32:35Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="1385169468" version="1" changeset="8913934" lat="53.2036443" lon="50.1578839" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:11:38Z"/>
+  <node id="143971503" version="3" changeset="804799" lat="53.2036268" lon="50.1580874" user="AkMeR" uid="11049" visible="true" timestamp="2008-11-28T14:32:37Z"/>
+  <node id="1385169465" version="1" changeset="8913934" lat="53.2035975" lon="50.158241" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:11:38Z"/>
+  <node id="143971501" version="6" changeset="8913934" lat="53.2035566" lon="50.1583883" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:02Z"/>
+  <node id="178184989" version="4" changeset="8913934" lat="53.2034061" lon="50.1587611" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:11Z"/>
+  <way id="178593562" visible="true" timestamp="2013-01-28T08:58:37Z" version="3" changeset="14818954" user="NickF" uid="467146">
+    <nd ref="218133725"/>
+    <nd ref="1385169468"/>
+    <nd ref="143971503"/>
+    <nd ref="1385169465"/>
+    <nd ref="143971501"/>
+    <nd ref="178184989"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="40"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="36К-887"/>
+    <tag k="trolley_wire" v="yes"/>
+  </way>
+</osm>

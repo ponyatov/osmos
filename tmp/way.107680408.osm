@@ -1,0 +1,21 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="499375904" version="1" changeset="2514322" lat="53.3145144" lon="50.2936602" user="atgnclk" uid="164645" visible="true" timestamp="2009-09-17T17:54:23Z"/>
+  <node id="190075135" version="5" changeset="788287" lat="53.3150499" lon="50.2940372" user="AkMeR" uid="11049" visible="true" timestamp="2008-11-24T14:21:33Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="314290377" version="1" changeset="788287" lat="53.3165204" lon="50.2951197" user="AkMeR" uid="11049" visible="true" timestamp="2008-11-24T14:21:18Z"/>
+  <node id="508399533" version="1" changeset="2640692" lat="53.3171742" lon="50.2955801" user="atgnclk" uid="164645" visible="true" timestamp="2009-09-26T13:11:49Z"/>
+  <way id="107680408" visible="true" timestamp="2013-02-26T17:59:35Z" version="7" changeset="15176341" user="NickF" uid="467146">
+    <nd ref="499375904"/>
+    <nd ref="190075135"/>
+    <nd ref="314290377"/>
+    <nd ref="508399533"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="М-5"/>
+  </way>
+</osm>

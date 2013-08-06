@@ -1,0 +1,18 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="174762906" version="14" changeset="16905539" lat="53.2091678" lon="50.1741679" user="gentoid" uid="492771" visible="true" timestamp="2013-07-10T20:58:56Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="-4.35; -0.64"/>
+  </node>
+  <node id="217830818" version="3" changeset="11100938" lat="53.2090194" lon="50.1739026" user="gentoid" uid="492771" visible="true" timestamp="2012-03-25T23:09:28Z"/>
+  <way id="129556140" visible="true" timestamp="2013-01-28T08:58:37Z" version="6" changeset="14818954" user="NickF" uid="467146">
+    <nd ref="174762906"/>
+    <nd ref="217830818"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="7"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="36К-887"/>
+    <tag k="trolley_wire" v="yes"/>
+  </way>
+</osm>

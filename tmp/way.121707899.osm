@@ -1,0 +1,32 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1361530487" version="4" changeset="10320102" lat="53.2095108" lon="50.174764" user="gentoid" uid="492771" visible="true" timestamp="2012-01-07T11:30:05Z">
+    <tag k="name" v="улица Революционная"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="1764405752" version="1" changeset="11692031" lat="53.2099773" lon="50.1755672" user="NickF" uid="467146" visible="true" timestamp="2012-05-24T18:04:13Z"/>
+  <node id="530230431" version="1" changeset="2840418" lat="53.2107883" lon="50.1769634" user="atgnclk" uid="164645" visible="true" timestamp="2009-10-13T21:47:48Z"/>
+  <node id="530230456" version="1" changeset="2840418" lat="53.211218" lon="50.1777058" user="atgnclk" uid="164645" visible="true" timestamp="2009-10-13T21:47:49Z"/>
+  <node id="1764395881" version="1" changeset="11691876" lat="53.2116113" lon="50.178377" user="NickF" uid="467146" visible="true" timestamp="2012-05-24T17:44:37Z"/>
+  <node id="1767724346" version="1" changeset="11716984" lat="53.2117734" lon="50.1786569" user="NickF" uid="467146" visible="true" timestamp="2012-05-27T15:47:35Z"/>
+  <node id="76729779" version="18" changeset="9431072" lat="53.2123264" lon="50.1795972" user="gentoid" uid="492771" visible="true" timestamp="2011-09-29T21:25:43Z"/>
+  <way id="121707899" visible="true" timestamp="2013-01-28T08:58:36Z" version="10" changeset="14818954" user="NickF" uid="467146">
+    <nd ref="1361530487"/>
+    <nd ref="1764405752"/>
+    <nd ref="530230431"/>
+    <nd ref="530230456"/>
+    <nd ref="1764395881"/>
+    <nd ref="1767724346"/>
+    <nd ref="76729779"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="7"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="oneway" v="no"/>
+    <tag k="ref" v="36К-887"/>
+    <tag k="trolley_wire" v="yes"/>
+  </way>
+</osm>

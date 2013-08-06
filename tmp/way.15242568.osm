@@ -1,0 +1,32 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="143971515" version="11" changeset="11097081" lat="53.2030908" lon="50.1393741" user="gentoid" uid="492771" visible="true" timestamp="2012-03-25T16:49:08Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="15.09; 1.98"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1499952608" version="1" changeset="9804544" lat="53.2031193" lon="50.1392539" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T13:54:34Z"/>
+  <node id="1499952611" version="1" changeset="9804544" lat="53.2031553" lon="50.1391645" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T13:54:34Z"/>
+  <node id="1499952616" version="1" changeset="9804544" lat="53.2031913" lon="50.139122" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T13:54:35Z"/>
+  <node id="1499952620" version="1" changeset="9804544" lat="53.2032361" lon="50.1391102" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T13:54:35Z"/>
+  <node id="150998769" version="6" changeset="9804544" lat="53.2032767" lon="50.1391283" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T13:54:40Z"/>
+  <node id="150998770" version="9" changeset="11097081" lat="53.2033232" lon="50.1391784" user="gentoid" uid="492771" visible="true" timestamp="2012-03-25T16:49:11Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="15.09; 1.98"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <way id="15242568" visible="true" timestamp="2013-01-28T08:52:52Z" version="13" changeset="14818954" user="NickF" uid="467146">
+    <nd ref="143971515"/>
+    <nd ref="1499952608"/>
+    <nd ref="1499952611"/>
+    <nd ref="1499952616"/>
+    <nd ref="1499952620"/>
+    <nd ref="150998769"/>
+    <nd ref="150998770"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="36К-887"/>
+  </way>
+</osm>

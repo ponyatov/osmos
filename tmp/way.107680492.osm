@@ -1,0 +1,23 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="217969373" version="5" changeset="9333173" lat="53.2039093" lon="50.1621798" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:13Z">
+    <tag k="name" v="Станция метро &quot;Московская&quot; / Клиники Медуниверситета"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="143971491" version="6" changeset="8913934" lat="53.2041889" lon="50.1629363" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:02Z"/>
+  <node id="1447142126" version="1" changeset="9411980" lat="53.2042844" lon="50.1631689" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-27T16:12:35Z"/>
+  <way id="107680492" visible="true" timestamp="2013-01-28T08:58:34Z" version="10" changeset="14818954" user="NickF" uid="467146">
+    <nd ref="217969373"/>
+    <nd ref="143971491"/>
+    <nd ref="1447142126"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="36К-887"/>
+    <tag k="trolley_wire" v="yes"/>
+  </way>
+</osm>

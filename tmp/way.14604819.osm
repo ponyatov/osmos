@@ -1,0 +1,46 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="143971509" version="9" changeset="10326675" lat="53.2033274" lon="50.1491044" user="gentoid" uid="492771" visible="true" timestamp="2012-01-07T22:50:53Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="18.68; 4.83"/>
+  </node>
+  <node id="1429910915" version="2" changeset="10326675" lat="53.2033446" lon="50.149566" user="gentoid" uid="492771" visible="true" timestamp="2012-01-07T22:50:53Z">
+    <tag k="merkator_shift:bing" v="18.68; 4.83"/>
+  </node>
+  <node id="1581726572" version="1" changeset="10326675" lat="53.2033807" lon="50.150534" user="gentoid" uid="492771" visible="true" timestamp="2012-01-07T22:49:45Z">
+    <tag k="name" v="улица Киевская / Рынок &quot;Караван&quot;"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="2071140405" version="1" changeset="14302634" lat="53.2033925" lon="50.1508524" user="NickF" uid="467146" visible="true" timestamp="2012-12-17T07:30:39Z"/>
+  <node id="1490021345" version="2" changeset="10326675" lat="53.2034027" lon="50.1511254" user="gentoid" uid="492771" visible="true" timestamp="2012-01-07T22:50:54Z">
+    <tag k="merkator_shift:bing" v="18.68; 4.83"/>
+  </node>
+  <node id="1429910917" version="2" changeset="10326675" lat="53.2034256" lon="50.1517385" user="gentoid" uid="492771" visible="true" timestamp="2012-01-07T22:50:53Z">
+    <tag k="merkator_shift:bing" v="18.68; 4.83"/>
+  </node>
+  <node id="1490021350" version="4" changeset="11581945" lat="53.203466" lon="50.1528046" user="gentoid" uid="492771" visible="true" timestamp="2012-05-13T01:14:26Z">
+    <tag k="merkator_shift:bing" v="18.68; 4.83"/>
+  </node>
+  <node id="2071140407" version="1" changeset="14302634" lat="53.2034735" lon="50.1530092" user="NickF" uid="467146" visible="true" timestamp="2012-12-17T07:30:39Z"/>
+  <node id="1490021358" version="1" changeset="9726557" lat="53.2034989" lon="50.1537042" user="gentoid" uid="492771" visible="true" timestamp="2011-11-02T22:40:58Z"/>
+  <way id="14604819" visible="true" timestamp="2013-01-28T08:58:36Z" version="43" changeset="14818954" user="NickF" uid="467146">
+    <nd ref="143971509"/>
+    <nd ref="1429910915"/>
+    <nd ref="1581726572"/>
+    <nd ref="2071140405"/>
+    <nd ref="1490021345"/>
+    <nd ref="1429910917"/>
+    <nd ref="1490021350"/>
+    <nd ref="2071140407"/>
+    <nd ref="1490021358"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="36К-887"/>
+    <tag k="trolley_wire" v="yes"/>
+  </way>
+</osm>

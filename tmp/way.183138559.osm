@@ -1,0 +1,31 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1841845910" version="1" changeset="12527835" lat="53.2032729" lon="50.1475395" user="NickF" uid="467146" visible="true" timestamp="2012-07-28T20:14:18Z"/>
+  <node id="1546285095" version="1" changeset="10119170" lat="53.2032815" lon="50.1477582" user="gentoid" uid="492771" visible="true" timestamp="2011-12-14T20:29:05Z">
+    <tag k="name" v="Киевская улица / Рынок &quot;Караван&quot;"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="1490021332" version="1" changeset="9726557" lat="53.2032871" lon="50.147901" user="gentoid" uid="492771" visible="true" timestamp="2011-11-02T22:40:58Z"/>
+  <node id="1361530484" version="5" changeset="10119170" lat="53.2032952" lon="50.1481437" user="gentoid" uid="492771" visible="true" timestamp="2011-12-14T20:29:40Z">
+    <tag k="name" v="Киевская улица / Рынок &quot;Караван&quot;"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <way id="183138559" visible="true" timestamp="2013-01-28T08:58:35Z" version="3" changeset="14818954" user="NickF" uid="467146">
+    <nd ref="1841845910"/>
+    <nd ref="1546285095"/>
+    <nd ref="1490021332"/>
+    <nd ref="1361530484"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="36К-887"/>
+    <tag k="trolley_wire" v="yes"/>
+  </way>
+</osm>

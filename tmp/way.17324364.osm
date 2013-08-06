@@ -1,0 +1,37 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="143958035" version="9" changeset="10320102" lat="53.2512456" lon="50.2218125" user="gentoid" uid="492771" visible="true" timestamp="2012-01-07T11:30:07Z">
+    <tag k="merkator_shift:bing" v="13.32; 0.83"/>
+  </node>
+  <node id="143958931" version="11" changeset="722070" lat="53.2508098" lon="50.2215899" user="AkMeR" uid="11049" visible="true" timestamp="2008-09-30T14:42:38Z"/>
+  <node id="76729793" version="18" changeset="28443" lat="53.2505738" lon="50.2214455" user="AkMeR" uid="11049" visible="true" timestamp="2009-02-01T20:04:11Z"/>
+  <node id="1361530091" version="3" changeset="13364648" lat="53.2502646" lon="50.2211309" user="gentoid" uid="492771" visible="true" timestamp="2012-10-04T18:44:29Z">
+    <tag k="bus" v="yes"/>
+    <tag k="trolleybus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Ипподром"/>
+  </node>
+  <node id="1946518907" version="1" changeset="13364648" lat="53.2502134" lon="50.2210746" user="gentoid" uid="492771" visible="true" timestamp="2012-10-04T18:44:24Z">
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="76729791" version="16" changeset="13364648" lat="53.2501914" lon="50.2210504" user="gentoid" uid="492771" visible="true" timestamp="2012-10-04T18:44:30Z">
+    <tag k="merkator_shift:bing" v="13.32; 0.83"/>
+  </node>
+  <way id="17324364" visible="true" timestamp="2013-01-24T04:16:33Z" version="22" changeset="14764525" user="NickF" uid="467146">
+    <nd ref="143958035"/>
+    <nd ref="143958931"/>
+    <nd ref="76729793"/>
+    <nd ref="1361530091"/>
+    <nd ref="1946518907"/>
+    <nd ref="76729791"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="36К-887"/>
+    <tag k="trolley_wire" v="yes"/>
+  </way>
+</osm>

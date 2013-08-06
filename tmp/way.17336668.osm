@@ -1,0 +1,21 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="143947622" version="10" changeset="10175383" lat="53.2760944" lon="50.2668488" user="gentoid" uid="492771" visible="true" timestamp="2011-12-21T21:13:23Z"/>
+  <node id="595476166" version="2" changeset="7573064" lat="53.2757702" lon="50.2661141" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-03-16T07:49:34Z"/>
+  <node id="293403052" version="5" changeset="7573064" lat="53.2755668" lon="50.2656436" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-03-16T07:49:49Z"/>
+  <node id="595476167" version="2" changeset="7573064" lat="53.2754576" lon="50.2652429" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-03-16T07:50:02Z"/>
+  <node id="151003193" version="15" changeset="10210776" lat="53.2752328" lon="50.2642593" user="gentoid" uid="492771" visible="true" timestamp="2011-12-26T20:32:15Z"/>
+  <way id="17336668" visible="true" timestamp="2013-02-26T17:59:33Z" version="20" changeset="15176341" user="NickF" uid="467146">
+    <nd ref="143947622"/>
+    <nd ref="595476166"/>
+    <nd ref="293403052"/>
+    <nd ref="595476167"/>
+    <nd ref="151003193"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="36К-887"/>
+  </way>
+</osm>

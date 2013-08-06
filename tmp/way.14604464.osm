@@ -1,0 +1,30 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="143965351" version="6" changeset="11316502" lat="53.2164677" lon="50.1870537" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T21:52:41Z">
+    <tag k="merkator_shift:bing" v="12.34; -1.71"/>
+  </node>
+  <node id="1718171094" version="1" changeset="11313395" lat="53.2165832" lon="50.1869861" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T17:34:19Z"/>
+  <node id="143968321" version="6" changeset="11313395" lat="53.216705" lon="50.1869423" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T17:34:20Z"/>
+  <node id="288395466" version="2" changeset="11313395" lat="53.2168048" lon="50.1869273" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T17:34:22Z"/>
+  <node id="1718171097" version="1" changeset="11313395" lat="53.2168861" lon="50.1869266" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T17:34:19Z"/>
+  <node id="1718171099" version="1" changeset="11313395" lat="53.2169846" lon="50.1869345" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T17:34:19Z"/>
+  <node id="143964336" version="9" changeset="11316502" lat="53.2171619" lon="50.1869882" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T21:52:40Z">
+    <tag k="merkator_shift:bing" v="12.34; -1.71"/>
+  </node>
+  <way id="14604464" visible="true" timestamp="2013-02-26T18:14:07Z" version="16" changeset="15176495" user="NickF" uid="467146">
+    <nd ref="143965351"/>
+    <nd ref="1718171094"/>
+    <nd ref="143968321"/>
+    <nd ref="288395466"/>
+    <nd ref="1718171097"/>
+    <nd ref="1718171099"/>
+    <nd ref="143964336"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="36К-887"/>
+    <tag k="trolley_wire" v="yes"/>
+  </way>
+</osm>

@@ -41,7 +41,12 @@ print
 
 # highways
 
+print '-'*40
 HW_MOSCOW = osm.relation(id=1531821) ; print HW_MOSCOW
+for xx in HW_MOSCOW.xpath('//member[@type="way"][@role="street"]'):
+    W=osm.way(xx.attrib['ref']) ; print W.id
+    MP.add(cgmp.Street(W.id,W.poly,W.name))
+print '-'*40
 
 X=open('../tmp/xml.xml','w')
 # # for i in SAMARA_OBL.xpath('/osm/relation/member[@role="label"]'):

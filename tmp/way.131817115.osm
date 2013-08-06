@@ -1,0 +1,31 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="217969408" version="2" changeset="6853593" lat="53.2037958" lon="50.1605693" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-01-03T19:38:14Z"/>
+  <node id="1450126096" version="1" changeset="9439073" lat="53.2037711" lon="50.1607953" user="gentoid" uid="492771" visible="true" timestamp="2011-09-30T21:34:25Z"/>
+  <node id="1450126095" version="1" changeset="9439073" lat="53.2037421" lon="50.1609325" user="gentoid" uid="492771" visible="true" timestamp="2011-09-30T21:34:25Z"/>
+  <node id="1450126094" version="1" changeset="9439073" lat="53.2037209" lon="50.1610196" user="gentoid" uid="492771" visible="true" timestamp="2011-09-30T21:34:25Z"/>
+  <node id="1450126092" version="1" changeset="9439073" lat="53.203686" lon="50.161081" user="gentoid" uid="492771" visible="true" timestamp="2011-09-30T21:34:25Z"/>
+  <node id="1450126090" version="2" changeset="9478153" lat="53.2036566" lon="50.161113" user="DeKaN" uid="471972" visible="true" timestamp="2011-10-05T13:35:09Z">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+  </node>
+  <node id="1450126087" version="1" changeset="9439073" lat="53.2035884" lon="50.1611149" user="gentoid" uid="492771" visible="true" timestamp="2011-09-30T21:34:25Z"/>
+  <node id="1450126085" version="1" changeset="9439073" lat="53.2035429" lon="50.1610858" user="gentoid" uid="492771" visible="true" timestamp="2011-09-30T21:34:25Z"/>
+  <node id="1385169463" version="1" changeset="8913934" lat="53.2034752" lon="50.1609896" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:11:38Z"/>
+  <way id="131817115" visible="true" timestamp="2012-08-30T05:24:33Z" version="3" changeset="12913312" user="Serĉjo" uid="639542">
+    <nd ref="217969408"/>
+    <nd ref="1450126096"/>
+    <nd ref="1450126095"/>
+    <nd ref="1450126094"/>
+    <nd ref="1450126092"/>
+    <nd ref="1450126090"/>
+    <nd ref="1450126087"/>
+    <nd ref="1450126085"/>
+    <nd ref="1385169463"/>
+    <tag k="fixme" v="здесть точно не праймери, пока поставил tertiary"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="lanes" v="1"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</osm>

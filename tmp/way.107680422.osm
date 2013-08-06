@@ -1,0 +1,27 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1084840137" version="1" changeset="6878410" lat="53.302638" lon="50.2885437" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-01-06T02:31:20Z"/>
+  <node id="190281523" version="5" changeset="95296" lat="53.3017633" lon="50.2882439" user="AkMeR" uid="11049" visible="true" timestamp="2008-12-04T07:48:31Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="1167969242" version="1" changeset="7371471" lat="53.2995525" lon="50.2875011" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-02-23T11:17:20Z"/>
+  <node id="1361530105" version="1" changeset="8722585" lat="53.2990129" lon="50.2873255" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-07-14T14:20:34Z">
+    <tag k="name" v="Мехзавод"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="498662155" version="1" changeset="2507840" lat="53.2982274" lon="50.28707" user="atgnclk" uid="164645" visible="true" timestamp="2009-09-17T01:43:15Z"/>
+  <way id="107680422" visible="true" timestamp="2013-02-26T17:59:35Z" version="7" changeset="15176341" user="NickF" uid="467146">
+    <nd ref="1084840137"/>
+    <nd ref="190281523"/>
+    <nd ref="1167969242"/>
+    <nd ref="1361530105"/>
+    <nd ref="498662155"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="36К-887"/>
+  </way>
+</osm>

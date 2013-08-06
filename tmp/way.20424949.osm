@@ -1,0 +1,29 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="217969373" version="5" changeset="9333173" lat="53.2039093" lon="50.1621798" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:13Z">
+    <tag k="name" v="Станция метро &quot;Московская&quot; / Клиники Медуниверситета"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="217969385" version="4" changeset="6853593" lat="53.2038279" lon="50.1615363" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-01-03T19:38:47Z"/>
+  <node id="1450126101" version="2" changeset="9478153" lat="53.2038247" lon="50.1614865" user="DeKaN" uid="471972" visible="true" timestamp="2011-10-05T13:35:09Z">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+  </node>
+  <node id="217969396" version="4" changeset="6853593" lat="53.2037976" lon="50.1610704" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-01-03T19:39:16Z"/>
+  <node id="217969408" version="2" changeset="6853593" lat="53.2037958" lon="50.1605693" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-01-03T19:38:14Z"/>
+  <way id="20424949" visible="true" timestamp="2012-08-30T05:24:32Z" version="13" changeset="12913312" user="Serĉjo" uid="639542">
+    <nd ref="217969373"/>
+    <nd ref="217969385"/>
+    <nd ref="1450126101"/>
+    <nd ref="217969396"/>
+    <nd ref="217969408"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="lanes" v="1"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</osm>

@@ -1,0 +1,23 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1345543058" version="5" changeset="16927460" lat="53.22773" lon="50.1939625" user="gentoid" uid="492771" visible="true" timestamp="2013-07-12T17:21:38Z">
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="Телецентр"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="1849545211" version="1" changeset="12595054" lat="53.2273077" lon="50.1936901" user="Mehiller" uid="335097" visible="true" timestamp="2012-08-03T08:22:09Z"/>
+  <node id="236879792" version="5" changeset="11313395" lat="53.2255904" lon="50.1925555" user="gentoid" uid="492771" visible="true" timestamp="2012-04-15T17:34:21Z"/>
+  <way id="107680394" visible="true" timestamp="2013-02-26T18:17:08Z" version="8" changeset="15176529" user="NickF" uid="467146">
+    <nd ref="1345543058"/>
+    <nd ref="1849545211"/>
+    <nd ref="236879792"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="7"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="36К-887"/>
+    <tag k="trolley_wire" v="yes"/>
+  </way>
+</osm>

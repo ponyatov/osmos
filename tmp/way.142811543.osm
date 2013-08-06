@@ -1,0 +1,29 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1562885651" version="1" changeset="10210776" lat="53.2810186" lon="50.2778976" user="gentoid" uid="492771" visible="true" timestamp="2011-12-26T20:31:28Z"/>
+  <node id="179565837" version="5" changeset="10210776" lat="53.2810849" lon="50.2780564" user="gentoid" uid="492771" visible="true" timestamp="2011-12-26T20:32:17Z"/>
+  <node id="1361530347" version="1" changeset="8722585" lat="53.281426" lon="50.2787579" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-07-14T14:20:46Z"/>
+  <node id="179565836" version="3" changeset="613980" lat="53.2818092" lon="50.2794238" user="AkMeR" uid="11049" visible="true" timestamp="2008-09-12T10:31:42Z"/>
+  <node id="76723791" version="7" changeset="7573064" lat="53.2824423" lon="50.2804139" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-03-16T07:49:48Z"/>
+  <node id="1361530348" version="1" changeset="8722585" lat="53.2829367" lon="50.2810569" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-07-14T14:20:46Z"/>
+  <node id="1361530102" version="2" changeset="9333173" lat="53.2834932" lon="50.2816036" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:04Z">
+    <tag k="name" v="Крутой овраг"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <way id="142811543" visible="true" timestamp="2013-02-26T17:59:38Z" version="4" changeset="15176341" user="NickF" uid="467146">
+    <nd ref="1562885651"/>
+    <nd ref="179565837"/>
+    <nd ref="1361530347"/>
+    <nd ref="179565836"/>
+    <nd ref="76723791"/>
+    <nd ref="1361530348"/>
+    <nd ref="1361530102"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="36К-887"/>
+  </way>
+</osm>

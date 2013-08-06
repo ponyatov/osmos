@@ -1,0 +1,33 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1580771887" version="1" changeset="10320102" lat="53.2050469" lon="50.1650172" user="gentoid" uid="492771" visible="true" timestamp="2012-01-07T11:28:28Z">
+    <tag k="name" v="Клиники Медуниверситета"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="trolleybus" v="yes"/>
+  </node>
+  <node id="143971481" version="4" changeset="8913934" lat="53.20772" lon="50.1714456" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:02Z"/>
+  <node id="1429006854" version="1" changeset="9263093" lat="53.2077553" lon="50.1715304" user="NickF" uid="467146" visible="true" timestamp="2011-09-10T15:36:04Z"/>
+  <node id="523021334" version="3" changeset="8942593" lat="53.2079145" lon="50.1719132" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:13Z"/>
+  <node id="143971480" version="4" changeset="8913934" lat="53.2081345" lon="50.1723614" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:02Z"/>
+  <node id="523021456" version="2" changeset="8913934" lat="53.2084785" lon="50.1729716" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T20:12:20Z"/>
+  <node id="1691268541" version="1" changeset="11100938" lat="53.2089897" lon="50.1738514" user="gentoid" uid="492771" visible="true" timestamp="2012-03-25T23:09:09Z"/>
+  <node id="217830818" version="3" changeset="11100938" lat="53.2090194" lon="50.1739026" user="gentoid" uid="492771" visible="true" timestamp="2012-03-25T23:09:28Z"/>
+  <way id="144528418" visible="true" timestamp="2013-01-28T08:58:34Z" version="5" changeset="14818954" user="NickF" uid="467146">
+    <nd ref="1580771887"/>
+    <nd ref="143971481"/>
+    <nd ref="1429006854"/>
+    <nd ref="523021334"/>
+    <nd ref="143971480"/>
+    <nd ref="523021456"/>
+    <nd ref="1691268541"/>
+    <nd ref="217830818"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="7"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="36К-887"/>
+    <tag k="trolley_wire" v="yes"/>
+  </way>
+</osm>

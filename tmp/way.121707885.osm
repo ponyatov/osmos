@@ -1,0 +1,34 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1361530510" version="3" changeset="13364648" lat="53.2468356" lon="50.2155682" user="gentoid" uid="492771" visible="true" timestamp="2012-10-04T18:44:29Z">
+    <tag k="bus" v="yes"/>
+    <tag k="trolleybus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="7-й микрорайон / ТЦ &quot;Империя&quot;"/>
+  </node>
+  <node id="1946518818" version="1" changeset="13364648" lat="53.247044" lon="50.2159085" user="gentoid" uid="492771" visible="true" timestamp="2012-10-04T18:44:24Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="249655237" version="8" changeset="13364648" lat="53.2472185" lon="50.2161937" user="gentoid" uid="492771" visible="true" timestamp="2012-10-04T18:44:29Z"/>
+  <node id="1361530511" version="3" changeset="13364648" lat="53.2474052" lon="50.2164986" user="gentoid" uid="492771" visible="true" timestamp="2012-10-04T18:44:30Z">
+    <tag k="bus" v="yes"/>
+    <tag k="trolleybus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="7-й микрорайон / ТЦ &quot;Империя&quot;"/>
+  </node>
+  <way id="121707885" visible="true" timestamp="2013-02-26T18:17:09Z" version="7" changeset="15176529" user="NickF" uid="467146">
+    <nd ref="1361530510"/>
+    <nd ref="1946518818"/>
+    <nd ref="249655237"/>
+    <nd ref="1361530511"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="7"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Московское шоссе"/>
+    <tag k="ref" v="36К-887"/>
+    <tag k="trolley_wire" v="yes"/>
+  </way>
+</osm>

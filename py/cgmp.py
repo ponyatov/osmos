@@ -54,7 +54,7 @@ TypeSet=NG
 Routing=N
 Levels=2
 Level0=24
-Level1=23
+Level1=1
 PointView=%s
 MainTown=%s
 [END]
@@ -82,6 +82,7 @@ class POI(mpobj):
 Data0=(%s,%s)
 Label=%s
 Type=0x%x
+EndLevel=1
 [END]
 '''%(self.__class__,self.id,self.lat,self.lon,self.name,self.type)
 
@@ -89,7 +90,7 @@ class AdminCenter(POI):
     type=0x1500
     
 class MainCity(POI):
-    type=0x0100
+    type=0x0200
 
 class PolyLine(mpobj):
     type=0x0000
@@ -116,6 +117,7 @@ class PolyLine(mpobj):
 Data0=%s
 Label=%s
 Type=0x%x
+EndLevel=1
 [END]
 '''%(self.__class__,self.id,self.poly2mp(),self.name,self.type)
 

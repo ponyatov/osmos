@@ -36,7 +36,7 @@ MP.add(cgmp.MainCity(C.id,C.lat,C.lon,C.name))
 print SAMARA_OBL.name,'outline:',
 for i in SAMARA_OBL.xpath('//relation[@id=72194]/member[@type="way"][@role="outer"]'):
     W=osm.way(i.attrib['ref']) ; print W.id,
-    MP.add(cgmp.InternationalBoundary(W.id,W.poly,W.name))
+    MP.add(cgmp.StateBoundary(W.id,W.poly,W.name))
 print
 
 X=open('../tmp/xml.xml','w')

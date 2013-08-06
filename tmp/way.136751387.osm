@@ -1,0 +1,19 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1500324228" version="1" changeset="9807076" lat="53.2572325" lon="50.2121664" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:26:22Z"/>
+  <node id="1408594524" version="3" changeset="10352130" lat="53.2581932" lon="50.2129852" user="AKhranovskiy" uid="231156" visible="true" timestamp="2012-01-10T15:20:01Z">
+    <tag k="name" v="Барбошина Поляна"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <way id="136751387" visible="true" timestamp="2013-01-21T19:49:47Z" version="3" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1500324228"/>
+    <nd ref="1408594524"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+</osm>

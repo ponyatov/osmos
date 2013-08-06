@@ -1,0 +1,24 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1408594543" version="3" changeset="11759917" lat="53.215774" lon="50.1471323" user="gentoid" uid="492771" visible="true" timestamp="2012-05-31T16:35:08Z">
+    <tag k="name" v="КРЦ &quot;Звезда&quot;"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="1771599449" version="1" changeset="11759917" lat="53.2160598" lon="50.1476701" user="gentoid" uid="492771" visible="true" timestamp="2012-05-31T16:35:03Z"/>
+  <node id="76726271" version="11" changeset="9810979" lat="53.2166455" lon="50.1488336" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:15Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="18.00; 1.02"/>
+  </node>
+  <way id="127212509" visible="true" timestamp="2013-01-21T19:49:54Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594543"/>
+    <nd ref="1771599449"/>
+    <nd ref="76726271"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+</osm>

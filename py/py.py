@@ -41,11 +41,22 @@ print
 
 # highways
 
+HIGHWAYS={
+          1531821:'Московское шоссе',
+          1529825:'Ново-Садовая улица'
+          }
+
 print '-'*40
-HW_MOSCOW = osm.relation(id=1531821) ; print HW_MOSCOW
-for xx in HW_MOSCOW.xpath('//member[@type="way"][@role="street"]'):
-    W=osm.way(xx.attrib['ref']) ; print W.id
-    MP.add(cgmp.Street(W.id,W.poly,W.name))
+for hwid in HIGHWAYS:
+    HW=osm.relation(id=hwid) ; print hwid,HIGHWAYS[hwid]
+    for xx in HW.xpath('//member[@type="way"][@role="street"]'):
+        W=osm.way(xx.attrib['ref'])
+        MP.add(cgmp.Street(W.id,W.poly,W.name)) ; print W.id,
+    print
+# HW_MOSCOW = osm.relation(id=1531821) ; print HW_MOSCOW
+# for xx in HW_MOSCOW.xpath('//member[@type="way"][@role="street"]'):
+#     W=osm.way(xx.attrib['ref']) ; print W.id
+#     MP.add(cgmp.Street(W.id,W.poly,W.name))
 print '-'*40
 
 X=open('../tmp/xml.xml','w')

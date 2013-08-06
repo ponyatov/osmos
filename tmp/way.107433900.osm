@@ -1,0 +1,21 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="152228147" version="6" changeset="6024524" lat="53.2369735" lon="50.1913772" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:48Z"/>
+  <node id="1301770759" version="1" changeset="8261039" lat="53.2370918" lon="50.1917446" user="esv" uid="398800" visible="true" timestamp="2011-05-27T10:03:59Z"/>
+  <node id="1408594578" version="2" changeset="9333173" lat="53.237547" lon="50.193158" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:18Z">
+    <tag k="name" v="завод им. Тарасова"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <way id="107433900" visible="true" timestamp="2013-01-21T19:49:48Z" version="6" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="152228147"/>
+    <nd ref="1301770759"/>
+    <nd ref="1408594578"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+</osm>

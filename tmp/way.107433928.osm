@@ -1,0 +1,23 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="150999193" version="3" changeset="8942593" lat="53.2197255" lon="50.1628187" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:58Z"/>
+  <node id="150999192" version="4" changeset="8942593" lat="53.2197342" lon="50.1632475" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:58Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1408594550" version="2" changeset="9333173" lat="53.2197617" lon="50.1634827" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:10Z">
+    <tag k="name" v="Постников овраг"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <way id="107433928" visible="true" timestamp="2013-01-21T19:49:49Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="150999193"/>
+    <nd ref="150999192"/>
+    <nd ref="1408594550"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+</osm>

@@ -1,0 +1,24 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1408594562" version="2" changeset="9333173" lat="53.2456855" lon="50.2022007" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:12Z">
+    <tag k="name" v="Солнечная улица"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594567" version="2" changeset="9333173" lat="53.2459608" lon="50.2024377" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:12Z">
+    <tag k="name" v="Солнечная улица"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <way id="127212505" visible="true" timestamp="2013-01-21T19:49:54Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594562"/>
+    <nd ref="1408594567"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+</osm>

@@ -1,0 +1,21 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1408594569" version="2" changeset="9333173" lat="53.2550512" lon="50.2103001" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:15Z">
+    <tag k="name" v="ТЦ &quot;Пирамида&quot;"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="946090019" version="1" changeset="6024524" lat="53.2553542" lon="50.2105655" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T20:02:45Z"/>
+  <node id="1500324228" version="1" changeset="9807076" lat="53.2572325" lon="50.2121664" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:26:22Z"/>
+  <way id="127212516" visible="true" timestamp="2013-01-21T19:49:55Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594569"/>
+    <nd ref="946090019"/>
+    <nd ref="1500324228"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+</osm>

@@ -1,0 +1,31 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="150999350" version="9" changeset="9094880" lat="53.2325821" lon="50.1835437" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-08-22T14:50:19Z"/>
+  <node id="1500324226" version="1" changeset="9807076" lat="53.2324496" lon="50.1832575" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:26:22Z"/>
+  <node id="1500324224" version="1" changeset="9807076" lat="53.2323493" lon="50.1829614" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:26:22Z"/>
+  <node id="150999779" version="6" changeset="9807076" lat="53.2322641" lon="50.1826324" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:27:18Z"/>
+  <node id="150999780" version="9" changeset="9807076" lat="53.2322337" lon="50.1824836" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:27:18Z"/>
+  <node id="150999781" version="6" changeset="8942593" lat="53.2322163" lon="50.1823922" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="150999783" version="8" changeset="8942593" lat="53.2321102" lon="50.1816643" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="150999784" version="6" changeset="8942593" lat="53.2320381" lon="50.1813347" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="150999785" version="8" changeset="8942593" lat="53.2319566" lon="50.1810533" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="150999786" version="5" changeset="613980" lat="53.2318245" lon="50.1807449" user="AkMeR" uid="11049" visible="true" timestamp="2008-09-12T10:38:20Z"/>
+  <way id="15242641" visible="true" timestamp="2013-01-21T19:49:52Z" version="22" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="150999350"/>
+    <nd ref="1500324226"/>
+    <nd ref="1500324224"/>
+    <nd ref="150999779"/>
+    <nd ref="150999780"/>
+    <nd ref="150999781"/>
+    <nd ref="150999783"/>
+    <nd ref="150999784"/>
+    <nd ref="150999785"/>
+    <nd ref="150999786"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+</osm>

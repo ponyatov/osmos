@@ -1,0 +1,26 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1408594576" version="2" changeset="9333173" lat="53.2251105" lon="50.1708671" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:16Z">
+    <tag k="name" v="Университет / Глазная больница"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="241342263" version="3" changeset="8942593" lat="53.2245711" lon="50.1700754" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:11Z"/>
+  <node id="237186313" version="4" changeset="12980090" lat="53.2243704" lon="50.169782" user="Serĉjo" uid="639542" visible="true" timestamp="2012-09-04T10:51:28Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="150999790" version="7" changeset="8942593" lat="53.2239427" lon="50.1691487" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <way id="127212519" visible="true" timestamp="2013-01-21T19:49:55Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594576"/>
+    <nd ref="241342263"/>
+    <nd ref="237186313"/>
+    <nd ref="150999790"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="40"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+</osm>

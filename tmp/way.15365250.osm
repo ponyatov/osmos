@@ -1,0 +1,17 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="152230659" version="5" changeset="8942593" lat="53.2347991" lon="50.1853466" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="1388999653" version="1" changeset="8942593" lat="53.2345979" lon="50.1849789" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:41Z"/>
+  <node id="152231220" version="4" changeset="8942593" lat="53.234551" lon="50.1848904" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="152231223" version="4" changeset="8942593" lat="53.2326192" lon="50.1819369" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <way id="15365250" visible="true" timestamp="2012-05-11T17:59:13Z" version="11" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="152230659"/>
+    <nd ref="1388999653"/>
+    <nd ref="152231220"/>
+    <nd ref="152231223"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</osm>

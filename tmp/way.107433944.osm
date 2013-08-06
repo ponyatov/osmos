@@ -1,0 +1,19 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1388999641" version="1" changeset="8942593" lat="53.230112" lon="50.1797237" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:41Z"/>
+  <node id="1388999644" version="1" changeset="8942593" lat="53.2305465" lon="50.1803904" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:41Z"/>
+  <node id="237356698" version="4" changeset="9807076" lat="53.2321159" lon="50.1828198" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:27:18Z"/>
+  <node id="237335594" version="5" changeset="9094880" lat="53.2324372" lon="50.183348" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-08-22T14:50:20Z"/>
+  <way id="107433944" visible="true" timestamp="2013-01-21T19:49:51Z" version="6" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1388999641"/>
+    <nd ref="1388999644"/>
+    <nd ref="237356698"/>
+    <nd ref="237335594"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="3"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+</osm>

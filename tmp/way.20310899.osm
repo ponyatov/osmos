@@ -1,0 +1,23 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="76726275" version="9" changeset="8912238" lat="53.2091985" lon="50.1328163" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T17:27:40Z"/>
+  <node id="215510777" version="4" changeset="2238694" lat="53.2092892" lon="50.1329966" user="serikst" uid="144744" visible="true" timestamp="2009-08-24T04:39:42Z"/>
+  <node id="215510788" version="1" changeset="596753" lat="53.2093566" lon="50.1331032" user="AkMeR" uid="11049" visible="true" timestamp="2008-01-10T15:25:07Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="215510799" version="3" changeset="609040" lat="53.2094239" lon="50.1331813" user="woodpeck" uid="5164" visible="true" timestamp="2008-09-11T23:14:50Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="215422072" version="1" changeset="596753" lat="53.2094959" lon="50.1332043" user="AkMeR" uid="11049" visible="true" timestamp="2008-01-10T14:37:49Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <way id="20310899" visible="true" timestamp="2013-01-21T19:49:47Z" version="11" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="76726275"/>
+    <nd ref="215510777"/>
+    <nd ref="215510788"/>
+    <nd ref="215510799"/>
+    <nd ref="215422072"/>
+    <tag k="highway" v="construction"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+</osm>

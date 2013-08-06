@@ -1,0 +1,1497 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1234733907" version="1" changeset="7785275" lat="53.2117386" lon="50.1385027" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-04-06T14:04:33Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="76726276" version="6" changeset="596753" lat="53.2066252" lon="50.1275038" user="AkMeR" uid="11049" visible="true" timestamp="2008-01-10T15:25:37Z"/>
+  <node id="76726278" version="5" changeset="596753" lat="53.206284" lon="50.1260923" user="AkMeR" uid="11049" visible="true" timestamp="2008-01-10T15:25:37Z"/>
+  <node id="150998510" version="11" changeset="9813962" lat="53.2143341" lon="50.1443925" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T13:33:09Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="13.61; -4.01"/>
+  </node>
+  <node id="150998608" version="8" changeset="8912238" lat="53.2092429" lon="50.1330794" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T17:27:24Z"/>
+  <node id="150998721" version="5" changeset="609040" lat="53.2064892" lon="50.1269731" user="woodpeck" uid="5164" visible="true" timestamp="2008-09-11T22:35:31Z"/>
+  <node id="150998722" version="5" changeset="609040" lat="53.2063645" lon="50.1263277" user="woodpeck" uid="5164" visible="true" timestamp="2008-09-11T22:35:31Z"/>
+  <node id="150998871" version="6" changeset="609040" lat="53.2137947" lon="50.1442505" user="woodpeck" uid="5164" visible="true" timestamp="2008-09-11T22:35:32Z"/>
+  <node id="150999183" version="8" changeset="8942593" lat="53.2220714" lon="50.1660256" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:58Z"/>
+  <node id="150999190" version="4" changeset="8942593" lat="53.2198522" lon="50.1637838" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:58Z"/>
+  <node id="150999192" version="4" changeset="8942593" lat="53.2197342" lon="50.1632475" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:58Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="150999193" version="3" changeset="8942593" lat="53.2197255" lon="50.1628187" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:58Z"/>
+  <node id="150999194" version="2" changeset="9094880" lat="53.2198566" lon="50.160326" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-08-22T14:50:19Z"/>
+  <node id="150999338" version="9" changeset="8942593" lat="53.2226617" lon="50.1681976" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:58Z"/>
+  <node id="150999341" version="6" changeset="12980090" lat="53.2239867" lon="50.1704791" user="Serĉjo" uid="639542" visible="true" timestamp="2012-09-04T10:51:28Z">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+  </node>
+  <node id="150999350" version="9" changeset="9094880" lat="53.2325821" lon="50.1835437" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-08-22T14:50:19Z"/>
+  <node id="150999786" version="5" changeset="613980" lat="53.2318245" lon="50.1807449" user="AkMeR" uid="11049" visible="true" timestamp="2008-09-12T10:38:20Z"/>
+  <node id="150999779" version="6" changeset="9807076" lat="53.2322641" lon="50.1826324" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:27:18Z"/>
+  <node id="150999792" version="4" changeset="613980" lat="53.2224851" lon="50.1669781" user="AkMeR" uid="11049" visible="true" timestamp="2008-09-12T10:38:17Z"/>
+  <node id="151000301" version="13" changeset="6024524" lat="53.2365548" lon="50.1902679" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:43Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="152230659" version="5" changeset="8942593" lat="53.2347991" lon="50.1853466" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="152231220" version="4" changeset="8942593" lat="53.234551" lon="50.1848904" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="190053574" version="4" changeset="856969" lat="53.252101" lon="50.207759" user="Andrey Pershin" uid="91032" visible="true" timestamp="2009-01-30T08:16:24Z">
+    <tag k="created_by" v="JOSM"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="215422072" version="1" changeset="596753" lat="53.2094959" lon="50.1332043" user="AkMeR" uid="11049" visible="true" timestamp="2008-01-10T14:37:49Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="215422041" version="5" changeset="8912238" lat="53.2091277" lon="50.1325866" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T17:27:31Z"/>
+  <node id="215510754" version="1" changeset="596753" lat="53.2126192" lon="50.1407001" user="AkMeR" uid="11049" visible="true" timestamp="2008-01-10T15:25:06Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="215510788" version="1" changeset="596753" lat="53.2093566" lon="50.1331032" user="AkMeR" uid="11049" visible="true" timestamp="2008-01-10T15:25:07Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="215510799" version="3" changeset="609040" lat="53.2094239" lon="50.1331813" user="woodpeck" uid="5164" visible="true" timestamp="2008-09-11T23:14:50Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="215510922" version="4" changeset="11728163" lat="53.2138626" lon="50.1441709" user="gentoid" uid="492771" visible="true" timestamp="2012-05-28T15:46:36Z"/>
+  <node id="215511103" version="2" changeset="596753" lat="53.2135833" lon="50.1426623" user="AkMeR" uid="11049" visible="true" timestamp="2008-01-10T15:39:22Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="215511334" version="3" changeset="609040" lat="53.2065801" lon="50.127388" user="woodpeck" uid="5164" visible="true" timestamp="2008-09-11T23:14:57Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="215511345" version="3" changeset="609040" lat="53.2065383" lon="50.1272504" user="woodpeck" uid="5164" visible="true" timestamp="2008-09-11T23:14:57Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="215511363" version="1" changeset="596753" lat="53.2064122" lon="50.1265034" user="AkMeR" uid="11049" visible="true" timestamp="2008-01-10T15:25:23Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="215511371" version="3" changeset="609040" lat="53.206462" lon="50.1267568" user="woodpeck" uid="5164" visible="true" timestamp="2008-09-11T23:14:58Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="215537534" version="2" changeset="856969" lat="53.2137103" lon="50.1429505" user="Andrey Pershin" uid="91032" visible="true" timestamp="2009-01-30T06:49:56Z">
+    <tag k="created_by" v="JOSM"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="231698909" version="5" changeset="8942593" lat="53.2225633" lon="50.1678859" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:10Z"/>
+  <node id="237186282" version="4" changeset="613980" lat="53.222341" lon="50.1666892" user="AkMeR" uid="11049" visible="true" timestamp="2008-09-12T11:01:52Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="237186293" version="5" changeset="8942593" lat="53.2219124" lon="50.1656595" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:10Z"/>
+  <node id="237186313" version="4" changeset="12980090" lat="53.2243704" lon="50.169782" user="Serĉjo" uid="639542" visible="true" timestamp="2012-09-04T10:51:28Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="241340609" version="2" changeset="613980" lat="53.2279401" lon="50.1749912" user="AkMeR" uid="11049" visible="true" timestamp="2008-09-12T10:45:56Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="241342263" version="3" changeset="8942593" lat="53.2245711" lon="50.1700754" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:11Z"/>
+  <node id="241343799" version="2" changeset="8942593" lat="53.2210069" lon="50.1649075" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:11Z"/>
+  <node id="249655227" version="6" changeset="6024524" lat="53.2462573" lon="50.2026928" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T21:35:34Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="249655331" version="5" changeset="16509688" lat="53.2506217" lon="50.2064518" user="altoing" uid="621535" visible="true" timestamp="2013-06-11T12:43:19Z"/>
+  <node id="249655329" version="7" changeset="6024524" lat="53.2443101" lon="50.2010171" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T21:35:19Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="334037587" version="1" changeset="814998" lat="53.2438734" lon="50.2006211" user="Andrey Pershin" uid="91032" visible="true" timestamp="2009-01-20T10:46:22Z"/>
+  <node id="339809628" version="1" changeset="20148" lat="53.2522018" lon="50.2078498" user="AkMeR" uid="11049" visible="true" timestamp="2009-02-01T18:16:54Z"/>
+  <node id="353260482" version="1" changeset="690018" lat="53.2468995" lon="50.2032286" user="Andrey Pershin" uid="91032" visible="true" timestamp="2009-02-27T15:35:34Z"/>
+  <node id="418165371" version="2" changeset="8942593" lat="53.2306355" lon="50.1790047" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:11Z"/>
+  <node id="1426586355" version="1" changeset="9241518" lat="53.2250595" lon="50.1711462" user="NickF" uid="467146" visible="true" timestamp="2011-09-07T22:31:33Z"/>
+  <node id="1426595826" version="1" changeset="9241539" lat="53.2291338" lon="50.1767606" user="NickF" uid="467146" visible="true" timestamp="2011-09-07T22:35:22Z"/>
+  <node id="150998723" version="8" changeset="13886430" lat="53.2051812" lon="50.1236676" user="pneumonoultramicroscopicsilicovolcanokoniosis" uid="370751" visible="true" timestamp="2012-11-15T18:55:44Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="13.25; 0.88"/>
+  </node>
+  <node id="472547579" version="2" changeset="8912238" lat="53.2102634" lon="50.1359538" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T17:27:36Z"/>
+  <node id="174806750" version="10" changeset="2238694" lat="53.211947" lon="50.1389391" user="serikst" uid="144744" visible="true" timestamp="2009-08-24T04:39:40Z"/>
+  <node id="174806748" version="7" changeset="2238694" lat="53.2124909" lon="50.1399992" user="serikst" uid="144744" visible="true" timestamp="2009-08-24T04:39:40Z"/>
+  <node id="215510744" version="4" changeset="2238694" lat="53.2126278" lon="50.1403324" user="serikst" uid="144744" visible="true" timestamp="2009-08-24T04:39:40Z"/>
+  <node id="176665097" version="5" changeset="2238694" lat="53.2116156" lon="50.1386712" user="serikst" uid="144744" visible="true" timestamp="2009-08-24T04:39:41Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="215510777" version="4" changeset="2238694" lat="53.2092892" lon="50.1329966" user="serikst" uid="144744" visible="true" timestamp="2009-08-24T04:39:42Z"/>
+  <node id="508010290" version="1" changeset="2631606" lat="53.2073205" lon="50.1289133" user="atgnclk" uid="164645" visible="true" timestamp="2009-09-26T01:36:31Z"/>
+  <node id="541202661" version="1" changeset="2962043" lat="53.2525166" lon="50.2081185" user="atgnclk" uid="164645" visible="true" timestamp="2009-10-27T00:52:26Z"/>
+  <node id="541202748" version="1" changeset="2962043" lat="53.2585817" lon="50.2133163" user="atgnclk" uid="164645" visible="true" timestamp="2009-10-27T00:52:31Z"/>
+  <node id="656106813" version="1" changeset="3996319" lat="53.2222569" lon="50.1664875" user="atgnclk" uid="164645" visible="true" timestamp="2010-02-28T10:32:07Z"/>
+  <node id="656106814" version="2" changeset="8942593" lat="53.2223229" lon="50.1669991" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:13Z"/>
+  <node id="656106823" version="2" changeset="8942593" lat="53.2227171" lon="50.1683587" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:14Z"/>
+  <node id="237356664" version="5" changeset="12980090" lat="53.2274096" lon="50.1742127" user="Serĉjo" uid="639542" visible="true" timestamp="2012-09-04T10:51:28Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="930016718" version="3" changeset="16939200" lat="53.2195799" lon="50.1554943" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:07:00Z">
+    <tag k="merkator_shift:bing" v="-2.65; 3.71"/>
+  </node>
+  <node id="946090019" version="1" changeset="6024524" lat="53.2553542" lon="50.2105655" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T20:02:45Z"/>
+  <node id="946090362" version="1" changeset="6024524" lat="53.2545027" lon="50.2098198" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T20:02:59Z"/>
+  <node id="249655251" version="5" changeset="6024524" lat="53.2537886" lon="50.2091978" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T20:03:58Z"/>
+  <node id="249655236" version="7" changeset="6024524" lat="53.2514195" lon="50.2071555" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T20:46:05Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="249655330" version="7" changeset="6024524" lat="53.2482123" lon="50.2043718" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T21:19:47Z"/>
+  <node id="946233590" version="1" changeset="6024524" lat="53.2382294" lon="50.1949781" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:35Z"/>
+  <node id="946233592" version="1" changeset="6024524" lat="53.236091" lon="50.1894815" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:35Z"/>
+  <node id="946233610" version="1" changeset="6024524" lat="53.2379889" lon="50.194451" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:36Z"/>
+  <node id="946233677" version="1" changeset="6024524" lat="53.2357355" lon="50.1890289" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:37Z"/>
+  <node id="946233704" version="1" changeset="6024524" lat="53.2368326" lon="50.1909278" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:37Z"/>
+  <node id="946233722" version="1" changeset="6024524" lat="53.2354908" lon="50.1887177" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:37Z"/>
+  <node id="946233770" version="1" changeset="6024524" lat="53.2398085" lon="50.1971453" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:38Z"/>
+  <node id="946233772" version="1" changeset="6024524" lat="53.2364158" lon="50.1899984" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:38Z"/>
+  <node id="946233792" version="1" changeset="6024524" lat="53.235109" lon="50.1881314" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:39Z"/>
+  <node id="946233814" version="1" changeset="6024524" lat="53.2349059" lon="50.187738" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:39Z"/>
+  <node id="946233842" version="1" changeset="6024524" lat="53.2391898" lon="50.1964587" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:40Z"/>
+  <node id="946233847" version="1" changeset="6024524" lat="53.2362788" lon="50.1897644" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:40Z"/>
+  <node id="152216074" version="8" changeset="6024524" lat="53.2394948" lon="50.1968295" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:44Z"/>
+  <node id="190369604" version="8" changeset="6024524" lat="53.2378042" lon="50.1939568" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:44Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="151000298" version="6" changeset="6024524" lat="53.2353106" lon="50.1884644" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:44Z"/>
+  <node id="249656019" version="5" changeset="6024524" lat="53.238893" lon="50.1960594" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:45Z"/>
+  <node id="151000295" version="8" changeset="6024524" lat="53.2345358" lon="50.1869287" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:46Z"/>
+  <node id="152216079" version="9" changeset="6024524" lat="53.2415911" lon="50.1986935" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:47Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="151000294" version="8" changeset="6024524" lat="53.2339334" lon="50.1857406" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:47Z"/>
+  <node id="152214970" version="9" changeset="6024524" lat="53.2385574" lon="50.1955508" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:47Z"/>
+  <node id="152228147" version="6" changeset="6024524" lat="53.2369735" lon="50.1913772" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:48Z"/>
+  <node id="152216078" version="8" changeset="6024524" lat="53.2407859" lon="50.1979974" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:48Z"/>
+  <node id="143980372" version="10" changeset="8942593" lat="53.2342325" lon="50.1862732" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:57Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1898028680" version="1" changeset="12980090" lat="53.2257491" lon="50.1731357" user="Serĉjo" uid="639542" visible="true" timestamp="2012-09-04T10:51:27Z"/>
+  <node id="1096384191" version="2" changeset="8912238" lat="53.2151526" lon="50.1459682" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T17:27:22Z"/>
+  <node id="1408594550" version="2" changeset="9333173" lat="53.2197617" lon="50.1634827" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:10Z">
+    <tag k="name" v="Постников овраг"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594572" version="2" changeset="9333173" lat="53.2234185" lon="50.1696244" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:16Z">
+    <tag k="name" v="Университет / Глазная больница"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594576" version="2" changeset="9333173" lat="53.2251105" lon="50.1708671" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:16Z">
+    <tag k="name" v="Университет / Глазная больница"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594578" version="2" changeset="9333173" lat="53.237547" lon="50.193158" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:18Z">
+    <tag k="name" v="завод им. Тарасова"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594607" version="2" changeset="9333173" lat="53.2512023" lon="50.2069644" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:23Z">
+    <tag k="name" v="улица Аминева"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594609" version="2" changeset="9333173" lat="53.2514497" lon="50.2071822" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:23Z">
+    <tag k="name" v="улица Аминева"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594624" version="2" changeset="9333173" lat="53.2199242" lon="50.1563869" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:27Z">
+    <tag k="name" v="улица Николая Панова"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594619" version="3" changeset="16939200" lat="53.2194964" lon="50.1552991" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:06:58Z">
+    <tag k="bus" v="yes"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="name" v="улица Николая Панова"/>
+    <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="1408594535" version="2" changeset="9333173" lat="53.2410167" lon="50.1981969" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:13:58Z">
+    <tag k="name" v="Детская больница"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594536" version="2" changeset="9333173" lat="53.2416527" lon="50.1987455" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:13:58Z">
+    <tag k="name" v="Детская больница"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594540" version="2" changeset="9333173" lat="53.2266892" lon="50.1745517" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:01Z">
+    <tag k="name" v="Загородный парк"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594542" version="2" changeset="9333173" lat="53.227196" lon="50.1738965" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:01Z">
+    <tag k="name" v="Загородный парк"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594545" version="2" changeset="9333173" lat="53.2326892" lon="50.1837178" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:03Z">
+    <tag k="name" v="Кинотеатр &quot;Современник&quot;"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594543" version="3" changeset="11759917" lat="53.215774" lon="50.1471323" user="gentoid" uid="492771" visible="true" timestamp="2012-05-31T16:35:08Z">
+    <tag k="name" v="КРЦ &quot;Звезда&quot;"/>
+    <tag k="highway" v="bus_stop"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="1408594549" version="2" changeset="9333173" lat="53.2329923" lon="50.1842107" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:03Z">
+    <tag k="name" v="Кинотеатр &quot;Современник&quot;"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594524" version="3" changeset="10352130" lat="53.2581932" lon="50.2129852" user="AKhranovskiy" uid="231156" visible="true" timestamp="2012-01-10T15:20:01Z">
+    <tag k="name" v="Барбошина Поляна"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594525" version="3" changeset="10352130" lat="53.2582324" lon="50.2130186" user="AKhranovskiy" uid="231156" visible="true" timestamp="2012-01-10T15:20:02Z">
+    <tag k="name" v="Барбошина Поляна"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1301770759" version="1" changeset="8261039" lat="53.2370918" lon="50.1917446" user="esv" uid="398800" visible="true" timestamp="2011-05-27T10:03:59Z"/>
+  <node id="1447142171" version="1" changeset="9411980" lat="53.2489653" lon="50.2050212" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-27T16:12:37Z"/>
+  <node id="1293671140" version="3" changeset="9411980" lat="53.2364643" lon="50.1900921" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-27T16:13:30Z"/>
+  <node id="1374889857" version="2" changeset="9411980" lat="53.2443342" lon="50.2010375" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-27T16:13:31Z"/>
+  <node id="946191092" version="2" changeset="9411980" lat="53.2482446" lon="50.2043983" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-27T16:13:40Z"/>
+  <node id="150999339" version="10" changeset="9425831" lat="53.2228561" lon="50.1686921" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-29T09:45:47Z"/>
+  <node id="241342158" version="6" changeset="8942593" lat="53.225321" lon="50.1711708" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:11Z"/>
+  <node id="1384939645" version="3" changeset="14619550" lat="53.209104" lon="50.1336375" user="gentoid" uid="492771" visible="true" timestamp="2013-01-12T10:22:59Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="152698221" version="5" changeset="11162888" lat="53.2079446" lon="50.1301843" user="NetWormKido" uid="518505" visible="true" timestamp="2012-03-31T07:34:28Z"/>
+  <node id="152702289" version="4" changeset="8912238" lat="53.2144774" lon="50.1446836" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T17:27:25Z"/>
+  <node id="174801649" version="7" changeset="8912238" lat="53.2152165" lon="50.1460831" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T17:27:28Z"/>
+  <node id="174805891" version="8" changeset="8912238" lat="53.2128673" lon="50.1411494" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T17:27:29Z"/>
+  <node id="332458851" version="3" changeset="8912238" lat="53.2133647" lon="50.1422381" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T17:27:35Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="215510940" version="3" changeset="11728163" lat="53.2139082" lon="50.1439547" user="gentoid" uid="492771" visible="true" timestamp="2012-05-28T15:46:36Z"/>
+  <node id="215510950" version="5" changeset="11728163" lat="53.2139262" lon="50.1437482" user="gentoid" uid="492771" visible="true" timestamp="2012-05-28T15:46:36Z"/>
+  <node id="215510961" version="4" changeset="11728163" lat="53.2139371" lon="50.1434748" user="gentoid" uid="492771" visible="true" timestamp="2012-05-28T15:46:36Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="76726275" version="9" changeset="8912238" lat="53.2091985" lon="50.1328163" user="gentoid" uid="492771" visible="true" timestamp="2011-08-03T17:27:40Z"/>
+  <node id="1388999634" version="1" changeset="8942593" lat="53.2219794" lon="50.165809" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:41Z"/>
+  <node id="1388999637" version="1" changeset="8942593" lat="53.2231715" lon="50.1692529" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:41Z"/>
+  <node id="1388999641" version="1" changeset="8942593" lat="53.230112" lon="50.1797237" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:41Z"/>
+  <node id="1388999644" version="1" changeset="8942593" lat="53.2305465" lon="50.1803904" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:41Z"/>
+  <node id="1388999647" version="1" changeset="8942593" lat="53.2345497" lon="50.1856818" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:41Z"/>
+  <node id="1388999653" version="1" changeset="8942593" lat="53.2345979" lon="50.1849789" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:41Z"/>
+  <node id="1388999654" version="1" changeset="8942593" lat="53.2346125" lon="50.1855142" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:41Z"/>
+  <node id="1388999655" version="1" changeset="8942593" lat="53.2346271" lon="50.1851416" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:41Z"/>
+  <node id="1388999656" version="1" changeset="8942593" lat="53.2346384" lon="50.1853144" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:41Z"/>
+  <node id="150999196" version="6" changeset="16939200" lat="53.2200013" lon="50.1573593" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:06:59Z"/>
+  <node id="150999197" version="5" changeset="8942593" lat="53.2199793" lon="50.1566415" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:58Z"/>
+  <node id="150999198" version="5" changeset="8942593" lat="53.2198468" lon="50.1561251" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:58Z"/>
+  <node id="150999780" version="9" changeset="9807076" lat="53.2322337" lon="50.1824836" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:27:18Z"/>
+  <node id="1388999632" version="2" changeset="11292988" lat="53.2217165" lon="50.1654033" user="gentoid" uid="492771" visible="true" timestamp="2012-04-13T21:50:06Z"/>
+  <node id="150999781" version="6" changeset="8942593" lat="53.2322163" lon="50.1823922" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="150999783" version="8" changeset="8942593" lat="53.2321102" lon="50.1816643" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="150999784" version="6" changeset="8942593" lat="53.2320381" lon="50.1813347" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="150999785" version="8" changeset="8942593" lat="53.2319566" lon="50.1810533" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="150999787" version="7" changeset="8942593" lat="53.2314436" lon="50.180206" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="150999788" version="5" changeset="8942593" lat="53.2291618" lon="50.1768022" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="150999789" version="6" changeset="8942593" lat="53.2264145" lon="50.1727396" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="150999790" version="7" changeset="8942593" lat="53.2239427" lon="50.1691487" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="152231223" version="4" changeset="8942593" lat="53.2326192" lon="50.1819369" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:59Z"/>
+  <node id="215564749" version="2" changeset="8942593" lat="53.2199455" lon="50.1564577" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:04Z"/>
+  <node id="217628549" version="2" changeset="8942593" lat="53.2197815" lon="50.16175" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:05Z"/>
+  <node id="237356683" version="6" changeset="12980090" lat="53.226984" lon="50.1749925" user="Serĉjo" uid="639542" visible="true" timestamp="2012-09-04T10:51:28Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="231698918" version="6" changeset="8942593" lat="53.2229884" lon="50.1689425" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:10Z"/>
+  <node id="236880130" version="4" changeset="8942593" lat="53.225163" lon="50.1709441" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:10Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="237356770" version="5" changeset="8942593" lat="53.2323749" lon="50.1815411" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:23:11Z"/>
+  <node id="237356722" version="6" changeset="9807076" lat="53.2321735" lon="50.1828477" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:27:18Z"/>
+  <node id="1408594353" version="1" changeset="9094880" lat="53.2251174" lon="50.1710331" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-08-22T14:48:58Z"/>
+  <node id="1408594562" version="2" changeset="9333173" lat="53.2456855" lon="50.2022007" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:12Z">
+    <tag k="name" v="Солнечная улица"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594567" version="2" changeset="9333173" lat="53.2459608" lon="50.2024377" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:12Z">
+    <tag k="name" v="Солнечная улица"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1408594569" version="2" changeset="9333173" lat="53.2550512" lon="50.2103001" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:15Z">
+    <tag k="name" v="ТЦ &quot;Пирамида&quot;"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="215572990" version="3" changeset="9094880" lat="53.2198784" lon="50.1638444" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-08-22T14:50:19Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="237335594" version="5" changeset="9094880" lat="53.2324372" lon="50.183348" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-08-22T14:50:20Z"/>
+  <node id="1408594580" version="2" changeset="9433986" lat="53.2378554" lon="50.1940939" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-30T10:08:33Z">
+    <tag k="name" v="завод им. Тарасова"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="1628128357" version="1" changeset="10651638" lat="53.2128218" lon="50.1410671" user="NickF" uid="467146" visible="true" timestamp="2012-02-11T11:30:02Z"/>
+  <node id="1628128359" version="1" changeset="10651638" lat="53.2127999" lon="50.1410274" user="NickF" uid="467146" visible="true" timestamp="2012-02-11T11:30:02Z"/>
+  <node id="1476229468" version="1" changeset="9623306" lat="53.2273157" lon="50.1740736" user="vezneves1" uid="534575" visible="true" timestamp="2011-10-22T12:00:11Z"/>
+  <node id="1500324218" version="1" changeset="9807076" lat="53.2322118" lon="50.1828371" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:26:22Z"/>
+  <node id="1500324222" version="1" changeset="9807076" lat="53.2322469" lon="50.182798" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:26:22Z"/>
+  <node id="1500324224" version="1" changeset="9807076" lat="53.2323493" lon="50.1829614" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:26:22Z"/>
+  <node id="1500324226" version="1" changeset="9807076" lat="53.2324496" lon="50.1832575" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:26:22Z"/>
+  <node id="1500324228" version="1" changeset="9807076" lat="53.2572325" lon="50.2121664" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:26:22Z"/>
+  <node id="237356698" version="4" changeset="9807076" lat="53.2321159" lon="50.1828198" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:27:18Z"/>
+  <node id="237356736" version="4" changeset="9807076" lat="53.2322656" lon="50.1827531" user="gentoid" uid="492771" visible="true" timestamp="2011-11-12T18:27:19Z"/>
+  <node id="76726271" version="11" changeset="9810979" lat="53.2166455" lon="50.1488336" user="gentoid" uid="492771" visible="true" timestamp="2011-11-13T07:41:15Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="18.00; 1.02"/>
+  </node>
+  <node id="1699217573" version="1" changeset="11162888" lat="53.2070198" lon="50.1282998" user="NetWormKido" uid="518505" visible="true" timestamp="2012-03-31T07:34:19Z"/>
+  <node id="1699217599" version="1" changeset="11162888" lat="53.208252" lon="50.1308035" user="NetWormKido" uid="518505" visible="true" timestamp="2012-03-31T07:34:20Z"/>
+  <node id="1699217600" version="1" changeset="11162888" lat="53.2086014" lon="50.131516" user="NetWormKido" uid="518505" visible="true" timestamp="2012-03-31T07:34:20Z"/>
+  <node id="236880122" version="5" changeset="11215205" lat="53.224718" lon="50.1715825" user="Yuriy Artamonov" uid="436725" visible="true" timestamp="2012-04-07T15:16:15Z"/>
+  <node id="1715263910" version="1" changeset="11292988" lat="53.2199798" lon="50.1640432" user="gentoid" uid="492771" visible="true" timestamp="2012-04-13T21:49:42Z"/>
+  <node id="1715263913" version="1" changeset="11292988" lat="53.2200652" lon="50.1641813" user="gentoid" uid="492771" visible="true" timestamp="2012-04-13T21:49:42Z"/>
+  <node id="1715264094" version="1" changeset="11292988" lat="53.2214344" lon="50.165182" user="gentoid" uid="492771" visible="true" timestamp="2012-04-13T21:49:45Z"/>
+  <node id="1715264098" version="1" changeset="11292988" lat="53.2215889" lon="50.1652952" user="gentoid" uid="492771" visible="true" timestamp="2012-04-13T21:49:45Z"/>
+  <node id="150999188" version="7" changeset="11292988" lat="53.2203175" lon="50.1644348" user="gentoid" uid="492771" visible="true" timestamp="2012-04-13T21:50:07Z"/>
+  <node id="150999189" version="4" changeset="11292988" lat="53.2201693" lon="50.1642856" user="gentoid" uid="492771" visible="true" timestamp="2012-04-13T21:50:07Z"/>
+  <node id="231698870" version="4" changeset="11292988" lat="53.22113" lon="50.1649826" user="gentoid" uid="492771" visible="true" timestamp="2012-04-13T21:50:09Z">
+    <tag k="merkator_shift:bing" v="13.32; 0.83"/>
+  </node>
+  <node id="231698890" version="5" changeset="11292988" lat="53.2218223" lon="50.1655233" user="gentoid" uid="492771" visible="true" timestamp="2012-04-13T21:50:09Z">
+    <tag k="merkator_shift:bing" v="13.32; 0.83"/>
+  </node>
+  <node id="215510933" version="4" changeset="11728163" lat="53.213889" lon="50.1440905" user="gentoid" uid="492771" visible="true" timestamp="2012-05-28T15:46:36Z"/>
+  <node id="150998607" version="17" changeset="14619550" lat="53.2092324" lon="50.1334931" user="gentoid" uid="492771" visible="true" timestamp="2013-01-12T10:22:59Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1769709948" version="1" changeset="11740853" lat="53.2052516" lon="50.1238175" user="gentoid" uid="492771" visible="true" timestamp="2012-05-29T18:22:35Z"/>
+  <node id="154125673" version="6" changeset="11740853" lat="53.2065095" lon="50.1271033" user="gentoid" uid="492771" visible="true" timestamp="2012-05-29T18:22:50Z">
+    <tag k="merkator_shift:bing" v="14.37; -0.65"/>
+  </node>
+  <node id="1770739423" version="1" changeset="11752025" lat="53.2078964" lon="50.130086" user="gentoid" uid="492771" visible="true" timestamp="2012-05-30T20:10:54Z"/>
+  <node id="1771599449" version="1" changeset="11759917" lat="53.2160598" lon="50.1476701" user="gentoid" uid="492771" visible="true" timestamp="2012-05-31T16:35:03Z"/>
+  <node id="152217991" version="9" changeset="13174883" lat="53.2609355" lon="50.2153991" user="SAABeilin" uid="499778" visible="true" timestamp="2012-09-19T20:02:16Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="151003029" version="8" changeset="13846708" lat="53.2588201" lon="50.2135167" user="NickF" uid="467146" visible="true" timestamp="2012-11-12T13:32:01Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1929540057" version="1" changeset="13225833" lat="53.2362393" lon="50.1897048" user="Serĉjo" uid="639542" visible="true" timestamp="2012-09-23T20:38:31Z"/>
+  <node id="1929540065" version="1" changeset="13225833" lat="53.2356197" lon="50.1888817" user="Serĉjo" uid="639542" visible="true" timestamp="2012-09-23T20:38:31Z"/>
+  <node id="174806756" version="9" changeset="14619550" lat="53.2102856" lon="50.1356204" user="gentoid" uid="492771" visible="true" timestamp="2013-01-12T10:12:16Z"/>
+  <node id="2106826781" version="1" changeset="14619550" lat="53.2092423" lon="50.1339138" user="gentoid" uid="492771" visible="true" timestamp="2013-01-12T10:22:57Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="2106826784" version="1" changeset="14619550" lat="53.2093548" lon="50.1337402" user="gentoid" uid="492771" visible="true" timestamp="2013-01-12T10:22:57Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="2106826786" version="1" changeset="14619550" lat="53.2115557" lon="50.1385509" user="gentoid" uid="492771" visible="true" timestamp="2013-01-12T10:22:57Z">
+    <tag k="crossing" v="traffic_signals"/>
+  </node>
+  <node id="2106826787" version="1" changeset="14619550" lat="53.2116738" lon="50.1383741" user="gentoid" uid="492771" visible="true" timestamp="2013-01-12T10:22:57Z">
+    <tag k="crossing" v="traffic_signals"/>
+  </node>
+  <node id="2110811602" version="1" changeset="14649539" lat="53.2099976" lon="50.1354228" user="gentoid" uid="492771" visible="true" timestamp="2013-01-14T15:37:43Z"/>
+  <node id="2160791463" version="1" changeset="15074713" lat="53.2388101" lon="50.1959337" user="sunsay" uid="1051497" visible="true" timestamp="2013-02-18T09:09:43Z"/>
+  <node id="2371872737" version="1" changeset="16805533" lat="53.2365649" lon="50.1902919" user="Pupkinz" uid="528793" visible="true" timestamp="2013-07-03T13:04:52Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2383470876" version="1" changeset="16939200" lat="53.2170739" lon="50.1497181" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:06:52Z"/>
+  <node id="2383470889" version="1" changeset="16939200" lat="53.2173711" lon="50.1504004" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:06:53Z"/>
+  <node id="2383470902" version="1" changeset="16939200" lat="53.2178485" lon="50.1515089" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:06:53Z"/>
+  <node id="2383470939" version="1" changeset="16939200" lat="53.2199974" lon="50.1567871" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:06:54Z"/>
+  <node id="2383470940" version="1" changeset="16939200" lat="53.2200023" lon="50.1572856" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:06:54Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="2383470941" version="1" changeset="16939200" lat="53.2200045" lon="50.1569836" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:06:54Z"/>
+  <node id="1500972524" version="3" changeset="16939200" lat="53.2167378" lon="50.1489989" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:06:59Z">
+    <tag k="bicycle" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="150999202" version="6" changeset="16939200" lat="53.2172194" lon="50.1500482" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:06:59Z"/>
+  <node id="174764079" version="10" changeset="16939200" lat="53.2197421" lon="50.1558819" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:06:59Z">
+    <tag k="merkator_shift:bing" v="-2.65; 3.71"/>
+  </node>
+  <node id="174766325" version="7" changeset="16939200" lat="53.2190202" lon="50.1542296" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:06:59Z">
+    <tag k="merkator_shift:bing" v="-2.65; 3.71"/>
+  </node>
+  <node id="215564756" version="4" changeset="16939200" lat="53.2200036" lon="50.1571905" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:06:59Z">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="-2.65; 3.71"/>
+  </node>
+  <way id="15242641" visible="true" timestamp="2013-01-21T19:49:52Z" version="22" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="150999350"/>
+    <nd ref="1500324226"/>
+    <nd ref="1500324224"/>
+    <nd ref="150999779"/>
+    <nd ref="150999780"/>
+    <nd ref="150999781"/>
+    <nd ref="150999783"/>
+    <nd ref="150999784"/>
+    <nd ref="150999785"/>
+    <nd ref="150999786"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="2"/>
+  </way>
+  <way id="22046737" visible="true" timestamp="2011-09-29T09:42:02Z" version="8" changeset="9425803" user="AKhranovskiy" uid="231156">
+    <nd ref="237356683"/>
+    <nd ref="237356664"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="footway"/>
+  </way>
+  <way id="107433937" visible="true" timestamp="2012-05-11T17:59:04Z" version="4" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="236880130"/>
+    <nd ref="1408594576"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lit" v="yes"/>
+  </way>
+  <way id="102812276" visible="true" timestamp="2013-01-21T19:49:47Z" version="7" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="76726275"/>
+    <nd ref="150998608"/>
+    <nd ref="150998607"/>
+    <tag k="highway" v="construction"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+  <way id="102812287" visible="true" timestamp="2012-05-11T17:59:05Z" version="5" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="152216079"/>
+    <nd ref="1408594536"/>
+    <tag k="lanes" v="4"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lit" v="yes"/>
+  </way>
+  <way id="39454596" visible="true" timestamp="2013-01-21T19:49:46Z" version="13" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="152698221"/>
+    <nd ref="1699217599"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="115718539" visible="true" timestamp="2012-05-11T17:59:04Z" version="4" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="150999786"/>
+    <nd ref="150999787"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lit" v="yes"/>
+  </way>
+  <way id="115718544" visible="true" timestamp="2013-01-21T19:49:53Z" version="6" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="249655330"/>
+    <nd ref="946191092"/>
+    <nd ref="1447142171"/>
+    <nd ref="249655331"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="116828161" visible="true" timestamp="2013-01-21T19:49:46Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="249655331"/>
+    <nd ref="1408594607"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="116828158" visible="true" timestamp="2013-01-21T19:49:46Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="150999787"/>
+    <nd ref="418165371"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="107433903" visible="true" timestamp="2013-01-21T19:49:48Z" version="6" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="174801649"/>
+    <nd ref="1408594543"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="127212509" visible="true" timestamp="2013-01-21T19:49:54Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594543"/>
+    <nd ref="1771599449"/>
+    <nd ref="76726271"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="127212512" visible="true" timestamp="2013-01-21T19:49:55Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594619"/>
+    <nd ref="930016718"/>
+    <nd ref="174764079"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="127212519" visible="true" timestamp="2013-01-21T19:49:55Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594576"/>
+    <nd ref="241342263"/>
+    <nd ref="237186313"/>
+    <nd ref="150999790"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="40"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="107433921" visible="true" timestamp="2013-01-21T19:49:49Z" version="6" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="150999339"/>
+    <nd ref="231698918"/>
+    <nd ref="1388999637"/>
+    <nd ref="1408594572"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="107433917" visible="true" timestamp="2013-01-21T19:49:49Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="174764079"/>
+    <nd ref="150999198"/>
+    <nd ref="1408594624"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="107433920" visible="true" timestamp="2013-01-21T19:49:48Z" version="6" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="236880122"/>
+    <nd ref="1898028680"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="179426674" visible="true" timestamp="2013-01-21T19:49:52Z" version="2" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="150999790"/>
+    <nd ref="150999792"/>
+    <nd ref="237186282"/>
+    <nd ref="656106813"/>
+    <nd ref="150999183"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="136751387" visible="true" timestamp="2013-01-21T19:49:47Z" version="3" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1500324228"/>
+    <nd ref="1408594524"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="107433945" visible="true" timestamp="2013-07-13T17:06:57Z" version="6" changeset="16939200" user="gentoid" uid="492771">
+    <nd ref="76726271"/>
+    <nd ref="1500972524"/>
+    <nd ref="2383470876"/>
+    <nd ref="150999202"/>
+    <nd ref="2383470889"/>
+    <nd ref="2383470902"/>
+    <nd ref="174766325"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+  <way id="107433905" visible="true" timestamp="2013-01-21T19:49:50Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="150999193"/>
+    <nd ref="217628549"/>
+    <nd ref="150999194"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="no"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="20310899" visible="true" timestamp="2013-01-21T19:49:47Z" version="11" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="76726275"/>
+    <nd ref="215510777"/>
+    <nd ref="215510788"/>
+    <nd ref="215510799"/>
+    <nd ref="215422072"/>
+    <tag k="highway" v="construction"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+  <way id="107433931" visible="true" timestamp="2013-01-21T19:49:50Z" version="6" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="215572990"/>
+    <nd ref="1715263910"/>
+    <nd ref="1715263913"/>
+    <nd ref="150999189"/>
+    <nd ref="150999188"/>
+    <nd ref="241343799"/>
+    <nd ref="231698870"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="no"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="107433949" visible="true" timestamp="2013-01-21T19:49:50Z" version="6" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="231698870"/>
+    <nd ref="1715264094"/>
+    <nd ref="1715264098"/>
+    <nd ref="1388999632"/>
+    <nd ref="231698890"/>
+    <nd ref="237186293"/>
+    <nd ref="1388999634"/>
+    <nd ref="150999183"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="no"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="20310901" visible="true" timestamp="2012-09-14T17:05:46Z" version="9" changeset="13109618" user="SAABeilin" uid="499778">
+    <nd ref="215510961"/>
+    <nd ref="215510950"/>
+    <nd ref="215510940"/>
+    <nd ref="215510933"/>
+    <nd ref="215510922"/>
+    <nd ref="150998871"/>
+    <tag k="highway" v="primary_link"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="maxspeed" v="60"/>
+  </way>
+  <way id="102812221" visible="true" timestamp="2013-01-21T19:49:47Z" version="8" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="174805891"/>
+    <nd ref="332458851"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="107433898" visible="true" timestamp="2013-01-21T19:49:47Z" version="9" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1234733907"/>
+    <nd ref="2106826787"/>
+    <nd ref="174806756"/>
+    <nd ref="2106826784"/>
+    <nd ref="150998607"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="16863544" visible="true" timestamp="2013-01-21T19:49:52Z" version="20" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1384939645"/>
+    <nd ref="2106826781"/>
+    <nd ref="2110811602"/>
+    <nd ref="472547579"/>
+    <nd ref="2106826786"/>
+    <nd ref="176665097"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="127212518" visible="true" timestamp="2013-07-13T17:06:57Z" version="5" changeset="16939200" user="gentoid" uid="492771">
+    <nd ref="1408594624"/>
+    <nd ref="215564749"/>
+    <nd ref="150999197"/>
+    <nd ref="2383470939"/>
+    <nd ref="2383470941"/>
+    <nd ref="215564756"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+  <way id="107433901" visible="true" timestamp="2013-01-21T19:49:48Z" version="6" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="174766325"/>
+    <nd ref="1408594619"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="107433902" visible="true" timestamp="2012-05-11T17:59:12Z" version="3" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="152231223"/>
+    <nd ref="237356770"/>
+    <nd ref="150999786"/>
+    <tag k="lit" v="yes"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="maxspeed" v="60"/>
+  </way>
+  <way id="15365250" visible="true" timestamp="2012-05-11T17:59:13Z" version="11" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="152230659"/>
+    <nd ref="1388999653"/>
+    <nd ref="152231220"/>
+    <nd ref="152231223"/>
+    <tag k="lit" v="yes"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="maxspeed" v="60"/>
+  </way>
+  <way id="124946039" visible="true" timestamp="2012-05-11T17:59:14Z" version="3" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="1388999647"/>
+    <nd ref="1388999654"/>
+    <nd ref="1388999656"/>
+    <nd ref="1388999655"/>
+    <nd ref="1388999653"/>
+    <tag k="lit" v="yes"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="maxspeed" v="60"/>
+  </way>
+  <way id="22046741" visible="true" timestamp="2013-01-21T19:49:46Z" version="9" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="237356698"/>
+    <nd ref="237356722"/>
+    <nd ref="1500324218"/>
+    <nd ref="1500324222"/>
+    <nd ref="237356736"/>
+    <nd ref="150999779"/>
+    <tag k="highway" v="primary_link"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="1"/>
+  </way>
+  <way id="22046736" visible="true" timestamp="2013-01-21T19:49:46Z" version="8" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="236880122"/>
+    <nd ref="1426586355"/>
+    <nd ref="1408594353"/>
+    <nd ref="236880130"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="highway" v="primary_link"/>
+    <tag k="lanes" v="2"/>
+  </way>
+  <way id="107433940" visible="true" timestamp="2013-01-21T19:49:51Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="190053574"/>
+    <nd ref="339809628"/>
+    <nd ref="541202661"/>
+    <nd ref="249655251"/>
+    <nd ref="946090362"/>
+    <nd ref="1408594569"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="107433944" visible="true" timestamp="2013-01-21T19:49:51Z" version="6" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1388999641"/>
+    <nd ref="1388999644"/>
+    <nd ref="237356698"/>
+    <nd ref="237335594"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="127212511" visible="true" timestamp="2013-01-21T19:49:55Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594549"/>
+    <nd ref="151000294"/>
+    <nd ref="143980372"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="5"/>
+  </way>
+  <way id="127212510" visible="true" timestamp="2012-05-11T17:59:04Z" version="3" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="1408594524"/>
+    <nd ref="1408594525"/>
+    <tag k="lanes" v="6"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lit" v="yes"/>
+  </way>
+  <way id="15242708" visible="true" timestamp="2012-05-11T17:59:05Z" version="33" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="150999350"/>
+    <nd ref="1408594545"/>
+    <tag k="lanes" v="5"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lit" v="yes"/>
+  </way>
+  <way id="127212502" visible="true" timestamp="2012-05-11T17:59:06Z" version="3" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="190369604"/>
+    <nd ref="1408594580"/>
+    <tag k="lanes" v="4"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lit" v="yes"/>
+  </way>
+  <way id="102812305" visible="true" timestamp="2012-05-11T17:59:06Z" version="5" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="249655236"/>
+    <nd ref="1408594609"/>
+    <tag k="lanes" v="4"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lit" v="yes"/>
+  </way>
+  <way id="107433912" visible="true" timestamp="2012-05-11T17:59:09Z" version="3" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="237335594"/>
+    <nd ref="150999350"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lit" v="yes"/>
+  </way>
+  <way id="9715808" visible="true" timestamp="2013-01-21T19:49:46Z" version="34" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="150998510"/>
+    <nd ref="152702289"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="107433925" visible="true" timestamp="2013-01-21T19:49:51Z" version="8" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="176665097"/>
+    <nd ref="215510754"/>
+    <nd ref="1628128359"/>
+    <nd ref="1628128357"/>
+    <nd ref="174805891"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="165423220" visible="true" timestamp="2013-01-21T19:49:46Z" version="2" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1699217599"/>
+    <nd ref="1699217600"/>
+    <nd ref="215422041"/>
+    <nd ref="76726275"/>
+    <tag k="highway" v="construction"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+  <way id="102812231" visible="true" timestamp="2013-07-03T13:04:52Z" version="10" changeset="16805533" user="Pupkinz" uid="528793">
+    <nd ref="143980372"/>
+    <nd ref="151000295"/>
+    <nd ref="946233814"/>
+    <nd ref="946233792"/>
+    <nd ref="151000298"/>
+    <nd ref="946233722"/>
+    <nd ref="1929540065"/>
+    <nd ref="946233677"/>
+    <nd ref="946233592"/>
+    <nd ref="1929540057"/>
+    <nd ref="946233847"/>
+    <nd ref="946233772"/>
+    <nd ref="1293671140"/>
+    <nd ref="151000301"/>
+    <nd ref="2371872737"/>
+    <nd ref="946233704"/>
+    <nd ref="152228147"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="no"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+  <way id="167919131" visible="true" timestamp="2013-01-21T19:49:56Z" version="3" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="215510744"/>
+    <nd ref="174806748"/>
+    <nd ref="174806750"/>
+    <nd ref="1234733907"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="102812301" visible="true" timestamp="2013-01-21T19:49:47Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="332458851"/>
+    <nd ref="215511103"/>
+    <nd ref="215537534"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="107433900" visible="true" timestamp="2013-01-21T19:49:48Z" version="6" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="152228147"/>
+    <nd ref="1301770759"/>
+    <nd ref="1408594578"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="107433906" visible="true" timestamp="2013-01-21T19:49:48Z" version="8" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="508010290"/>
+    <nd ref="1770739423"/>
+    <nd ref="152698221"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="107433910" visible="true" timestamp="2013-01-21T19:49:48Z" version="7" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="237356664"/>
+    <nd ref="1476229468"/>
+    <nd ref="1408594542"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="107433913" visible="true" timestamp="2013-01-21T19:49:48Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="152702289"/>
+    <nd ref="1096384191"/>
+    <nd ref="174801649"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="107433922" visible="true" timestamp="2013-01-21T19:49:49Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="241340609"/>
+    <nd ref="237356664"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="107433907" visible="true" timestamp="2013-01-21T19:49:49Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="150999789"/>
+    <nd ref="241342158"/>
+    <nd ref="236880130"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="40"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="107433932" visible="true" timestamp="2013-01-21T19:49:49Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="215510961"/>
+    <nd ref="150998510"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="107433928" visible="true" timestamp="2013-01-21T19:49:49Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="150999193"/>
+    <nd ref="150999192"/>
+    <nd ref="1408594550"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="107433923" visible="true" timestamp="2013-01-21T19:49:50Z" version="7" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="154125673"/>
+    <nd ref="215511345"/>
+    <nd ref="215511334"/>
+    <nd ref="76726276"/>
+    <nd ref="1699217573"/>
+    <nd ref="508010290"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="107433933" visible="true" timestamp="2013-01-21T19:49:50Z" version="6" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="150999788"/>
+    <nd ref="1426595826"/>
+    <nd ref="241340609"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="107433942" visible="true" timestamp="2013-01-21T19:49:50Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="418165371"/>
+    <nd ref="150999788"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="107433950" visible="true" timestamp="2013-01-21T19:49:51Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="215537534"/>
+    <nd ref="215510961"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="107433934" visible="true" timestamp="2013-01-21T19:49:51Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="151003029"/>
+    <nd ref="152217991"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="107433916" visible="true" timestamp="2013-01-21T19:49:51Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="249655227"/>
+    <nd ref="353260482"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="16863460" visible="true" timestamp="2013-01-21T19:49:51Z" version="20" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="174805891"/>
+    <nd ref="215510744"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="16863500" visible="true" timestamp="2013-01-21T19:49:52Z" version="18" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="150998723"/>
+    <nd ref="1769709948"/>
+    <nd ref="76726278"/>
+    <nd ref="150998722"/>
+    <nd ref="215511363"/>
+    <nd ref="215511371"/>
+    <nd ref="150998721"/>
+    <nd ref="154125673"/>
+    <tag k="highway" v="construction"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="179426675" visible="true" timestamp="2013-01-21T19:49:52Z" version="2" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1898028680"/>
+    <nd ref="1408594540"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="15242620" visible="true" timestamp="2013-01-21T19:49:52Z" version="20" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="150999183"/>
+    <nd ref="656106814"/>
+    <nd ref="231698909"/>
+    <nd ref="150999338"/>
+    <nd ref="656106823"/>
+    <nd ref="150999339"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="115718540" visible="true" timestamp="2013-01-21T19:49:53Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="353260482"/>
+    <nd ref="249655330"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="127212499" visible="true" timestamp="2013-01-21T19:49:53Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594540"/>
+    <nd ref="237356683"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="127212500" visible="true" timestamp="2013-01-21T19:49:53Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594609"/>
+    <nd ref="190053574"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="127212501" visible="true" timestamp="2013-01-21T19:49:54Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594567"/>
+    <nd ref="249655227"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="127212503" visible="true" timestamp="2013-01-21T19:49:54Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594542"/>
+    <nd ref="150999789"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="127212504" visible="true" timestamp="2013-01-21T19:49:54Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594607"/>
+    <nd ref="249655236"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="127212505" visible="true" timestamp="2013-01-21T19:49:54Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594562"/>
+    <nd ref="1408594567"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="127212506" visible="true" timestamp="2013-01-21T19:49:54Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594535"/>
+    <nd ref="152216079"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="127212507" visible="true" timestamp="2013-01-21T19:49:54Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594545"/>
+    <nd ref="1408594549"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="5"/>
+  </way>
+  <way id="127212508" visible="true" timestamp="2013-01-21T19:49:54Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594578"/>
+    <nd ref="190369604"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="127212513" visible="true" timestamp="2013-01-21T19:49:55Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594525"/>
+    <nd ref="541202748"/>
+    <nd ref="151003029"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="127212514" visible="true" timestamp="2013-01-21T19:49:55Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594550"/>
+    <nd ref="150999190"/>
+    <nd ref="215572990"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="6"/>
+  </way>
+  <way id="127212515" visible="true" timestamp="2013-01-21T19:49:55Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594572"/>
+    <nd ref="150999341"/>
+    <nd ref="236880122"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="3"/>
+  </way>
+  <way id="127212516" visible="true" timestamp="2013-01-21T19:49:55Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594569"/>
+    <nd ref="946090019"/>
+    <nd ref="1500324228"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="127212517" visible="true" timestamp="2013-01-21T19:49:55Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594536"/>
+    <nd ref="334037587"/>
+    <nd ref="249655329"/>
+    <nd ref="1374889857"/>
+    <nd ref="1408594562"/>
+    <tag k="highway" v="primary"/>
+    <tag k="ref" v="К-888"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="lanes" v="4"/>
+  </way>
+  <way id="127212498" visible="true" timestamp="2013-02-18T09:09:43Z" version="5" changeset="15074713" user="sunsay" uid="1051497">
+    <nd ref="1408594580"/>
+    <nd ref="946233610"/>
+    <nd ref="946233590"/>
+    <nd ref="152214970"/>
+    <nd ref="2160791463"/>
+    <nd ref="249656019"/>
+    <nd ref="946233842"/>
+    <nd ref="152216074"/>
+    <nd ref="946233770"/>
+    <nd ref="152216078"/>
+    <nd ref="1408594535"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+  <way id="107433915" visible="true" timestamp="2013-07-13T17:06:57Z" version="5" changeset="16939200" user="gentoid" uid="492771">
+    <nd ref="215564756"/>
+    <nd ref="2383470940"/>
+    <nd ref="150999196"/>
+    <nd ref="150999194"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+  <relation id="1529825" visible="true" timestamp="2012-09-04T10:51:42Z" version="11" changeset="12980090" user="Serĉjo" uid="639542">
+    <member type="way" ref="16863500" role="street"/>
+    <member type="way" ref="107433923" role="street"/>
+    <member type="way" ref="107433906" role="street"/>
+    <member type="way" ref="39454596" role="street"/>
+    <member type="way" ref="165423220" role="street"/>
+    <member type="way" ref="16863544" role="street"/>
+    <member type="way" ref="107433925" role="street"/>
+    <member type="way" ref="16863460" role="street"/>
+    <member type="way" ref="167919131" role="street"/>
+    <member type="way" ref="107433898" role="street"/>
+    <member type="way" ref="102812221" role="street"/>
+    <member type="way" ref="102812301" role="street"/>
+    <member type="way" ref="107433950" role="street"/>
+    <member type="way" ref="107433932" role="street"/>
+    <member type="way" ref="9715808" role="street"/>
+    <member type="way" ref="107433913" role="street"/>
+    <member type="way" ref="107433903" role="street"/>
+    <member type="way" ref="127212509" role="street"/>
+    <member type="way" ref="107433945" role="street"/>
+    <member type="way" ref="107433901" role="street"/>
+    <member type="way" ref="127212512" role="street"/>
+    <member type="way" ref="107433917" role="street"/>
+    <member type="way" ref="127212518" role="street"/>
+    <member type="way" ref="107433915" role="street"/>
+    <member type="way" ref="107433905" role="street"/>
+    <member type="way" ref="107433928" role="street"/>
+    <member type="way" ref="127212514" role="street"/>
+    <member type="way" ref="107433931" role="street"/>
+    <member type="way" ref="107433949" role="street"/>
+    <member type="way" ref="15242620" role="street"/>
+    <member type="way" ref="107433921" role="street"/>
+    <member type="way" ref="127212515" role="street"/>
+    <member type="way" ref="179426675" role="street"/>
+    <member type="way" ref="107433920" role="street"/>
+    <member type="way" ref="127212499" role="street"/>
+    <member type="way" ref="107433944" role="street"/>
+    <member type="way" ref="107433912" role="street"/>
+    <member type="way" ref="15242641" role="street"/>
+    <member type="way" ref="115718539" role="street"/>
+    <member type="way" ref="116828158" role="street"/>
+    <member type="way" ref="107433942" role="street"/>
+    <member type="way" ref="107433933" role="street"/>
+    <member type="way" ref="107433922" role="street"/>
+    <member type="way" ref="107433910" role="street"/>
+    <member type="way" ref="127212503" role="street"/>
+    <member type="way" ref="107433907" role="street"/>
+    <member type="way" ref="107433937" role="street"/>
+    <member type="way" ref="179426674" role="street"/>
+    <member type="way" ref="127212519" role="street"/>
+    <member type="way" ref="22046736" role="street"/>
+    <member type="way" ref="22046737" role="street"/>
+    <member type="way" ref="124946039" role="street"/>
+    <member type="way" ref="15365250" role="street"/>
+    <member type="way" ref="107433902" role="street"/>
+    <member type="way" ref="15242708" role="street"/>
+    <member type="way" ref="127212507" role="street"/>
+    <member type="way" ref="127212511" role="street"/>
+    <member type="way" ref="102812231" role="street"/>
+    <member type="way" ref="107433900" role="street"/>
+    <member type="way" ref="127212508" role="street"/>
+    <member type="way" ref="127212502" role="street"/>
+    <member type="way" ref="127212498" role="street"/>
+    <member type="way" ref="127212506" role="street"/>
+    <member type="way" ref="102812287" role="street"/>
+    <member type="way" ref="127212517" role="street"/>
+    <member type="way" ref="127212505" role="street"/>
+    <member type="way" ref="127212501" role="street"/>
+    <member type="way" ref="107433916" role="street"/>
+    <member type="way" ref="115718540" role="street"/>
+    <member type="way" ref="115718544" role="street"/>
+    <member type="way" ref="116828161" role="street"/>
+    <member type="way" ref="127212504" role="street"/>
+    <member type="way" ref="102812305" role="street"/>
+    <member type="way" ref="127212500" role="street"/>
+    <member type="way" ref="107433940" role="street"/>
+    <member type="way" ref="127212516" role="street"/>
+    <member type="way" ref="136751387" role="street"/>
+    <member type="way" ref="127212510" role="street"/>
+    <member type="way" ref="127212513" role="street"/>
+    <member type="way" ref="107433934" role="street"/>
+    <member type="way" ref="20310899" role="street"/>
+    <member type="way" ref="102812276" role="street"/>
+    <member type="way" ref="20310901" role="street"/>
+    <member type="way" ref="22046741" role="street"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="type" v="street"/>
+  </relation>
+</osm>

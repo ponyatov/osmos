@@ -1,0 +1,14 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="237356683" version="6" changeset="12980090" lat="53.226984" lon="50.1749925" user="Serĉjo" uid="639542" visible="true" timestamp="2012-09-04T10:51:28Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="237356664" version="5" changeset="12980090" lat="53.2274096" lon="50.1742127" user="Serĉjo" uid="639542" visible="true" timestamp="2012-09-04T10:51:28Z">
+    <tag k="highway" v="crossing"/>
+  </node>
+  <way id="22046737" visible="true" timestamp="2011-09-29T09:42:02Z" version="8" changeset="9425803" user="AKhranovskiy" uid="231156">
+    <nd ref="237356683"/>
+    <nd ref="237356664"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</osm>

@@ -1,0 +1,23 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="174764079" version="10" changeset="16939200" lat="53.2197421" lon="50.1558819" user="gentoid" uid="492771" visible="true" timestamp="2013-07-13T17:06:59Z">
+    <tag k="merkator_shift:bing" v="-2.65; 3.71"/>
+  </node>
+  <node id="150999198" version="5" changeset="8942593" lat="53.2198468" lon="50.1561251" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:58Z"/>
+  <node id="1408594624" version="2" changeset="9333173" lat="53.2199242" lon="50.1563869" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:27Z">
+    <tag k="name" v="улица Николая Панова"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <way id="107433917" visible="true" timestamp="2013-01-21T19:49:49Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="174764079"/>
+    <nd ref="150999198"/>
+    <nd ref="1408594624"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="6"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+</osm>

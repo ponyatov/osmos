@@ -1,0 +1,32 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1408594536" version="2" changeset="9333173" lat="53.2416527" lon="50.1987455" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:13:58Z">
+    <tag k="name" v="Детская больница"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="334037587" version="1" changeset="814998" lat="53.2438734" lon="50.2006211" user="Andrey Pershin" uid="91032" visible="true" timestamp="2009-01-20T10:46:22Z"/>
+  <node id="249655329" version="7" changeset="6024524" lat="53.2443101" lon="50.2010171" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T21:35:19Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1374889857" version="2" changeset="9411980" lat="53.2443342" lon="50.2010375" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-27T16:13:31Z"/>
+  <node id="1408594562" version="2" changeset="9333173" lat="53.2456855" lon="50.2022007" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:12Z">
+    <tag k="name" v="Солнечная улица"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <way id="127212517" visible="true" timestamp="2013-01-21T19:49:55Z" version="5" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594536"/>
+    <nd ref="334037587"/>
+    <nd ref="249655329"/>
+    <nd ref="1374889857"/>
+    <nd ref="1408594562"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+</osm>

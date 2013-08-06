@@ -1,0 +1,52 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="143980372" version="10" changeset="8942593" lat="53.2342325" lon="50.1862732" user="gentoid" uid="492771" visible="true" timestamp="2011-08-06T22:22:57Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="151000295" version="8" changeset="6024524" lat="53.2345358" lon="50.1869287" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:46Z"/>
+  <node id="946233814" version="1" changeset="6024524" lat="53.2349059" lon="50.187738" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:39Z"/>
+  <node id="946233792" version="1" changeset="6024524" lat="53.235109" lon="50.1881314" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:39Z"/>
+  <node id="151000298" version="6" changeset="6024524" lat="53.2353106" lon="50.1884644" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:44Z"/>
+  <node id="946233722" version="1" changeset="6024524" lat="53.2354908" lon="50.1887177" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:37Z"/>
+  <node id="1929540065" version="1" changeset="13225833" lat="53.2356197" lon="50.1888817" user="Serĉjo" uid="639542" visible="true" timestamp="2012-09-23T20:38:31Z"/>
+  <node id="946233677" version="1" changeset="6024524" lat="53.2357355" lon="50.1890289" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:37Z"/>
+  <node id="946233592" version="1" changeset="6024524" lat="53.236091" lon="50.1894815" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:35Z"/>
+  <node id="1929540057" version="1" changeset="13225833" lat="53.2362393" lon="50.1897048" user="Serĉjo" uid="639542" visible="true" timestamp="2012-09-23T20:38:31Z"/>
+  <node id="946233847" version="1" changeset="6024524" lat="53.2362788" lon="50.1897644" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:40Z"/>
+  <node id="946233772" version="1" changeset="6024524" lat="53.2364158" lon="50.1899984" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:38Z"/>
+  <node id="1293671140" version="3" changeset="9411980" lat="53.2364643" lon="50.1900921" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-27T16:13:30Z"/>
+  <node id="151000301" version="13" changeset="6024524" lat="53.2365548" lon="50.1902679" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:43Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="2371872737" version="1" changeset="16805533" lat="53.2365649" lon="50.1902919" user="Pupkinz" uid="528793" visible="true" timestamp="2013-07-03T13:04:52Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+  <node id="946233704" version="1" changeset="6024524" lat="53.2368326" lon="50.1909278" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:37Z"/>
+  <node id="152228147" version="6" changeset="6024524" lat="53.2369735" lon="50.1913772" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:48Z"/>
+  <way id="102812231" visible="true" timestamp="2013-07-03T13:04:52Z" version="10" changeset="16805533" user="Pupkinz" uid="528793">
+    <nd ref="143980372"/>
+    <nd ref="151000295"/>
+    <nd ref="946233814"/>
+    <nd ref="946233792"/>
+    <nd ref="151000298"/>
+    <nd ref="946233722"/>
+    <nd ref="1929540065"/>
+    <nd ref="946233677"/>
+    <nd ref="946233592"/>
+    <nd ref="1929540057"/>
+    <nd ref="946233847"/>
+    <nd ref="946233772"/>
+    <nd ref="1293671140"/>
+    <nd ref="151000301"/>
+    <nd ref="2371872737"/>
+    <nd ref="946233704"/>
+    <nd ref="152228147"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="oneway" v="no"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+</osm>

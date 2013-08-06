@@ -1,0 +1,20 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="249655236" version="7" changeset="6024524" lat="53.2514195" lon="50.2071555" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T20:46:05Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="1408594609" version="2" changeset="9333173" lat="53.2514497" lon="50.2071822" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:14:23Z">
+    <tag k="name" v="улица Аминева"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <way id="102812305" visible="true" timestamp="2012-05-11T17:59:06Z" version="5" changeset="11570166" user="gentoid" uid="492771">
+    <nd ref="249655236"/>
+    <nd ref="1408594609"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+  </way>
+</osm>

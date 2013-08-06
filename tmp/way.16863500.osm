@@ -1,0 +1,34 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="150998723" version="8" changeset="13886430" lat="53.2051812" lon="50.1236676" user="pneumonoultramicroscopicsilicovolcanokoniosis" uid="370751" visible="true" timestamp="2012-11-15T18:55:44Z">
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="merkator_shift:bing" v="13.25; 0.88"/>
+  </node>
+  <node id="1769709948" version="1" changeset="11740853" lat="53.2052516" lon="50.1238175" user="gentoid" uid="492771" visible="true" timestamp="2012-05-29T18:22:35Z"/>
+  <node id="76726278" version="5" changeset="596753" lat="53.206284" lon="50.1260923" user="AkMeR" uid="11049" visible="true" timestamp="2008-01-10T15:25:37Z"/>
+  <node id="150998722" version="5" changeset="609040" lat="53.2063645" lon="50.1263277" user="woodpeck" uid="5164" visible="true" timestamp="2008-09-11T22:35:31Z"/>
+  <node id="215511363" version="1" changeset="596753" lat="53.2064122" lon="50.1265034" user="AkMeR" uid="11049" visible="true" timestamp="2008-01-10T15:25:23Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="215511371" version="3" changeset="609040" lat="53.206462" lon="50.1267568" user="woodpeck" uid="5164" visible="true" timestamp="2008-09-11T23:14:58Z">
+    <tag k="created_by" v="JOSM"/>
+  </node>
+  <node id="150998721" version="5" changeset="609040" lat="53.2064892" lon="50.1269731" user="woodpeck" uid="5164" visible="true" timestamp="2008-09-11T22:35:31Z"/>
+  <node id="154125673" version="6" changeset="11740853" lat="53.2065095" lon="50.1271033" user="gentoid" uid="492771" visible="true" timestamp="2012-05-29T18:22:50Z">
+    <tag k="merkator_shift:bing" v="14.37; -0.65"/>
+  </node>
+  <way id="16863500" visible="true" timestamp="2013-01-21T19:49:52Z" version="18" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="150998723"/>
+    <nd ref="1769709948"/>
+    <nd ref="76726278"/>
+    <nd ref="150998722"/>
+    <nd ref="215511363"/>
+    <nd ref="215511371"/>
+    <nd ref="150998721"/>
+    <nd ref="154125673"/>
+    <tag k="highway" v="construction"/>
+    <tag k="lanes" v="4"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+</osm>

@@ -1,0 +1,21 @@
+<osm version="0.6" generator="OpenStreetMap server" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="1408594535" version="2" changeset="9333173" lat="53.2410167" lon="50.1981969" user="AKhranovskiy" uid="231156" visible="true" timestamp="2011-09-18T14:13:58Z">
+    <tag k="name" v="Детская больница"/>
+    <tag k="bus" v="yes"/>
+    <tag k="public_transport" v="stop_position"/>
+    <tag k="highway" v="bus_stop"/>
+  </node>
+  <node id="152216079" version="9" changeset="6024524" lat="53.2415911" lon="50.1986935" user="AkMeR" uid="11049" visible="true" timestamp="2010-10-12T22:08:47Z">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <way id="127212506" visible="true" timestamp="2013-01-21T19:49:54Z" version="4" changeset="14737513" user="NickF" uid="467146">
+    <nd ref="1408594535"/>
+    <nd ref="152216079"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="4"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="60"/>
+    <tag k="name" v="Ново-Садовая улица"/>
+    <tag k="ref" v="К-888"/>
+  </way>
+</osm>

@@ -27,7 +27,7 @@ class BBox:
         return self.__class__(ID,AA,BB,CC,DD,NN)
     def __str__(self):
         (id,A,B,C,D,name)=(self.id,self.A,self.B,self.C,self.D,self.name)
-        return str(MapCoverage(id,((A,B),(A,D),(C,D),(C,B),(A,B)),name))
+        return str(MapCoverage(id,((A,B),(A,D),(C,D),(C,B)),name))
  
 class IMGID:
     ID=NOW
@@ -50,8 +50,6 @@ VersionSub=%s
 Copyright=%s
 Datum=W84
 Elevation=m
-TypeSet=NG
-Routing=Y
 Levels=2
 Level0=24
 Level1=1
@@ -177,9 +175,9 @@ class MP:
         F.close()
     def __str__(self):
         S=str(self.IMGID)
-        for i in self.dat:
-            S+=str(i)
         CVR=self.bbox();CVR.id='non-osm data';CVR.name=''
         CVR.A-=.1;CVR.B-=.1;CVR.C+=.1;CVR.D+=.1
         S+=str(CVR)
+        for i in self.dat:
+            S+=str(i)
         return S
